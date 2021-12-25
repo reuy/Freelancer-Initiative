@@ -1,0 +1,799 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "PotionEffect": 0,
+    "Size": 6,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 0.9859155f,
+        "Knockback": 2.0f,
+        "Melee": 1.5070423f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 0,
+    "magicXP": 0.0f,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 0,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "HealF": 5.0f,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "FindShelter": 2,
+    "ScriptsContainers": [
+    ],
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 42,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "CustomName": "",
+    "CanDespawn": 0b,
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:m16a4",
+                "Count": 1b,
+                "tag": {
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "display": {
+                        "Lore": [
+                            "§2Standard-issue Service Rifle issued to",
+                            "§2UNED Marine Personnel. 30-round Fully-Automatic."
+                        ],
+                        "Name": "§rM16A4 §oService Rifle"
+                    },
+                    "Paint": "M16A4_Green"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "id": "minecraft:name_tag",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "A tag belonging to a warrior",
+                            "who died valiantly in battle.",
+                            "The name reads \"Monty Oum.\"",
+                            "May you live on forever."
+                        ],
+                        "Name": "§fUCDF Dog Tag"
+                    }
+                },
+                "Damage": 17s
+            },
+            {
+                "Slot": 1b,
+                "id": "flansmod:m16a4Ammo",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "flansmod:m1911",
+                "Count": 1b,
+                "tag": {
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "display": {
+                        "Lore": [
+                            "§2Standard-issue handgun issued to all",
+                            "§2UNED personnel. Venerable 8-round",
+                            "§2semi-automatic design."
+                        ],
+                        "Name": "§rM1911§o Service Handgun"
+                    },
+                    "GunMode": 0b,
+                    "Paint": "Colt45"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "flansmod:m1911Ammo",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "minecraft:fireworks",
+                "Count": 32b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "§aUsed as a visual signal to friendly forces",
+                            "§ain the absence of smoke grenades, GPS, or radio.",
+                            "§aEffective at around 30 meters."
+                        ],
+                        "Name": "UCDF Mid-Range Signal Flare"
+                    },
+                    "Fireworks": {
+                        "Flight": 2b,
+                        "Explosions": [
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 1b,
+                                "Colors": [14602026,14602026,15435844],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            }
+                        ]
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 9b,
+                "id": "minecraft:fireworks",
+                "Count": 32b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "§aUsed as a visual signal to friendly forces",
+                            "§ain the absence of smoke grenades, GPS, or radio.",
+                            "§aEffective at around 60 meters."
+                        ],
+                        "Name": "UCDF Long-Range Signal Flare"
+                    },
+                    "Fireworks": {
+                        "Flight": 3b,
+                        "Explosions": [
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 1b,
+                                "Colors": [14602026,14602026,15435844],
+                                "Flicker": 1b
+                            },
+                            {
+                                "Type": 4b,
+                                "Colors": [14602026],
+                                "Flicker": 1b
+                            }
+                        ]
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "Orders certain UCDF soldiers to follow you."
+                        ],
+                        "Name": "§fUCDF Command"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "id": "flansmod:mwMedKit",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "§3§oUNED Health Regulation 5074-b requires",
+                            "§3§omedical kit contents be disposed of",
+                            "§3§oafter §4§o3 §3§ouses."
+                        ],
+                        "Name": "UNED First Aid Kit"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "id": "flansmod:m1911",
+                "Count": 1b,
+                "tag": {
+                    "ammo": [
+                        {
+                            "id": "flansmod:m1911Ammo",
+                            "Count": 1b,
+                            "Damage": 0s
+                        }
+                    ],
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "GunMode": 0b,
+                    "Paint": "Colt45"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "id": "customnpcs:npcIronReversedDagger",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "A simple combat knife made from a sturdy ",
+                            "material. In the right hands, nothing is more deadly."
+                        ],
+                        "Name": "UCDF Combat Knife"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 1,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "CustomNameVisible": 0b,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/slime/Chest.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "MoveState": 0,
+    "RangeAndMelee": 0,
+    "pRender3D": 0b,
+    "magicLevel": 1s,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 4,
+    "NpcStepSound": "",
+    "curFatigue": 0.0f,
+    "FireRate": 5,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "UUIDMost": 4887035034355715150L,
+    "TraderMarket": "",
+    "Fire": -1s,
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "TraderCurrency": {
+        "NpcMiscInv": [
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:mob.zombie.wood",
+    "pTrail": 0,
+    "isShrunk": 0b,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 48.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "UCDF Supply Carrier",
+    "FallDistance": 0.0f,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 0b,
+    "HealthRegen": 0,
+    "NpcModelData": {
+        "LegsConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "EntityClass": "noppes.npcs.entity.EntityNpcSlime",
+        "LegParts": {
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "Breasts": 0b,
+        "Headwear": 2b,
+        "ArmsConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+            "ReturnToStart": 1b,
+            "NpcInv": [
+            ],
+            "PotionEffect": 0,
+            "stopAndInteract": 1b,
+            "Size": 5,
+            "Resistances": {
+                "Arrow": 1.0f,
+                "Explosion": 1.0f,
+                "Knockback": 1.0f,
+                "Melee": 1.0f
+            },
+            "BossBar": 0b,
+            "RespawnTime": 20,
+            "NpcAngrySound": "",
+            "ReactsToFire": 0b,
+            "IgnoreCobweb": 0b,
+            "PositionOffsetZ": 5.0f,
+            "PositionOffsetY": 5.0f,
+            "PositionOffsetX": 5.0f,
+            "LootMode": 0,
+            "AttackStrenght": 5,
+            "NpcLines": {
+                "Lines": [
+                ]
+            },
+            "DefendFaction": 0b,
+            "MovingPatern": 0,
+            "FireIndirect": 0,
+            "NpcVisible": 0,
+            "FindShelter": 2,
+            "TacticalVariant": 0,
+            "Orientation": 0,
+            "KnockBack": 0,
+            "CanDespawn": 0b,
+            "BurnInSun": 0b,
+            "StandingState": 0,
+            "AttackInvisible": 0b,
+            "WalkingRange": 10,
+            "ShotCount": 1,
+            "pDur": 5,
+            "StartPosNew": [0,0,0],
+            "AttackRange": 2,
+            "NpcKillLines": {
+                "Lines": [
+                ]
+            },
+            "AvoidsSun": 0b,
+            "PotionImmune": 0b,
+            "Texture": "customnpcs:textures/entity/slime/Slime.png",
+            "NpcJob": 0,
+            "NpcAttackLines": {
+                "Lines": [
+                ]
+            },
+            "BurstCount": 1,
+            "pSpeed": 10,
+            "pArea": 0,
+            "pImpact": 0,
+            "MoveState": 0,
+            "RangeAndMelee": 0,
+            "pRender3D": 0b,
+            "CombatRegen": 0,
+            "DistanceToMelee": 4,
+            "pEffect": 0,
+            "NpcStepSound": "",
+            "FireRate": 5,
+            "pEffAmp": 0,
+            "ImmuneToFire": 0b,
+            "NpcKilledLines": {
+                "Lines": [
+                ]
+            },
+            "DisablePitch": 0b,
+            "pPhysics": 1b,
+            "NpcInteractLines": {
+                "Lines": [
+                    {
+                        "Line": "Hello, @p",
+                        "Song": "",
+                        "Slot": 0
+                    }
+                ]
+            },
+            "NpcHurtSound": "minecraft:game.player.hurt",
+            "pSpin": 0b,
+            "pTrail": 0,
+            "CreatureType": 0,
+            "NoFallDamage": 0b,
+            "Name": "Kakaragon",
+            "NpcIdleSound": "",
+            "Weapons": [
+            ],
+            "NPCDialogOptions": [
+            ],
+            "DirectLOS": 1b,
+            "AggroRange": 16,
+            "HealthRegen": 1,
+            "DoorInteract": 2,
+            "MoveSpeed": 5,
+            "minDelay": 20,
+            "UsingSkinUrl": 0b,
+            "SkinUrl": "",
+            "CanSwim": 1b,
+            "MaxHealth": 20,
+            "HideBodyWhenKilled": 0b,
+            "AttackSpeed": 20,
+            "PotionDuration": 5,
+            "Role": 0,
+            "maxDelay": 40,
+            "DropChance": [
+            ],
+            "FactionPoints": {
+                "DecreaseFaction1Points": 0b,
+                "OptionFaction2Points": 100,
+                "OptionFactions1": -1,
+                "OptionFactions2": -1,
+                "OptionFaction1Points": 100,
+                "DecreaseFaction2Points": 0b
+            },
+            "pDamage": 4,
+            "AimWhileShooting": 0b,
+            "AttackOtherFactions": 0b,
+            "CanDrown": 1b,
+            "CanSprint": 0b,
+            "pSize": 5,
+            "CanLeap": 0b,
+            "MovingState": 0,
+            "MovingPos": 0,
+            "PotionAmp": 0,
+            "OnAttack": 0,
+            "TacticalRadius": 8,
+            "MaxExp": 0,
+            "OrderedLines": 0b,
+            "pGlows": 0b,
+            "FiringSound": "random.bow",
+            "Accuracy": 60,
+            "MinExp": 0,
+            "Armor": [
+            ],
+            "CloakTexture": "",
+            "MaxFiringRange": 15,
+            "pXlr8": 0b,
+            "GlowTexture": "",
+            "pExplode": 0b,
+            "NpcDeathSound": "minecraft:game.player.hurt",
+            "MovingPause": 1b,
+            "pStick": 0b,
+            "FactionID": -1,
+            "MovingPathNew": [
+            ],
+            "Title": "",
+            "npcInteracting": 1b,
+            "ShowName": 0,
+            "AvoidsWater": 0b,
+            "NoLivingAnimation": 0b,
+            "SpawnCycle": 0
+        },
+        "HeadConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 0,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 0b,
+    "TraderIgnoreNBT": 0b,
+    "armorCooldowns": [0,0,0,0],
+    "MaxHealth": 5,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "curMana": 500.85858f,
+    "AttackTime": 0s,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 3,
+    "TacticalRadius": 8,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "FiringSound": "random.bow",
+    "ModRev": 16,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "UUIDLeast": -6945983729733102033L,
+    "Health": 5s,
+    "pExplode": 0b,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:mob.zombie.woodbreak",
+    "FactionID": 1,
+    "Title": "",
+    "TotalTicksAlive": 42543L,
+    "Rotation": [
+        42.0f,
+        0.0f
+    ],
+    "ShowName": 1,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "NoLivingAnimation": 1b,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b,
+    "SpawnCycle": 3
+}

@@ -1,0 +1,30 @@
+
+//Tooltips for both the Thaumcraft Coin and the Bandit Coins
+<Thaumcraft:ItemResource:18>.displayName = "Golden Yukine";
+<Thaumcraft:ItemResource:18>.addTooltip(format.gold("A magical weightless coin minted in the image of an"));
+<Thaumcraft:ItemResource:18>.addTooltip(format.gold("ancient high priestess. The most widely-used currency among the"));
+<Thaumcraft:ItemResource:18>.addTooltip(format.gold("native populations, this currency is likely your best bet here."));
+
+<medieval_mobs:item.Gold Coin>.displayName = "Stack of Yukines";
+<medieval_mobs:item.Gold Coin>.addTooltip(format.gold("A stack of exactly 9 Elven Yukines."));
+<medieval_mobs:item.Gold Coin>.addTooltip(format.gold("Place in the crafting table to convert"));
+<medieval_mobs:item.Gold Coin>.addTooltip(format.gold("them back into individual coins."));
+
+
+//Make it so Bandit Coins convert into Thaumcraft Coins.
+
+//remove the recipe to make bandit coins
+recipes.remove(<medieval_mobs:item.Gold Coin>);
+
+//remove the recipe to make gold ingots from bandit coins
+recipes.removeShaped(<minecraft:gold_ingot>, [[<medieval_mobs:item.Gold Coin>, <medieval_mobs:item.Gold Coin>, <medieval_mobs:item.Gold Coin>], 
+[<medieval_mobs:item.Gold Coin>, <medieval_mobs:item.Gold Coin>, <medieval_mobs:item.Gold Coin>], 
+[<medieval_mobs:item.Gold Coin>, <medieval_mobs:item.Gold Coin>, <medieval_mobs:item.Gold Coin>]]);
+
+//Add a recipe to turn 9 TC coins into 1 bandit coin
+recipes.addShaped(<medieval_mobs:item.Gold Coin>, [[<Thaumcraft:ItemResource:18>, <Thaumcraft:ItemResource:18>, <Thaumcraft:ItemResource:18>], 
+[<Thaumcraft:ItemResource:18>, <Thaumcraft:ItemResource:18>, <Thaumcraft:ItemResource:18>], 
+[<Thaumcraft:ItemResource:18>, <Thaumcraft:ItemResource:18>, <Thaumcraft:ItemResource:18>]]);
+
+//Add a recipe to turn 1 bandit coin into 9 TC coins
+recipes.addShapeless(<Thaumcraft:ItemResource:18> * 9, [<medieval_mobs:item.Gold Coin>]);

@@ -1,0 +1,1020 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "NpcAngrySound": "",
+    "igJobInventory": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcLetter",
+                "Count": 4b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcLetter",
+                "Count": 3b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 2b,
+                "id": "customnpcs:npcLetter",
+                "Count": 3b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 4b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 5b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 6b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 7b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 8b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            }
+        ]
+    },
+    "ReactsToFire": 0b,
+    "igLines": [
+        {
+            "Line": "Ahh! {player}! Command wanted me to give these to you."
+        },
+        {
+            "Line": "Here's today's requisitions. Come back tomorrow for another set."
+        },
+        {
+            "Line": "Every day I'll give you a few requisition passes. Use them to buy equipment."
+        }
+    ],
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "igAvailability": {
+        "AvailabilityQuestId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityQuest": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityDialog3": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "ModRev": 16,
+        "AvailabilityDialog2": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialogId": -1,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityMinPlayerLevel": 0
+    },
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "HealF": 20.0f,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "FindShelter": 2,
+    "ScriptsContainers": [
+    ],
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "CustomName": "",
+    "CanDespawn": 0b,
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:m16a4",
+                "Count": 1b,
+                "tag": {
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "display": {
+                        "Lore": [
+                            "§2Standard-issue Service Rifle issued to",
+                            "§2UCDF Marine Personnel in this region.",
+                            "§2Shoots 30-round magazines. Fully-automatic."
+                        ],
+                        "Name": "§rM16A4 §oService Rifle"
+                    },
+                    "Paint": "M16A4_Green"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "mcheli:m18_red",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "flansmod:AC48",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "§6Releases shards of shrapnel that",
+                            "§6causes damage to nearby targets.",
+                            "§c§oWARNING: May cause minor death. Report to",
+                            "§c§oa UNED physician immediately if you start",
+                            "§c§oexperiencing symptoms of death."
+                        ],
+                        "Name": "§rAC48 Fragmentation Grenade"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "flansmod:m16a4Ammo",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "mcheli:m18_green",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "id": "flansmod:AC23",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "§6Creates a concentrated explosion that",
+                            "§6destroys nearby terrain."
+                        ],
+                        "Name": "§rAC23 Concussion Grenade"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "flansmod:m1911",
+                "Count": 1b,
+                "tag": {
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "display": {
+                        "Lore": [
+                            "§2Standard-issue handgun issued to all",
+                            "§2UNED personnel. Venerable 8-round",
+                            "§2semi-automatic design."
+                        ],
+                        "Name": "§rM1911§o Service Handgun"
+                    },
+                    "Paint": "Colt45"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "mcheli:m18_violet",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "id": "flansmod:claymore",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "flansmod:m1911Ammo",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "mcheli:m18_yellow",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "id": "flansmod:mwParachute",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "id": "customnpcs:npcIronReversedDagger",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "§2Your best friend out in the wild."
+                        ],
+                        "Name": "UCDF Combat Knife"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "id": "minecraft:cobblestone",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "id": "mcheli:parachute",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "§6Improved model that allows you to",
+                            "§6control the direction of your descent."
+                        ]
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "id": "Railcraft:tool.steel.shovel",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "Sturdy steel shovel used by campers",
+                            "and soldiers worldwide.",
+                            "§2Your even-bester friend out in the wild."
+                        ],
+                        "Name": "Entrenching Tool"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "id": "chisel:concrete",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "id": "minecraft:cooked_porkchop",
+                "Count": 3b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 2,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "CustomNameVisible": 0b,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/Extra - UNED/AG-2.png",
+    "NpcJob": 4,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "MoveState": 0,
+    "RangeAndMelee": 0,
+    "pRender3D": 0b,
+    "igCooldown": 10,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 4,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "UUIDMost": -3739597589652946835L,
+    "TraderMarket": "Supply Office I",
+    "igGivingMethod": 0,
+    "Fire": -1s,
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Yeah? I got goods for you.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "We have to ration our equipment, so choose wisely.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Uh huh. Uh huh... you're cleared to access...",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "You can also use Req Documents to requisition UCDF personnel!",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcLetter",
+                "Count": 4b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 2b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 3b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 4b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 5b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 6b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 7b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 8b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 9b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 10b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 11b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 12b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 13b,
+                "id": "customnpcs:npcLetter",
+                "Count": 2b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 14b,
+                "id": "customnpcs:npcLetter",
+                "Count": 3b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 15b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 16b,
+                "id": "customnpcs:npcLetter",
+                "Count": 4b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            },
+            {
+                "Slot": 17b,
+                "id": "customnpcs:npcLetter",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "Used to request equipment from",
+                            "UCDF supply officers."
+                        ],
+                        "Name": "§fUCDF Req Document"
+                    }
+                },
+                "Damage": 1382s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 20.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "UCDF Supply Officer",
+    "FallDistance": 0.0f,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "BiblioCraft:item.BiblioClipboard",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "NpcModelData": {
+        "LegsConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "LegParts": {
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "Breasts": 0b,
+        "Headwear": 2b,
+        "ArmsConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "igCooldownType": 2,
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "AttackTime": 0s,
+    "pSize": 5,
+    "CanSprint": 1b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 2,
+    "TacticalRadius": 8,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "FiringSound": "random.bow",
+    "ModRev": 16,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "ItemGiverId": 0,
+    "UUIDLeast": -7589538803716108883L,
+    "Health": 20s,
+    "pExplode": 0b,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:game.player.hurt",
+    "FactionID": 0,
+    "Title": "",
+    "TotalTicksAlive": 68690L,
+    "Rotation": [
+        269.1167f,
+        -0.14916515f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

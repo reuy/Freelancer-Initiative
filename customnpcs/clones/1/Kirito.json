@@ -1,0 +1,461 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 2.0f,
+        "Explosion": 0.0f,
+        "Knockback": 1.7042253f,
+        "Melee": 1.4084507f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "magicXP": 0.0f,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 20,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "HealF": 45.0f,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "MercenaryHiredTime": 0L,
+    "FindShelter": 2,
+    "GuardTargets": [
+    ],
+    "ScriptsContainers": [
+    ],
+    "Air": 300s,
+    "TacticalVariant": 1,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "CustomName": "",
+    "CanDespawn": 0b,
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 5,
+    "MercenaryInfiniteDays": 0b,
+    "CustomNameVisible": 0b,
+    "ShotCount": 1,
+    "pDur": 1,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "MercenaryDisableGui": 0b,
+    "GuardAttackCreepers": 0b,
+    "Texture": "customnpcs:textures/entity/Extra - Freelancers/Kirito.png",
+    "NpcJob": 3,
+    "BurstCount": 12,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 40,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "MoveState": 0,
+    "RangeAndMelee": 2,
+    "pRender3D": 0b,
+    "MercenaryDayRates": [
+        {
+            "Integer": 4,
+            "Slot": 0
+        },
+        {
+            "Integer": 13,
+            "Slot": 1
+        },
+        {
+            "Integer": 28,
+            "Slot": 2
+        }
+    ],
+    "magicLevel": 0s,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "pEffect": 5,
+    "DistanceToMelee": 20,
+    "NpcStepSound": "",
+    "curFatigue": 0.0f,
+    "FireRate": 3,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "GuardAttackMobs": 1b,
+    "UUIDMost": -1170478982716177193L,
+    "Fire": -1s,
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 1,
+    "isShrunk": 0b,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 45.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.3499999940395355d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 48.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 20.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 4.0d,
+                    "Operation": 0,
+                    "Name": "Tool modifier"
+                }
+            ],
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Kirito",
+    "GuardSpecific": 0b,
+    "FallDistance": 0.0f,
+    "NpcIdleSound": "",
+    "MercenaryDialogHired": "I guess we can work together. Sure. Let's do this.",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "IC2:itemNanoSaber",
+            "Count": 1b,
+            "tag": {
+                "charge": 160000.0d
+            },
+            "Damage": 1s
+        },
+        {
+            "Slot": 1b,
+            "id": "customnpcs:npcGoldenBullet",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "id": "flansmod:m9",
+            "Count": 1b,
+            "tag": {
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "ammo": [
+                    {
+                    }
+                ],
+                "Paint": "M9"
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 30,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "MercenaryRefuseSoulstone": 0b,
+    "MercenaryDialogFarewell": "I'll be heading back. Good working with you, {player}!",
+    "NpcModelData": {
+        "LegsConfig": {
+            "ScaleZ": 0.92f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.92f
+        },
+        "BodyConfig": {
+            "ScaleZ": 0.92f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.92f
+        },
+        "LegParts": {
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+            {
+                "Type": 1b,
+                "PlayerTexture": 0b,
+                "PartName": "hair",
+                "Color": 1181203,
+                "Texture": "moreplayermodels:textures/hair/hair1.png"
+            }
+        ],
+        "Breasts": 0b,
+        "Headwear": 1b,
+        "ArmsConfig": {
+            "ScaleZ": 0.8f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.8f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleZ": 0.95f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.95f,
+            "ScaleX": 0.95f
+        }
+    },
+    "minDelay": 60,
+    "DoorInteract": 2,
+    "MoveSpeed": 7,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "MercenaryInv": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "Thaumcraft:ItemResource",
+                "Count": 6b,
+                "Damage": 18s
+            },
+            {
+                "Slot": 1b,
+                "id": "minecraft:gold_ingot",
+                "Count": 6b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "minecraft:emerald",
+                "Count": 2b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "armorCooldowns": [0,0,0,0],
+    "MaxHealth": 45,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 10,
+    "GuardAttackAnimals": 0b,
+    "PotionDuration": 5,
+    "maxDelay": 100,
+    "ScriptEnabled": 0b,
+    "Role": 2,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "MercenaryDaysHired": 0,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "curMana": 500.0f,
+    "AttackTime": 0s,
+    "pSize": 2,
+    "CanSprint": 1b,
+    "CanLeap": 1b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 10,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "FiringSound": "customnpcs:gun.pistol.shot",
+    "ModRev": 16,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "MercenaryIsFollowing": 1b,
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 1b,
+    "UUIDLeast": -6863626219957120948L,
+    "Health": 45s,
+    "pExplode": 0b,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:game.player.hurt",
+    "FactionID": 0,
+    "Title": "Freelancer",
+    "TotalTicksAlive": 20679L,
+    "Rotation": [
+        1043.8528f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 0b,
+    "AvoidsWater": 0b,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "NoLivingAnimation": 0b,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b,
+    "SpawnCycle": 0
+}

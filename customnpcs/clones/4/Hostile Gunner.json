@@ -1,0 +1,76 @@
+{
+    "ForgeData": {
+    },
+    "isShrunk": 0b,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 20.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.10000000149011612d,
+            "Name": "generic.movementSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TeamName": "Hostile",
+    "PortalCooldown": 0,
+    "magicXP": 0.0f,
+    "AbsorptionAmount": 0.0f,
+    "FallDistance": 0.0f,
+    "ModRev": 1,
+    "Creative": 1b,
+    "DeathTime": 0s,
+    "TargetType": 1,
+    "id": "mcheli.MCH.E.Gunner",
+    "HealF": 20.0f,
+    "magicLevel": 1s,
+    "Motion": [
+        0.0d,
+        0.0d,
+        0.0d
+    ],
+    "UUIDLeast": -4998333913880420241L,
+    "Health": 20s,
+    "curFatigue": 0.0f,
+    "armorCooldowns": [0,0,0,0],
+    "Air": 300s,
+    "OnGround": 0b,
+    "Dimension": 0,
+    "Rotation": [
+        1.1920166f,
+        -1.3E-44f
+    ],
+    "OwnerUUID": "22917a5b-0fa2-481f-9aa4-bb22ccc88ae6",
+    "UUIDMost": -1672054813169729232L,
+    "Fire": -1s,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b,
+    "HurtTime": 0s,
+    "curMana": 450.60092f,
+    "AttackTime": 0s
+}

@@ -1,0 +1,3 @@
+Clones with Ars Magica spells in their inventories must have these spells cleaned manually by editing their .json files. Failure to do so will result in a failure to summon those NPCs from the database.
+
+For any given spell, delete any tags labeled ""ShapeGroupMeta_XX". Then, edit the "SpellModifierIDs_0" by replacing its contents with a [0]. Failure to do this second step will result in a crash upon casting the affected spell.

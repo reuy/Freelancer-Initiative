@@ -1,0 +1,712 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "id": "Artifacts:artifact",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 5s,
+                        "id": 35s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 100s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 101s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 45s
+                    }
+                ],
+                "RepairCost": 2,
+                "iconName": "Ring",
+                "display": {
+                    "Name": "Ring of Eternal Bonds"
+                },
+                "onBlockDestroyed": 4,
+                "icon": "Ring7",
+                "postadj": "of Rending",
+                "armorType": -1,
+                "onHeld": 2,
+                "allComponents": [2,11,1,4],
+                "preadj": "Harvesting",
+                "overlay_color": -5112013L,
+                "material": 4,
+                "onItemRightClickDelay": 0,
+                "onItemRightClick": 1,
+                "name": "Ring of Warm Wishes",
+                "onUpdate": 11,
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -4756946007584650270L,
+                        "UUIDLeast": -8608553225891301943L,
+                        "Amount": 9.0d,
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    }
+                ],
+                "matName": "Gold"
+            },
+            "Damage": 0s
+        }
+    ],
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "magicXP": 0.0f,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "HealF": 20.0f,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "Fue~? @p! It's so good to see you!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Are you hurt, @p? Please let me take a look at it.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Please take care of yourself out there...",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "I'm not a very good healer, but I promise I'll do my best!",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "FindShelter": 2,
+    "ScriptsContainers": [
+    ],
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "CustomName": "",
+    "CanDespawn": 0b,
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "customnpcs:npcOcarina",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "cfm:ItemRecipeBook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "arsmagica2:manaCake",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "harvestcraft:taffyItem",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "RotaryCraft:rotarycraft_item_handbook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "id": "Thaumcraft:ItemResource",
+                "Count": 1b,
+                "Damage": 1s
+            },
+            {
+                "Slot": 6b,
+                "id": "LostBooks:randomBook",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Name": "Komari's Surprise Book"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "BiblioCraft:item.AtlasBook",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "id": "Thaumcraft:blockCustomPlant",
+                "Count": 1b,
+                "Damage": 2s
+            },
+            {
+                "Slot": 9b,
+                "id": "ExtraUtilities:watering_can",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "minecraft:cookie",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "id": "Thaumcraft:blockCustomPlant",
+                "Count": 1b,
+                "Damage": 4s
+            },
+            {
+                "Slot": 12b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 24b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "id": "harvestcraft:raisincookiesItem",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "id": "Thaumcraft:blockCustomPlant",
+                "Count": 1b,
+                "Damage": 1s
+            },
+            {
+                "Slot": 15b,
+                "id": "Thaumcraft:ItemResource",
+                "Count": 1b,
+                "Damage": 9s
+            },
+            {
+                "Slot": 16b,
+                "id": "harvestcraft:chaiteaItem",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "id": "Artifacts:artifact",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 2,
+                    "iconName": "Ring",
+                    "display": {
+                        "Name": "Ring of Warm Wishes"
+                    },
+                    "onBlockDestroyed": 4,
+                    "icon": "Ring7",
+                    "postadj": "of Rending",
+                    "armorType": -1,
+                    "onHeld": 2,
+                    "allComponents": [2,11,1,4],
+                    "preadj": "Harvesting",
+                    "overlay_color": -5112013L,
+                    "material": 4,
+                    "onItemRightClickDelay": 0,
+                    "onItemRightClick": 1,
+                    "name": "Ring of Warm Wishes",
+                    "onUpdate": 11,
+                    "AttributeModifiers": [
+                        {
+                            "UUIDMost": -4756946007584650270L,
+                            "UUIDLeast": -8608553225891301943L,
+                            "Amount": 9.0d,
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "generic.attackDamage"
+                        }
+                    ],
+                    "matName": "Gold"
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 3,
+    "CustomNameVisible": 0b,
+    "ShotCount": 4,
+    "pDur": 40,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/Extra/Anime/Komari.png",
+    "NpcJob": 2,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "Fueeee~! Heeelp meeee!",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "MoveState": 0,
+    "RangeAndMelee": 0,
+    "pRender3D": 0b,
+    "magicLevel": 1s,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.003981789319208672d
+    ],
+    "CombatRegen": 10,
+    "pEffect": 5,
+    "DistanceToMelee": 4,
+    "NpcStepSound": "",
+    "curFatigue": 0.0f,
+    "FireRate": 5,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "UUIDMost": 1151662360443176527L,
+    "TraderMarket": "",
+    "Fire": -1s,
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Ehehe~ All I have are a few knick-knacks.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Would you like to trade? I have a few items for you.",
+                "Song": "",
+                "Slot": 1
+            }
+        ]
+    },
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 24b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 9b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 35b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 48b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 48b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 48b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 20b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 42b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 27b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 4,
+    "isShrunk": 0b,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 20.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.20000000298023224d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 48.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Mrs. Natsume",
+    "FallDistance": 0.0f,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "id": "customnpcs:npcHolySpell",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "NpcModelData": {
+        "LegsConfig": {
+            "ScaleZ": 0.92f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.92f
+        },
+        "BodyConfig": {
+            "ScaleZ": 0.92f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.92f
+        },
+        "LegParts": {
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "Breasts": 2b,
+        "Headwear": 2b,
+        "ArmsConfig": {
+            "ScaleZ": 0.8f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.8f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleZ": 0.95f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.95f,
+            "ScaleX": 0.95f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 4,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "armorCooldowns": [0,0,0,0],
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "curMana": 500.85858f,
+    "AttackTime": 0s,
+    "pSize": 5,
+    "CanSprint": 1b,
+    "HealerRange": 2,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 1,
+    "TacticalRadius": 8,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "HealerSpeed": 2,
+    "FiringSound": "customnpcs:magic.shot",
+    "ModRev": 16,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "UUIDLeast": -7788163589461042855L,
+    "Health": 20s,
+    "pExplode": 1b,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:game.player.hurt",
+    "FactionID": 0,
+    "Title": "Chronicler of the Kindred",
+    "TotalTicksAlive": 247415L,
+    "Rotation": [
+        -5387.597f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "NoLivingAnimation": 0b,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b,
+    "SpawnCycle": 0
+}

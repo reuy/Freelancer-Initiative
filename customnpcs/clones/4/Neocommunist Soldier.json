@@ -1,0 +1,136 @@
+{
+    "ForgeData": {
+        "smi": 1b
+    },
+    "isShrunk": 0b,
+    "Attributes": [
+        {
+            "Base": -2.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": 2189974539282499591L,
+                    "UUIDLeast": -6477178668949725305L,
+                    "Amount": 1.0d,
+                    "Operation": 0,
+                    "Name": "normal"
+                }
+            ],
+            "Name": "tc.mobmod"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 30.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.3d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 75.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3959219553360592574L,
+                    "UUIDLeast": -5213419428550395127L,
+                    "Amount": 0.028337192920263144d,
+                    "Operation": 1,
+                    "Name": "Random spawn bonus"
+                }
+            ],
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 4.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "PortalCooldown": 0,
+    "magicXP": 0.0f,
+    "AbsorptionAmount": 0.0f,
+    "FallDistance": 0.0f,
+    "ModRev": 1,
+    "DeathTime": 0s,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "PersistenceRequired": 0b,
+    "id": "Techguns.ArmySoldier",
+    "HealF": 30.0f,
+    "magicLevel": 1s,
+    "Motion": [
+        0.0186823069808124d,
+        -0.0784000015258789d,
+        -5.334922066187208E-5d
+    ],
+    "Leashed": 0b,
+    "UUIDLeast": -7633988990531445777L,
+    "Health": 30s,
+    "curFatigue": 0.0f,
+    "armorCooldowns": [0,0,0,0],
+    "Air": 300s,
+    "OnGround": 0b,
+    "Dimension": 0,
+    "Rotation": [
+        -450.69507f,
+        0.0f
+    ],
+    "UUIDMost": 3704043192472521839L,
+    "Equipment": [
+        {
+            "id": "techguns:m4",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+        },
+        {
+        },
+        {
+            "id": 7336s,
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "id": 7335s,
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "CustomName": "Neocommunist Soldier",
+    "Fire": -1s,
+    "hasUnlockedAugmented": 1b,
+    "CanPickUpLoot": 0b,
+    "isCritical": 0b,
+    "HurtTime": 0s,
+    "curMana": 233.56226f,
+    "AttackTime": 0s,
+    "CustomNameVisible": 0b
+}

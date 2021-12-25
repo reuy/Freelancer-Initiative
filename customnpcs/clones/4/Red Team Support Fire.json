@@ -1,0 +1,633 @@
+{
+    "ReturnToStart": 0b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "id": "flansmod:m249",
+            "Count": 1b,
+            "tag": {
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "ammo": [
+                    {
+                    }
+                ],
+                "Paint": "M249"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "id": "customnpcs:npcTacticalChest",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "id": "flansmod:mwMedicBag",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "id": "flansmod:m249Ammo",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "id": "minecraft:potion",
+            "Count": 1b,
+            "tag": {
+                "CustomPotionEffects": [
+                    {
+                        "Ambient": 0b,
+                        "Id": 6b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "Duration": 1200,
+                        "Id": 10b,
+                        "Amplifier": 0b
+                    }
+                ],
+                "RepairCost": 2,
+                "display": {
+                    "Lore": [
+                        "Apply directly to the affected",
+                        "area."
+                    ],
+                    "Name": "UNED Medical Salve"
+                }
+            },
+            "Damage": 8206s
+        },
+        {
+            "Slot": 5b,
+            "id": "flansmod:AC48",
+            "Count": 2b,
+            "tag": {
+                "display": {
+                    "Lore": [
+                        "§6Releases shards of shrapnel that",
+                        "§6causes damage to nearby targets.",
+                        "§c§oWARNING: May cause minor death. Report to",
+                        "§c§oa UNED physician immediately if you start",
+                        "§c§oexperiencing symptoms of death."
+                    ],
+                    "Name": "§rAC48 Fragmentation Grenade"
+                }
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "id": "flansmod:claymore",
+            "Count": 2b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "id": "mcheli:parachute",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 8b,
+            "id": "minecraft:name_tag",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "Lore": [
+                        "A tag belonging to a warrior",
+                        "who died valiantly in battle.",
+                        "The name reads \"Monty Oum.\"",
+                        "May you live on forever."
+                    ],
+                    "Name": "§fUCDF Dog Tag"
+                }
+            },
+            "Damage": 17s
+        }
+    ],
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 0,
+    "magicXP": 0.0f,
+    "NpcAngrySound": "customnpcs:human.male.SCMarine.Engage",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 7,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "HealF": 30.0f,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "I've got your back, sir.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Where to?",
+                "Song": "",
+                "Slot": 1
+            }
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 1,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "FindShelter": 2,
+    "ScriptsContainers": [
+    ],
+    "Air": 300s,
+    "TacticalVariant": 2,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 4,
+    "TransformHasJob": 0b,
+    "CustomName": "",
+    "CanDespawn": 0b,
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "WalkingRange": 1000,
+    "CustomNameVisible": 0b,
+    "ShotCount": 1,
+    "pDur": 1,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "Tango Down!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "I don't need to aim!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Enemy down!",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "Raaaaagh!",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Take this!",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "Providing covering fire!",
+                "Song": "",
+                "Slot": 5
+            }
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/Extra - UNED/AG-Assault-2.png",
+    "NpcJob": 0,
+    "BurstCount": 100,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 50,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "MoveState": 0,
+    "RangeAndMelee": 1,
+    "pRender3D": 0b,
+    "magicLevel": 0s,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "pEffect": 5,
+    "DistanceToMelee": 3,
+    "NpcStepSound": "minecraft:step.snow",
+    "curFatigue": 0.0f,
+    "FireRate": 1,
+    "pEffAmp": 1,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "Ahhhh!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 0
+            },
+            {
+                "Line": "Man down!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 1
+            },
+            {
+                "Line": "Medic!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 2
+            }
+        ]
+    },
+    "UUIDMost": 1244035632313683829L,
+    "Fire": -1s,
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "What do you need?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 0
+            },
+            {
+                "Line": "Yes, sir!",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 1
+            },
+            {
+                "Line": "Are we moving out?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 2
+            },
+            {
+                "Line": "Sir.",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 3
+            },
+            {
+                "Line": "Your orders?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 4
+            },
+            {
+                "Line": "Sir!",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 7
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 1,
+    "isShrunk": 0b,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 30.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 0,
+                    "Name": "KnockbackResist"
+                }
+            ],
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.15000000596046448d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 2,
+                    "Name": "MovementSpeed"
+                }
+            ],
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 7.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Red Team Support Fire",
+    "FallDistance": 0.0f,
+    "NpcIdleSound": "flansmod:ThompsonReload",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "flansmod:m249",
+            "Count": 1b,
+            "tag": {
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "ammo": [
+                    {
+                    }
+                ],
+                "Paint": "M249"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "id": "customnpcs:npcGoldenBullet",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 25,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "NpcModelData": {
+        "LegsConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "LegParts": {
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "Breasts": 0b,
+        "Headwear": 2b,
+        "ArmsConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 1,
+    "MoveSpeed": 3,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "armorCooldowns": [0,0,0,0],
+    "MaxHealth": 30,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 30,
+    "PotionDuration": 5,
+    "maxDelay": 600,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 70,
+            "Slot": 0
+        },
+        {
+            "Integer": 33,
+            "Slot": 1
+        },
+        {
+            "Integer": 2,
+            "Slot": 2
+        },
+        {
+            "Integer": 5,
+            "Slot": 3
+        },
+        {
+            "Integer": 16,
+            "Slot": 4
+        },
+        {
+            "Integer": 1,
+            "Slot": 5
+        },
+        {
+            "Integer": 26,
+            "Slot": 6
+        },
+        {
+            "Integer": 3,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 3,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 1b,
+    "curMana": 500.0f,
+    "AttackTime": 0s,
+    "pSize": 3,
+    "CanSprint": 0b,
+    "CanLeap": 1b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 16,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "FiringSound": "flansmod:SkorpionShoot",
+    "ModRev": 16,
+    "Accuracy": 50,
+    "MinExp": 0,
+    "Armor": [
+        {
+            "Slot": 1b,
+            "id": "armourersWorkshop:armourContainerChest",
+            "Count": 1b,
+            "tag": {
+                "armourersWorkshop": {
+                    "skinType": "armourers:chest",
+                    "dyeData": {
+                    },
+                    "lock": 0b,
+                    "skinId": 503196289
+                }
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "id": "armourersWorkshop:armourContainerLegs",
+            "Count": 1b,
+            "tag": {
+                "armourersWorkshop": {
+                    "skinType": "armourers:legs",
+                    "dyeData": {
+                    },
+                    "lock": 0b,
+                    "skinId": 35136097
+                }
+            },
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "customnpcs:textures/overlays/Armband-Red.png",
+    "MaxFiringRange": 60,
+    "pXlr8": 0b,
+    "UUIDLeast": -7455303104365621396L,
+    "Health": 30s,
+    "pExplode": 0b,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "customnpcs:human.male.SCMarine.Death",
+    "FactionID": 2,
+    "Title": "",
+    "TotalTicksAlive": 239956L,
+    "Rotation": [
+        97.42978f,
+        0.0f
+    ],
+    "ShowName": 2,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "NoLivingAnimation": 0b,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b,
+    "SpawnCycle": 3
+}

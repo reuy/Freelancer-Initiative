@@ -1,0 +1,2405 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "magicXP": 0.0f,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs.CustomNpc",
+    "HealF": 20.0f,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "You look like you could use some ordinance.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Ahh, I see more of my kind!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "@p was your name, right? C'mon over and I'll get you strapped up.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "Good to see you, @p. You interested in seeing some of my firepower?",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "FindShelter": 0,
+    "ScriptsContainers": [
+    ],
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "CustomName": "",
+    "SpawnerType": 1,
+    "CanDespawn": 0b,
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:desertEagle",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "Paint": "DesertEagle"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "Techguns:pdw",
+                "Count": 1b,
+                "tag": {
+                    "ammo": 17s,
+                    "camo": 0b
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "flansmod:desertEagleAmmo",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "flansmod:g36Ammo",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "id": "Techguns:pulserifle",
+                "Count": 1b,
+                "tag": {
+                    "ammo": 12s,
+                    "camo": 0b
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "flansmod:m16a4",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "Paint": "M16A4"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "mcheli:gltd",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "id": "Techguns:TechgunsAmmo",
+                "Count": 2b,
+                "Damage": 23s
+            },
+            {
+                "Slot": 9b,
+                "id": "flansmod:m16a4Ammo",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "mcheli:ac-130",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "id": "Techguns:TechgunsAmmo",
+                "Count": 6b,
+                "Damage": 1s
+            },
+            {
+                "Slot": 12b,
+                "id": "Techguns:grenadelauncher",
+                "Count": 1b,
+                "tag": {
+                    "ammo": 6s,
+                    "camo": 0b
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "id": "mcheli:mim-23",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "id": "Techguns:goldenrevolver",
+                "Count": 1b,
+                "tag": {
+                    "ammo": 6s,
+                    "camo": 0b
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "id": "Techguns:TechgunsAmmo",
+                "Count": 6b,
+                "Damage": 93s
+            },
+            {
+                "Slot": 16b,
+                "id": "mcheli:m1a2",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "id": "Techguns:goldenrevolverAkimbo",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 5s,
+                            "id": 48s
+                        },
+                        {
+                            "lvl": 5s,
+                            "id": 49s
+                        },
+                        {
+                            "lvl": 5s,
+                            "id": 105s
+                        },
+                        {
+                            "lvl": 5s,
+                            "id": 150s
+                        },
+                        {
+                            "lvl": 5s,
+                            "id": 104s
+                        }
+                    ],
+                    "ammo": 11s,
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "What's better than one? Two."
+                        ],
+                        "Name": "Jormungand Deluxe"
+                    },
+                    "camo": 0b
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "SpawnerDoesntDie": 1b,
+    "WalkingRange": 4,
+    "CustomNameVisible": 0b,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "Blinded you bitches with SCIENCE!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Good kill!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Took the bitch down!",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "HIYYAAAAA!",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/Extra - Freelancers/KokoHekmatyar.png",
+    "NpcJob": 6,
+    "BurstCount": 6,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "Time to test the merchandise!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Ahh, hell no. Security!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Take the bastards down!",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "You messed with the wrong Arms Dealer!",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Fuck em' all up, boys!",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "Ever heard of Delta Force? Those are who I roll with!",
+                "Song": "",
+                "Slot": 5
+            }
+        ]
+    },
+    "SpawnerYOffset": 0,
+    "pSpeed": 50,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 3,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "MoveState": 0,
+    "RangeAndMelee": 0,
+    "pRender3D": 0b,
+    "magicLevel": 1s,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 3,
+    "pEffect": 0,
+    "DistanceToMelee": 4,
+    "NpcStepSound": "",
+    "curFatigue": 0.0f,
+    "FireRate": 6,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "I knew this... day would come...",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "DespawnOnTargetLost": 1b,
+    "UUIDMost": 4892060957358966838L,
+    "TraderMarket": "",
+    "Fire": -1s,
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "SpawnerZOffset": 0,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "You want shit blown up? Well you came to the right place.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Name's Koko. Arms Dealer Extraordinaire.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "You got the dough I got the... uhh... damage? Is that a good word?",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "I'm packing heat. And it's my job to make sure you're packing it too!",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Did you know? 6 out of every 10 colonists carry a gun. And it's my job to make sure the other 4 get their fair share.",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "Hey there, @p. Here to get strapped up?",
+                "Song": "",
+                "Slot": 5
+            }
+        ]
+    },
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 23b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 25b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 5b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 3b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "id": "millenaire:item.ml_denier_or",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 8b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 24b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "id": "millenaire:item.ml_denier_or",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 43b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 13b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "id": "millenaire:item.ml_denier_or",
+                "Count": 10b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 7b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 48b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "id": "millenaire:item.ml_denier_or",
+                "Count": 15b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 18b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 24b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 28b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 25b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 31b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 21b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 33b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 34b,
+                "id": "millenaire:item.ml_denier_argent",
+                "Count": 26b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 35b,
+                "id": "millenaire:item.ml_denier",
+                "Count": 15b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 1,
+    "isShrunk": 0b,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 20.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 0,
+                    "Name": "KnockbackResist"
+                }
+            ],
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 2,
+                    "Name": "MovementSpeed"
+                }
+            ],
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 48.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Koko Hekmatyar",
+    "FallDistance": 0.0f,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "flansmod:goldDesertEagle",
+            "Count": 1b,
+            "tag": {
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "ammo": [
+                    {
+                    }
+                ],
+                "Paint": "GoldDesertEagle"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "id": "customnpcs:npcGoldenBullet",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "NpcModelData": {
+        "LegsConfig": {
+            "ScaleZ": 0.92f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.92f
+        },
+        "BodyConfig": {
+            "ScaleZ": 0.92f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.92f
+        },
+        "LegParts": {
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+            {
+                "Type": 1b,
+                "PlayerTexture": 0b,
+                "PartName": "hair",
+                "Color": 15661050,
+                "Texture": "moreplayermodels:textures/hair/hair1.png"
+            }
+        ],
+        "Breasts": 2b,
+        "Headwear": 2b,
+        "ArmsConfig": {
+            "ScaleZ": 0.8f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.92f,
+            "ScaleX": 0.8f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleZ": 0.95f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 0.95f,
+            "ScaleX": 0.95f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 1,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "armorCooldowns": [0,0,0,0],
+    "SpawnerXOffset": 0,
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 20,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "curMana": 500.85858f,
+    "AttackTime": 0s,
+    "SpawnerId": "nd11DoGX",
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "SpawnerNBT3": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "flansmod:g36Ammo",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "flansmod:MilitaryVestHeavyT",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "PotionEffect": 0,
+        "Size": 5,
+        "stopAndInteract": 0b,
+        "Resistances": {
+            "Arrow": 1.0f,
+            "Explosion": 0.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.0f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "magicXP": 0.0f,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 5,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "HealF": 44.960007f,
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+                {
+                    "Line": "Ready for the next challenge.",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "Bring on the next big thing.",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "FindShelter": 2,
+        "GuardTargets": [
+        ],
+        "ScriptsContainers": [
+        ],
+        "Air": 300s,
+        "TacticalVariant": 2,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "KnockBack": 0,
+        "TransformHasJob": 0b,
+        "CustomName": "",
+        "Pos": [
+            -864.5d,
+            6.0d,
+            -1015.5d
+        ],
+        "CanDespawn": 1b,
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 5,
+        "CustomNameVisible": 0b,
+        "ShotCount": 1,
+        "pDur": 1,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "GuardAttackCreepers": 1b,
+        "Texture": "customnpcs:textures/entity/Extra - Freelancers/Freelancer Soldier 3.png",
+        "NpcJob": 3,
+        "BurstCount": 3,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 50,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 1,
+        "DropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "MoveState": 5,
+        "RangeAndMelee": 0,
+        "pRender3D": 0b,
+        "magicLevel": 0s,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "pEffect": 5,
+        "DistanceToMelee": 4,
+        "NpcStepSound": "",
+        "curFatigue": 0.0f,
+        "FireRate": 1,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+                {
+                    "Line": "Wasn't even a problem.",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "Tango down.",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "GuardAttackMobs": 1b,
+        "UUIDMost": -437580814250127867L,
+        "Fire": -1s,
+        "DisablePitch": 0b,
+        "pPhysics": 0b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+                {
+                    "Line": "Yeah? What up?",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "What cha' need?",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "pSpin": 0b,
+        "NpcHurtSound": "minecraft:game.player.hurt",
+        "pTrail": 1,
+        "isShrunk": 0b,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 50.0d,
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -6494021948647782427L,
+                        "UUIDLeast": -5762715637727262173L,
+                        "Amount": 0.20000000298023224d,
+                        "Operation": 0,
+                        "Name": "KnockbackResist"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 0.0d,
+                        "Operation": 0,
+                        "Name": "KnockbackResist"
+                    }
+                ],
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.30000001192092896d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -6494021948647782427L,
+                        "UUIDLeast": -5762715637727262173L,
+                        "Amount": 0.0d,
+                        "Operation": 2,
+                        "Name": "MovementSpeed"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 0.0d,
+                        "Operation": 2,
+                        "Name": "MovementSpeed"
+                    }
+                ],
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 48.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 5.0d,
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "HCLI Elite Security",
+        "GuardSpecific": 0b,
+        "FallDistance": 0.0f,
+        "NpcIdleSound": "",
+        "Weapons": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                            "id": 6110,
+                            "Count": 1b,
+                            "Damage": 0s
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcGoldenBullet",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 30,
+        "DirectLOS": 0b,
+        "HealthRegen": 1,
+        "NpcModelData": {
+            "LegsConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "LegParts": {
+                "Type": 0b,
+                "PlayerTexture": 1b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "Breasts": 0b,
+            "Headwear": 2b,
+            "ArmsConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 10,
+        "DoorInteract": 2,
+        "MoveSpeed": 6,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "armorCooldowns": [0,0,0,0],
+        "MaxHealth": 50,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "GuardAttackAnimals": 0b,
+        "PotionDuration": 5,
+        "maxDelay": 20,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 73,
+                "Slot": 0
+            },
+            {
+                "Integer": 38,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 6,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "curMana": 500.0f,
+        "AttackTime": 0s,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "NpcSpawnerId": "nd11DoGX",
+            "NpcSpawnerNr": 0
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 16,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 1b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "FiringSound": "flansmod:SG550Shoot",
+        "ModRev": 16,
+        "Accuracy": 80,
+        "MinExp": 0,
+        "Armor": [
+            {
+                "Slot": 1b,
+                "id": "flansmod:MilitaryVestHeavyT",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 1b,
+        "UUIDLeast": -6487933803516839170L,
+        "Health": 45s,
+        "pExplode": 0b,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "minecraft:game.player.hurt",
+        "FactionID": 0,
+        "Title": "",
+        "TotalTicksAlive": 10756L,
+        "Rotation": [
+            178.1947f,
+            0.0f
+        ],
+        "ShowName": 0,
+        "npcInteracting": 0b,
+        "AvoidsWater": 0b,
+        "Equipment": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "NoLivingAnimation": 0b,
+        "hasUnlockedAugmented": 1b,
+        "isCritical": 0b,
+        "SpawnCycle": 3
+    },
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "SpawnerNBT2": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "flansmod:g36Ammo",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "flansmod:MilitaryVestHeavyT",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "PotionEffect": 0,
+        "Size": 5,
+        "stopAndInteract": 0b,
+        "Resistances": {
+            "Arrow": 1.0f,
+            "Explosion": 0.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.0f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "magicXP": 0.0f,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 5,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "HealF": 44.960007f,
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+                {
+                    "Line": "Ready for the next challenge.",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "Bring on the next big thing.",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "FindShelter": 2,
+        "GuardTargets": [
+        ],
+        "ScriptsContainers": [
+        ],
+        "Air": 300s,
+        "TacticalVariant": 2,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "KnockBack": 0,
+        "TransformHasJob": 0b,
+        "CustomName": "",
+        "Pos": [
+            -864.5d,
+            6.0d,
+            -1015.5d
+        ],
+        "CanDespawn": 1b,
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 5,
+        "CustomNameVisible": 0b,
+        "ShotCount": 1,
+        "pDur": 1,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "GuardAttackCreepers": 1b,
+        "Texture": "customnpcs:textures/entity/Extra - Freelancers/Freelancer Soldier 3.png",
+        "NpcJob": 3,
+        "BurstCount": 3,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 50,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 1,
+        "DropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "MoveState": 5,
+        "RangeAndMelee": 0,
+        "pRender3D": 0b,
+        "magicLevel": 0s,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "pEffect": 5,
+        "DistanceToMelee": 4,
+        "NpcStepSound": "",
+        "curFatigue": 0.0f,
+        "FireRate": 1,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+                {
+                    "Line": "Wasn't even a problem.",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "Tango down.",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "GuardAttackMobs": 1b,
+        "UUIDMost": -437580814250127867L,
+        "Fire": -1s,
+        "DisablePitch": 0b,
+        "pPhysics": 0b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+                {
+                    "Line": "Yeah? What up?",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "What cha' need?",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "pSpin": 0b,
+        "NpcHurtSound": "minecraft:game.player.hurt",
+        "pTrail": 1,
+        "isShrunk": 0b,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 50.0d,
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -6494021948647782427L,
+                        "UUIDLeast": -5762715637727262173L,
+                        "Amount": 0.20000000298023224d,
+                        "Operation": 0,
+                        "Name": "KnockbackResist"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 0.0d,
+                        "Operation": 0,
+                        "Name": "KnockbackResist"
+                    }
+                ],
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.30000001192092896d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -6494021948647782427L,
+                        "UUIDLeast": -5762715637727262173L,
+                        "Amount": 0.0d,
+                        "Operation": 2,
+                        "Name": "MovementSpeed"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 0.0d,
+                        "Operation": 2,
+                        "Name": "MovementSpeed"
+                    }
+                ],
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 48.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 5.0d,
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "HCLI Elite Security",
+        "GuardSpecific": 0b,
+        "FallDistance": 0.0f,
+        "NpcIdleSound": "",
+        "Weapons": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                            "id": 6110,
+                            "Count": 1b,
+                            "Damage": 0s
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcGoldenBullet",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 30,
+        "DirectLOS": 0b,
+        "HealthRegen": 1,
+        "NpcModelData": {
+            "LegsConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "LegParts": {
+                "Type": 0b,
+                "PlayerTexture": 1b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "Breasts": 0b,
+            "Headwear": 2b,
+            "ArmsConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 10,
+        "DoorInteract": 2,
+        "MoveSpeed": 6,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "armorCooldowns": [0,0,0,0],
+        "MaxHealth": 50,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "GuardAttackAnimals": 0b,
+        "PotionDuration": 5,
+        "maxDelay": 20,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 73,
+                "Slot": 0
+            },
+            {
+                "Integer": 38,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 6,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "curMana": 500.0f,
+        "AttackTime": 0s,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "NpcSpawnerId": "nd11DoGX",
+            "NpcSpawnerNr": 0
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 16,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 1b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "FiringSound": "flansmod:SG550Shoot",
+        "ModRev": 16,
+        "Accuracy": 80,
+        "MinExp": 0,
+        "Armor": [
+            {
+                "Slot": 1b,
+                "id": "flansmod:MilitaryVestHeavyT",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 1b,
+        "UUIDLeast": -6487933803516839170L,
+        "Health": 45s,
+        "pExplode": 0b,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "minecraft:game.player.hurt",
+        "FactionID": 0,
+        "Title": "",
+        "TotalTicksAlive": 10756L,
+        "Rotation": [
+            178.1947f,
+            0.0f
+        ],
+        "ShowName": 0,
+        "npcInteracting": 0b,
+        "AvoidsWater": 0b,
+        "Equipment": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "NoLivingAnimation": 0b,
+        "hasUnlockedAugmented": 1b,
+        "isCritical": 0b,
+        "SpawnCycle": 3
+    },
+    "SpawnerNBT1": {
+        "ReturnToStart": 1b,
+        "NpcInv": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "flansmod:g36Ammo",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "id": "flansmod:MilitaryVestHeavyT",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "PotionEffect": 0,
+        "Size": 5,
+        "stopAndInteract": 0b,
+        "Resistances": {
+            "Arrow": 1.0f,
+            "Explosion": 0.0f,
+            "Knockback": 1.0f,
+            "Melee": 1.0f
+        },
+        "BossBar": 0b,
+        "RespawnTime": 0,
+        "magicXP": 0.0f,
+        "NpcAngrySound": "",
+        "ReactsToFire": 0b,
+        "IgnoreCobweb": 0b,
+        "PositionOffsetZ": 5.0f,
+        "PositionOffsetY": 5.0f,
+        "PositionOffsetX": 5.0f,
+        "LootMode": 0,
+        "TransformHasAI": 0b,
+        "AttackStrenght": 5,
+        "PersistenceRequired": 0b,
+        "id": "customnpcs.CustomNpc",
+        "HealF": 44.960007f,
+        "MovingPatern": 0,
+        "NpcLines": {
+            "Lines": [
+                {
+                    "Line": "Ready for the next challenge.",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "Bring on the next big thing.",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "DefendFaction": 0b,
+        "FireIndirect": 0,
+        "NpcVisible": 0,
+        "LinkedNpcName": "",
+        "FindShelter": 2,
+        "GuardTargets": [
+        ],
+        "ScriptsContainers": [
+        ],
+        "Air": 300s,
+        "TacticalVariant": 2,
+        "Orientation": 0,
+        "ScriptLanguage": "ECMAScript",
+        "KnockBack": 0,
+        "TransformHasJob": 0b,
+        "CustomName": "",
+        "Pos": [
+            -864.5d,
+            6.0d,
+            -1015.5d
+        ],
+        "CanDespawn": 1b,
+        "BurnInSun": 0b,
+        "StandingState": 0,
+        "AttackInvisible": 0b,
+        "HurtTime": 0s,
+        "WalkingRange": 5,
+        "CustomNameVisible": 0b,
+        "ShotCount": 1,
+        "pDur": 1,
+        "AttackRange": 2,
+        "NpcKillLines": {
+            "Lines": [
+            ]
+        },
+        "PotionImmune": 0b,
+        "AvoidsSun": 0b,
+        "GuardAttackCreepers": 1b,
+        "Texture": "customnpcs:textures/entity/Extra - Freelancers/Freelancer Soldier 3.png",
+        "NpcJob": 3,
+        "BurstCount": 3,
+        "NpcAttackLines": {
+            "Lines": [
+            ]
+        },
+        "pSpeed": 50,
+        "pArea": 0,
+        "DeathTime": 0s,
+        "pImpact": 1,
+        "DropChances": [
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f,
+            0.085f
+        ],
+        "MoveState": 5,
+        "RangeAndMelee": 0,
+        "pRender3D": 0b,
+        "magicLevel": 0s,
+        "Motion": [
+            0.0d,
+            -0.0784000015258789d,
+            0.0d
+        ],
+        "CombatRegen": 0,
+        "pEffect": 5,
+        "DistanceToMelee": 4,
+        "NpcStepSound": "",
+        "curFatigue": 0.0f,
+        "FireRate": 1,
+        "pEffAmp": 0,
+        "OnGround": 1b,
+        "Dimension": 0,
+        "ImmuneToFire": 0b,
+        "NpcKilledLines": {
+            "Lines": [
+                {
+                    "Line": "Wasn't even a problem.",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "Tango down.",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "GuardAttackMobs": 1b,
+        "UUIDMost": -437580814250127867L,
+        "Fire": -1s,
+        "DisablePitch": 0b,
+        "pPhysics": 0b,
+        "TransformHasInv": 0b,
+        "NpcInteractLines": {
+            "Lines": [
+                {
+                    "Line": "Yeah? What up?",
+                    "Song": "",
+                    "Slot": 0
+                },
+                {
+                    "Line": "What cha' need?",
+                    "Song": "",
+                    "Slot": 1
+                }
+            ]
+        },
+        "pSpin": 0b,
+        "NpcHurtSound": "minecraft:game.player.hurt",
+        "pTrail": 1,
+        "isShrunk": 0b,
+        "CreatureType": 0,
+        "Attributes": [
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxManaBonus"
+            },
+            {
+                "Base": 0.0d,
+                "Name": "am2.maxBurnoutBonus"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.xpMultiplier"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.burnoutReduction"
+            },
+            {
+                "Base": 1.0d,
+                "Name": "am2.manaRegenModifier"
+            },
+            {
+                "Base": 50.0d,
+                "Name": "generic.maxHealth"
+            },
+            {
+                "Base": 0.0d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -6494021948647782427L,
+                        "UUIDLeast": -5762715637727262173L,
+                        "Amount": 0.20000000298023224d,
+                        "Operation": 0,
+                        "Name": "KnockbackResist"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 0.0d,
+                        "Operation": 0,
+                        "Name": "KnockbackResist"
+                    }
+                ],
+                "Name": "generic.knockbackResistance"
+            },
+            {
+                "Base": 0.30000001192092896d,
+                "Modifiers": [
+                    {
+                        "UUIDMost": -6494021948647782427L,
+                        "UUIDLeast": -5762715637727262173L,
+                        "Amount": 0.0d,
+                        "Operation": 2,
+                        "Name": "MovementSpeed"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 0.0d,
+                        "Operation": 2,
+                        "Name": "MovementSpeed"
+                    }
+                ],
+                "Name": "generic.movementSpeed"
+            },
+            {
+                "Base": 48.0d,
+                "Name": "generic.followRange"
+            },
+            {
+                "Base": 5.0d,
+                "Name": "generic.attackDamage"
+            }
+        ],
+        "Invulnerable": 0b,
+        "TransformHasDisplay": 0b,
+        "NoFallDamage": 0b,
+        "AbsorptionAmount": 0.0f,
+        "TransformHasRole": 0b,
+        "Name": "HCLI Elite Security",
+        "GuardSpecific": 0b,
+        "FallDistance": 0.0f,
+        "NpcIdleSound": "",
+        "Weapons": [
+            {
+                "Slot": 0b,
+                "id": "flansmod:g36",
+                "Count": 1b,
+                "tag": {
+                    "attachments": {
+                        "barrel": {
+                        },
+                        "grip": {
+                        },
+                        "generic_0": {
+                        },
+                        "scope": {
+                        },
+                        "stock": {
+                        }
+                    },
+                    "ammo": [
+                        {
+                            "id": 6110,
+                            "Count": 1b,
+                            "Damage": 0s
+                        }
+                    ],
+                    "Paint": "G36"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "id": "customnpcs:npcGoldenBullet",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "NPCDialogOptions": [
+        ],
+        "AggroRange": 30,
+        "DirectLOS": 0b,
+        "HealthRegen": 1,
+        "NpcModelData": {
+            "LegsConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "BodyConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "LegParts": {
+                "Type": 0b,
+                "PlayerTexture": 1b,
+                "Color": 16777215
+            },
+            "Parts": [
+            ],
+            "Breasts": 0b,
+            "Headwear": 2b,
+            "ArmsConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            },
+            "ExtraData": {
+            },
+            "HeadConfig": {
+                "ScaleZ": 1.0f,
+                "TransZ": 0.0f,
+                "TransY": 0.0f,
+                "TransX": 0.0f,
+                "ScaleY": 1.0f,
+                "ScaleX": 1.0f
+            }
+        },
+        "minDelay": 10,
+        "DoorInteract": 2,
+        "MoveSpeed": 6,
+        "TransformEditingModus": 0b,
+        "UsingSkinUrl": 0b,
+        "Leashed": 0b,
+        "SkinUrl": "",
+        "CanSwim": 1b,
+        "armorCooldowns": [0,0,0,0],
+        "MaxHealth": 50,
+        "HideBodyWhenKilled": 0b,
+        "AttackSpeed": 20,
+        "GuardAttackAnimals": 0b,
+        "PotionDuration": 5,
+        "maxDelay": 20,
+        "ScriptEnabled": 0b,
+        "Role": 0,
+        "DropChance": [
+            {
+                "Integer": 73,
+                "Slot": 0
+            },
+            {
+                "Integer": 38,
+                "Slot": 1
+            },
+            {
+                "Integer": 100,
+                "Slot": 2
+            },
+            {
+                "Integer": 100,
+                "Slot": 3
+            },
+            {
+                "Integer": 100,
+                "Slot": 4
+            },
+            {
+                "Integer": 100,
+                "Slot": 5
+            },
+            {
+                "Integer": 100,
+                "Slot": 6
+            },
+            {
+                "Integer": 100,
+                "Slot": 7
+            },
+            {
+                "Integer": 100,
+                "Slot": 8
+            }
+        ],
+        "FactionPoints": {
+            "DecreaseFaction1Points": 0b,
+            "OptionFaction2Points": 100,
+            "OptionFactions1": -1,
+            "OptionFactions2": -1,
+            "OptionFaction1Points": 100,
+            "DecreaseFaction2Points": 0b
+        },
+        "pDamage": 6,
+        "KilledTime": 0L,
+        "AimWhileShooting": 0b,
+        "CanPickUpLoot": 0b,
+        "AttackOtherFactions": 0b,
+        "CanDrown": 1b,
+        "curMana": 500.0f,
+        "AttackTime": 0s,
+        "pSize": 5,
+        "CanSprint": 0b,
+        "CanLeap": 1b,
+        "TransformIsActive": 0b,
+        "ForgeData": {
+            "NpcSpawnerId": "nd11DoGX",
+            "NpcSpawnerNr": 0
+        },
+        "MovingState": 0,
+        "MovingPos": 0,
+        "PotionAmp": 0,
+        "OnAttack": 0,
+        "TacticalRadius": 16,
+        "MaxExp": 0,
+        "OrderedLines": 0b,
+        "PortalCooldown": 0,
+        "pGlows": 1b,
+        "TransformHasAdvanced": 0b,
+        "TransformHasStats": 0b,
+        "FiringSound": "flansmod:SG550Shoot",
+        "ModRev": 16,
+        "Accuracy": 80,
+        "MinExp": 0,
+        "Armor": [
+            {
+                "Slot": 1b,
+                "id": "flansmod:MilitaryVestHeavyT",
+                "Count": 1b,
+                "Damage": 0s
+            }
+        ],
+        "CloakTexture": "",
+        "GlowTexture": "",
+        "MaxFiringRange": 15,
+        "pXlr8": 1b,
+        "UUIDLeast": -6487933803516839170L,
+        "Health": 45s,
+        "pExplode": 0b,
+        "pStick": 0b,
+        "MovingPause": 1b,
+        "NpcDeathSound": "minecraft:game.player.hurt",
+        "FactionID": 0,
+        "Title": "",
+        "TotalTicksAlive": 10756L,
+        "Rotation": [
+            178.1947f,
+            0.0f
+        ],
+        "ShowName": 0,
+        "npcInteracting": 0b,
+        "AvoidsWater": 0b,
+        "Equipment": [
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "NoLivingAnimation": 0b,
+        "hasUnlockedAugmented": 1b,
+        "isCritical": 0b,
+        "SpawnCycle": 3
+    },
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "SpawnerNBT6": {
+    },
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "SpawnerNBT5": {
+    },
+    "FiringSound": "flansmod:DesertEagleShoot",
+    "SpawnerNBT4": {
+    },
+    "ModRev": 16,
+    "Accuracy": 80,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 0b,
+    "UUIDLeast": -7439314410000883354L,
+    "Health": 20s,
+    "pExplode": 1b,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:game.player.hurt",
+    "FactionID": 0,
+    "Title": "Arms Dealer",
+    "TotalTicksAlive": 516746L,
+    "Rotation": [
+        317.27573f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "NoLivingAnimation": 0b,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b,
+    "SpawnCycle": 0
+}

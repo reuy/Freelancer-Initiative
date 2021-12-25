@@ -1,0 +1,134 @@
+{
+    "isShrunk": 0b,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxManaBonus"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "am2.maxBurnoutBonus"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.xpMultiplier"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.burnoutReduction"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "am2.manaRegenModifier"
+        },
+        {
+            "Base": 26.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.19003194353145053d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 16.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": 2784839225868699405L,
+                    "UUIDLeast": -6591415851819532064L,
+                    "Amount": 0.00319648150523184d,
+                    "Operation": 1,
+                    "Name": "Random spawn bonus"
+                }
+            ],
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 0.8144914914390343d,
+            "Name": "horse.jumpStrength"
+        }
+    ],
+    "Invulnerable": 0b,
+    "magicXP": 0.0f,
+    "AbsorptionAmount": 0.0f,
+    "Bred": 0b,
+    "FallDistance": 0.0f,
+    "InLove": 0,
+    "PersistenceRequired": 0b,
+    "id": "EntityHorse",
+    "HealF": 26.0f,
+    "Leashed": 0b,
+    "armorCooldowns": [0,0,0,0],
+    "Air": 300s,
+    "Variant": 261,
+    "OwnerUUID": "",
+    "CustomName": "Bandit War Steed",
+    "ChestedHorse": 0b,
+    "Temper": 0,
+    "CanPickUpLoot": 0b,
+    "SaddleItem": {
+        "id": 329s,
+        "Count": 1b,
+        "Damage": 0s
+    },
+    "HurtTime": 0s,
+    "curMana": 500.85858f,
+    "AttackTime": 0s,
+    "CustomNameVisible": 0b,
+    "Tame": 1b,
+    "ForgeData": {
+    },
+    "HasReproduced": 0b,
+    "PortalCooldown": 0,
+    "ModRev": 1,
+    "ArmorItem": {
+        "id": 418s,
+        "Count": 1b,
+        "Damage": 0s
+    },
+    "EatingHaystack": 1b,
+    "DeathTime": 0s,
+    "DropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "magicLevel": 1s,
+    "Age": 0,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "UUIDLeast": -4892355712522544137L,
+    "Health": 26s,
+    "curFatigue": 0.0f,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "Rotation": [
+        209.04242f,
+        -3.0497797f
+    ],
+    "Type": 0,
+    "UUIDMost": -8779995983703355617L,
+    "Equipment": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "Fire": -1s,
+    "hasUnlockedAugmented": 1b,
+    "isCritical": 0b
+}
