@@ -51,33 +51,16 @@
         "NpcMiscInv": [
             {
                 "Slot": 0b,
-                "id": "flansmod:m16a4",
+                "id": "mw:m4a1",
                 "Count": 1b,
                 "tag": {
-                    "ammo": [
-                        {
-                        }
-                    ],
-                    "attachments": {
-                        "barrel": {
-                        },
-                        "grip": {
-                        },
-                        "generic_0": {
-                        },
-                        "scope": {
-                        },
-                        "stock": {
-                        }
-                    },
                     "display": {
                         "Lore": [
-                            "§2Standard-issue Service Rifle issued to",
+                            "§2Standard-issue Service Carbine issued to",
                             "§2UNED Marine Personnel. 30-round Fully-Automatic."
                         ],
-                        "Name": "§rM16A4 §oService Rifle"
-                    },
-                    "Paint": "M16A4_Green"
+                        "Name": "§r4A1 §oService Carbine"
+                    }
                 },
                 "Damage": 0s
             },
@@ -106,7 +89,7 @@
             },
             {
                 "Slot": 3b,
-                "id": "flansmod:m1911",
+                "id": "mw:m9a1",
                 "Count": 1b,
                 "tag": {
                     "ammo": [
@@ -128,19 +111,16 @@
                     "display": {
                         "Lore": [
                             "§2Standard-issue handgun issued to all",
-                            "§2UNED personnel. Venerable 8-round",
+                            "§2UNED personnel. Dependable 15-round",
                             "§2semi-automatic design."
                         ],
-                        "Name": "§rM1911§o Service Handgun"
-                    },
-                    "GunMode": 0b,
-                    "Paint": "Colt45"
-                },
-                "Damage": 0s
+                        "Name": "§rM9§o Service Handgun"
+                    }
+                }
             },
             {
                 "Slot": 4b,
-                "id": "flansmod:m1911Ammo",
+                "id": "mw:m9mag30",
                 "Count": 1b,
                 "Damage": 0s
             },
@@ -193,7 +173,7 @@
             },
             {
                 "Slot": 7b,
-                "id": "customnpcs:npcLetter",
+                "id": "variedcommodities:letter",
                 "Count": 1b,
                 "tag": {
                     "display": {
@@ -255,7 +235,7 @@
             },
             {
                 "Slot": 10b,
-                "id": "customnpcs:npcLetter",
+                "id": "variedcommodities:letter",
                 "Count": 1b,
                 "tag": {
                     "RepairCost": 2,
@@ -315,7 +295,7 @@
             },
             {
                 "Slot": 15b,
-                "id": "customnpcs:npcIronReversedDagger",
+                "id": "spartanweaponry:dagger_steel",
                 "Count": 1b,
                 "tag": {
                     "RepairCost": 2,

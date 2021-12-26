@@ -2,7 +2,7 @@
 
             <star name="Yukine" temp="100" x="3" y="0" numPlanets="1" numGasGiants="0" blackHole="false">
                 <star name="Rakann" temp="200" separation="10.0" />
-                <planet name="New Alfheim" DIMID="0" dimMapping="">
+                <planet name="New Alfheim" DIMID="0" dimMapping="" customIcon="newalfheim">
 					<orbitalDistance>200</orbitalDistance>
 					<planet name="Trevanos" customIcon="lava">
 						<fogColor>1,1,1</fogColor>

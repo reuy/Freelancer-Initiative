@@ -1,0 +1,570 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AncientLoot",
+  "items": [
+    {
+      "weight": 41.28571701049805,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:rotten_flesh",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 6.624965190887451,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:shadedgarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.019199371337891,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:windygarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 6.624965190887451,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:frostgarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.788166999816895,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:soggygarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 8.315797805786133,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:aridgarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "lycanitesmobs:raw_maka_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "lycanitesmobs:cooked_ika_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "millenaire:wolfmeat_cooked",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "lycanitesmobs:raw_ika_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:groundporkitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "lycanitesmobs:cooked_yale_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:cookedtofeakitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:venisoncookeditem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:rawtofabbititem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "millenaire:seafood_raw",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:meatystewitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:groundmuttonitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:cookedgrubitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "thaumcraft:triple_meat_treat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "thaumcraft:chunk",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:duckrawitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:cookedtofenisonitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:porkchop",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "lycanitesmobs:cooked_chupacabra_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "lycanitesmobs:raw_maka_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 29.578857421875,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "CustomPotionEffects": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "Ambient": {
+                      "nbtType": "byte",
+                      "nbt": 0
+                    },
+                    "CurativeItems": {
+                      "nbtType": "list",
+                      "nbt": [
+                        {
+                          "nbtType": "compound",
+                          "nbt": {
+                            "ForgeCaps": {
+                              "nbtType": "compound",
+                              "nbt": {
+                                "customnpcs:itemscripteddata": {
+                                  "nbtType": "compound",
+                                  "nbt": {}
+                                }
+                              }
+                            },
+                            "id": {
+                              "nbtType": "string",
+                              "nbt": "minecraft:milk_bucket"
+                            },
+                            "Count": {
+                              "nbtType": "byte",
+                              "nbt": 1
+                            },
+                            "Damage": {
+                              "nbtType": "short",
+                              "nbt": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "ShowParticles": {
+                      "nbtType": "byte",
+                      "nbt": 1
+                    },
+                    "Duration": {
+                      "nbtType": "int",
+                      "nbt": 1200
+                    },
+                    "Id": {
+                      "nbtType": "byte",
+                      "nbt": 9
+                    },
+                    "Amplifier": {
+                      "nbtType": "byte",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:poison3"
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§fWhatever lived in this flask has long since gone REALLY bad."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ancient Rotten Flask"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 10.335477828979492,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "teastory:puer_tea_bag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§aLet\u0027s REALLY hope the secret to tea is age."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§oAncient Tea Bag"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:glazedcarrotsitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:fishtacoitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.431984901428223,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:potitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 6.248647212982178,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:skilletitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.2210845947265625,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:skilletitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.2210845947265625,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:saucepanitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 4.333380699157715,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:bakewareitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.547300815582275,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:saucepanitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.019199371337891,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:mortarandpestleitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 7.8639631271362305,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:mixingbowlitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 12.72980785369873,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "harvestcraft:juiceritem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05511390045285225,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:mayoitem",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§aI mean... it doesn\u0027t SMELL off..."
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "harvestcraft:nutellaitem",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§aCan\u0027t say the Ancients don\u0027t have taste."
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

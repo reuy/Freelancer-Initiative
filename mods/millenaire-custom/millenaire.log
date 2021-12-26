@@ -286,3 +286,58 @@
 8.1.1 24-12-2021 22:46:39 MAJOR: null: Loading language: en_us
 8.1.1 24-12-2021 22:46:57 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
 8.1.1 24-12-2021 23:10:19 ERROR: org.millenaire.client.network.ClientReceiver@145f6693: Received a packet despite null clientWorld.
+8.1.1 25-12-2021 16:24:35 Starting new session. Mods: examplemod 
+8.1.1 25-12-2021 16:28:04 MAJOR: null: Loading language: en_us
+8.1.1 25-12-2021 16:28:18 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+8.1.1 25-12-2021 17:38:07 Out of memory error when attempting to load building file C:\Users\Reginald\Documents\Curse\Minecraft\Instances\Freelancer Initiative\saves\Building Test\millenaire\buildings\-339_11_212.gz:
+8.1.1 25-12-2021 17:38:07 java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.HashMap.newNode(HashMap.java:1734)
+	at java.util.HashMap.putVal(HashMap.java:630)
+	at java.util.HashMap.put(HashMap.java:611)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:60)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:497)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58)
+
+8.1.1 25-12-2021 17:48:40 Starting new session. Mods: examplemod 
+8.1.1 25-12-2021 17:51:48 MAJOR: null: Loading language: en_us
+8.1.1 25-12-2021 17:52:09 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+8.1.1 25-12-2021 18:12:04 Starting new session. Mods: examplemod 
+8.1.1 25-12-2021 18:14:36 MAJOR: null: Loading language: en_us
+8.1.1 25-12-2021 18:14:38 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+8.1.1 25-12-2021 18:22:47 ERROR: org.millenaire.client.network.ClientReceiver@7ede41f6: Received a packet despite null clientWorld.
+8.1.1 25-12-2021 19:42:20 Starting new session. Mods: examplemod 
+8.1.1 25-12-2021 19:45:46 MAJOR: null: Loading language: en_us
+8.1.1 25-12-2021 19:46:02 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+8.1.1 25-12-2021 19:59:10 ERROR: org.millenaire.client.network.ClientReceiver@1b80680b: Received a packet despite null clientWorld.
+8.1.1 26-12-2021 14:42:13 Starting new session. Mods: examplemod 
+8.1.1 26-12-2021 14:45:58 MAJOR: null: Loading language: en_us
+8.1.1 26-12-2021 14:46:12 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+8.1.1 26-12-2021 16:55:24 ERROR: org.millenaire.common.pathing.atomicstryker.AStarWorkerJPS@55c08f23: Chunk access violation while calculating a path for org.millenaire.common.pathing.atomicstryker.AStarPathPlannerJPS@5b076a33
+8.1.1 26-12-2021 17:13:04 ERROR: org.millenaire.common.pathing.atomicstryker.AStarWorkerJPS@6adcdd56: Chunk access violation while calculating a path for org.millenaire.common.pathing.atomicstryker.AStarPathPlannerJPS@641b2fa5
+8.1.1 26-12-2021 17:34:58 ERROR: org.millenaire.common.pathing.atomicstryker.AStarWorkerJPS@3e3324b2: Chunk access violation while calculating a path for org.millenaire.common.pathing.atomicstryker.AStarPathPlannerJPS@30f4ccdc

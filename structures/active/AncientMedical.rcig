@@ -1,0 +1,347 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AncientLoot",
+  "items": [
+    {
+      "weight": 30.87596893310547,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "CustomPotionEffects": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "Ambient": {
+                      "nbtType": "byte",
+                      "nbt": 0
+                    },
+                    "CurativeItems": {
+                      "nbtType": "list",
+                      "nbt": [
+                        {
+                          "nbtType": "compound",
+                          "nbt": {
+                            "ForgeCaps": {
+                              "nbtType": "compound",
+                              "nbt": {
+                                "customnpcs:itemscripteddata": {
+                                  "nbtType": "compound",
+                                  "nbt": {}
+                                }
+                              }
+                            },
+                            "id": {
+                              "nbtType": "string",
+                              "nbt": "minecraft:milk_bucket"
+                            },
+                            "Count": {
+                              "nbtType": "byte",
+                              "nbt": 1
+                            },
+                            "Damage": {
+                              "nbtType": "short",
+                              "nbt": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "ShowParticles": {
+                      "nbtType": "byte",
+                      "nbt": 1
+                    },
+                    "Duration": {
+                      "nbtType": "int",
+                      "nbt": 1200
+                    },
+                    "Id": {
+                      "nbtType": "byte",
+                      "nbt": 9
+                    },
+                    "Amplifier": {
+                      "nbtType": "byte",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:poison3"
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§fWhatever lived in this flask has long since gone REALLY bad."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ancient Rotten Flask"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0950840711593628,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:strong_regeneration"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:long_regeneration"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:strong_poison"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:healing"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:night_vision"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.005751589313149452,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:resistance4"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:unluck2+"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:poison4"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:haste3"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:haste3"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:strong_strength"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:healing"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 10.897062301635742,
+      "min": 1,
+      "max": 31,
+      "item": {
+        "id": "thaumcraft:salis_mundus",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
