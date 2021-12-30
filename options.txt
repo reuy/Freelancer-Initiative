@@ -4,9 +4,9 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:8
+renderDistance:7
 guiScale:2
-particles:0
+particles:1
 bobView:true
 anaglyph3d:false
 maxFps:120
@@ -98,8 +98,6 @@ key_Scene2 start/pause:80
 key_Scene3 start/pause:81
 key_Scene reset:82
 key_Quest Log:38
-key_MoCreatures Dive:44:ALT
-key_MoCreatures GUI:100
 key_key.xu2.searchforitems:20
 key_key.fart.desc:34
 key_key.mount.dismount:46
@@ -134,7 +132,7 @@ key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_key.toggle_shaders:0
-key_key.ping:47
+key_key.ping:41
 key_ping.key.alert:75
 key_ping.key.mine:76
 key_ping.key.look:77
@@ -191,13 +189,13 @@ key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:48
+key_key.journeymap.create_waypoint:48:CONTROL
 key_key.journeymap.toggle_waypoints:0
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
-key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.map_toggle_alt:36:CONTROL
 key_key.journeymap.fullscreen_waypoints:48:CONTROL
-key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.minimap_toggle_alt:0
 key_key.journeymap.fullscreen_options:24
 key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
