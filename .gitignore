@@ -5,6 +5,8 @@ armourers_workshop/fast-cache/*
 local/*
 icon.png
 .mixin.out/*
-minecraftinstance.json
 .curseclient
-
+crafttweaker.log
+millenaire.log
+minecraftinstance.json
+journeymap.minimap.config
