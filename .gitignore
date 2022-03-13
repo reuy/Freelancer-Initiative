@@ -5,6 +5,8 @@ logs/*
 playerdata/*
 journeymap/*
 local/*
+armourers_workshop/fast-cache/*
+tv-cache/*
 crash-reports/*
 usercache.json
 usernamecache.json
