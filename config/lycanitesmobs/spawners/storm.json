@@ -38,10 +38,5 @@
       "solidGround": false
     }
   ],
-  "mobSpawns": [
-    {
-      "mobId": "lycanitesmobs:zephyr",
-      "weight": 8
-    }
-  ]
+  "mobSpawns": []
 }

@@ -37,10 +37,5 @@
       "sorting": "random"
     }
   ],
-  "mobSpawns": [
-    {
-      "mobId": "lycanitesmobs:geonach",
-      "weight": 8
-    }
-  ]
+  "mobSpawns": []
 }
