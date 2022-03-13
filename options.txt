@@ -11,13 +11,13 @@ bobView:true
 anaglyph3d:false
 maxFps:60
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:false
 ao:2
 renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:42.147.156.188:57679
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -111,6 +111,11 @@ key_key.summoning:0
 key_key.minions:19
 key_key.open_menu:0
 key_keybind.railcraft.cart.bed:208
+key_Open MPS Keybind GUI:0
+key_Go Down (MPS Flight Control):44
+key_Cycle Tool Backward (MPS):0
+key_Cycle Tool Forward (MPS):0
+key_Cosmetic (MPS):0
 key_key.reload:19
 key_key.unload:22
 key_key.inspect:25
@@ -160,9 +165,45 @@ key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
 key_nei.options.keys.gui.botania_corporea_request:46
 key_Unequip:44
+key_key.pitchDown.desc:29
+key_key.vehicleMenu.desc:50
+key_key.dropBomb.desc:48
+key_key.fireVehicleGuns.desc:47
+key_key.switchControlMode.desc:46
+key_key.reload.desc:19
+key_key.teamsMenu.desc:34
+key_key.teamsScores.desc:35
+key_key.rollLeft.desc:44
+key_key.rollRight.desc:45
+key_key.toggleLandingGear.desc:38
+key_key.toggleDoors.desc:37
+key_key.switchMovementMode.desc:36
+key_key.lookAtGun.desc:38
+key_key.debug.desc:68
+key_key.reloadModels.desc:67
+key_key.primaryVehicleInteract.desc:-100
+key_key.secondaryVehicleInteract.desc:-99
+key_key.boththrow.desc:-99
+key_key.leftthrow.desc:0
+key_key.rightthrow.desc:0
+key_key.motoronoff.desc:42
+key_key.jumpanddetach.desc:57
+key_key.slow.desc:42
+key_key.climb.desc:42
+key_key.climbup.desc:0
+key_key.climbdown.desc:0
+key_key.enderlaunch.desc:-100
+key_key.rocket.desc:-100
+key_key.slide.desc:42
+key_key.dragon_fireAttack:19
+key_key.dragon_strike:34
+key_key.dragon_down:45
+key_key.dragon_change_view:65
+key_invtweaks.key.sort:19
 key_key.menu:0
 key_key.villages:47
 key_key.escorts:34
+key_keybind.fovfixtoggle:0
 key_nei.options.keys.gui.enchant:45
 key_nei.options.keys.gui.potion:25
 key_nei.options.keys.gui.prev:201
@@ -176,6 +217,11 @@ key_nei.options.keys.world.midnight:0
 key_nei.options.keys.world.rain:0
 key_nei.options.keys.world.heal:0
 key_nei.options.keys.world.creative:0
+key_techguns.key.toggleNightvision:49
+key_techguns.key.toggleSafemode:48
+key_techguns.key.toggleStepassist:47
+key_techguns.key.forceReload:19
+key_techguns.key.toggleJetpack:36
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:0
