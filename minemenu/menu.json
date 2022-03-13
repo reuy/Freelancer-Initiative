@@ -1,1 +1,159 @@
-{}
+{
+  "Equipment": {
+    "0": {
+      "title": "Appearance",
+      "icon": {
+        "name": "armourers_workshop:item.mannequin",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "keys.armourers_workshop.open-wardrobe",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "Quiver",
+      "icon": {
+        "name": "spartanweaponry:quiver_bolt",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.spartanweaponry.access_quiver",
+          "toggle": true
+        }
+      }
+    },
+    "8": {
+      "title": "Accessories",
+      "icon": {
+        "name": "extrautils2:chickenring",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "keybind.baublesinventory",
+          "toggle": true
+        }
+      }
+    }
+  },
+  "Native Relations": {},
+  "Vehicle Controls": {
+    "0": {
+      "title": "Vehicle Inventory",
+      "icon": {
+        "name": "cfm:crate",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.vehicleMenu.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Change Movement Mode",
+      "icon": {
+        "name": "flansmod:largewheel",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.switchMovementMode.desc",
+          "toggle": true
+        }
+      }
+    },
+    "6": {
+      "title": "Rocket Controls",
+      "icon": {
+        "name": "techguns:itemshared",
+        "damage": 145
+      },
+      "action": {
+        "key": {
+          "key": "Open Rocket GUI",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "main": {
+    "0": {
+      "title": "Equipment",
+      "icon": {
+        "name": "variedcommodities:bag",
+        "damage": 0
+      },
+      "action": {
+        "category": "Equipment"
+      }
+    },
+    "3": {
+      "title": "Vehicle Controls",
+      "icon": {
+        "name": "flansmod:humvee",
+        "damage": 0
+      },
+      "action": {
+        "category": "Vehicle Controls"
+      }
+    },
+    "4": {
+      "title": "Beastiary",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 5
+      },
+      "action": {
+        "key": {
+          "key": "key.beastiary",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Quest Log",
+      "icon": {
+        "name": "bibliocraft:bigbook",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Quest Log",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Map",
+      "icon": {
+        "name": "bibliocraft:compass",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.journeymap.fullscreen_waypoints",
+          "toggle": true
+        }
+      }
+    },
+    "8": {
+      "title": "Skills",
+      "icon": {
+        "name": "thermalfoundation:upgrade",
+        "damage": 1
+      },
+      "action": {
+        "key": {
+          "key": "Open Skill GUI",
+          "toggle": false
+        }
+      }
+    }
+  }
+}
