@@ -34,5 +34,10 @@
       "solidGround": false
     }
   ],
-  "mobSpawns": []
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:djinn",
+      "weight": 8
+    }
+  ]
 }

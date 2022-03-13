@@ -51,5 +51,11 @@
       "structureType": "Temple"
     }
   ],
-  "mobSpawns": []
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:sylph",
+      "weight": 8,
+      "home": 32
+    }
+  ]
 }

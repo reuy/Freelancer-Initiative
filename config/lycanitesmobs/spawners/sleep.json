@@ -38,5 +38,9 @@
       "solidGround": false
     }
   ],
-  "mobSpawns": []
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:reaper"
+    }
+  ]
 }
