@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAegis",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAegis",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [],

@@ -7,8 +7,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrue",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrue",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [
