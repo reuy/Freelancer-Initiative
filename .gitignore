@@ -1,3 +1,7 @@
 saves/*
 logs/*
 journeymap/*
+armourers_workshop/fast-cache/*
+local/*
+icon.png
+.mixin.out/*
