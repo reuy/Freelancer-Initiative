@@ -1,8 +1,9 @@
 saves/*
 logs/*
 journeymap/*
-armourers_workshop/fast-cache/*
 local/*
+armourers_workshop/fast-cache/*
+tv-cache/*
 icon.png
 .mixin.out/*
 .curseclient
