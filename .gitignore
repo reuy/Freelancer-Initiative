@@ -11,6 +11,7 @@ global-skin-database/*
 crash-reports/*
 usercache.json
 usernamecache.json
+minecraftinstance.json
 
 .mixin.out/*
 
@@ -23,7 +24,6 @@ journeymapdefaults.firstrun
 llibrary/*
 asm/*
 
-
-minecraftinstance.json
+config/splash.properties
 
 .curseclient
