@@ -7,9 +7,9 @@
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySpectre",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSpectre",
   "loadDefault": true,
-  "enabled": true,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "endsky"
     ],

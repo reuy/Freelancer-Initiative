@@ -1,0 +1,264 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.4.0.jar)
+  OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  weaponlib (mw_2.0-0.4.4.6_mc1.12.2.jar)
+  LoadingPlugin (Reskillable-1.12.2-1.13.0.jar)
+  LoadingPlugin (CrashToMainMenu-client-1.12.2-1.0.0.jar)
+  WarpDriveCore (WarpDrive-1.12.2-1.5.23.jar)
+Contact their authors BEFORE contacting forge
+
+// Why did you do that?
+
+Time: 12/30/21 4:31 AM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Just Enough Items (jei)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOf(Arrays.java:3181)
+	at java.util.ArrayList.grow(ArrayList.java:261)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:235)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:227)
+	at java.util.ArrayList.add(ArrayList.java:458)
+	at net.minecraftforge.common.capabilities.CapabilityDispatcher.<init>(CapabilityDispatcher.java:76)
+	at net.minecraftforge.event.ForgeEventFactory.gatherCapabilities(ForgeEventFactory.java:692)
+	at net.minecraftforge.event.ForgeEventFactory.gatherCapabilities(ForgeEventFactory.java:673)
+	at net.minecraft.item.ItemStack.forgeInit(ItemStack.java:1217)
+	at net.minecraft.item.ItemStack.<init>(ItemStack.java:112)
+	at net.minecraft.item.ItemStack.<init>(ItemStack.java:98)
+	at net.minecraft.item.ItemStack.<init>(ItemStack.java:85)
+	at net.minecraft.item.ItemStack.<init>(ItemStack.java:80)
+	at net.minecraft.item.ItemStack.<init>(ItemStack.java:75)
+	at thaumcraft.common.lib.events.CraftingEvents.getBurnTime(CraftingEvents.java:24)
+	at net.minecraftforge.fml.common.registry.GameRegistry.getFuelValueLegacy(GameRegistry.java:269)
+	at net.minecraftforge.event.ForgeEventFactory.getItemBurnTime(ForgeEventFactory.java:297)
+	at net.minecraft.tileentity.TileEntityFurnace.func_145952_a(TileEntityFurnace.java:318)
+	at com.rwtema.extrautils2.crafting.BurnList.getStacks(BurnList.java:26)
+	at com.rwtema.extrautils2.machine.FurnaceRecipe.getJEIInputItemExamples(FurnaceRecipe.java:34)
+	at com.rwtema.extrautils2.crafting.jei.XUJEIPlugin.register(XUJEIPlugin.java:146)
+	at mezz.jei.startup.JeiStarter.registerPlugins(JeiStarter.java:213)
+	at mezz.jei.startup.JeiStarter.start(JeiStarter.java:77)
+	at mezz.jei.startup.ProxyCommonClient.loadComplete(ProxyCommonClient.java:136)
+	at mezz.jei.JustEnoughItems.loadComplete(JustEnoughItems.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 639577904 bytes (609 MB) / 3817865216 bytes (3641 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx4096m -Xms256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 120 mods loaded, 120 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                        | Version                | Source                                          | Signature                                |
+	|:------ |:------------------------- |:---------------------- |:----------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft                 | 1.12.2                 | minecraft.jar                                   | None                                     |
+	| LCHIJA | mcp                       | 9.42                   | minecraft.jar                                   | None                                     |
+	| LCHIJA | FML                       | 8.0.99.99              | forge-1.12.2-14.23.5.2859.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                     | 14.23.5.2859           | forge-1.12.2-14.23.5.2859.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | advancedrocketrycore      | 1                      | minecraft.jar                                   | None                                     |
+	| LCHIJA | ivtoolkit                 | 1.3.3-1.12             | minecraft.jar                                   | None                                     |
+	| LCHIJA | openmodscore              | 0.12.2                 | minecraft.jar                                   | None                                     |
+	| LCHIJA | WarpDriveCore             | 1.12.2-1.5.23.SNAPSHOT | minecraft.jar                                   | None                                     |
+	| LCHIJA | reccomplex                | 1.4.8.2                | RecurrentComplex-1.4.8.2.jar                    | None                                     |
+	| LCHIJA | aarcaddon                 | 1.0.1                  | AARCAddon-1.0.1.jar                             | None                                     |
+	| LCHIJA | redstoneflux              | 2.1.1                  | RedstoneFlux-1.12-2.1.1.1-universal.jar         | None                                     |
+	| LCHIJA | cofhcore                  | 4.6.6                  | CoFHCore-1.12.2-4.6.6.1-universal.jar           | None                                     |
+	| LCHIJA | ic2                       | 2.8.221-ex112          | industrialcraft-2-2.8.221-ex112.jar             | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCHIJA | libvulpes                 | 0.4.2.-85              | LibVulpes-1.12.2-0.4.2-85-universal.jar         | None                                     |
+	| LCHIJA | advancedrocketry          | 1.7.0.-232             | AdvancedRocketry-1.12.2-1.7.0-232-universal.jar | None                                     |
+	| LCHIJA | crafttweaker              | 4.1.20                 | CraftTweaker2-1.12-4.1.20.670.jar               | None                                     |
+	| LCHIJA | mtlib                     | 3.0.7                  | MTLib-3.0.7.jar                                 | None                                     |
+	| LCHIJA | modtweaker                | 4.0.19                 | modtweaker-4.0.20.5.jar                         | None                                     |
+	| LCHIJE | jei                       | 4.16.1.301             | jei_1.12.2-4.16.1.301.jar                       | None                                     |
+	| LCHIJ  | appleskin                 | 1.0.14                 | AppleSkin-mc1.12-1.0.14.jar                     | None                                     |
+	| LCHIJ  | armourers_workshop        | 1.12.2-0.51.0          | Armourers-Workshop-1.12.2-0.51.0.jar            | None                                     |
+	| LCHIJ  | art                       | 1.0.0                  | ARTweaker-1.12.2-1.0.0.jar                      | None                                     |
+	| LCHIJ  | waila                     | 1.8.26                 | Hwyla-1.8.26-B41_1.12.2.jar                     | None                                     |
+	| LCHIJ  | bdsandm                   | 0.0.24                 | BarrelsDrumsStorageAndMore-0.0.24.jar           | None                                     |
+	| LCHIJ  | baubles                   | 1.5.2                  | Baubles-1.12-1.5.2.jar                          | None                                     |
+	| LCHIJ  | bibliocraft               | 2.4.5                  | BiblioCraft[v2.4.5][MC1.12.2].jar               | None                                     |
+	| LCHIJ  | bindtweaker               | 1.2.0                  | bindtweaker-1.2.0.jar                           | None                                     |
+	| LCHIJ  | bookshelf                 | 2.3.590                | Bookshelf-1.12.2-2.3.590.jar                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJ  | thaumcraft                | 6.1.BETA26             | Thaumcraft-1.12.2-6.1.BETA26.jar                | None                                     |
+	| LCHIJ  | botania                   | r1.10-364              | Botania r1.10-364.4.jar                         | None                                     |
+	| LCHIJ  | buildcraftlib             | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftcore            | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftbuilders        | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcrafttransport       | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftsilicon         | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftcompat          | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftenergy          | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftfactory         | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | buildcraftrobotics        | 7.99.24.8              | buildcraft-all-7.99.24.8.jar                    | None                                     |
+	| LCHIJ  | ctm                       | MC1.12.2-1.0.2.31      | CTM-MC1.12.2-1.0.2.31.jar                       | None                                     |
+	| LCHIJ  | chisel                    | MC1.12.2-1.0.2.45      | Chisel-MC1.12.2-1.0.2.45.jar                    | None                                     |
+	| LCHIJ  | codechickenlib            | 3.2.3.358              | CodeChickenLib-1.12.2-3.2.3.358-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJ  | cofhworld                 | 1.4.0                  | CoFHWorld-1.12.2-1.4.0.1-universal.jar          | None                                     |
+	| LCHIJ  | collective                | 3.0                    | collective-1.12.2-3.0.jar                       | None                                     |
+	| LCHIJ  | gamestages                | 2.0.123                | GameStages-1.12.2-2.0.123.jar                   | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJ  | reskillable               | 1.12.2-1.13.0          | Reskillable-1.12.2-1.13.0.jar                   | None                                     |
+	| LCHIJ  | compatskills              | 1.12.2-1.17.0          | CompatSkills-1.12.2-1.17.0.jar                  | None                                     |
+	| LCHIJ  | controlling               | 3.0.10                 | Controlling-3.0.10.jar                          | None                                     |
+	| LCHIJ  | extendedrenderer          | v1.0                   | coroutil-1.12.1-1.2.37.jar                      | None                                     |
+	| LCHIJ  | coroutil                  | 1.12.1-1.2.37          | coroutil-1.12.1-1.2.37.jar                      | None                                     |
+	| LCHIJ  | configmod                 | v1.0                   | coroutil-1.12.1-1.2.37.jar                      | None                                     |
+	| LCHIJ  | ctgui                     | 1.0.0                  | CraftTweaker2-1.12-4.1.20.670.jar               | None                                     |
+	| LCHIJ  | crafttweakerjei           | 2.0.3                  | CraftTweaker2-1.12-4.1.20.670.jar               | None                                     |
+	| LCHIJ  | ctintegration             | 1.8.0                  | ctintegration-1.8.0.jar                         | None                                     |
+	| LCHIJ  | custommainmenu            | 2.0.9.1                | CustomMainMenu-MC1.12.2-2.0.9.1.jar             | None                                     |
+	| LCHIJ  | customnpcs                | 1.12                   | CustomNPCs_1.12.2-(05Jul20).jar                 | None                                     |
+	| LCHIJ  | dungeontools              | 2.1                    | dungeontools-2.1_1.12.2.jar                     | None                                     |
+	| LCHIJ  | sereneseasons             | 1.2.18                 | SereneSeasons-1.12.2-1.2.18-universal.jar       | None                                     |
+	| LCHIJ  | orelib                    | 3.6.0.1                | OreLib-1.12.2-3.6.0.1.jar                       | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHIJ  | dsurround                 | 3.6.1.0                | DynamicSurroundings-1.12.2-3.6.1.0.jar          | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHIJ  | emt                       | 12.2.0                 | emt-12.4.1.jar                                  | None                                     |
+	| LCHIJ  | enchdesc                  | 1.1.15                 | EnchantmentDescriptions-1.12.2-1.1.15.jar       | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJ  | extrautils2               | 1.0                    | extrautils2-1.12-1.9.9.jar                      | None                                     |
+	| LCHIJ  | forgemultipartcbe         | 2.6.2.83               | ForgeMultipart-1.12.2-2.6.2.83-universal.jar    | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJ  | microblockcbe             | 2.6.2.83               | ForgeMultipart-1.12.2-2.6.2.83-universal.jar    | None                                     |
+	| LCHIJ  | minecraftmultipartcbe     | 2.6.2.83               | ForgeMultipart-1.12.2-2.6.2.83-universal.jar    | None                                     |
+	| LCHIJ  | cfm                       | 6.3.1                  | furniture-6.3.1-1.12.2.jar                      | None                                     |
+	| LCHIJ  | geographicraft            | 0.8.7                  | GeographiCraft-1.12-0.8.9b.jar                  | None                                     |
+	| LCHIJ  | guideapi                  | 1.12-2.1.8-63          | Guide-API-1.12-2.1.8-63.jar                     | None                                     |
+	| LCHIJ  | itlt                      | 1.0.4                  | itlt-1.12.x-1.0.4.jar                           | None                                     |
+	| LCHIJ  | jeiintegration            | 1.6.0                  | jeiintegration_1.12.2-1.6.0.jar                 | None                                     |
+	| LCHIJ  | journeymap                | 1.12.2-5.7.1           | journeymap-1.12.2-5.7.1.jar                     | None                                     |
+	| LCHIJ  | journeymapdefaults        | 1.12-0.0.2             | journeymapdefaults-1.0.jar                      | None                                     |
+	| LCHIJ  | logisticalautomation      | 0.1.0                  | logisticalautomation-0.1.0.jar                  | None                                     |
+	| LCHIJ  | lycanitesmobs             | 2.0.8.4 - MC 1.12.2    | lycanitesmobs-1.12.2-2.0.8.4.jar                | None                                     |
+	| LCHIJ  | millenaire                | Millénaire 8.1.1       | millenaire-1.12.2-8.1.1.jar                     | None                                     |
+	| LCHIJ  | millenairejei             | 0.1                    | millenairejei-1.12.2-1.0.0-beta001.jar          | None                                     |
+	| LCHIJ  | minemenu                  | 1.6.11                 | MineMenu-1.12.2-1.6.11-universal.jar            | None                                     |
+	| LCHIJ  | llibrary                  | 1.7.20                 | llibrary-1.7.20-1.12.2.jar                      | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCHIJ  | mowziesmobs               | 1.5.8                  | mowziesmobs-1.5.8.jar                           | None                                     |
+	| LCHIJ  | mrtjpcore                 | 2.1.4.43               | MrTJPCore-1.12.2-2.1.4.43-universal.jar         | None                                     |
+	| LCHIJ  | railcraft                 | 12.0.0                 | railcraft-12.0.0.jar                            | a0c255ac501b2749537d5824bb0f0588bf0320fa |
+	| LCHIJ  | mtr                       | 3.0.0                  | MTR-1.12.2-alpha-test-0.0.1.jar                 | None                                     |
+	| LCHIJ  | mw                        | 0.4.4.6                | mw_2.0-0.4.4.6_mc1.12.2.jar                     | None                                     |
+	| LCHIJ  | nbtedit                   | $version               | NBTEdit-0.7.jar                                 | None                                     |
+	| LCHIJ  | nopotionshift             | 1.2.0                  | nopotionshift_1.12.2-1.2.0.jar                  | None                                     |
+	| LCHIJ  | nei                       | 2.4.3                  | NotEnoughItems-1.12.2-2.4.3.245-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJ  | openmods                  | 0.12.2                 | OpenModsLib-1.12.2-0.12.2.jar                   | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCHIJ  | openblocks                | 1.8.1                  | OpenBlocks-1.12.2-1.8.1.jar                     | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCHIJ  | p455w0rdslib              | 2.3.161                | p455w0rdslib-1.12.2-2.3.161.jar                 | 186bc454cd122c9c2f1aa4f95611254bcc543363 |
+	| LCHIJ  | harvestcraft              | 1.12.2zb               | Pam's HarvestCraft 1.12.2zg.jar                 | None                                     |
+	| LCHIJ  | ping                      | 1.4.5                  | Ping-1.12.2-1.4.5.jar                           | None                                     |
+	| LCHIJ  | placebo                   | 1.6.0                  | Placebo-1.12.2-1.6.0.jar                        | None                                     |
+	| LCHIJ  | projectred-core           | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-Base.jar            | None                                     |
+	| LCHIJ  | projectred-compat         | 1.0                    | ProjectRed-1.12.2-4.9.4.120-compat.jar          | None                                     |
+	| LCHIJ  | projectred-integration    | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-integration.jar     | None                                     |
+	| LCHIJ  | projectred-transmission   | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-integration.jar     | None                                     |
+	| LCHIJ  | projectred-illumination   | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-lighting.jar        | None                                     |
+	| LCHIJ  | projectred-expansion      | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-mechanical.jar      | None                                     |
+	| LCHIJ  | projectred-relocation     | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-mechanical.jar      | None                                     |
+	| LCHIJ  | projectred-transportation | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-mechanical.jar      | None                                     |
+	| LCHIJ  | projectred-exploration    | 4.9.4.120              | ProjectRed-1.12.2-4.9.4.120-world.jar           | None                                     |
+	| LCHIJ  | resourceloader            | 1.5.3                  | ResourceLoader-MC1.12.1-1.5.3.jar               | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJ  | sgcraft                   | 2.0.3                  | SGCraft-2.0.5.jar                               | None                                     |
+	| LCHIJ  | spartanshields            | 1.5.5                  | SpartanShields-1.12.2-1.5.5.jar                 | None                                     |
+	| LCHIJ  | spartanweaponry           | 1.4.0                  | SpartanWeaponry-1.12.2-1.4.0.jar                | None                                     |
+	| LCHIJ  | shinygear                 | 1.7                    | shinygear-1.7.jar                               | None                                     |
+	| LCHIJ  | spartanweaponryarcana     | beta 1.0.3             | SpartanWeaponryArcana-1.12.2-beta-1.0.3.jar     | None                                     |
+	| LCHIJ  | survivalinc               | 1.3.0                  | SurvivalInc-1.3.0.jar                           | None                                     |
+	| LCHIJ  | teastory                  | 3.3.3-B33.418-1.12.2   | TeaStory-3.3.3-B33.418-1.12.2.jar               | None                                     |
+	| LCHIJ  | tcinventoryscan           | 2.0.10                 | ThaumicInventoryScanning_1.12.2-2.0.10.jar      | None                                     |
+	| LCHIJ  | thaumicjei                | 1.6.0                  | ThaumicJEI-1.12.2-1.6.0-27.jar                  | None                                     |
+	| LCHIJ  | thermalfoundation         | 2.6.7                  | ThermalFoundation-1.12.2-2.6.7.1-universal.jar  | None                                     |
+	| LCHIJ  | thermalexpansion          | 5.5.7                  | ThermalExpansion-1.12.2-5.5.7.1-universal.jar   | None                                     |
+	| LCHIJ  | toastcontrol              | 1.8.1                  | Toast Control-1.12.2-1.8.1.jar                  | None                                     |
+	| LCHIJ  | treeharvester             | 4.0                    | treeharvester_1.12.2-4.0.jar                    | None                                     |
+	| LCHIJ  | variedcommodities         | 1.12.2                 | VariedCommodities_1.12.2-(06Dec21).jar          | None                                     |
+	| LCHIJ  | warpdrive                 | 1.12.2-1.5.23.SNAPSHOT | WarpDrive-1.12.2-1.5.23.jar                     | f7be6b40743c6a8205df86c5e57547d578605d8a |
+	| LCHIJ  | weather2                  | 1.12.1-2.6.12          | weather2-1.12.1-2.6.12.jar                      | None                                     |
+	| LCHIJ  | rtg                       | 6.1.0.0-snapshot.1     | RTG-1.12.2-6.1.0.0-snapshot.1.jar               | None                                     |
+
+	Loaded coremods (and transformers): 
+TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  
+SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  sereneseasons.asm.transformer.EntityRendererTransformer
+  sereneseasons.asm.transformer.WorldTransformer
+SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.4.0.jar)
+  
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  
+weaponlib (mw_2.0-0.4.4.6_mc1.12.2.jar)
+  com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+LoadingPlugin (Reskillable-1.12.2-1.13.0.jar)
+  codersafterdark.reskillable.base.asm.ClassTransformer
+LoadingPlugin (CrashToMainMenu-client-1.12.2-1.0.0.jar)
+  com.wildbamaboy.crashtomainmenu.asm.ClassTransformer
+WarpDriveCore (WarpDrive-1.12.2-1.5.23.jar)
+  cr0s.warpdrive.core.ClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 462.13' Renderer: 'GeForce RTX 3080 Laptop GPU/PCIe/SSE2'
+	OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+	Armourer's Workshop: 
+		Baking Queue: 1
+		Request Queue: -1
+		Texture Paint Type: TEXTURE_REPLACE
+		Multipass Skin Rendering: true
+	Render Layers:
+		 Render Class: net.minecraft.client.renderer.entity.RenderPlayer
+			moe.plushie.armourers_workshop.client.render.entity.ModelResetLayer
+			net.minecraft.client.renderer.entity.layers.LayerBipedArmor
+			net.minecraft.client.renderer.entity.layers.LayerArrow
+			net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head
+			net.minecraft.client.renderer.entity.layers.LayerCape
+			net.minecraft.client.renderer.entity.layers.LayerCustomHead
+			net.minecraft.client.renderer.entity.layers.LayerElytra
+			net.minecraft.client.renderer.entity.layers.LayerEntityOnShoulder
+			baubles.client.BaublesRenderLayer
+			vazkii.botania.client.core.handler.ContributorFancinessHandler
+			vazkii.botania.client.core.handler.BaubleRenderHandler
+			vazkii.botania.client.render.entity.LayerGaiaHead
+			moe.plushie.armourers_workshop.client.render.entity.SkinLayerRendererHeldItem
+			moe.plushie.armourers_workshop.client.render.entity.SkinLayerRendererPlayer
+		 Render Class: net.minecraft.client.renderer.entity.RenderPlayer
+			moe.plushie.armourers_workshop.client.render.entity.ModelResetLayer
+			net.minecraft.client.renderer.entity.layers.LayerBipedArmor
+			net.minecraft.client.renderer.entity.layers.LayerArrow
+			net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head
+			net.minecraft.client.renderer.entity.layers.LayerCape
+			net.minecraft.client.renderer.entity.layers.LayerCustomHead
+			net.minecraft.client.renderer.entity.layers.LayerElytra
+			net.minecraft.client.renderer.entity.layers.LayerEntityOnShoulder
+			baubles.client.BaublesRenderLayer
+			vazkii.botania.client.core.handler.ContributorFancinessHandler
+			vazkii.botania.client.core.handler.BaubleRenderHandler
+			vazkii.botania.client.render.entity.LayerGaiaHead
+			moe.plushie.armourers_workshop.client.render.entity.SkinLayerRendererHeldItem
+			moe.plushie.armourers_workshop.client.render.entity.SkinLayerRendererPlayer
