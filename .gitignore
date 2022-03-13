@@ -6,4 +6,5 @@ local/*
 icon.png
 .mixin.out/*
 minecraftinstance.json
+.curseclient
 
