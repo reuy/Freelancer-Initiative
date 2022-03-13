@@ -1,38 +1,42 @@
+
+#Player instance datta
 saves/*
 logs/*
 playerdata/*
-
 journeymap/*
 local/*
-armourers_workshop/fast-cache/*
-tv-cache/*
-global-skin-database/*
-
 crash-reports/*
 usercache.json
 usernamecache.json
 minecraftinstance.json
 
-.mixin.out/*
+#Caches
+armourers_workshop/fast-cache/*
+tv-cache/*
+global-skin-database/*
 
-icon.png
+#Logs
 crafttweaker.log
 millenaire.log
-minecraftinstance.json
+
+#Generate first run
+icon.png
 BotaniaVars.dat
 journeymapdefaults.firstrun
 llibrary/*
 asm/*
 
+#Configs
 config/splash.properties
-
 mods/millenaire/Colour Sheet.png
 config/warpdrive/WarpDrive.xsd
 config/codechicken/supporters.json
 config/buildcraft/detailed.properties
 config/IC2.ini
+config/jei/worldSettings.cfg
 
-
+#Misc
 .curseclient
 *.kate-swp
 *.swp
+.mixin.out/*
