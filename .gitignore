@@ -6,6 +6,7 @@ journeymap/*
 local/*
 armourers_workshop/fast-cache/*
 tv-cache/*
+global-skin-database/*
 
 crash-reports/*
 usercache.json
