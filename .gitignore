@@ -26,4 +26,9 @@ asm/*
 
 config/splash.properties
 
+mods/millenaire/Colour Sheet.png
+
+
 .curseclient
+*.kate-swp
+*.swp
