@@ -13,7 +13,6 @@ minecraftinstance.json
 #Caches
 armourers_workshop/fast-cache/*
 tv-cache/*
-global-skin-database/*
 
 #Logs
 crafttweaker.log
