@@ -27,7 +27,9 @@ asm/*
 config/splash.properties
 
 mods/millenaire/Colour Sheet.png
-
+config/warpdrive/WarpDrive.xsd
+config/codechicken/supporters.json
+config/buildcraft/detailed.properties
 
 .curseclient
 *.kate-swp
