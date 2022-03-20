@@ -2,6 +2,7 @@
     "ReturnToStart": 1b,
     "NpcInv": [
     ],
+    "BossColor": 0,
     "PotionEffect": 0,
     "Size": 5,
     "stopAndInteract": 1b,
@@ -13,7 +14,6 @@
     },
     "BossBar": 0b,
     "RespawnTime": 20,
-    "magicXP": 0.0f,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -24,9 +24,6 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
-    "HealF": 20.0f,
-    "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
             {
@@ -51,28 +48,48 @@
             }
         ]
     },
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
     "DefendFaction": 1b,
     "FireIndirect": 0,
     "NpcVisible": 0,
     "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "random.bowhit",
     "FindShelter": 2,
-    "ScriptsContainers": [
-    ],
     "Air": 300s,
     "TacticalVariant": 0,
     "Orientation": 0,
     "ScriptLanguage": "ECMAScript",
     "KnockBack": 0,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
     "TransformHasJob": 0b,
-    "CustomName": "",
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
     "SpawnerType": 1,
-    "CanDespawn": 0b,
     "BurnInSun": 0b,
     "TraderSold": {
         "NpcMiscInv": [
             {
                 "Slot": 0b,
-                "id": "flansmod:desertEagle",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "flansmod:deserteagle",
                 "Count": 1b,
                 "tag": {
                     "attachments": {
@@ -97,6 +114,10 @@
             },
             {
                 "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "flansmod:g36",
                 "Count": 1b,
                 "tag": {
@@ -121,31 +142,31 @@
                 "Damage": 0s
             },
             {
-                "Slot": 2b,
-                "id": "mcheli:gltd",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
                 "Slot": 3b,
-                "id": "flansmod:desertEagleAmmo",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "flansmod:deserteagleammo",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 4b,
-                "id": "flansmod:g36Ammo",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 5b,
-                "id": "mcheli:fim92",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "flansmod:g36ammo",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
                 "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
                 "id": "flansmod:m16a4",
                 "Count": 1b,
                 "tag": {
@@ -170,26 +191,22 @@
                 "Damage": 0s
             },
             {
-                "Slot": 8b,
-                "id": "mcheli:fim92_bullet",
-                "Count": 2b,
-                "Damage": 0s
-            },
-            {
                 "Slot": 9b,
-                "id": "flansmod:m16a4Ammo",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "flansmod:m16a4ammo",
                 "Count": 1b,
                 "Damage": 0s
             },
             {
-                "Slot": 11b,
-                "id": "Techguns:TechgunsAmmo",
-                "Count": 6b,
-                "Damage": 1s
-            },
-            {
                 "Slot": 12b,
-                "id": "Techguns:grenadelauncher",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "techguns:grenadelauncher",
                 "Count": 1b,
                 "tag": {
                     "ammo": 6s,
@@ -199,55 +216,14 @@
             },
             {
                 "Slot": 14b,
-                "id": "Techguns:goldenrevolver",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "techguns:goldenrevolver",
                 "Count": 1b,
                 "tag": {
                     "ammo": 6s,
-                    "camo": 0b
-                },
-                "Damage": 0s
-            },
-            {
-                "Slot": 15b,
-                "id": "Techguns:TechgunsAmmo",
-                "Count": 6b,
-                "Damage": 93s
-            },
-            {
-                "Slot": 17b,
-                "id": "Techguns:goldenrevolverAkimbo",
-                "Count": 1b,
-                "tag": {
-                    "ench": [
-                        {
-                            "lvl": 5s,
-                            "id": 48s
-                        },
-                        {
-                            "lvl": 5s,
-                            "id": 49s
-                        },
-                        {
-                            "lvl": 5s,
-                            "id": 105s
-                        },
-                        {
-                            "lvl": 5s,
-                            "id": 150s
-                        },
-                        {
-                            "lvl": 5s,
-                            "id": 104s
-                        }
-                    ],
-                    "ammo": 11s,
-                    "RepairCost": 2,
-                    "display": {
-                        "Lore": [
-                            "What's better than one? Two."
-                        ],
-                        "Name": "Jormungand Deluxe"
-                    },
                     "camo": 0b
                 },
                 "Damage": 0s
@@ -256,10 +232,13 @@
     },
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "SpawnerDoesntDie": 1b,
     "WalkingRange": 5,
-    "CustomNameVisible": 0b,
     "ShotCount": 1,
     "pDur": 5,
     "TraderIgnoreDamage": 0b,
@@ -290,7 +269,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/entity/Extra - Freelancers/KokoHekmatyar.png",
+    "Texture": "customnpcs:textures/entity/old/extra_freelancers/kokohekmatyar.png",
     "NpcJob": 6,
     "BurstCount": 6,
     "NpcAttackLines": {
@@ -332,29 +311,23 @@
     "pArea": 0,
     "DeathTime": 0s,
     "pImpact": 3,
-    "DropChances": [
-        0.085f,
-        0.085f,
-        0.085f,
-        0.085f,
-        0.085f
-    ],
     "MoveState": 0,
-    "RangeAndMelee": 0,
     "pRender3D": 0b,
-    "magicLevel": 1s,
     "Motion": [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
     "CombatRegen": 3,
+    "NpcsTimers": [
+    ],
     "pEffect": 0,
     "DistanceToMelee": 4,
+    "MarkovGender": 0,
     "NpcStepSound": "",
-    "curFatigue": 0.0f,
     "FireRate": 6,
     "pEffAmp": 0,
+    "LeftHanded": 0b,
     "OnGround": 1b,
     "Dimension": 0,
     "ImmuneToFire": 0b,
@@ -368,9 +341,18 @@
         ]
     },
     "DespawnOnTargetLost": 1b,
-    "UUIDMost": -2867732927801177345L,
     "TraderMarket": "",
     "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
     "DisablePitch": 0b,
     "pPhysics": 0b,
     "TransformHasInv": 0b,
@@ -404,155 +386,27 @@
             }
         ]
     },
+    "HurtByTimestamp": 3361,
     "TraderCurrency": {
         "NpcMiscInv": [
-            {
-                "Slot": 0b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 3b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 1b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 4b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 33b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 1b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 2b,
-                "id": "millenaire:item.ml_denier_or",
-                "Count": 10b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 3b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 25b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 35b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 15b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 4b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 20b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 5b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 6b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 6b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 3b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 8b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 32b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 9b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 24b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 11b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 43b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 12b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 13b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 14b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 7b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 15b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 48b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 16b,
-                "id": "millenaire:item.ml_denier_or",
-                "Count": 2b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 17b,
-                "id": "millenaire:item.ml_denier_argent",
-                "Count": 16b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 18b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 32b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 23b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 48b,
-                "Damage": 0s
-            },
-            {
-                "Slot": 24b,
-                "id": "millenaire:item.ml_denier",
-                "Count": 16b,
-                "Damage": 0s
-            }
         ]
     },
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:game.player.hurt",
     "pTrail": 1,
-    "isShrunk": 0b,
     "CreatureType": 0,
     "Attributes": [
         {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
+            "Base": -2.0d,
+            "Name": "tc.mobmod"
         },
         {
             "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
+            "Name": "tc.mobmodtaint"
         },
         {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
+            "Base": 0.0d,
+            "Name": "techguns.radiationResistance"
         },
         {
             "Base": 20.0d,
@@ -585,12 +439,28 @@
             "Name": "generic.movementSpeed"
         },
         {
-            "Base": 48.0d,
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 5.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -600,85 +470,343 @@
     "TransformHasRole": 0b,
     "Name": "Koko Hekyatmar",
     "FallDistance": 0.0f,
+    "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
-        {
-            "Slot": 0b,
-            "id": "flansmod:goldDesertEagle",
-            "Count": 1b,
-            "tag": {
-                "attachments": {
-                    "barrel": {
-                    },
-                    "grip": {
-                    },
-                    "generic_0": {
-                    },
-                    "scope": {
-                    },
-                    "stock": {
-                    }
-                },
-                "ammo": [
-                    {
-                    }
-                ],
-                "Paint": "GoldDesertEagle"
-            },
-            "Damage": 0s
-        },
-        {
-            "Slot": 1b,
-            "id": "customnpcs:npcGoldenBullet",
-            "Count": 1b,
-            "Damage": 0s
-        }
     ],
     "NPCDialogOptions": [
     ],
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "ForgeCaps": {
+        "armourers_workshop:entity-skin-provider": {
+            "wardrobeContainer": {
+                "armourers:sword": {
+                    "Items": [
+                    ]
+                },
+                "armourers:head": {
+                    "Items": [
+                    ]
+                },
+                "armourers:shield": {
+                    "Items": [
+                    ]
+                },
+                "armourers:outfit": {
+                    "Items": [
+                    ]
+                },
+                "armourers:bow": {
+                    "Items": [
+                    ]
+                },
+                "armourers:feet": {
+                    "Items": [
+                    ]
+                },
+                "armourers:chest": {
+                    "Items": [
+                    ]
+                },
+                "armourers:legs": {
+                    "Items": [
+                    ]
+                },
+                "armourers:wings": {
+                    "Items": [
+                    ]
+                }
+            }
+        },
+        "dsurround:data": {
+            "a": 0b,
+            "f": 0b
+        },
+        "techguns:deathtype": {
+        },
+        "llibrary:extendedentitydatacapability": {
+            "mm:living": {
+                "frozenYaw": 0.0f,
+                "freezeProgress": 0.0f,
+                "frozenPitch": 0.0f,
+                "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
+                "frozenYawHead": 0.0f,
+                "frozenLimbSwingAmount": 0.0f,
+                "frozenRenderYawOffset": 0.0f,
+                "frozenSwingProgress": 0.0f
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice and Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0,
+                "DreadPortalZ": 0,
+                "DreadPortalY": 0,
+                "DreadPortalX": 0
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        },
+        "armourers_workshop:wardrobe-provider": {
+            "extra-colour-skin": 0,
+            "dye": {
+                "dyeData": {
+                }
+            },
+            "extra-colour-misc_1": 0,
+            "extra-colour-misc_2": 0,
+            "extra-colour-misc_3": 0,
+            "extra-colour-misc_4": 0,
+            "extra-colour-eye": 0,
+            "extra-colour-hair": 0
+        },
+        "lycanitesmobs:iextendedentity": {
+        }
+    },
     "NpcModelData": {
         "LegsConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.92f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransY": 0.059999987f,
+            "TransX": 0.002000004f,
             "ScaleY": 0.92f,
             "ScaleX": 0.92f
         },
         "BodyConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.92f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": 0.119999975f,
             "TransX": 0.0f,
             "ScaleY": 0.92f,
             "ScaleX": 0.92f
         },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 1b,
+            "PositionY": -1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 4892137,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "noppes.npcs.entity.EntityNPC64x32",
         "LegParts": {
+            "Pattern": 0b,
             "Type": 0b,
             "PlayerTexture": 1b,
             "Color": 16777215
         },
         "Parts": [
         ],
-        "Breasts": 2b,
-        "Headwear": 2b,
         "ArmsConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.8f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransY": 0.11199997f,
+            "TransX": -0.034999996f,
             "ScaleY": 0.92f,
             "ScaleX": 0.8f
         },
         "ExtraData": {
+            "ReturnToStart": 1b,
+            "NpcInv": [
+            ],
+            "BossColor": 0,
+            "PotionEffect": 0,
+            "stopAndInteract": 1b,
+            "Size": 5,
+            "Resistances": {
+                "Arrow": 1.0f,
+                "Explosion": 1.0f,
+                "Knockback": 1.0f,
+                "Melee": 1.0f
+            },
+            "BossBar": 0b,
+            "RespawnTime": 20,
+            "NpcAngrySound": "",
+            "ReactsToFire": 0b,
+            "PositionOffsetZ": 5.0f,
+            "IgnoreCobweb": 0b,
+            "PositionOffsetY": 5.0f,
+            "PositionOffsetX": 5.0f,
+            "LootMode": 0,
+            "AttackStrenght": 5,
+            "NpcLines": {
+                "Lines": [
+                ]
+            },
+            "DefendFaction": 0b,
+            "MovingPatern": 0,
+            "IsStatue": 0b,
+            "FireIndirect": 0,
+            "NpcVisible": 0,
+            "NpcScenes": {
+                "Scenes": [
+                ]
+            },
+            "HitSound": "minecraft:entity.arrow.hit",
+            "FindShelter": 2,
+            "TacticalVariant": 0,
+            "Orientation": 0,
+            "KnockBack": 0,
+            "BurnInSun": 0b,
+            "StandingState": 0,
+            "NpcInteractNPCLines": {
+                "Lines": [
+                ]
+            },
+            "AttackInvisible": 0b,
+            "WalkingRange": 10,
+            "ShotCount": 1,
+            "pDur": 5,
+            "StartPosNew": [I;0,0,0],
+            "AttackRange": 2,
+            "NpcKillLines": {
+                "Lines": [
+                ]
+            },
+            "AvoidsSun": 0b,
+            "PotionImmune": 0b,
+            "Texture": "customnpcs:textures/entity/humanmale/steve64x32.png",
+            "NpcJob": 0,
+            "NpcAttackLines": {
+                "Lines": [
+                ]
+            },
+            "BurstCount": 1,
+            "pSpeed": 10,
+            "pArea": 0,
+            "pImpact": 0,
+            "MoveState": 0,
+            "pRender3D": 1b,
+            "CombatRegen": 0,
+            "pEffect": 0,
+            "DistanceToMelee": 0,
+            "MarkovGender": 0,
+            "NpcStepSound": "",
+            "FireRate": 5,
+            "pEffAmp": 0,
+            "ImmuneToFire": 0b,
+            "NpcKilledLines": {
+                "Lines": [
+                ]
+            },
+            "DisablePitch": 0b,
+            "pPhysics": 1b,
+            "NpcInteractLines": {
+                "Lines": [
+                    {
+                        "Line": "Hello, @p",
+                        "Song": "",
+                        "Slot": 0
+                    }
+                ]
+            },
+            "NpcHurtSound": "minecraft:entity.player.hurt",
+            "pSpin": 0b,
+            "pTrail": 0,
+            "CreatureType": 0,
+            "NoFallDamage": 0b,
+            "Name": "Feleanta",
+            "SkinColor": 16777215,
+            "NpcIdleSound": "",
+            "Weapons": [
+            ],
+            "NPCDialogOptions": [
+            ],
+            "DirectLOS": 1b,
+            "AggroRange": 16,
+            "HealthRegen": 1,
+            "DoorInteract": 2,
+            "MoveSpeed": 5,
+            "minDelay": 20,
+            "UsingSkinUrl": 0b,
+            "SkinUrl": "",
+            "CanSwim": 1b,
+            "GroundSound": "minecraft:block.stone.break",
+            "MaxHealth": 20,
+            "HideBodyWhenKilled": 0b,
+            "AttackSpeed": 20,
+            "PotionDuration": 5,
+            "Role": 0,
+            "maxDelay": 40,
+            "DropChance": [
+            ],
+            "FactionPoints": {
+                "DecreaseFaction1Points": 0b,
+                "OptionFaction2Points": 100,
+                "OptionFactions1": -1,
+                "OptionFactions2": -1,
+                "OptionFaction1Points": 100,
+                "DecreaseFaction2Points": 0b
+            },
+            "pDamage": 4,
+            "AimWhileShooting": 0b,
+            "AttackOtherFactions": 0b,
+            "CanDrown": 1b,
+            "CanSprint": 0b,
+            "pSize": 5,
+            "CanLeap": 0b,
+            "MovingState": 0,
+            "MovingPos": 0,
+            "PotionAmp": 0,
+            "OnAttack": 0,
+            "TacticalRadius": 8,
+            "MaxExp": 0,
+            "OrderedLines": 0b,
+            "pGlows": 0b,
+            "MovementType": 0,
+            "FiringSound": "minecraft:entity.arrow.shoot",
+            "Accuracy": 60,
+            "MinExp": 0,
+            "Armor": [
+            ],
+            "CloakTexture": "",
+            "MaxFiringRange": 15,
+            "pXlr8": 0b,
+            "GlowTexture": "",
+            "MarkovGeneratorId": 4,
+            "NpcDeathSound": "minecraft:entity.player.hurt",
+            "MovingPause": 1b,
+            "pStick": 0b,
+            "FactionID": 0,
+            "MovingPathNew": [
+            ],
+            "Title": "",
+            "npcInteracting": 1b,
+            "ShowName": 0,
+            "AvoidsWater": 0b,
+            "NoLivingAnimation": 0b,
+            "SpawnCycle": 0
         },
         "HeadConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.95f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": 0.119999975f,
             "TransX": 0.0f,
             "ScaleY": 0.95f,
             "ScaleX": 0.95f
@@ -691,9 +819,9 @@
     "UsingSkinUrl": 0b,
     "Leashed": 0b,
     "SkinUrl": "",
-    "CanSwim": 1b,
     "TraderIgnoreNBT": 0b,
-    "armorCooldowns": [0,0,0,0],
+    "CanSwim": 1b,
+    "GroundSound": "random.break",
     "SpawnerXOffset": 0,
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
@@ -748,20 +876,22 @@
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "pDamage": 20,
     "KilledTime": 0L,
+    "pDamage": 20,
     "AimWhileShooting": 0b,
     "CanPickUpLoot": 0b,
     "AttackOtherFactions": 0b,
     "CanDrown": 1b,
-    "curMana": 500.85858f,
-    "AttackTime": 0s,
     "SpawnerId": "nd11DoGX",
     "pSize": 5,
     "CanSprint": 0b,
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
     },
     "MovingState": 1,
     "MovingPos": 0,
@@ -1137,7 +1267,7 @@
         "Leashed": 0b,
         "SkinUrl": "",
         "CanSwim": 1b,
-        "armorCooldowns": [0,0,0,0],
+        "armorCooldowns": [I;0,0,0,0],
         "MaxHealth": 50,
         "HideBodyWhenKilled": 0b,
         "AttackSpeed": 20,
@@ -1268,8 +1398,8 @@
         "isCritical": 0b,
         "SpawnCycle": 3
     },
-    "OnAttack": 0,
     "TacticalRadius": 8,
+    "OnAttack": 0,
     "SpawnerNBT2": {
         "ReturnToStart": 1b,
         "NpcInv": [
@@ -1641,7 +1771,7 @@
         "Leashed": 0b,
         "SkinUrl": "",
         "CanSwim": 1b,
-        "armorCooldowns": [0,0,0,0],
+        "armorCooldowns": [I;0,0,0,0],
         "MaxHealth": 50,
         "HideBodyWhenKilled": 0b,
         "AttackSpeed": 20,
@@ -1772,6 +1902,8 @@
         "isCritical": 0b,
         "SpawnCycle": 3
     },
+    "MaxExp": 0,
+    "FallFlying": 0b,
     "SpawnerNBT1": {
         "ReturnToStart": 1b,
         "NpcInv": [
@@ -2143,7 +2275,7 @@
         "Leashed": 0b,
         "SkinUrl": "",
         "CanSwim": 1b,
-        "armorCooldowns": [0,0,0,0],
+        "armorCooldowns": [I;0,0,0,0],
         "MaxHealth": 50,
         "HideBodyWhenKilled": 0b,
         "AttackSpeed": 20,
@@ -2274,58 +2406,46 @@
         "isCritical": 0b,
         "SpawnCycle": 3
     },
-    "MaxExp": 0,
     "OrderedLines": 0b,
     "PortalCooldown": 0,
     "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
     "SpawnerNBT6": {
     },
-    "TransformHasAdvanced": 0b,
     "TransformHasStats": 0b,
+    "MovementType": 0,
     "SpawnerNBT5": {
     },
     "FiringSound": "flansmod:DesertEagleShoot",
     "SpawnerNBT4": {
     },
-    "ModRev": 16,
+    "ModRev": 18,
     "Accuracy": 80,
     "MinExp": 0,
     "Armor": [
     ],
     "CloakTexture": "",
     "GlowTexture": "",
-    "MaxFiringRange": 32,
     "pXlr8": 0b,
-    "UUIDLeast": -5138930230938734062L,
-    "Health": 20s,
-    "pExplode": 1b,
-    "pStick": 0b,
+    "MaxFiringRange": 32,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+    ],
+    "Health": 20.0f,
     "MovingPause": 1b,
+    "pStick": 0b,
     "NpcDeathSound": "minecraft:game.player.hurt",
     "FactionID": 0,
     "Title": "Arms Dealer",
-    "TotalTicksAlive": 216200L,
+    "TotalTicksAlive": 219647L,
     "Rotation": [
-        -4.4192505f,
+        169.34628f,
         0.0f
     ],
-    "ShowName": 0,
+    "ShowName": 2,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
-    "Equipment": [
-        {
-        },
-        {
-        },
-        {
-        },
-        {
-        },
-        {
-        }
-    ],
     "NoLivingAnimation": 0b,
-    "hasUnlockedAugmented": 1b,
-    "isCritical": 0b,
     "SpawnCycle": 0
 }

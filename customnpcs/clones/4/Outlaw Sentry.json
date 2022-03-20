@@ -1,73 +1,280 @@
 {
-    "ReturnToStart": 1b,
+    "ReturnToStart": 0b,
     "NpcInv": [
         {
             "Slot": 0b,
-            "id": "ThermalFoundation:tool.bowIron",
-            "Count": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "millenaire:denier",
+            "Count": 8b,
             "Damage": 0s
         },
         {
             "Slot": 1b,
-            "id": "ThermalFoundation:tool.bowIron",
-            "Count": 1b,
-            "tag": {
-                "ench": [
-                    {
-                        "lvl": 3s,
-                        "id": 105s
-                    }
-                ],
-                "RepairCost": 2,
-                "display": {
-                    "Name": "Elite Yeoman's Bow"
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
                 }
             },
+            "id": "millenaire:denier",
+            "Count": 6b,
             "Damage": 0s
         },
         {
             "Slot": 2b,
-            "id": "minecraft:arrow",
-            "Count": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "spartanweaponry:longbow_leather",
+            "Count": 1b,
             "Damage": 0s
         },
         {
             "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "minecraft:arrow",
             "Count": 2b,
             "Damage": 0s
         },
         {
             "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "minecraft:arrow",
             "Count": 2b,
             "Damage": 0s
         },
         {
             "Slot": 5b,
-            "id": "minecraft:arrow",
-            "Count": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "harvestcraft:cornbreaditem",
+            "Count": 11b,
+            "tag": {
+                "RepairCost": 0,
+                "display": {
+                    "Lore": [
+                        "§f§oElmchala isn't known for much except this cornbread-like pastry.",
+                        "§f§oBut admittedly, they do it quite well."
+                    ],
+                    "Name": "§f§oElmchalan Cornbread"
+                }
+            },
             "Damage": 0s
         },
         {
             "Slot": 6b,
-            "id": "weaponmod:knife.iron",
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "millenaire:purse",
             "Count": 1b,
             "Damage": 0s
         },
         {
             "Slot": 7b,
-            "id": "millenaire:item.ml_denier",
-            "Count": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:potion",
+            "Count": 1b,
+            "tag": {
+                "CustomPotionEffects": [
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 1200,
+                        "Id": 22b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 1200,
+                        "Id": 21b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 60,
+                        "Id": 9b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 400,
+                        "Id": 17b,
+                        "Amplifier": 0b
+                    }
+                ],
+                "RepairCost": 0,
+                "Potion": "minecraft:mundane",
+                "display": {
+                    "Lore": [
+                        "§a§oPrincess Meia Heartwood fell in love with Earth's peaches, and upon",
+                        "§a§oher coronation, had peach trees planted and processed",
+                        "§a§o into this hard cider."
+                    ],
+                    "Name": "§a§oHeartwood Ale"
+                }
+            },
             "Damage": 0s
         },
         {
             "Slot": 8b,
-            "id": "Thaumcraft:ItemLootBag",
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:potion",
             "Count": 1b,
+            "tag": {
+                "CustomPotionEffects": [
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 1200,
+                        "Id": 22b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 1200,
+                        "Id": 21b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 60,
+                        "Id": 9b,
+                        "Amplifier": 0b
+                    },
+                    {
+                        "Ambient": 0b,
+                        "CurativeItems": [
+                            {
+                                "ForgeCaps": {
+                                    "customnpcs:itemscripteddata": {
+                                    }
+                                },
+                                "id": "minecraft:milk_bucket",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        ],
+                        "ShowParticles": 1b,
+                        "Duration": 400,
+                        "Id": 17b,
+                        "Amplifier": 0b
+                    }
+                ],
+                "RepairCost": 0,
+                "Potion": "minecraft:mundane",
+                "display": {
+                    "Lore": [
+                        "§a§oPrincess Meia Heartwood fell in love with Earth's peaches, and upon",
+                        "§a§oher coronation, had peach trees planted and processed",
+                        "§a§o into this hard cider."
+                    ],
+                    "Name": "§a§oHeartwood Ale"
+                }
+            },
             "Damage": 0s
         }
     ],
+    "BossColor": 2,
     "PotionEffect": 0,
     "Size": 5,
     "stopAndInteract": 1b,
@@ -79,7 +286,6 @@
     },
     "BossBar": 0b,
     "RespawnTime": 0,
-    "magicXP": 0.0f,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -90,8 +296,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
-    "HealF": 25.0f,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -101,30 +307,39 @@
     "FireIndirect": 1,
     "NpcVisible": 0,
     "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "random.bowhit",
     "FindShelter": 2,
-    "ScriptsContainers": [
-        {
-            "Script": "if(npc.getReturnToHome() == true){npc.setHome(npc.getX()-1,npc.getY(),npc.getZ())};",
-            "ScriptConsole": "",
-            "Type": 0,
-            "ScriptList": [
-            ]
-        }
-    ],
     "Air": 300s,
     "TacticalVariant": 6,
     "Orientation": 0,
     "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
     "KnockBack": 0,
     "TransformHasJob": 0b,
-    "CustomName": "",
-    "CanDespawn": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
     "BurnInSun": 0b,
     "StandingState": 0,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "WalkingRange": 10,
-    "CustomNameVisible": 0b,
     "ShotCount": 1,
     "pDur": 5,
     "AttackRange": 2,
@@ -134,7 +349,7 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/entity/Extra - Sky Elven/Insurgent Ranger.png",
+    "Texture": "customnpcs:textures/entity/old/extra_visaran/red_archer.png",
     "NpcJob": 0,
     "BurstCount": 7,
     "NpcAttackLines": {
@@ -165,28 +380,22 @@
     "pArea": 0,
     "DeathTime": 0s,
     "pImpact": 0,
-    "DropChances": [
-        0.085f,
-        0.085f,
-        0.085f,
-        0.085f,
-        0.085f
-    ],
     "MoveState": 0,
-    "RangeAndMelee": 0,
     "pRender3D": 0b,
-    "magicLevel": 1s,
     "Motion": [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
     "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
     "pEffect": 0,
     "DistanceToMelee": 4,
     "NpcStepSound": "",
-    "curFatigue": 0.0f,
     "FireRate": 4,
+    "LeftHanded": 0b,
     "pEffAmp": 0,
     "OnGround": 1b,
     "Dimension": 0,
@@ -195,8 +404,17 @@
         "Lines": [
         ]
     },
-    "UUIDMost": -2949193374668470857L,
     "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
@@ -204,31 +422,23 @@
         "Lines": [
         ]
     },
+    "HurtByTimestamp": 21913,
     "pSpin": 0b,
     "NpcHurtSound": "customnpcs:elf.male.standard.grunt",
     "pTrail": 4,
-    "isShrunk": 0b,
     "CreatureType": 0,
     "Attributes": [
         {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
+            "Base": -2.0d,
+            "Name": "tc.mobmod"
         },
         {
             "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
+            "Name": "tc.mobmodtaint"
         },
         {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
+            "Base": 0.0d,
+            "Name": "techguns.radiationResistance"
         },
         {
             "Base": 25.0d,
@@ -243,12 +453,28 @@
             "Name": "generic.movementSpeed"
         },
         {
-            "Base": 48.0d,
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 5.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -258,16 +484,25 @@
     "TransformHasRole": 0b,
     "Name": "Outlaw Sentry",
     "FallDistance": 0.0f,
+    "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
         {
             "Slot": 0b,
-            "id": "ThermalFoundation:tool.bowIron",
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "spartanweaponry:longbow_leather",
             "Count": 1b,
             "Damage": 0s
         },
         {
             "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
             "id": "minecraft:arrow",
             "Count": 1b,
             "Damage": 0s
@@ -278,46 +513,334 @@
     "AggroRange": 64,
     "DirectLOS": 1b,
     "HealthRegen": 1,
+    "ForgeCaps": {
+        "armourers_workshop:entity-skin-provider": {
+            "wardrobeContainer": {
+                "armourers:sword": {
+                    "Items": [
+                    ]
+                },
+                "armourers:head": {
+                    "Items": [
+                    ]
+                },
+                "armourers:shield": {
+                    "Items": [
+                    ]
+                },
+                "armourers:bow": {
+                    "Items": [
+                    ]
+                },
+                "armourers:outfit": {
+                    "Items": [
+                    ]
+                },
+                "armourers:feet": {
+                    "Items": [
+                    ]
+                },
+                "armourers:chest": {
+                    "Items": [
+                    ]
+                },
+                "armourers:legs": {
+                    "Items": [
+                    ]
+                },
+                "armourers:wings": {
+                    "Items": [
+                    ]
+                }
+            }
+        },
+        "dsurround:data": {
+            "a": 0b,
+            "f": 0b
+        },
+        "techguns:deathtype": {
+        },
+        "llibrary:extendedentitydatacapability": {
+            "mm:living": {
+                "frozenYaw": 0.0f,
+                "freezeProgress": 0.0f,
+                "frozenPitch": 0.0f,
+                "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
+                "frozenYawHead": 0.0f,
+                "frozenLimbSwingAmount": 0.0f,
+                "frozenRenderYawOffset": 0.0f,
+                "frozenSwingProgress": 0.0f
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice and Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0,
+                "DreadPortalZ": 0,
+                "DreadPortalY": 0,
+                "DreadPortalX": 0
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        },
+        "armourers_workshop:wardrobe-provider": {
+            "extra-colour-skin": 0,
+            "dye": {
+                "dyeData": {
+                }
+            },
+            "extra-colour-misc_1": 0,
+            "extra-colour-misc_2": 0,
+            "extra-colour-misc_3": 0,
+            "extra-colour-misc_4": 0,
+            "extra-colour-eye": 0,
+            "extra-colour-hair": 0
+        },
+        "lycanitesmobs:iextendedentity": {
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
     "NpcModelData": {
         "LegsConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.85f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransY": -0.11249998f,
+            "TransX": -0.006749995f,
             "ScaleY": 1.15f,
             "ScaleX": 0.85f
         },
         "BodyConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.85f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": -0.22499996f,
             "TransX": 0.0f,
             "ScaleY": 1.15f,
             "ScaleX": 0.85f
         },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": -1b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 16247203,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "noppes.npcs.entity.EntityNPC64x32",
         "LegParts": {
+            "Pattern": 0b,
             "Type": 0b,
-            "PlayerTexture": 1b,
+            "PlayerTexture": 0b,
             "Color": 16777215
         },
         "Parts": [
         ],
-        "Breasts": 0b,
-        "Headwear": 2b,
         "ArmsConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.85f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransY": -0.20999996f,
+            "TransX": -0.04874999f,
             "ScaleY": 1.15f,
             "ScaleX": 0.85f
         },
         "ExtraData": {
+            "ReturnToStart": 1b,
+            "NpcInv": [
+            ],
+            "BossColor": 0,
+            "PotionEffect": 0,
+            "stopAndInteract": 1b,
+            "Size": 5,
+            "Resistances": {
+                "Arrow": 1.0f,
+                "Explosion": 1.0f,
+                "Knockback": 1.0f,
+                "Melee": 1.0f
+            },
+            "BossBar": 0b,
+            "RespawnTime": 20,
+            "NpcAngrySound": "",
+            "ReactsToFire": 0b,
+            "PositionOffsetZ": 5.0f,
+            "IgnoreCobweb": 0b,
+            "PositionOffsetY": 5.0f,
+            "PositionOffsetX": 5.0f,
+            "LootMode": 0,
+            "AttackStrenght": 5,
+            "NpcLines": {
+                "Lines": [
+                ]
+            },
+            "DefendFaction": 0b,
+            "MovingPatern": 0,
+            "IsStatue": 0b,
+            "FireIndirect": 0,
+            "NpcVisible": 0,
+            "NpcScenes": {
+                "Scenes": [
+                ]
+            },
+            "HitSound": "minecraft:entity.arrow.hit",
+            "FindShelter": 2,
+            "TacticalVariant": 0,
+            "Orientation": 0,
+            "KnockBack": 0,
+            "BurnInSun": 0b,
+            "StandingState": 0,
+            "NpcInteractNPCLines": {
+                "Lines": [
+                ]
+            },
+            "AttackInvisible": 0b,
+            "WalkingRange": 10,
+            "ShotCount": 1,
+            "pDur": 5,
+            "StartPosNew": [I;0,0,0],
+            "AttackRange": 2,
+            "NpcKillLines": {
+                "Lines": [
+                ]
+            },
+            "AvoidsSun": 0b,
+            "PotionImmune": 0b,
+            "Texture": "customnpcs:textures/entity/humanmale/steve64x32.png",
+            "NpcJob": 0,
+            "NpcAttackLines": {
+                "Lines": [
+                ]
+            },
+            "BurstCount": 1,
+            "pSpeed": 10,
+            "pArea": 0,
+            "pImpact": 0,
+            "MoveState": 0,
+            "pRender3D": 1b,
+            "CombatRegen": 0,
+            "pEffect": 0,
+            "DistanceToMelee": 0,
+            "MarkovGender": 0,
+            "NpcStepSound": "",
+            "FireRate": 5,
+            "pEffAmp": 0,
+            "ImmuneToFire": 0b,
+            "NpcKilledLines": {
+                "Lines": [
+                ]
+            },
+            "DisablePitch": 0b,
+            "pPhysics": 1b,
+            "NpcInteractLines": {
+                "Lines": [
+                    {
+                        "Line": "Hello, @p",
+                        "Song": "",
+                        "Slot": 0
+                    }
+                ]
+            },
+            "NpcHurtSound": "minecraft:entity.player.hurt",
+            "pSpin": 0b,
+            "pTrail": 0,
+            "CreatureType": 0,
+            "NoFallDamage": 0b,
+            "Name": "Chanticohtenochtli",
+            "SkinColor": 16777215,
+            "NpcIdleSound": "",
+            "Weapons": [
+            ],
+            "NPCDialogOptions": [
+            ],
+            "DirectLOS": 1b,
+            "AggroRange": 16,
+            "HealthRegen": 1,
+            "DoorInteract": 2,
+            "MoveSpeed": 5,
+            "minDelay": 20,
+            "UsingSkinUrl": 0b,
+            "SkinUrl": "",
+            "CanSwim": 1b,
+            "GroundSound": "minecraft:block.stone.break",
+            "MaxHealth": 20,
+            "HideBodyWhenKilled": 0b,
+            "AttackSpeed": 20,
+            "PotionDuration": 5,
+            "Role": 0,
+            "maxDelay": 40,
+            "DropChance": [
+            ],
+            "FactionPoints": {
+                "DecreaseFaction1Points": 0b,
+                "OptionFaction2Points": 100,
+                "OptionFactions1": -1,
+                "OptionFactions2": -1,
+                "OptionFaction1Points": 100,
+                "DecreaseFaction2Points": 0b
+            },
+            "pDamage": 4,
+            "AimWhileShooting": 0b,
+            "AttackOtherFactions": 0b,
+            "CanDrown": 1b,
+            "CanSprint": 0b,
+            "pSize": 5,
+            "CanLeap": 0b,
+            "MovingState": 0,
+            "MovingPos": 0,
+            "PotionAmp": 0,
+            "OnAttack": 0,
+            "TacticalRadius": 8,
+            "MaxExp": 0,
+            "OrderedLines": 0b,
+            "pGlows": 0b,
+            "MovementType": 0,
+            "FiringSound": "minecraft:entity.arrow.shoot",
+            "Accuracy": 60,
+            "MinExp": 0,
+            "Armor": [
+            ],
+            "CloakTexture": "",
+            "MaxFiringRange": 15,
+            "pXlr8": 0b,
+            "GlowTexture": "",
+            "MarkovGeneratorId": 7,
+            "NpcDeathSound": "minecraft:entity.player.hurt",
+            "MovingPause": 1b,
+            "pStick": 0b,
+            "FactionID": 0,
+            "MovingPathNew": [
+            ],
+            "Title": "",
+            "npcInteracting": 1b,
+            "ShowName": 0,
+            "AvoidsWater": 0b,
+            "NoLivingAnimation": 0b,
+            "SpawnCycle": 0
         },
         "HeadConfig": {
+            "NotShared": 0b,
             "ScaleZ": 0.85f,
             "TransZ": 0.0f,
-            "TransY": 0.0f,
+            "TransY": -0.22499996f,
             "TransX": 0.0f,
             "ScaleY": 0.95f,
             "ScaleX": 0.85f
@@ -331,7 +854,7 @@
     "Leashed": 0b,
     "SkinUrl": "",
     "CanSwim": 1b,
-    "armorCooldowns": [0,0,0,0],
+    "GroundSound": "random.break",
     "MaxHealth": 25,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
@@ -341,11 +864,11 @@
     "Role": 0,
     "DropChance": [
         {
-            "Integer": 28,
+            "Integer": 38,
             "Slot": 0
         },
         {
-            "Integer": 11,
+            "Integer": 31,
             "Slot": 1
         },
         {
@@ -391,27 +914,31 @@
     "CanPickUpLoot": 0b,
     "AttackOtherFactions": 1b,
     "CanDrown": 1b,
-    "curMana": 500.85858f,
-    "AttackTime": 0s,
     "pSize": 5,
     "CanSprint": 0b,
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
     },
     "MovingState": 0,
     "MovingPos": 0,
     "PotionAmp": 0,
     "OnAttack": 0,
     "TacticalRadius": 8,
+    "FallFlying": 0b,
     "MaxExp": 0,
     "OrderedLines": 0b,
     "PortalCooldown": 0,
     "pGlows": 0b,
     "TransformHasAdvanced": 0b,
     "TransformHasStats": 0b,
+    "MovementType": 0,
     "FiringSound": "random.bow",
-    "ModRev": 16,
+    "ModRev": 18,
     "Accuracy": 90,
     "MinExp": 0,
     "Armor": [
@@ -420,36 +947,31 @@
     "GlowTexture": "",
     "MaxFiringRange": 64,
     "pXlr8": 0b,
-    "UUIDLeast": -8483362510819364244L,
-    "Health": 25s,
-    "pExplode": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+        {
+            "Script": "",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "Health": 25.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "customnpcs:elf.male.standard.death",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 316935L,
+    "TotalTicksAlive": 360929L,
     "Rotation": [
         -316.6256f,
         0.0f
     ],
     "ShowName": 2,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
-    "Equipment": [
-        {
-        },
-        {
-        },
-        {
-        },
-        {
-        },
-        {
-        }
-    ],
     "NoLivingAnimation": 0b,
-    "hasUnlockedAugmented": 1b,
-    "isCritical": 0b,
     "SpawnCycle": 3
 }

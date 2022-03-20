@@ -7,9 +7,35 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "thermalfoundation:material",
+            "id": "flansmod:m16a4",
             "Count": 1b,
-            "Damage": 32s
+            "tag": {
+                "ammo": [
+                    {
+                    }
+                ],
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "display": {
+                    "Lore": [
+                        "§2Standard-issue Service Rifle issued to",
+                        "§2UNED Marine Personnel. 30-round Fully-Automatic."
+                    ],
+                    "Name": "§rM16A4 §oService Rifle"
+                },
+                "Paint": "M16A4_Green"
+            },
+            "Damage": 0s
         },
         {
             "Slot": 1b,
@@ -17,18 +43,8 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "icbmclassic:clump",
+            "id": "flansmod:m16a4ammo",
             "Count": 1b,
-            "tag": {
-                "RepairCost": 0,
-                "display": {
-                    "Lore": [
-                        "§aFar too damaged to make out what it might have been.",
-                        "§aChuck it in the furnace for some metal."
-                    ],
-                    "Name": "Ancient Scrap Metal"
-                }
-            },
             "Damage": 0s
         },
         {
@@ -37,8 +53,8 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "thaumcraft:salis_mundus",
-            "Count": 2b,
+            "id": "flansmod:m16a4ammo",
+            "Count": 1b,
             "Damage": 0s
         },
         {
@@ -47,39 +63,9 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "thermalfoundation:material",
-            "Count": 2b,
-            "Damage": 321s
-        },
-        {
-            "Slot": 4b,
-            "ForgeCaps": {
-                "customnpcs:itemscripteddata": {
-                }
-            },
-            "id": "icbmclassic:clump",
-            "Count": 5b,
-            "tag": {
-                "RepairCost": 0,
-                "display": {
-                    "Lore": [
-                        "§aFar too damaged to make out what it might have been.",
-                        "§aChuck it in the furnace for some metal."
-                    ],
-                    "Name": "Ancient Scrap Metal"
-                }
-            },
+            "id": "flansmod:claymore",
+            "Count": 1b,
             "Damage": 0s
-        },
-        {
-            "Slot": 5b,
-            "ForgeCaps": {
-                "customnpcs:itemscripteddata": {
-                }
-            },
-            "id": "chisel:tyrian",
-            "Count": 3b,
-            "Damage": 7s
         },
         {
             "Slot": 6b,
@@ -87,17 +73,7 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "projectred-transmission:wire",
-            "Count": 4b,
-            "Damage": 0s
-        },
-        {
-            "Slot": 7b,
-            "ForgeCaps": {
-                "customnpcs:itemscripteddata": {
-                }
-            },
-            "id": "projectred-transmission:wire",
+            "id": "flansmod:flanmwacog",
             "Count": 1b,
             "Damage": 0s
         },
@@ -107,18 +83,19 @@
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "ic2:crafting",
+            "id": "flansmod:mwmedkit",
             "Count": 1b,
             "tag": {
-                "RepairCost": 0,
                 "display": {
                     "Lore": [
-                        "§aAn unknown device of amazing computational complexity."
+                        "§3§oUNED Health Regulation 5074-b requires",
+                        "§3§omedical kit contents be disposed of",
+                        "§3§oafter §4§o3 §3§ouses."
                     ],
-                    "Name": "Ancient Component"
+                    "Name": "UNED First Aid Kit"
                 }
             },
-            "Damage": 2s
+            "Damage": 0s
         }
     ],
     "BossColor": 0,
@@ -133,7 +110,7 @@
     },
     "BossBar": 0b,
     "RespawnTime": 0,
-    "NpcAngrySound": "techguns:machines.rc_warning",
+    "NpcAngrySound": "customnpcs:human.male.SCMarine.Engage",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
     "PositionOffsetZ": 5.0f,
@@ -141,25 +118,287 @@
     "PositionOffsetX": 5.0f,
     "LootMode": 0,
     "TransformHasAI": 0b,
-    "AttackStrenght": 5,
+    "AttackStrenght": 7,
     "PersistenceRequired": 0b,
     "id": "customnpcs:customnpc",
     "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
+            {
+                "Line": "I've got your back, sir.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Where to?",
+                "Song": "",
+                "Slot": 1
+            }
         ]
     },
     "DefendFaction": 1b,
-    "FireIndirect": 2,
+    "FireIndirect": 1,
     "NpcVisible": 0,
-    "LinkedNpcName": "Ancient_Probe",
+    "LinkedNpcName": "",
     "NpcScenes": {
         "Scenes": [
         ]
     },
+    "MercenaryHiredTime": 0L,
     "HitSound": "random.bowhit",
     "FindShelter": 2,
+    "GuardTargets": [
+        {
+            "Line": "entity.techguns.ZombieMiner.name"
+        },
+        {
+            "Line": "entity.Pech.name"
+        },
+        {
+            "Line": "entity.Firebat.name"
+        },
+        {
+            "Line": "entity.techguns.DictatorDave.name"
+        },
+        {
+            "Line": "entity.Spider.name"
+        },
+        {
+            "Line": "entity.siren.name"
+        },
+        {
+            "Line": "entity.millwitherskeleton.name"
+        },
+        {
+            "Line": "entity.techguns.ZombiePoliceman.name"
+        },
+        {
+            "Line": "entity.techguns.Bandit.name"
+        },
+        {
+            "Line": "entity.dread_beast.name"
+        },
+        {
+            "Line": "entity.Guardian.name"
+        },
+        {
+            "Line": "entity.Husk.name"
+        },
+        {
+            "Line": "entity.botania:pinkWither.name"
+        },
+        {
+            "Line": "entity.techguns.Outcast.name"
+        },
+        {
+            "Line": "entity.Witch.name"
+        },
+        {
+            "Line": "entity.dread_thrall.name"
+        },
+        {
+            "Line": "entity.IllusionIllager.name"
+        },
+        {
+            "Line": "entity.Stray.name"
+        },
+        {
+            "Line": "entity.TaintSeedPrime.name"
+        },
+        {
+            "Line": "entity.TaintacleTiny.name"
+        },
+        {
+            "Line": "entity.Zombie.name"
+        },
+        {
+            "Line": "entity.TaintCrawler.name"
+        },
+        {
+            "Line": "entity.TaintacleGiant.name"
+        },
+        {
+            "Line": "entity.dread_scuttler.name"
+        },
+        {
+            "Line": "entity.WitherSkeleton.name"
+        },
+        {
+            "Line": "entity.techguns.SuperMutantElite.name"
+        },
+        {
+            "Line": "entity.EvocationIllager.name"
+        },
+        {
+            "Line": "entity.Endermite.name"
+        },
+        {
+            "Line": "entity.techguns.AlienBug.name"
+        },
+        {
+            "Line": "entity.if_troll.name"
+        },
+        {
+            "Line": "entity.EldritchGuardian.name"
+        },
+        {
+            "Line": "entity.Skeleton.name"
+        },
+        {
+            "Line": "entity.techguns.DummySpawn.name"
+        },
+        {
+            "Line": "entity.PigZombie.name"
+        },
+        {
+            "Line": "entity.cyclops.name"
+        },
+        {
+            "Line": "entity.if_hydra.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.blitz.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.basalz.name"
+        },
+        {
+            "Line": "entity.CultistKnight.name"
+        },
+        {
+            "Line": "entity.EldritchCrab.name"
+        },
+        {
+            "Line": "entity.CultistLeader.name"
+        },
+        {
+            "Line": "entity.dread_knight.name"
+        },
+        {
+            "Line": "entity.InhabitedZombie.name"
+        },
+        {
+            "Line": "entity.millblaze.name"
+        },
+        {
+            "Line": "entity.VindicationIllager.name"
+        },
+        {
+            "Line": "entity.ElderGuardian.name"
+        },
+        {
+            "Line": "entity.BrainyZombie.name"
+        },
+        {
+            "Line": "entity.EldritchGolem.name"
+        },
+        {
+            "Line": "entity.TaintSwarm.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.blizz.name"
+        },
+        {
+            "Line": "entity.gorgon.name"
+        },
+        {
+            "Line": "entity.Taintacle.name"
+        },
+        {
+            "Line": "entity.techguns.PsychoSteve.name"
+        },
+        {
+            "Line": "entity.WitherBoss.name"
+        },
+        {
+            "Line": "entity.MindSpider.name"
+        },
+        {
+            "Line": "entity.techguns.StormTrooper.name"
+        },
+        {
+            "Line": "entity.GiantBrainyZombie.name"
+        },
+        {
+            "Line": "entity.techguns.ZombieSoldier.name"
+        },
+        {
+            "Line": "entity.techguns.SuperMutantHeavy.name"
+        },
+        {
+            "Line": "entity.techguns.SkeletonSoldier.name"
+        },
+        {
+            "Line": "entity.dread_ghoul.name"
+        },
+        {
+            "Line": "entity.Enderman.name"
+        },
+        {
+            "Line": "entity.CultistPortalLesser.name"
+        },
+        {
+            "Line": "entity.EldritchWarden.name"
+        },
+        {
+            "Line": "entity.techguns.ZombieFarmer.name"
+        },
+        {
+            "Line": "entity.dread_lich.name"
+        },
+        {
+            "Line": "entity.Blaze.name"
+        },
+        {
+            "Line": "entity.TaintSeed.name"
+        },
+        {
+            "Line": "entity.techguns.Ghastling.name"
+        },
+        {
+            "Line": "entity.techguns.Commando.name"
+        },
+        {
+            "Line": "entity.Giant.name"
+        },
+        {
+            "Line": "entity.ZombieVillager.name"
+        },
+        {
+            "Line": "entity.Silverfish.name"
+        },
+        {
+            "Line": "entity.techguns.ZombiePigmanSoldier.name"
+        },
+        {
+            "Line": "entity.techguns.CyberDemon.name"
+        },
+        {
+            "Line": "entity.techguns.ArmySoldier.name"
+        },
+        {
+            "Line": "entity.CultistPortalGreater.name"
+        },
+        {
+            "Line": "entity.CaveSpider.name"
+        },
+        {
+            "Line": "entity.Spellbat.name"
+        },
+        {
+            "Line": "entity.Vex.name"
+        },
+        {
+            "Line": "entity.CultistCleric.name"
+        },
+        {
+            "Line": "entity.techguns.SuperMutantBasic.name"
+        },
+        {
+            "Line": "entity.Creeper.name"
+        }
+    ],
     "Air": 300s,
     "TacticalVariant": 2,
     "Orientation": 0,
@@ -170,7 +409,7 @@
         {
         }
     ],
-    "KnockBack": 0,
+    "KnockBack": 4,
     "TransformHasJob": 0b,
     "ArmorDropChances": [
         0.085f,
@@ -179,36 +418,83 @@
         0.085f
     ],
     "BurnInSun": 0b,
-    "StandingState": 0,
+    "StandingState": 3,
     "AttackInvisible": 0b,
     "NpcInteractNPCLines": {
         "Lines": [
         ]
     },
     "HurtTime": 0s,
-    "WalkingRange": 200,
+    "WalkingRange": 5,
+    "MercenaryInfiniteDays": 1b,
     "ShotCount": 1,
-    "pDur": 30,
+    "pDur": 1,
+    "MercenaryOwner": "22917a5b-0fa2-481f-9aa4-bb22ccc88ae6",
     "AttackRange": 2,
     "NpcKillLines": {
         "Lines": [
+            {
+                "Line": "Tango Down!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Gun em down!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Enemy down!",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "Got one!",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Teach you to mess with the UCDF!",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "Kick ass!",
+                "Song": "",
+                "Slot": 5
+            }
         ]
     },
-    "PotionImmune": 1b,
+    "PotionImmune": 0b,
     "AvoidsSun": 0b,
-    "Texture": "customnpcs:textures/entity/old/extra_ancients/ancient-probe32.png",
-    "NpcJob": 0,
-    "BurstCount": 1,
+    "MercenaryDisableGui": 0b,
+    "Texture": "customnpcs:textures/entity/old/extra_uned/forhex-battle-3.png",
+    "NpcJob": 3,
+    "BurstCount": 3,
     "NpcAttackLines": {
         "Lines": [
         ]
     },
-    "pSpeed": 10,
+    "pSpeed": 50,
     "pArea": 0,
     "DeathTime": 0s,
     "pImpact": 0,
-    "MoveState": 3,
+    "MoveState": 0,
     "pRender3D": 0b,
+    "MercenaryDayRates": [
+        {
+            "Integer": 3,
+            "Slot": 0
+        },
+        {
+            "Integer": 9,
+            "Slot": 1
+        },
+        {
+            "Integer": 18,
+            "Slot": 2
+        }
+    ],
     "Motion": [
         0.0d,
         -0.0784000015258789d,
@@ -219,16 +505,31 @@
     ],
     "MarkovGender": 0,
     "pEffect": 5,
-    "DistanceToMelee": 4,
-    "NpcStepSound": "",
+    "DistanceToMelee": 1,
+    "NpcStepSound": "minecraft:step.snow",
     "FireRate": 3,
     "LeftHanded": 0b,
-    "pEffAmp": 1,
+    "pEffAmp": 0,
     "OnGround": 1b,
     "Dimension": 0,
-    "ImmuneToFire": 1b,
+    "ImmuneToFire": 0b,
     "NpcKilledLines": {
         "Lines": [
+            {
+                "Line": "Ahhhh!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 0
+            },
+            {
+                "Line": "Man down!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 1
+            },
+            {
+                "Line": "Medic!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 2
+            }
         ]
     },
     "Fire": -1s,
@@ -243,16 +544,46 @@
         }
     ],
     "DisablePitch": 0b,
-    "pPhysics": 1b,
+    "pPhysics": 0b,
     "TransformHasInv": 0b,
     "NpcInteractLines": {
         "Lines": [
+            {
+                "Line": "What do you need?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 0
+            },
+            {
+                "Line": "Yes, sir!",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 1
+            },
+            {
+                "Line": "Are we moving out?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 2
+            },
+            {
+                "Line": "Sir.",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 3
+            },
+            {
+                "Line": "Your orders?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 4
+            },
+            {
+                "Line": "Sir!",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 7
+            }
         ]
     },
-    "HurtByTimestamp": 861,
+    "HurtByTimestamp": 1128,
     "pSpin": 0b,
-    "NpcHurtSound": "mcheli:hit",
-    "pTrail": 4,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 1,
     "CreatureType": 0,
     "Attributes": [
         {
@@ -268,15 +599,33 @@
             "Name": "techguns.radiationResistance"
         },
         {
-            "Base": 10.0d,
+            "Base": 25.0d,
             "Name": "generic.maxHealth"
         },
         {
             "Base": 0.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 0,
+                    "Name": "KnockbackResist"
+                }
+            ],
             "Name": "generic.knockbackResistance"
         },
         {
-            "Base": 0.25d,
+            "Base": 0.20000000298023224d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 2,
+                    "Name": "MovementSpeed"
+                }
+            ],
             "Name": "generic.movementSpeed"
         },
         {
@@ -296,11 +645,11 @@
             "Name": "generic.followRange"
         },
         {
-            "Base": 5.0d,
+            "Base": 7.0d,
             "Name": "generic.attackDamage"
         },
         {
-            "Base": 0.5d,
+            "Base": 0.4000000059604645d,
             "Name": "generic.flyingSpeed"
         }
     ],
@@ -309,27 +658,65 @@
     "NoFallDamage": 1b,
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
-    "Name": "Ancient Probe",
+    "Name": "UCDF Rifleman",
     "FallDistance": 0.0f,
     "SkinColor": 16777215,
-    "NpcIdleSound": "techguns:c4charge.tick",
+    "NpcIdleSound": "",
+    "MercenaryDialogHired": "Understood, sir. I'll follow you for {days} days.",
     "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:m16a4",
+            "Count": 1b,
+            "tag": {
+                "ammo": [
+                    {
+                    }
+                ],
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "display": {
+                    "Lore": [
+                        "§2Standard-issue Service Rifle issued to",
+                        "§2UNED Marine Personnel. 30-round Fully-Automatic."
+                    ],
+                    "Name": "§rM16A4 §oService Rifle"
+                },
+                "Paint": "M16A4_Green"
+            },
+            "Damage": 0s
+        },
         {
             "Slot": 1b,
             "ForgeCaps": {
                 "customnpcs:itemscripteddata": {
                 }
             },
-            "id": "lycanitesmobs:blizzardcharge",
+            "id": "ic2:dust",
             "Count": 1b,
-            "Damage": 0s
+            "Damage": 20s
         }
     ],
     "NPCDialogOptions": [
     ],
-    "AggroRange": 16,
-    "DirectLOS": 0b,
-    "HealthRegen": 10,
+    "AggroRange": 54,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "MercenaryRefuseSoulstone": 0b,
     "ForgeCaps": {
         "armourers_workshop:entity-skin-provider": {
             "wardrobeContainer": {
@@ -337,19 +724,19 @@
                     "Items": [
                     ]
                 },
-                "armourers:head": {
-                    "Items": [
-                    ]
-                },
                 "armourers:shield": {
                     "Items": [
                     ]
                 },
-                "armourers:bow": {
+                "armourers:head": {
                     "Items": [
                     ]
                 },
                 "armourers:outfit": {
+                    "Items": [
+                    ]
+                },
+                "armourers:bow": {
                     "Items": [
                     ]
                 },
@@ -433,6 +820,7 @@
         0.085f,
         0.085f
     ],
+    "MercenaryDialogFarewell": "I'm returning to base!",
     "NpcModelData": {
         "LegsConfig": {
             "NotShared": 0b,
@@ -455,11 +843,11 @@
         "Eyes": {
             "Pattern": 0b,
             "Glint": 1b,
-            "Type": -1b,
+            "Type": 0b,
             "PositionY": 1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
-            "Color": 10791096,
+            "Color": 15066419,
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
@@ -581,7 +969,7 @@
             "pTrail": 0,
             "CreatureType": 0,
             "NoFallDamage": 0b,
-            "Name": "Citl",
+            "Name": "Tatsukawa Chiyoko",
             "SkinColor": 16777215,
             "NpcIdleSound": "",
             "Weapons": [
@@ -639,7 +1027,7 @@
             "MaxFiringRange": 15,
             "pXlr8": 0b,
             "GlowTexture": "",
-            "MarkovGeneratorId": 7,
+            "MarkovGeneratorId": 1,
             "NpcDeathSound": "minecraft:entity.player.hurt",
             "MovingPause": 1b,
             "pStick": 0b,
@@ -663,49 +1051,53 @@
             "ScaleX": 1.0f
         }
     },
-    "minDelay": 20,
-    "DoorInteract": 2,
-    "MoveSpeed": 5,
+    "minDelay": 60,
+    "DoorInteract": 1,
+    "MoveSpeed": 4,
     "TransformEditingModus": 0b,
     "UsingSkinUrl": 0b,
     "Leashed": 0b,
     "SkinUrl": "",
     "CanSwim": 1b,
+    "MercenaryInv": {
+        "NpcMiscInv": [
+        ]
+    },
     "GroundSound": "random.break",
-    "MaxHealth": 10,
+    "MaxHealth": 25,
     "HideBodyWhenKilled": 0b,
-    "AttackSpeed": 20,
+    "AttackSpeed": 30,
     "PotionDuration": 5,
-    "maxDelay": 40,
+    "maxDelay": 100,
     "ScriptEnabled": 0b,
-    "Role": 0,
+    "Role": 2,
     "DropChance": [
         {
-            "Integer": 67,
+            "Integer": 15,
             "Slot": 0
         },
         {
-            "Integer": 43,
+            "Integer": 57,
             "Slot": 1
         },
         {
-            "Integer": 30,
+            "Integer": 57,
             "Slot": 2
         },
         {
-            "Integer": 30,
+            "Integer": 5,
             "Slot": 3
         },
         {
-            "Integer": 53,
+            "Integer": 20,
             "Slot": 4
         },
         {
-            "Integer": 50,
+            "Integer": 1,
             "Slot": 5
         },
         {
-            "Integer": 23,
+            "Integer": 15,
             "Slot": 6
         },
         {
@@ -713,7 +1105,7 @@
             "Slot": 7
         },
         {
-            "Integer": 1,
+            "Integer": 15,
             "Slot": 8
         }
     ],
@@ -725,15 +1117,16 @@
         "OptionFaction1Points": 100,
         "DecreaseFaction2Points": 0b
     },
-    "pDamage": 4,
+    "pDamage": 15,
     "KilledTime": 0L,
-    "AimWhileShooting": 0b,
+    "MercenaryDaysHired": 0,
+    "AimWhileShooting": 1b,
     "CanPickUpLoot": 0b,
     "AttackOtherFactions": 1b,
-    "CanDrown": 0b,
-    "pSize": 5,
-    "CanSprint": 1b,
-    "CanLeap": 1b,
+    "CanDrown": 1b,
+    "pSize": 3,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
         "cnpcmarkdata": {
@@ -741,11 +1134,11 @@
             ]
         }
     },
-    "MovingState": 1,
+    "MovingState": 0,
     "MovingPos": 0,
     "PotionAmp": 0,
     "OnAttack": 0,
-    "TacticalRadius": 8,
+    "TacticalRadius": 25,
     "FallFlying": 0b,
     "MaxExp": 0,
     "OrderedLines": 0b,
@@ -754,31 +1147,32 @@
     "TransformHasAdvanced": 0b,
     "TransformHasStats": 0b,
     "MovementType": 0,
-    "FiringSound": "thaumcraft:zap",
+    "FiringSound": "flansmod:ak47shoot",
     "ModRev": 18,
-    "Accuracy": 100,
+    "Accuracy": 70,
     "MinExp": 0,
     "Armor": [
     ],
     "CloakTexture": "",
+    "MercenaryIsFollowing": 1b,
     "GlowTexture": "",
-    "MaxFiringRange": 10,
+    "MaxFiringRange": 30,
     "pXlr8": 0b,
     "MarkovGeneratorId": 0,
     "Scripts": [
     ],
-    "Health": 10.0f,
+    "Health": 25.0f,
     "pStick": 0b,
     "MovingPause": 1b,
-    "NpcDeathSound": "mcheli:hit",
-    "FactionID": 2,
+    "NpcDeathSound": "customnpcs:human.male.SCMarine.Death",
+    "FactionID": 0,
     "Title": "",
-    "TotalTicksAlive": 33315L,
+    "TotalTicksAlive": 311532L,
     "Rotation": [
-        125.10153f,
+        195.81839f,
         0.0f
     ],
-    "ShowName": 1,
+    "ShowName": 2,
     "npcInteracting": 1b,
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
