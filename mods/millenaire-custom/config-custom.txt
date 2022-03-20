@@ -20,9 +20,9 @@ ignore_resource_cost=false
 random_uid=357968313515356160
 
 //Advancement completed for anonymous statistics
-advancements_creative=firstcontact,cresus,summoningwand,thequest,explorer
+advancements_creative=firstcontact,cresus,summoningwand,thequest,explorer,marcopolo
 
 //Advancement completed for anonymous statistics
 advancements_survival=firstcontact,explorer,selfdefense,darkside,cheers
 
-validation=346191005
+validation=346191035
