@@ -7,4 +7,6 @@ Barrel_Bandit_6
 Barrel_Heartwood_Ale
 Barrel_Salt
 
+Because "Advanced Mode" can't seem to work properly, this list governs the containers that can auto-spawn in the "Bandit_Storage" spawning pool.
 
+Barrel_Bandit_1,Barrel_Bandit_2,Barrel_Bandit_3,Barrel_Bandit_4,Barrel_Bandit_5,Barrel_Bandit_6,Barrel_Heartwood_Ale,Barrel_Salt
