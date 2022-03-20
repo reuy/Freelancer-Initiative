@@ -1,0 +1,175 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Ancient",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "icbmclassic:clump",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§aFar too damaged to make out what it might have been."
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§aChuck it in the furnace for some metal."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ancient Scrap Metal"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "thaumcraft:salis_mundus",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.504269116092473E-4,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "ic2:crafting",
+        "damage": 2,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§aAn unknown device of amazing computational complexity."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ancient Component"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.03422137722373009,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "sgcraft:naquadah",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "projectred-transmission:wire",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0950840987788979E-5,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "projectred-transmission:wire",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.016732392832636833,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "sgcraft:sgcontrollercrystal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "sgcraft:naquadahingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 33,
+      "item": {
+        "id": "warpdrive:hull.basic.plain",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.2210845947265625,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "chisel:tyrian",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 4.6146769523620605,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "chisel:tyrian",
+        "damage": 7,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
