@@ -210,9 +210,9 @@
     "MoveState": 3,
     "pRender3D": 0b,
     "Motion": [
-        0.0d,
+        -0.04906710060402141d,
         -0.0784000015258789d,
-        0.0d
+        -0.045791784378237325d
     ],
     "CombatRegen": 0,
     "NpcsTimers": [
@@ -249,7 +249,7 @@
         "Lines": [
         ]
     },
-    "HurtByTimestamp": 861,
+    "HurtByTimestamp": 420,
     "pSpin": 0b,
     "NpcHurtSound": "mcheli:hit",
     "pTrail": 4,
@@ -262,10 +262,6 @@
         {
             "Base": 0.0d,
             "Name": "tc.mobmodtaint"
-        },
-        {
-            "Base": 0.0d,
-            "Name": "techguns.radiationResistance"
         },
         {
             "Base": 10.0d,
@@ -337,19 +333,19 @@
                     "Items": [
                     ]
                 },
-                "armourers:head": {
-                    "Items": [
-                    ]
-                },
                 "armourers:shield": {
                     "Items": [
                     ]
                 },
-                "armourers:bow": {
+                "armourers:head": {
                     "Items": [
                     ]
                 },
                 "armourers:outfit": {
+                    "Items": [
+                    ]
+                },
+                "armourers:bow": {
                     "Items": [
                     ]
                 },
@@ -374,8 +370,6 @@
         "dsurround:data": {
             "a": 0b,
             "f": 0b
-        },
-        "techguns:deathtype": {
         },
         "llibrary:extendedentitydatacapability": {
             "mm:living": {
@@ -697,7 +691,7 @@
             "Slot": 3
         },
         {
-            "Integer": 53,
+            "Integer": 18,
             "Slot": 4
         },
         {
@@ -773,9 +767,9 @@
     "NpcDeathSound": "mcheli:hit",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 33315L,
+    "TotalTicksAlive": 33760L,
     "Rotation": [
-        125.10153f,
+        133.02478f,
         0.0f
     ],
     "ShowName": 1,

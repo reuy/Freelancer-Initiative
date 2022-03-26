@@ -2,6 +2,7 @@
     "ReturnToStart": 1b,
     "NpcInv": [
     ],
+    "BossColor": 0,
     "PotionEffect": 0,
     "Size": 5,
     "stopAndInteract": 1b,
@@ -13,7 +14,6 @@
     },
     "BossBar": 0b,
     "RespawnTime": 20,
-    "magicXP": 0.0f,
     "NpcAngrySound": "",
     "ReactsToFire": 0b,
     "IgnoreCobweb": 0b,
@@ -24,8 +24,8 @@
     "TransformHasAI": 0b,
     "AttackStrenght": 5,
     "PersistenceRequired": 0b,
-    "id": "customnpcs.CustomNpc",
-    "HealF": 20.0f,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
     "MovingPatern": 0,
     "NpcLines": {
         "Lines": [
@@ -55,23 +55,40 @@
     "FireIndirect": 0,
     "NpcVisible": 0,
     "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "random.bowhit",
     "FindShelter": 2,
-    "ScriptsContainers": [
-    ],
     "Air": 300s,
     "TacticalVariant": 0,
     "Orientation": 0,
     "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
     "KnockBack": 0,
     "TransformHasJob": 0b,
-    "CustomName": "",
-    "CanDespawn": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
     "BurnInSun": 0b,
     "TraderSold": {
         "NpcMiscInv": [
             {
                 "Slot": 0b,
-                "id": "harvestcraft:hamburgerItem",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "harvestcraft:hamburgeritem",
                 "Count": 1b,
                 "tag": {
                     "RepairCost": 2,
@@ -86,57 +103,12 @@
                 "Damage": 0s
             },
             {
-                "Slot": 1b,
-                "id": "Thaumcraft:ItemNuggetChicken",
-                "Count": 4b,
-                "tag": {
-                    "RepairCost": 2,
-                    "display": {
-                        "Lore": [
-                            "§bNew understandings of Alchemy and Chemistry ",
-                            "§ballowed us to improve our formula and",
-                            "§bconcoct a more convincing liquid base."
-                        ],
-                        "Name": "Chicken McNugget"
-                    }
-                },
-                "Damage": 0s
-            },
-            {
-                "Slot": 17b,
-                "id": "Thaumcraft:TripleMeatTreat",
-                "Count": 1b,
-                "tag": {
-                    "RepairCost": 2,
-                    "display": {
-                        "Lore": [
-                            "§aYeah... to be honest we stopped",
-                            "§atrying a LONG time ago."
-                        ],
-                        "Name": "McWhatTheFuck"
-                    }
-                },
-                "Damage": 0s
-            },
-            {
-                "Slot": 2b,
-                "id": "harvestcraft:vanillaicecreamItem",
-                "Count": 1b,
-                "tag": {
-                    "RepairCost": 2,
-                    "display": {
-                        "Lore": [
-                            "§bIt's fairly telling when §4THIS §bis ",
-                            "§bamong the more healtier of our menu."
-                        ],
-                        "Name": "McFlurry"
-                    }
-                },
-                "Damage": 0s
-            },
-            {
                 "Slot": 3b,
-                "id": "harvestcraft:cheeseburgerItem",
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "harvestcraft:cheeseburgeritem",
                 "Count": 1b,
                 "tag": {
                     "RepairCost": 2,
@@ -151,25 +123,12 @@
                 "Damage": 0s
             },
             {
-                "Slot": 4b,
-                "id": "Thaumcraft:ItemNuggetChicken",
-                "Count": 10b,
-                "tag": {
-                    "RepairCost": 2,
-                    "display": {
-                        "Lore": [
-                            "§bNew understandings of Alchemy and Chemistry ",
-                            "§ballowed us to improve our formula and",
-                            "§bconcoct a more convincing liquid base."
-                        ],
-                        "Name": "Chicken McNugget"
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
                     }
                 },
-                "Damage": 0s
-            },
-            {
-                "Slot": 6b,
-                "id": "harvestcraft:friesItem",
+                "id": "harvestcraft:friesitem",
                 "Count": 1b,
                 "tag": {
                     "RepairCost": 2,
@@ -185,69 +144,12 @@
                 "Damage": 0s
             },
             {
-                "Slot": 8b,
-                "id": "minecraft:potion",
-                "Count": 1b,
-                "tag": {
-                    "CustomPotionEffects": [
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 1,
-                            "Amplifier": 0b
-                        },
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 3,
-                            "Amplifier": 0b
-                        },
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 5,
-                            "Amplifier": 0b
-                        },
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 8,
-                            "Amplifier": 0b
-                        },
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 10,
-                            "Amplifier": 0b
-                        },
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 12,
-                            "Amplifier": 0b
-                        },
-                        {
-                            "Ambient": 0b,
-                            "Duration": 1200,
-                            "Id": 13,
-                            "Amplifier": 0b
-                        }
-                    ],
-                    "RepairCost": 2,
-                    "display": {
-                        "Lore": [
-                            "§bEven at the absurd price this bottle is",
-                            "§bsold at, this rare promotional sauce",
-                            "§balways seems to be in extremely high demand."
-                        ],
-                        "Name": "Mulan Szechuan Sauce"
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
                     }
                 },
-                "Damage": 8233s
-            },
-            {
-                "Slot": 10b,
-                "id": "harvestcraft:deluxecheeseburgerItem",
+                "id": "harvestcraft:deluxecheeseburgeritem",
                 "Count": 1b,
                 "tag": {
                     "RepairCost": 2,
@@ -261,14 +163,77 @@
                     }
                 },
                 "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:chunk",
+                "Count": 4b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Lore": [
+                            "§a§oAdvances in Alchemical sciences have resulted",
+                            "§a§oin a more convincing liquid base."
+                        ],
+                        "Name": "§f§oChicken McNugget"
+                    }
+                },
+                "Damage": 1s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "harvestcraft:vanillaicecreamitem",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 2,
+                    "display": {
+                        "Lore": [
+                            "§bIt's fairly telling when §4THIS §bis ",
+                            "§bamong the more healtier of our menu."
+                        ],
+                        "Name": "McFlurry"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thaumcraft:triple_meat_treat",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Lore": [
+                            "§a§oTo tell you the truth, we stopped",
+                            "§a§otrying long ago."
+                        ],
+                        "Name": "§a§oMcWhatTheFuck"
+                    }
+                },
+                "Damage": 0s
             }
         ]
     },
     "StandingState": 2,
     "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
     "HurtTime": 0s,
     "WalkingRange": 10,
-    "CustomNameVisible": 0b,
     "ShotCount": 1,
     "pDur": 5,
     "TraderIgnoreDamage": 0b,
@@ -305,28 +270,22 @@
     "pArea": 0,
     "DeathTime": 0s,
     "pImpact": 0,
-    "DropChances": [
-        0.085f,
-        0.085f,
-        0.085f,
-        0.085f,
-        0.085f
-    ],
     "MoveState": 0,
-    "RangeAndMelee": 0,
     "pRender3D": 0b,
-    "magicLevel": 1s,
     "Motion": [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
     "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
     "pEffect": 0,
     "DistanceToMelee": 4,
     "NpcStepSound": "",
-    "curFatigue": 0.0f,
     "FireRate": 5,
+    "LeftHanded": 0b,
     "pEffAmp": 0,
     "OnGround": 1b,
     "Dimension": 0,
@@ -335,9 +294,18 @@
         "Lines": [
         ]
     },
-    "UUIDMost": 5432749050615252449L,
     "TraderMarket": "McDonalds",
     "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
     "DisablePitch": 0b,
     "pPhysics": 1b,
     "TransformHasInv": 0b,
@@ -380,89 +348,93 @@
             }
         ]
     },
+    "HurtByTimestamp": 7481,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
-                "Slot": 0b,
-                "id": "Thaumcraft:ItemResource",
-                "Count": 1b,
-                "Damage": 18s
-            },
-            {
-                "Slot": 1b,
-                "id": "Thaumcraft:ItemResource",
-                "Count": 1b,
-                "Damage": 18s
-            },
-            {
-                "Slot": 17b,
-                "id": "Thaumcraft:ItemResource",
+                "Slot": 18b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
                 "Count": 4b,
-                "Damage": 18s
+                "Damage": 0s
             },
             {
-                "Slot": 2b,
-                "id": "Thaumcraft:ItemResource",
-                "Count": 2b,
-                "Damage": 18s
+                "Slot": 21b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
+                "Count": 5b,
+                "Damage": 0s
             },
             {
-                "Slot": 3b,
-                "id": "Thaumcraft:ItemResource",
-                "Count": 2b,
-                "Damage": 18s
-            },
-            {
-                "Slot": 4b,
-                "id": "Thaumcraft:ItemResource",
-                "Count": 3b,
-                "Damage": 18s
-            },
-            {
-                "Slot": 6b,
-                "id": "Thaumcraft:ItemResource",
+                "Slot": 24b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
                 "Count": 1b,
-                "Damage": 18s
+                "Damage": 0s
             },
             {
-                "Slot": 8b,
-                "id": "Thaumcraft:ItemResource",
-                "Count": 16b,
-                "Damage": 18s
+                "Slot": 30b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
+                "Count": 10b,
+                "Damage": 0s
             },
             {
-                "Slot": 10b,
-                "id": "Thaumcraft:ItemResource",
+                "Slot": 31b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 33b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 34b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "millenaire:denier",
                 "Count": 4b,
-                "Damage": 18s
+                "Damage": 0s
             }
         ]
     },
     "pSpin": 0b,
     "NpcHurtSound": "minecraft:game.player.hurt",
     "pTrail": 0,
-    "isShrunk": 0b,
     "CreatureType": 0,
     "Attributes": [
         {
-            "Base": 0.0d,
-            "Name": "am2.maxManaBonus"
+            "Base": -2.0d,
+            "Name": "tc.mobmod"
         },
         {
             "Base": 0.0d,
-            "Name": "am2.maxBurnoutBonus"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.xpMultiplier"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.burnoutReduction"
-        },
-        {
-            "Base": 1.0d,
-            "Name": "am2.manaRegenModifier"
+            "Name": "tc.mobmodtaint"
         },
         {
             "Base": 20.0d,
@@ -477,12 +449,28 @@
             "Name": "generic.movementSpeed"
         },
         {
-            "Base": 48.0d,
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
             "Name": "generic.followRange"
         },
         {
             "Base": 5.0d,
             "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
         }
     ],
     "Invulnerable": 0b,
@@ -492,6 +480,7 @@
     "TransformHasRole": 0b,
     "Name": "Minimum Wage Fuck",
     "FallDistance": 0.0f,
+    "SkinColor": 16777215,
     "NpcIdleSound": "",
     "Weapons": [
     ],
@@ -500,16 +489,119 @@
     "AggroRange": 16,
     "DirectLOS": 1b,
     "HealthRegen": 1,
+    "ForgeCaps": {
+        "armourers_workshop:entity-skin-provider": {
+            "wardrobeContainer": {
+                "armourers:sword": {
+                    "Items": [
+                    ]
+                },
+                "armourers:shield": {
+                    "Items": [
+                    ]
+                },
+                "armourers:head": {
+                    "Items": [
+                    ]
+                },
+                "armourers:outfit": {
+                    "Items": [
+                    ]
+                },
+                "armourers:bow": {
+                    "Items": [
+                    ]
+                },
+                "armourers:feet": {
+                    "Items": [
+                    ]
+                },
+                "armourers:chest": {
+                    "Items": [
+                    ]
+                },
+                "armourers:legs": {
+                    "Items": [
+                    ]
+                },
+                "armourers:wings": {
+                    "Items": [
+                    ]
+                }
+            }
+        },
+        "dsurround:data": {
+            "a": 0b,
+            "f": 0b
+        },
+        "llibrary:extendedentitydatacapability": {
+            "mm:living": {
+                "frozenYaw": 0.0f,
+                "freezeProgress": 0.0f,
+                "frozenPitch": 0.0f,
+                "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
+                "frozenYawHead": 0.0f,
+                "frozenLimbSwingAmount": 0.0f,
+                "frozenRenderYawOffset": 0.0f,
+                "frozenSwingProgress": 0.0f
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice and Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0,
+                "DreadPortalZ": 0,
+                "DreadPortalY": 0,
+                "DreadPortalX": 0
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        },
+        "armourers_workshop:wardrobe-provider": {
+            "extra-colour-skin": 0,
+            "dye": {
+                "dyeData": {
+                }
+            },
+            "extra-colour-misc_1": 0,
+            "extra-colour-misc_2": 0,
+            "extra-colour-misc_3": 0,
+            "extra-colour-misc_4": 0,
+            "extra-colour-eye": 0,
+            "extra-colour-hair": 0
+        },
+        "lycanitesmobs:iextendedentity": {
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
     "NpcModelData": {
         "LegsConfig": {
+            "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransX": 0.012000002f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
         "BodyConfig": {
+            "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
@@ -517,26 +609,38 @@
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 55610,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
         "LegParts": {
+            "Pattern": 0b,
             "Type": 0b,
             "PlayerTexture": 1b,
             "Color": 16777215
         },
         "Parts": [
         ],
-        "Breasts": 0b,
-        "Headwear": 2b,
         "ArmsConfig": {
+            "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
-            "TransX": 0.0f,
+            "TransX": -0.0f,
             "ScaleY": 1.0f,
             "ScaleX": 1.0f
         },
         "ExtraData": {
         },
         "HeadConfig": {
+            "NotShared": 0b,
             "ScaleZ": 1.0f,
             "TransZ": 0.0f,
             "TransY": 0.0f,
@@ -554,7 +658,7 @@
     "SkinUrl": "",
     "CanSwim": 1b,
     "TraderIgnoreNBT": 0b,
-    "armorCooldowns": [0,0,0,0],
+    "GroundSound": "random.break",
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
@@ -614,27 +718,31 @@
     "CanPickUpLoot": 0b,
     "AttackOtherFactions": 0b,
     "CanDrown": 1b,
-    "curMana": 500.85858f,
-    "AttackTime": 0s,
     "pSize": 5,
     "CanSprint": 0b,
     "CanLeap": 0b,
     "TransformIsActive": 0b,
     "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
     },
     "MovingState": 0,
     "MovingPos": 0,
     "PotionAmp": 0,
     "OnAttack": 1,
     "TacticalRadius": 8,
+    "FallFlying": 0b,
     "MaxExp": 0,
     "OrderedLines": 0b,
     "PortalCooldown": 0,
     "pGlows": 0b,
     "TransformHasAdvanced": 0b,
     "TransformHasStats": 0b,
+    "MovementType": 0,
     "FiringSound": "random.bow",
-    "ModRev": 16,
+    "ModRev": 18,
     "Accuracy": 60,
     "MinExp": 0,
     "Armor": [
@@ -643,37 +751,35 @@
     "GlowTexture": "",
     "MaxFiringRange": 15,
     "pXlr8": 0b,
-    "UUIDLeast": -5766681042165396230L,
-    "Health": 20s,
-    "pExplode": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+        {
+            "Script": "",
+            "Console": [
+            ],
+            "ScriptList": [
+                {
+                    "Line": "fixrecurrence.js"
+                }
+            ]
+        }
+    ],
+    "Health": 20.0f,
     "pStick": 0b,
     "MovingPause": 1b,
     "NpcDeathSound": "minecraft:game.player.hurt",
     "FactionID": 0,
     "Title": "",
-    "TotalTicksAlive": 1695403L,
+    "TotalTicksAlive": 35366L,
     "Rotation": [
         -80.528946f,
-        0.0f
+        -0.0911025f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
-    "ChunkPlayerLastSeen": 1515040660313L,
-    "Equipment": [
-        {
-        },
-        {
-        },
-        {
-        },
-        {
-        },
-        {
-        }
-    ],
+    "ChunkPlayerLastSeen": 0L,
     "NoLivingAnimation": 0b,
-    "hasUnlockedAugmented": 1b,
-    "isCritical": 0b,
     "SpawnCycle": 0
 }
