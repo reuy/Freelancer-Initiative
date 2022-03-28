@@ -1,0 +1,2 @@
+This is just here so git will create the config/copy folder (git can not create empty directories)
+If this folder does not exist the copypaste mod will crash
