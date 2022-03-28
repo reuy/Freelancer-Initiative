@@ -1,1 +1,1 @@
-{"algorithm":"random","updateChecker":true,"preallocateMemory":false,"fog":false,"beaconBeam":false,"fastHopper":true,"fastBeacon":true,"fastSearch":true,"asyncSearch":true}
+{"algorithm":"rivens","updateChecker":true,"preallocateMemory":false,"fog":false,"beaconBeam":false,"fastHopper":true,"fastBeacon":true,"fastSearch":true,"asyncSearch":true}
