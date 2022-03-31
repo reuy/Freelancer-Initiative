@@ -1,0 +1,2031 @@
+{
+    "ReturnToStart": 0b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:m16a4",
+            "Count": 1b,
+            "tag": {
+                "ammo": [
+                    {
+                    }
+                ],
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "display": {
+                    "Lore": [
+                        "§2Standard-issue Service Rifle issued to",
+                        "§2UNED Marine Personnel. 30-round Fully-Automatic."
+                    ],
+                    "Name": "§rM16A4 §oService Rifle"
+                },
+                "Paint": "M16A4_Green"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:m16a4ammo",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:m16a4ammo",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:claymore",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:flanmwacog",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:name_tag",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "Lore": [
+                        "A tag belonging to a warrior",
+                        "who died valiantly in battle.",
+                        "The name reads \"Monty Oum.\"",
+                        "May you live on forever."
+                    ],
+                    "Name": "UCDF Dog Tag"
+                }
+            },
+            "Damage": 17s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:mwmedkit",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "Lore": [
+                        "§3§oUNED Health Regulation 5074-b requires",
+                        "§3§omedical kit contents be disposed of",
+                        "§3§oafter §4§o3 §3§ouses."
+                    ],
+                    "Name": "UNED First Aid Kit"
+                }
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 0,
+    "NpcAngrySound": "customnpcs:human.male.SCMarine.Engage",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 7,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "I've got your back, sir.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Where to?",
+                "Song": "",
+                "Slot": 1
+            }
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 1,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "MercenaryHiredTime": 0L,
+    "HitSound": "random.bowhit",
+    "FindShelter": 2,
+    "GuardTargets": [
+        {
+            "Line": "entity.[FlansMod] 20mm Flakvierling 38 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 40mm Bofors (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 57mm M1 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 75mm PaK 40 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 76.2mm ZiS-3 (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 88mm Flak 36 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 105 mm leFH 18 B2 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] 152mm ML-20 (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] A39 Tortoise (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] B1 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] BMW R 75 Gespann (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Churchill Mk VII (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Cromwell (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Cruiser Mk. VI Crusader (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Flakpanzer IV Wirbelwind (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] German Bundeswehr Truck (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] IS-2 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Jagdpanzer 38(t) Hetzer (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Jagdpanzer IV/70 Guderian Ente (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Jagdpanzer VI Jagdtiger (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Jagdpanzer V Jagdpanther (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Jeep (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] K2 Black Panther (Monolith Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] KV-1 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Kübelwagen (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Leopard 2 A6 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Leopard 2 A6.name"
+        },
+        {
+            "Line": "entity.[FlansMod] Leopard 2 A7+ PSO (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] LVT(A)-1 (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] LVT-2 (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M1 Abrams.name"
+        },
+        {
+            "Line": "entity.[FlansMod] M3 Halftrack (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M4A1 Sherman (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M4A1 Sherman with T-34 Calliope (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M4A3E8 Sherman Easy Eight (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M4A3E8 Sherman Fury (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M4A3 Sherman (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M4 Sherman.name"
+        },
+        {
+            "Line": "entity.[FlansMod] M8 Greyhound (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M10 Wolverine (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M18 Hellcat (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M24 Chaffee (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M45 Quadmount (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] M60A1 Patton.name"
+        },
+        {
+            "Line": "entity.[FlansMod] M113A1 APC.name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer 38(t) (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzerhaubitze Hummel (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer I Ausf. A (Kikkoceccato).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer II Ausf. F (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer II Ausf.L Luchs (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer III Ausf. N (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer IV.name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer IV Ausf. G (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer IV Ausf. H (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer IV Ausf. H (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer IV Ausf. J (Wolff's Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VIII Maus (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VII Tiger (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VII Tiger 131 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VII Tiger Ausf. E (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VII Tiger Ausf. E (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VII Tiger II (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer VII Tiger II Ausf. B (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Panzer V Panther Ausf. G (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Renault FT-17 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Sanitatskraftwagen I Ausf. A (Kikkoceccato).name"
+        },
+        {
+            "Line": "entity.[FlansMod] SAS Jeep (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] SdKfz251 Ausf. D (Wolff's Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Sentry Gun (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] StuG III Ausf. F (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] StuG III Ausf. G (Warfare 44).name"
+        },
+        {
+            "Line": "entity.[FlansMod] StuG IV (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Sturmpanzer VI Sturmtiger (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] SU-1-12 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] SU-85 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] SU-100 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] SU-122 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-14 Armata.name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-34.name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-34/76 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-34/76 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-34/85 (Manus Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-34/85 (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-35 (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-55A (Lizard).name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-72A 1979.name"
+        },
+        {
+            "Line": "entity.[FlansMod] T-90.name"
+        },
+        {
+            "Line": "entity.[FlansMod] TKS 20mm (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] TKS MG (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Type 3 Chi-Nu (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Type 4 Ho-Ro (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Type 90 Kyu-maru (Monolith Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Type 95 Ha-Go (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Type 97 Chi-Ha (Extra Zero 8).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Type 97 Chi-Ha (Official Pack).name"
+        },
+        {
+            "Line": "entity.[FlansMod] Universal Carrier 2Pdr (Official Pack).name"
+        },
+        {
+            "Line": "entity.abaia.name"
+        },
+        {
+            "Line": "entity.abtu.name"
+        },
+        {
+            "Line": "entity.aegis.name"
+        },
+        {
+            "Line": "entity.afrit.name"
+        },
+        {
+            "Line": "entity.aglebemu.name"
+        },
+        {
+            "Line": "entity.amalgalich.name"
+        },
+        {
+            "Line": "entity.amphithere.name"
+        },
+        {
+            "Line": "entity.ArcaneBore.name"
+        },
+        {
+            "Line": "entity.archvile.name"
+        },
+        {
+            "Line": "entity.argus.name"
+        },
+        {
+            "Line": "entity.arisaur.name"
+        },
+        {
+            "Line": "entity.arix.name"
+        },
+        {
+            "Line": "entity.ArmorStand.name"
+        },
+        {
+            "Line": "entity.asmodeus.name"
+        },
+        {
+            "Line": "entity.aspid.name"
+        },
+        {
+            "Line": "entity.astaroth.name"
+        },
+        {
+            "Line": "entity.baby_foliaath.name"
+        },
+        {
+            "Line": "entity.balayang.name"
+        },
+        {
+            "Line": "entity.banshee.name"
+        },
+        {
+            "Line": "entity.barako.name"
+        },
+        {
+            "Line": "entity.barakoan_barakoana.name"
+        },
+        {
+            "Line": "entity.barakoan_player.name"
+        },
+        {
+            "Line": "entity.barakoana.name"
+        },
+        {
+            "Line": "entity.barakoaya.name"
+        },
+        {
+            "Line": "entity.barghest.name"
+        },
+        {
+            "Line": "entity.Bat.name"
+        },
+        {
+            "Line": "entity.bat_smart.name"
+        },
+        {
+            "Line": "entity.behemoth.name"
+        },
+        {
+            "Line": "entity.beholder.name"
+        },
+        {
+            "Line": "entity.belph.name"
+        },
+        {
+            "Line": "entity.Blaze.name"
+        },
+        {
+            "Line": "entity.bobeko.name"
+        },
+        {
+            "Line": "entity.botania:doppleganger.name"
+        },
+        {
+            "Line": "entity.botania:pinkWither.name"
+        },
+        {
+            "Line": "entity.botania:pixie.name"
+        },
+        {
+            "Line": "entity.BrainyZombie.name"
+        },
+        {
+            "Line": "entity.cacodemon.name"
+        },
+        {
+            "Line": "entity.calpod.name"
+        },
+        {
+            "Line": "entity.CaveSpider.name"
+        },
+        {
+            "Line": "entity.cephignis.name"
+        },
+        {
+            "Line": "entity.Chicken.name"
+        },
+        {
+            "Line": "entity.chupacabra.name"
+        },
+        {
+            "Line": "entity.cinder.name"
+        },
+        {
+            "Line": "entity.clink.name"
+        },
+        {
+            "Line": "entity.cockatrice.name"
+        },
+        {
+            "Line": "entity.conba.name"
+        },
+        {
+            "Line": "entity.concapede.name"
+        },
+        {
+            "Line": "entity.concapedesegment.name"
+        },
+        {
+            "Line": "entity.Cow.name"
+        },
+        {
+            "Line": "entity.Creeper.name"
+        },
+        {
+            "Line": "entity.crusk.name"
+        },
+        {
+            "Line": "entity.cryptkeeper.name"
+        },
+        {
+            "Line": "entity.CultistCleric.name"
+        },
+        {
+            "Line": "entity.CultistKnight.name"
+        },
+        {
+            "Line": "entity.CultistLeader.name"
+        },
+        {
+            "Line": "entity.CultistPortalGreater.name"
+        },
+        {
+            "Line": "entity.CultistPortalLesser.name"
+        },
+        {
+            "Line": "entity.cyclops.name"
+        },
+        {
+            "Line": "entity.darkling.name"
+        },
+        {
+            "Line": "entity.dawon.name"
+        },
+        {
+            "Line": "entity.deathworm.name"
+        },
+        {
+            "Line": "entity.djinn.name"
+        },
+        {
+            "Line": "entity.Donkey.name"
+        },
+        {
+            "Line": "entity.dragonegg.name"
+        },
+        {
+            "Line": "entity.dragonskull.name"
+        },
+        {
+            "Line": "entity.dread_beast.name"
+        },
+        {
+            "Line": "entity.dread_ghoul.name"
+        },
+        {
+            "Line": "entity.dread_horse.name"
+        },
+        {
+            "Line": "entity.dread_knight.name"
+        },
+        {
+            "Line": "entity.dread_lich.name"
+        },
+        {
+            "Line": "entity.dread_scuttler.name"
+        },
+        {
+            "Line": "entity.dread_thrall.name"
+        },
+        {
+            "Line": "entity.dweller.name"
+        },
+        {
+            "Line": "entity.eechetik.name"
+        },
+        {
+            "Line": "entity.ElderGuardian.name"
+        },
+        {
+            "Line": "entity.EldritchCrab.name"
+        },
+        {
+            "Line": "entity.EldritchGolem.name"
+        },
+        {
+            "Line": "entity.EldritchGuardian.name"
+        },
+        {
+            "Line": "entity.EldritchWarden.name"
+        },
+        {
+            "Line": "entity.EnderDragon.name"
+        },
+        {
+            "Line": "entity.Enderman.name"
+        },
+        {
+            "Line": "entity.Endermite.name"
+        },
+        {
+            "Line": "entity.ent.name"
+        },
+        {
+            "Line": "entity.entityArcher.name"
+        },
+        {
+            "Line": "entity.EntityCamera.name"
+        },
+        {
+            "Line": "entity.EntityNPC.name"
+        },
+        {
+            "Line": "entity.EntityOfflineAvatar.name"
+        },
+        {
+            "Line": "entity.epion.name"
+        },
+        {
+            "Line": "entity.erepede.name"
+        },
+        {
+            "Line": "entity.ettin.name"
+        },
+        {
+            "Line": "entity.EvocationIllager.name"
+        },
+        {
+            "Line": "entity.eyewig.name"
+        },
+        {
+            "Line": "entity.fear.name"
+        },
+        {
+            "Line": "entity.feradon.name"
+        },
+        {
+            "Line": "entity.ferrous_wroughtnaut.name"
+        },
+        {
+            "Line": "entity.Firebat.name"
+        },
+        {
+            "Line": "entity.firedragon.name"
+        },
+        {
+            "Line": "entity.foliaath.name"
+        },
+        {
+            "Line": "entity.frostmaw.name"
+        },
+        {
+            "Line": "entity.frostweaver.name"
+        },
+        {
+            "Line": "entity.geist.name"
+        },
+        {
+            "Line": "entity.geken.name"
+        },
+        {
+            "Line": "entity.genericasimmfemale.name"
+        },
+        {
+            "Line": "entity.genericsimmfemale.name"
+        },
+        {
+            "Line": "entity.genericvillager.name"
+        },
+        {
+            "Line": "entity.geonach.name"
+        },
+        {
+            "Line": "entity.Ghast.name"
+        },
+        {
+            "Line": "entity.ghoul.name"
+        },
+        {
+            "Line": "entity.Giant.name"
+        },
+        {
+            "Line": "entity.GiantBrainyZombie.name"
+        },
+        {
+            "Line": "entity.gnekk.name"
+        },
+        {
+            "Line": "entity.Golem.name"
+        },
+        {
+            "Line": "entity.gorger.name"
+        },
+        {
+            "Line": "entity.gorgomite.name"
+        },
+        {
+            "Line": "entity.gorgon.name"
+        },
+        {
+            "Line": "entity.grell.name"
+        },
+        {
+            "Line": "entity.grigori.name"
+        },
+        {
+            "Line": "entity.grottol.name"
+        },
+        {
+            "Line": "entity.grue.name"
+        },
+        {
+            "Line": "entity.Guardian.name"
+        },
+        {
+            "Line": "entity.herma.name"
+        },
+        {
+            "Line": "entity.hippocampus.name"
+        },
+        {
+            "Line": "entity.hippogryph.name"
+        },
+        {
+            "Line": "entity.Horse.name"
+        },
+        {
+            "Line": "entity.Husk.name"
+        },
+        {
+            "Line": "entity.icedragon.name"
+        },
+        {
+            "Line": "entity.if_cockatrice.name"
+        },
+        {
+            "Line": "entity.if_hydra.name"
+        },
+        {
+            "Line": "entity.if_mob_skull.name"
+        },
+        {
+            "Line": "entity.if_pixie.name"
+        },
+        {
+            "Line": "entity.if_troll.name"
+        },
+        {
+            "Line": "entity.ignibus.name"
+        },
+        {
+            "Line": "entity.ika.name"
+        },
+        {
+            "Line": "entity.IllusionIllager.name"
+        },
+        {
+            "Line": "entity.InhabitedZombie.name"
+        },
+        {
+            "Line": "entity.ioray.name"
+        },
+        {
+            "Line": "entity.jabberwock.name"
+        },
+        {
+            "Line": "entity.jengu.name"
+        },
+        {
+            "Line": "entity.joust.name"
+        },
+        {
+            "Line": "entity.joustalpha.name"
+        },
+        {
+            "Line": "entity.khalk.name"
+        },
+        {
+            "Line": "entity.kobold.name"
+        },
+        {
+            "Line": "entity.krake.name"
+        },
+        {
+            "Line": "entity.lacedon.name"
+        },
+        {
+            "Line": "entity.lantern.name"
+        },
+        {
+            "Line": "entity.LavaSlime.name"
+        },
+        {
+            "Line": "entity.Llama.name"
+        },
+        {
+            "Line": "entity.lobber.name"
+        },
+        {
+            "Line": "entity.lurker.name"
+        },
+        {
+            "Line": "entity.maka.name"
+        },
+        {
+            "Line": "entity.makaalpha.name"
+        },
+        {
+            "Line": "entity.maug.name"
+        },
+        {
+            "Line": "entity.millblaze.name"
+        },
+        {
+            "Line": "entity.millghast.name"
+        },
+        {
+            "Line": "entity.millwitherskeleton.name"
+        },
+        {
+            "Line": "entity.MindSpider.name"
+        },
+        {
+            "Line": "entity.morock.name"
+        },
+        {
+            "Line": "entity.Mule.name"
+        },
+        {
+            "Line": "entity.MushroomCow.name"
+        },
+        {
+            "Line": "entity.myrmex_egg.name"
+        },
+        {
+            "Line": "entity.myrmex_queen.name"
+        },
+        {
+            "Line": "entity.myrmex_royal.name"
+        },
+        {
+            "Line": "entity.myrmex_sentinel.name"
+        },
+        {
+            "Line": "entity.myrmex_soldier.name"
+        },
+        {
+            "Line": "entity.myrmex_swarmer.name"
+        },
+        {
+            "Line": "entity.myrmex_worker.name"
+        },
+        {
+            "Line": "entity.naga.name"
+        },
+        {
+            "Line": "entity.necrovore.name"
+        },
+        {
+            "Line": "entity.nymph.name"
+        },
+        {
+            "Line": "entity.openblocks.luggage.name"
+        },
+        {
+            "Line": "entity.openblocks.mini_me.name"
+        },
+        {
+            "Line": "entity.Ozelot.name"
+        },
+        {
+            "Line": "entity.Parrot.name"
+        },
+        {
+            "Line": "entity.Pech.name"
+        },
+        {
+            "Line": "entity.Pig.name"
+        },
+        {
+            "Line": "entity.PigZombie.name"
+        },
+        {
+            "Line": "entity.pink_slime.name"
+        },
+        {
+            "Line": "entity.pinky.name"
+        },
+        {
+            "Line": "entity.pixen.name"
+        },
+        {
+            "Line": "entity.PolarBear.name"
+        },
+        {
+            "Line": "entity.quetzodracl.name"
+        },
+        {
+            "Line": "entity.quillbeast.name"
+        },
+        {
+            "Line": "entity.Rabbit.name"
+        },
+        {
+            "Line": "entity.rahovart.name"
+        },
+        {
+            "Line": "entity.raiko.name"
+        },
+        {
+            "Line": "entity.reaper.name"
+        },
+        {
+            "Line": "entity.reiver.name"
+        },
+        {
+            "Line": "entity.remobra.name"
+        },
+        {
+            "Line": "entity.roa.name"
+        },
+        {
+            "Line": "entity.roc.name"
+        },
+        {
+            "Line": "entity.salamander.name"
+        },
+        {
+            "Line": "entity.seaserpent.name"
+        },
+        {
+            "Line": "entity.serpix.name"
+        },
+        {
+            "Line": "entity.shade.name"
+        },
+        {
+            "Line": "entity.shambler.name"
+        },
+        {
+            "Line": "entity.Sheep.name"
+        },
+        {
+            "Line": "entity.Shulker.name"
+        },
+        {
+            "Line": "entity.silex.name"
+        },
+        {
+            "Line": "entity.Silverfish.name"
+        },
+        {
+            "Line": "entity.siren.name"
+        },
+        {
+            "Line": "entity.Skeleton.name"
+        },
+        {
+            "Line": "entity.SkeletonHorse.name"
+        },
+        {
+            "Line": "entity.skylus.name"
+        },
+        {
+            "Line": "entity.Slime.name"
+        },
+        {
+            "Line": "entity.SnowMan.name"
+        },
+        {
+            "Line": "entity.snowvillager.name"
+        },
+        {
+            "Line": "entity.spectre.name"
+        },
+        {
+            "Line": "entity.Spellbat.name"
+        },
+        {
+            "Line": "entity.Spider.name"
+        },
+        {
+            "Line": "entity.spriggan.name"
+        },
+        {
+            "Line": "entity.Squid.name"
+        },
+        {
+            "Line": "entity.stonestatue.name"
+        },
+        {
+            "Line": "entity.Stray.name"
+        },
+        {
+            "Line": "entity.strider.name"
+        },
+        {
+            "Line": "entity.stymphalianbird.name"
+        },
+        {
+            "Line": "entity.sutiramu.name"
+        },
+        {
+            "Line": "entity.sylph.name"
+        },
+        {
+            "Line": "entity.Taintacle.name"
+        },
+        {
+            "Line": "entity.TaintacleGiant.name"
+        },
+        {
+            "Line": "entity.TaintacleTiny.name"
+        },
+        {
+            "Line": "entity.TaintCrawler.name"
+        },
+        {
+            "Line": "entity.TaintSeed.name"
+        },
+        {
+            "Line": "entity.TaintSeedPrime.name"
+        },
+        {
+            "Line": "entity.TaintSwarm.name"
+        },
+        {
+            "Line": "entity.tarantula.name"
+        },
+        {
+            "Line": "entity.ThaumSlime.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.basalz.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.blitz.name"
+        },
+        {
+            "Line": "entity.thermalfoundation.blizz.name"
+        },
+        {
+            "Line": "entity.thresher.name"
+        },
+        {
+            "Line": "entity.tpumpkyn.name"
+        },
+        {
+            "Line": "entity.treant.name"
+        },
+        {
+            "Line": "entity.tremor.name"
+        },
+        {
+            "Line": "entity.triffid.name"
+        },
+        {
+            "Line": "entity.trite.name"
+        },
+        {
+            "Line": "entity.troll.name"
+        },
+        {
+            "Line": "entity.TurretAdvanced.name"
+        },
+        {
+            "Line": "entity.TurretBasic.name"
+        },
+        {
+            "Line": "entity.uvaraptor.name"
+        },
+        {
+            "Line": "entity.vapula.name"
+        },
+        {
+            "Line": "entity.ventoraptor.name"
+        },
+        {
+            "Line": "entity.vespid.name"
+        },
+        {
+            "Line": "entity.vespidqueen.name"
+        },
+        {
+            "Line": "entity.Vex.name"
+        },
+        {
+            "Line": "entity.Villager.name"
+        },
+        {
+            "Line": "entity.VillagerGolem.name"
+        },
+        {
+            "Line": "entity.VindicationIllager.name"
+        },
+        {
+            "Line": "entity.volcan.name"
+        },
+        {
+            "Line": "entity.vorach.name"
+        },
+        {
+            "Line": "entity.warg.name"
+        },
+        {
+            "Line": "entity.wendigo.name"
+        },
+        {
+            "Line": "entity.wildkin.name"
+        },
+        {
+            "Line": "entity.Wisp.name"
+        },
+        {
+            "Line": "entity.wisp.name"
+        },
+        {
+            "Line": "entity.Witch.name"
+        },
+        {
+            "Line": "entity.WitherBoss.name"
+        },
+        {
+            "Line": "entity.WitherSkeleton.name"
+        },
+        {
+            "Line": "entity.Wolf.name"
+        },
+        {
+            "Line": "entity.wraamon.name"
+        },
+        {
+            "Line": "entity.wraith.name"
+        },
+        {
+            "Line": "entity.xaphan.name"
+        },
+        {
+            "Line": "entity.yale.name"
+        },
+        {
+            "Line": "entity.zephyr.name"
+        },
+        {
+            "Line": "entity.zoataur.name"
+        },
+        {
+            "Line": "entity.Zombie.name"
+        },
+        {
+            "Line": "entity.ZombieHorse.name"
+        },
+        {
+            "Line": "entity.ZombieVillager.name"
+        }
+    ],
+    "Air": 300s,
+    "TacticalVariant": 2,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 4,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 3,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 5,
+    "MercenaryInfiniteDays": 1b,
+    "ShotCount": 1,
+    "pDur": 1,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "Tango Down!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Gun em down!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Enemy down!",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "Got one!",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Teach you to mess with the UCDF!",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "Kick ass!",
+                "Song": "",
+                "Slot": 5
+            }
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "MercenaryDisableGui": 0b,
+    "Texture": "customnpcs:textures/entity/old/extra_uned/forhex-marine-fullgear-greaves.png",
+    "NpcJob": 3,
+    "BurstCount": 3,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 50,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 0b,
+    "MercenaryDayRates": [
+        {
+            "Integer": 3,
+            "Slot": 0
+        },
+        {
+            "Integer": 9,
+            "Slot": 1
+        },
+        {
+            "Integer": 18,
+            "Slot": 2
+        }
+    ],
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 5,
+    "DistanceToMelee": 3,
+    "NpcStepSound": "minecraft:step.snow",
+    "FireRate": 3,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "Ahhhh!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 0
+            },
+            {
+                "Line": "Man down!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 1
+            },
+            {
+                "Line": "Medic!",
+                "Song": "customnpcs:human.male.SCMarine.Death",
+                "Slot": 2
+            }
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "What do you need?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 0
+            },
+            {
+                "Line": "Yes, sir!",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 1
+            },
+            {
+                "Line": "Are we moving out?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 2
+            },
+            {
+                "Line": "Sir.",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 3
+            },
+            {
+                "Line": "Your orders?",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 4
+            },
+            {
+                "Line": "Sir!",
+                "Song": "customnpcs:human.male.SCMarine.Greeting.Formal",
+                "Slot": 7
+            }
+        ]
+    },
+    "HurtByTimestamp": 649,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:game.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": -2.0d,
+            "Name": "tc.mobmod"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "tc.mobmodtaint"
+        },
+        {
+            "Base": 25.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 0,
+                    "Name": "KnockbackResist"
+                }
+            ],
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.20000000298023224d,
+            "Modifiers": [
+                {
+                    "UUIDMost": -3801225194067177672L,
+                    "UUIDLeast": -6586624321849018929L,
+                    "Amount": 0.0d,
+                    "Operation": 2,
+                    "Name": "MovementSpeed"
+                }
+            ],
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 7.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.4000000059604645d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "UCDF Rifleman",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "MercenaryDialogHired": "Understood, sir. I'll follow you for {days} days.",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "flansmod:m16a4",
+            "Count": 1b,
+            "tag": {
+                "ammo": [
+                    {
+                    }
+                ],
+                "attachments": {
+                    "barrel": {
+                    },
+                    "grip": {
+                    },
+                    "generic_0": {
+                    },
+                    "scope": {
+                    },
+                    "stock": {
+                    }
+                },
+                "display": {
+                    "Lore": [
+                        "§2Standard-issue Service Rifle issued to",
+                        "§2UNED Marine Personnel. 30-round Fully-Automatic."
+                    ],
+                    "Name": "§rM16A4 §oService Rifle"
+                },
+                "Paint": "M16A4_Green"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "variedcommodities:coin_gold",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 25,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "MercenaryRefuseSoulstone": 0b,
+    "ForgeCaps": {
+        "armourers_workshop:entity-skin-provider": {
+            "wardrobeContainer": {
+                "armourers:sword": {
+                    "Items": [
+                    ]
+                },
+                "armourers:head": {
+                    "Items": [
+                    ]
+                },
+                "armourers:shield": {
+                    "Items": [
+                    ]
+                },
+                "armourers:outfit": {
+                    "Items": [
+                    ]
+                },
+                "armourers:bow": {
+                    "Items": [
+                    ]
+                },
+                "armourers:feet": {
+                    "Items": [
+                    ]
+                },
+                "armourers:chest": {
+                    "Items": [
+                    ]
+                },
+                "armourers:legs": {
+                    "Items": [
+                    ]
+                },
+                "armourers:wings": {
+                    "Items": [
+                    ]
+                }
+            }
+        },
+        "llibrary:extendedentitydatacapability": {
+            "mm:living": {
+                "frozenYaw": 0.0f,
+                "freezeProgress": 0.0f,
+                "frozenPitch": 0.0f,
+                "prevHasAI": 0b,
+                "freezeDecayDelay": 0,
+                "frozenYawHead": 0.0f,
+                "frozenLimbSwingAmount": 0.0f,
+                "frozenRenderYawOffset": 0.0f,
+                "frozenSwingProgress": 0.0f
+            },
+            "Ice And Fire - Siren Property Tracker": {
+                "CharmedBySiren": 0b,
+                "SirenID": 0
+            },
+            "Ice And Fire - Frozen Property Tracker": {
+                "TicksUntilUnfrozen": 0,
+                "IsFrozen": 0b
+            },
+            "Ice and Fire - Player Property Tracker": {
+                "DismountedDragon": 0b,
+                "GauntletDamage": 0,
+                "DreadPortalZ": 0,
+                "DreadPortalY": 0,
+                "DreadPortalX": 0
+            },
+            "Ice And Fire - Chain Property Tracker": {
+                "ConnectedEntities": [
+                ]
+            },
+            "Ice And Fire - Stone Property Tracker": {
+                "StoneBreakLvl": 0,
+                "TurnedToStone": 0b
+            }
+        },
+        "armourers_workshop:wardrobe-provider": {
+            "extra-colour-skin": 0,
+            "dye": {
+                "dyeData": {
+                }
+            },
+            "extra-colour-misc_1": 0,
+            "extra-colour-misc_2": 0,
+            "extra-colour-misc_3": 0,
+            "extra-colour-misc_4": 0,
+            "extra-colour-eye": 0,
+            "extra-colour-hair": 0
+        },
+        "lycanitesmobs:iextendedentity": {
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "MercenaryDialogFarewell": "I'm returning to base!",
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 4882687,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "noppes.npcs.entity.EntityNPC64x32",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+            "ReturnToStart": 1b,
+            "NpcInv": [
+            ],
+            "BossColor": 0,
+            "PotionEffect": 0,
+            "stopAndInteract": 1b,
+            "Size": 5,
+            "Resistances": {
+                "Arrow": 1.0f,
+                "Explosion": 1.0f,
+                "Knockback": 1.0f,
+                "Melee": 1.0f
+            },
+            "BossBar": 0b,
+            "RespawnTime": 20,
+            "NpcAngrySound": "",
+            "ReactsToFire": 0b,
+            "PositionOffsetZ": 5.0f,
+            "IgnoreCobweb": 0b,
+            "PositionOffsetY": 5.0f,
+            "PositionOffsetX": 5.0f,
+            "LootMode": 0,
+            "AttackStrenght": 5,
+            "NpcLines": {
+                "Lines": [
+                ]
+            },
+            "DefendFaction": 0b,
+            "MovingPatern": 0,
+            "IsStatue": 0b,
+            "FireIndirect": 0,
+            "NpcVisible": 0,
+            "NpcScenes": {
+                "Scenes": [
+                ]
+            },
+            "HitSound": "minecraft:entity.arrow.hit",
+            "FindShelter": 2,
+            "TacticalVariant": 0,
+            "Orientation": 0,
+            "KnockBack": 0,
+            "BurnInSun": 0b,
+            "StandingState": 0,
+            "NpcInteractNPCLines": {
+                "Lines": [
+                ]
+            },
+            "AttackInvisible": 0b,
+            "WalkingRange": 10,
+            "ShotCount": 1,
+            "pDur": 5,
+            "StartPosNew": [I;0,0,0],
+            "AttackRange": 2,
+            "NpcKillLines": {
+                "Lines": [
+                ]
+            },
+            "AvoidsSun": 0b,
+            "PotionImmune": 0b,
+            "Texture": "customnpcs:textures/entity/humanmale/steve64x32.png",
+            "NpcJob": 0,
+            "NpcAttackLines": {
+                "Lines": [
+                ]
+            },
+            "BurstCount": 1,
+            "pSpeed": 10,
+            "pArea": 0,
+            "pImpact": 0,
+            "MoveState": 0,
+            "pRender3D": 1b,
+            "CombatRegen": 0,
+            "pEffect": 0,
+            "DistanceToMelee": 0,
+            "MarkovGender": 0,
+            "NpcStepSound": "",
+            "FireRate": 5,
+            "pEffAmp": 0,
+            "ImmuneToFire": 0b,
+            "NpcKilledLines": {
+                "Lines": [
+                ]
+            },
+            "DisablePitch": 0b,
+            "pPhysics": 1b,
+            "NpcInteractLines": {
+                "Lines": [
+                    {
+                        "Line": "Hello, @p",
+                        "Song": "",
+                        "Slot": 0
+                    }
+                ]
+            },
+            "NpcHurtSound": "minecraft:entity.player.hurt",
+            "pSpin": 0b,
+            "pTrail": 0,
+            "CreatureType": 0,
+            "NoFallDamage": 0b,
+            "Name": "Ingirida",
+            "SkinColor": 16777215,
+            "NpcIdleSound": "",
+            "Weapons": [
+            ],
+            "NPCDialogOptions": [
+            ],
+            "DirectLOS": 1b,
+            "AggroRange": 16,
+            "HealthRegen": 1,
+            "DoorInteract": 2,
+            "MoveSpeed": 5,
+            "minDelay": 20,
+            "UsingSkinUrl": 0b,
+            "SkinUrl": "",
+            "CanSwim": 1b,
+            "GroundSound": "minecraft:block.stone.break",
+            "MaxHealth": 20,
+            "HideBodyWhenKilled": 0b,
+            "AttackSpeed": 20,
+            "PotionDuration": 5,
+            "Role": 0,
+            "maxDelay": 40,
+            "DropChance": [
+            ],
+            "FactionPoints": {
+                "DecreaseFaction1Points": 0b,
+                "OptionFaction2Points": 100,
+                "OptionFactions1": -1,
+                "OptionFactions2": -1,
+                "OptionFaction1Points": 100,
+                "DecreaseFaction2Points": 0b
+            },
+            "pDamage": 4,
+            "AimWhileShooting": 0b,
+            "AttackOtherFactions": 0b,
+            "CanDrown": 1b,
+            "CanSprint": 0b,
+            "pSize": 5,
+            "CanLeap": 0b,
+            "MovingState": 0,
+            "MovingPos": 0,
+            "PotionAmp": 0,
+            "OnAttack": 0,
+            "TacticalRadius": 8,
+            "MaxExp": 0,
+            "OrderedLines": 0b,
+            "pGlows": 0b,
+            "MovementType": 0,
+            "FiringSound": "minecraft:entity.arrow.shoot",
+            "Accuracy": 60,
+            "MinExp": 0,
+            "Armor": [
+            ],
+            "CloakTexture": "",
+            "MaxFiringRange": 15,
+            "pXlr8": 0b,
+            "GlowTexture": "",
+            "MarkovGeneratorId": 5,
+            "NpcDeathSound": "minecraft:entity.player.hurt",
+            "MovingPause": 1b,
+            "pStick": 0b,
+            "FactionID": 0,
+            "MovingPathNew": [
+            ],
+            "Title": "",
+            "npcInteracting": 1b,
+            "ShowName": 0,
+            "AvoidsWater": 0b,
+            "NoLivingAnimation": 0b,
+            "SpawnCycle": 0
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 60,
+    "DoorInteract": 1,
+    "MoveSpeed": 4,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "MercenaryInv": {
+        "NpcMiscInv": [
+        ]
+    },
+    "GroundSound": "random.break",
+    "MaxHealth": 25,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 30,
+    "PotionDuration": 5,
+    "maxDelay": 100,
+    "ScriptEnabled": 0b,
+    "Role": 2,
+    "DropChance": [
+        {
+            "Integer": 15,
+            "Slot": 0
+        },
+        {
+            "Integer": 57,
+            "Slot": 1
+        },
+        {
+            "Integer": 57,
+            "Slot": 2
+        },
+        {
+            "Integer": 5,
+            "Slot": 3
+        },
+        {
+            "Integer": 20,
+            "Slot": 4
+        },
+        {
+            "Integer": 1,
+            "Slot": 5
+        },
+        {
+            "Integer": 15,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 15,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 15,
+    "KilledTime": 0L,
+    "MercenaryDaysHired": 0,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 1b,
+    "pSize": 3,
+    "CanSprint": 0b,
+    "CanLeap": 1b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "flansmod:an94shoot",
+    "ModRev": 18,
+    "Accuracy": 70,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "MercenaryIsFollowing": 1b,
+    "GlowTexture": "",
+    "MaxFiringRange": 30,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+    ],
+    "Health": 25.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "customnpcs:human.male.SCMarine.Death",
+    "FactionID": 0,
+    "Title": "",
+    "TotalTicksAlive": 307849L,
+    "Rotation": [
+        247.13895f,
+        0.0f
+    ],
+    "ShowName": 2,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 3
+}
