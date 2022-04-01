@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityLobber",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelLobber",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [

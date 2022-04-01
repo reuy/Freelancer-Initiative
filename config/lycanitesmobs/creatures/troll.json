@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTroll",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTroll",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [
