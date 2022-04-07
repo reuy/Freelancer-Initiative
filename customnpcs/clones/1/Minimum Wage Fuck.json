@@ -1,5 +1,5 @@
 {
-    "ReturnToStart": 1b,
+    "ReturnToStart": 0b,
     "NpcInv": [
     ],
     "BossColor": 0,
@@ -348,7 +348,7 @@
             }
         ]
     },
-    "HurtByTimestamp": 7481,
+    "HurtByTimestamp": 4017,
     "TraderCurrency": {
         "NpcMiscInv": [
             {
@@ -504,11 +504,11 @@
                     "Items": [
                     ]
                 },
-                "armourers:outfit": {
+                "armourers:bow": {
                     "Items": [
                     ]
                 },
-                "armourers:bow": {
+                "armourers:outfit": {
                     "Items": [
                     ]
                 },
@@ -530,22 +530,7 @@
                 }
             }
         },
-        "dsurround:data": {
-            "a": 0b,
-            "f": 0b
-        },
         "llibrary:extendedentitydatacapability": {
-            "mm:living": {
-                "frozenYaw": 0.0f,
-                "freezeProgress": 0.0f,
-                "frozenPitch": 0.0f,
-                "prevHasAI": 0b,
-                "freezeDecayDelay": 0,
-                "frozenYawHead": 0.0f,
-                "frozenLimbSwingAmount": 0.0f,
-                "frozenRenderYawOffset": 0.0f,
-                "frozenSwingProgress": 0.0f
-            },
             "Ice And Fire - Siren Property Tracker": {
                 "CharmedBySiren": 0b,
                 "SirenID": 0
@@ -616,7 +601,7 @@
             "PositionY": 1,
             "SkinColor": 11830381,
             "PlayerTexture": 0b,
-            "Color": 55610,
+            "Color": 10987431,
             "BrowColor": 5982516,
             "BrowThickness": 4
         },
@@ -754,13 +739,13 @@
     "MarkovGeneratorId": 0,
     "Scripts": [
         {
-            "Script": "",
+            "Script": "function init(event){
+npc.setReturnToHome(true);
+	npc.setHome(npc.getX(),npc.getY(),npc.getZ());
+}",
             "Console": [
             ],
             "ScriptList": [
-                {
-                    "Line": "fixrecurrence.js"
-                }
             ]
         }
     ],
@@ -770,16 +755,16 @@
     "NpcDeathSound": "minecraft:game.player.hurt",
     "FactionID": 0,
     "Title": "",
-    "TotalTicksAlive": 35366L,
+    "TotalTicksAlive": 33894L,
     "Rotation": [
         -80.528946f,
-        -0.0911025f
+        -0.14802995f
     ],
     "ShowName": 0,
     "npcInteracting": 1b,
     "UpdateBlocked": 0b,
     "AvoidsWater": 0b,
-    "ChunkPlayerLastSeen": 0L,
+    "ChunkPlayerLastSeen": 1648715898142L,
     "NoLivingAnimation": 0b,
     "SpawnCycle": 0
 }

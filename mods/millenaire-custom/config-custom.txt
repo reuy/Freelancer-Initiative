@@ -16,6 +16,9 @@ generate_help_data=false
 //config.ignore_resource_cost.label; config.ignore_resource_cost.desc:
 ignore_resource_cost=false
 
+//Language Learning; Whether languages need to be "learned" (translations will only appear after the player interacts enough with a culture).
+language_learning=false
+
 //Unique random identifier to count unique players if statistics are enabled
 random_uid=357968313515356160
 

@@ -1,4 +1,13 @@
 #loader bindtweaker
 import mod.bt.Binds;
 
+//Prints all binds to crafttweaker log, for future reference
+Binds.printBinds();
+
 // createBind("Reload", Items )
+
+
+
+//Vehicle Attack
+	//Dragon Breath(Ice and Fire)(Orig. "R")
+	//Dragon Breath(Ice and Fire)(Orig. "R")

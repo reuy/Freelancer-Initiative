@@ -1,0 +1,18 @@
+
+import mods.compatskills.Skill;
+
+var tree = <skill:compatskills:soldier>;
+
+//First skill: Import Road Walk(reskillable:roadwalk)
+var RoadWalk =  <trait:reskillable:roadwalk>;
+RoadWalk.parentSkill = tree;
+
+
+
+
+
+
+
+
+//LOCALIZATION - Move to .lang later
+RoadWalk.name = "Pathfinder";

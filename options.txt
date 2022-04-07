@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.0
+fov:-1.18255615E-4
 gamma:0.0
 saturation:0.0
 renderDistance:16
@@ -12,12 +12,12 @@ anaglyph3d:false
 maxFps:60
 fboEnable:true
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:42.147.156.188:57679
+lastServer:42.147.155.176:30000
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -90,7 +90,7 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
-key_Change Caster Focus:33
+key_Change Caster Focus:0
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:0
 key_Scene1 start/pause:79
@@ -109,33 +109,18 @@ key_key.beastiary:0
 key_key.pets:0
 key_key.summoning:0
 key_key.minions:19
-key_key.open_menu:0
+key_key.open_menu:15
 key_keybind.railcraft.cart.bed:208
 key_Open MPS Keybind GUI:0
 key_Go Down (MPS Flight Control):44
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
-key_key.reload:19
-key_key.unload:22
-key_key.inspect:25
-key_key.attachment:50
-key_key.scope:200
-key_key.recoil_fitter:208
-key_key.silencer:203
-key_key.texture_change:205
-key_key.laser:38
-key_key.nightVision:49
-key_key.add:23
-key_key.subtract:24
-key_key.fire_mode:48
-key_key.proning:44
-key_key.attach_laser:54
-key_key.sight:52
-key_key.custom_inventory:45
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_oreexcavation.key.excavate:41
+key_oreexcavation.key.shape:47
 key_key.toggle_shaders:0
 key_key.ping:41
 key_ping.key.alert:75
@@ -144,6 +129,7 @@ key_ping.key.look:77
 key_ping.key.goto:72
 key_key.spartanweaponry.access_quiver:23
 key_key.toastcontrol.clear:36
+key_key.pearl_swapping.desc:46
 key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -158,13 +144,12 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_keys.armourers_workshop.undo:44:CONTROL
 key_keys.armourers_workshop.open-wardrobe:25
+key_nei.options.keys.gui.botania_corporea_request:46
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
-key_nei.options.keys.gui.botania_corporea_request:46
-key_Unequip:44
 key_key.pitchDown.desc:29
 key_key.vehicleMenu.desc:50
 key_key.dropBomb.desc:48
@@ -204,24 +189,7 @@ key_key.menu:0
 key_key.villages:47
 key_key.escorts:34
 key_keybind.fovfixtoggle:0
-key_nei.options.keys.gui.enchant:45
-key_nei.options.keys.gui.potion:25
-key_nei.options.keys.gui.prev:201
-key_nei.options.keys.gui.next:209
-key_nei.options.keys.world.chunkoverlay:67
-key_nei.options.keys.world.moboverlay:65
-key_nei.options.keys.world.dawn:0
-key_nei.options.keys.world.noon:0
-key_nei.options.keys.world.dusk:0
-key_nei.options.keys.world.midnight:0
-key_nei.options.keys.world.rain:0
-key_nei.options.keys.world.heal:0
-key_nei.options.keys.world.creative:0
-key_techguns.key.toggleNightvision:49
-key_techguns.key.toggleSafemode:48
-key_techguns.key.toggleStepassist:47
-key_techguns.key.forceReload:19
-key_techguns.key.toggleJetpack:36
+key_key.clipboardPaste:210
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
 key_Toggle RCS:0
@@ -235,13 +203,13 @@ key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:48:CONTROL
-key_key.journeymap.toggle_waypoints:0
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.toggle_waypoints:44
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
-key_key.journeymap.map_toggle_alt:36:CONTROL
+key_key.journeymap.map_toggle_alt:36
 key_key.journeymap.fullscreen_waypoints:48:CONTROL
-key_key.journeymap.minimap_toggle_alt:0
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
 key_key.journeymap.fullscreen_options:24
 key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
@@ -252,8 +220,10 @@ key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
 key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
+key_toolbelt.binding.access:47
+key_toolbelt.binding.restock:47:SHIFT
 soundCategory_master:1.0
-soundCategory_music:0.07042254
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
@@ -262,8 +232,6 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:1.0
-soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
