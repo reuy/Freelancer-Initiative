@@ -5,9 +5,6 @@
 
 //Tooltips and renames for IC2 Equipment
 
-<IC2:te>.addTooltip(format.gold("A fairly safer form of TNT for use in mining operations."));
-<IC2:te>.addTooltip(format.gold("Releases an explosion that is more likely to drop blocks."));
-
 <ic2:dynamite>.displayName = "Industrial Dynamite";
 <ic2:dynamite>.addTooltip(format.gold("A fairly safer form of Dynamite for use in mining operations."));
 <ic2:dynamite>.addTooltip(format.gold("Releases a small explosion that is more likely to drop blocks."));
