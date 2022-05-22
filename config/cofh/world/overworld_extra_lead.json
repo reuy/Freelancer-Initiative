@@ -1,0 +1,29 @@
+{
+	"populate": {
+		"extra_lead": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "lead"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 6,
+			"center-height": 40,
+			"spread": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
