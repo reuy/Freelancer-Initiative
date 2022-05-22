@@ -4,9 +4,9 @@
 //Decorative blocks to be craftable from double-smoothed stone at stonecutters bench
 
 //Chisel world gen
-mods.futuremc.Stonecutter.addOutput(<futuremc:smooth_stone>, <chisel:basalt>);
-mods.futuremc.Stonecutter.addOutput(<futuremc:smooth_stone>, <chisel:marble>);
-mods.futuremc.Stonecutter.addOutput(<futuremc:smooth_stone>, <chisel:limestone>);
+mods.futuremc.Stonecutter.addOutput(<futuremc:smooth_stone>, <chisel:basalt2:7>);
+mods.futuremc.Stonecutter.addOutput(<futuremc:smooth_stone>, <chisel:marble2:7>);
+mods.futuremc.Stonecutter.addOutput(<futuremc:smooth_stone>, <chisel:limestone2:7>);
 
 //Vanilla blocks that no longer generate
 //Granite
