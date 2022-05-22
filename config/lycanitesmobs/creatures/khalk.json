@@ -6,8 +6,8 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKhalk",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKhalk",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [
@@ -101,7 +101,7 @@
   "flags": [
     {
       "name": "lavaDeath",
-      "value": true
+      "value": false
     }
   ]
 }
