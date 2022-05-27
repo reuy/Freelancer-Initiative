@@ -13,8 +13,6 @@ recipes.replaceAllOccurences(<ore:craftingToolForgeHammer>, <ore:craftingToolFor
 
 
 
-
-
 //Makes all SW Warhammers serve as forge hammers, but at double durability cost.
 
 //Removes the forge hammer

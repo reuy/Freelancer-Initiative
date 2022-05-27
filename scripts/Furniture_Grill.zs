@@ -3,7 +3,7 @@ mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_krake_meat>,<lycanitesmobs:raw_kr
 mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_silex_meat>,<lycanitesmobs:raw_silex_meat>);
 mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_maka_meat>,<lycanitesmobs:raw_maka_meat>);
 mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_ika_meat>,<lycanitesmobs:raw_ika_meat>);
-mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_jouste_meat>,<lycanitesmobs:raw_jouste_meat>);
+mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_jouste_meat>,<lycanitesmobs:raw_joust_meat>);
 mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_arisaur_meat>,<lycanitesmobs:raw_arisaur_meat>);
 
 mods.cfm.Grill.addRecipe(<lycanitesmobs:cooked_cephignis_meat>,<lycanitesmobs:raw_cephignis_meat>);

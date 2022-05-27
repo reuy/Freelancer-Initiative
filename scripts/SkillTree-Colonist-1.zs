@@ -6,7 +6,7 @@ var tree = <skill:compatskills:colonist>;
 
 
 /*
-First skill: Geologist
+1st skill: Geologist
 Enables you to see and gather different-looking types of stone in the world.
 
 var GeologistTargetBlocks = [
@@ -22,7 +22,28 @@ var Geologist = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("ge
 
 
 
+/*
+2nd skill: Architect
+Craft and use Chisels, which allow you to transform different block types.
+*/
+var Architect = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("architect", "architect", 1, 0, "compatskills:colonist", 3, "colonist:5");
+
+
+
+
+
+
+
+
+
+
+
+
 //LOCALIZATION - Move to .lang later
+
+Geologist.name = "Geologist's Eyes";
+Geologist.description  = "Allows you to see and gather different decorative rock types in the world.";
+
 
 Geologist.name = "Geologist's Eyes";
 Geologist.description  = "Allows you to see and gather different decorative rock types in the world.";

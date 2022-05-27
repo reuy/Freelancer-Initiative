@@ -26,6 +26,6 @@ random_uid=357968313515356160
 advancements_creative=firstcontact,cresus,summoningwand,thequest,explorer,marcopolo
 
 //Advancement completed for anonymous statistics
-advancements_survival=firstcontact,explorer,selfdefense,darkside,cheers
+advancements_survival=firstcontact,explorer,marcopolo,selfdefense,darkside,cheers
 
-validation=346191035
+validation=346191053
