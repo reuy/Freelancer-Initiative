@@ -4,10 +4,11 @@
 //IC2
 //Copper
 mods.jei.JEI.removeAndHide(<ic2:blockmetal:0>);
-//Lead
-mods.jei.JEI.removeAndHide(<ic2:blockmetal:1>);
 //Tin
+mods.jei.JEI.removeAndHide(<ic2:blockmetal:1>);
+//Silver
 mods.jei.JEI.removeAndHide(<ic2:blockmetal:3>);
+
 
 //Railcraft
 //Copper
