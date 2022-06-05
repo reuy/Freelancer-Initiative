@@ -1,0 +1,208 @@
+key_key.attack:-100:NONE
+key_key.use:-99:NONE
+key_key.forward:17:NONE
+key_key.left:30:NONE
+key_key.back:31:NONE
+key_key.right:32:NONE
+key_key.jump:57:NONE
+key_key.sneak:42:NONE
+key_key.sprint:29:NONE
+key_key.drop:16:NONE
+key_key.inventory:18:NONE
+key_key.chat:20:NONE
+key_key.playerlist:15:NONE
+key_key.pickItem:-98:NONE
+key_key.command:53:NONE
+key_key.screenshot:60:NONE
+key_key.togglePerspective:63:NONE
+key_key.smoothCamera:0:NONE
+key_key.fullscreen:87:NONE
+key_key.spectatorOutlines:0:NONE
+key_key.swapHands:33:NONE
+key_key.saveToolbarActivator:46:NONE
+key_key.loadToolbarActivator:45:NONE
+key_key.advancements:38:NONE
+key_key.hotbar.1:2:NONE
+key_key.hotbar.2:3:NONE
+key_key.hotbar.3:4:NONE
+key_key.hotbar.4:5:NONE
+key_key.hotbar.5:6:NONE
+key_key.hotbar.6:7:NONE
+key_key.hotbar.7:8:NONE
+key_key.hotbar.8:9:NONE
+key_key.hotbar.9:10:NONE
+key_Change Caster Focus:0:NONE
+key_Misc Caster Toggle:34:NONE
+key_keybind.baublesinventory:0:NONE
+key_key.ebwizardry.next_spell:49:NONE
+key_key.ebwizardry.previous_spell:48:NONE
+key_key.ebwizardry.spell_1:2:ALT
+key_key.ebwizardry.spell_2:3:ALT
+key_key.ebwizardry.spell_3:4:ALT
+key_key.ebwizardry.spell_4:5:ALT
+key_key.ebwizardry.spell_5:6:ALT
+key_key.ebwizardry.spell_6:7:ALT
+key_key.ebwizardry.spell_7:8:ALT
+key_key.ebwizardry.spell_8:9:ALT
+key_keybind.openSelectionWheel:56:NONE
+key_keybind.openBaubleBag:0:NONE
+key_Scene1 start/pause:0:NONE
+key_Scene2 start/pause:0:NONE
+key_Scene3 start/pause:0:NONE
+key_Scene reset:0:NONE
+key_Quest Log:38:NONE
+key_key.exchangers.open_gui:51:NONE
+key_key.exchangers.range_switch:0:NONE
+key_key.exchangers.mode_switch:0:NONE
+key_key.exchangers.force_drop_items_mode_toggle:0:NONE
+key_key.exchangers.directional_placement_mode_toggle:0:NONE
+key_key.exchangers.fuzzy_placement_mode_toggle:0:NONE
+key_key.exchangers.void_items_mode_toggle:0:NONE
+key_key.xu2.searchforitems:20:NONE
+key_ALT Key:56:NONE
+key_Boost Key:29:NONE
+key_Mode Switch Key:50:NONE
+key_Side Inventory Key:46:NONE
+key_Hub Expand Key:45:NONE
+key_Toggle Key:47:NONE
+key_key.fart.desc:34:NONE
+key_key.mount.dismount:46:NONE
+key_key.mount.descend:42:NONE
+key_key.mount.ability:45:NONE
+key_key.mount.inventory:0:NONE
+key_key.index:34:NONE
+key_key.beastiary:0:NONE
+key_key.pets:0:NONE
+key_key.summoning:0:NONE
+key_key.minions:0:NONE
+key_key.open_menu:15:NONE
+key_keybind.railcraft.cart.bed:208:NONE
+key_Open MPS Keybind GUI:0:NONE
+key_Go Down (MPS Flight Control):44:NONE
+key_Cycle Tool Backward (MPS):0:NONE
+key_Cycle Tool Forward (MPS):0:NONE
+key_Cosmetic (MPS):0:NONE
+key_openblocks.keybind.vario_switch:47:NONE
+key_openblocks.keybind.vario_vol_up:0:NONE
+key_openblocks.keybind.vario_vol_down:0:NONE
+key_oreexcavation.key.excavate:41:NONE
+key_oreexcavation.key.shape:47:NONE
+key_key.toggle_shaders:0:NONE
+key_key.ping:41:NONE
+key_ping.key.alert:75:NONE
+key_ping.key.mine:76:NONE
+key_ping.key.look:77:NONE
+key_ping.key.goto:72:NONE
+key_key.spartanweaponry.access_quiver:23:NONE
+key_key.open.name:35:NONE
+key_key.next.name:49:NONE
+key_key.back.name:48:NONE
+key_key.pouch.name:25:NONE
+key_key.toastcontrol.clear:36:NONE
+key_key.pearl_swapping.desc:46:NONE
+key_Strip World:211:NONE
+key_Dress World:210:NONE
+key_Inspect Block:199:NONE
+key_key.delivery.store:48:NONE
+key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.toggleCheatMode:0:NONE
+key_key.jei.toggleEditMode:0:NONE
+key_key.jei.showRecipe:19:NONE
+key_key.jei.showUses:22:NONE
+key_key.jei.recipeBack:14:NONE
+key_key.jei.previousPage:201:NONE
+key_key.jei.nextPage:209:NONE
+key_key.jei.bookmark:30:NONE
+key_key.jei.toggleBookmarkOverlay:0:NONE
+key_keys.armourers_workshop.undo:44:CONTROL
+key_keys.armourers_workshop.open-wardrobe:25:NONE
+key_nei.options.keys.gui.botania_corporea_request:46:NONE
+key_waila.keybind.wailaconfig:82:NONE
+key_waila.keybind.wailadisplay:79:NONE
+key_waila.keybind.liquid:80:NONE
+key_waila.keybind.recipe:81:NONE
+key_waila.keybind.usage:75:NONE
+key_bbw.key.mode:50:NONE
+key_bbw.key.fluidmode:33:ALT
+key_key.otghud.desc:24:NONE
+key_key.cofh.multimode:47:NONE
+key_key.pitchDown.desc:29:NONE
+key_key.vehicleMenu.desc:50:NONE
+key_key.dropBomb.desc:48:NONE
+key_key.fireVehicleGuns.desc:47:NONE
+key_key.switchControlMode.desc:46:NONE
+key_key.reload.desc:19:NONE
+key_key.teamsMenu.desc:34:NONE
+key_key.teamsScores.desc:35:NONE
+key_key.rollLeft.desc:44:NONE
+key_key.rollRight.desc:45:NONE
+key_key.toggleLandingGear.desc:38:NONE
+key_key.toggleDoors.desc:37:NONE
+key_key.switchMovementMode.desc:36:NONE
+key_key.lookAtGun.desc:38:NONE
+key_key.debug.desc:68:NONE
+key_key.reloadModels.desc:67:NONE
+key_key.primaryVehicleInteract.desc:-100:NONE
+key_key.secondaryVehicleInteract.desc:-99:NONE
+key_key.boththrow.desc:-99:NONE
+key_key.leftthrow.desc:0:NONE
+key_key.rightthrow.desc:0:NONE
+key_key.motoronoff.desc:42:NONE
+key_key.jumpanddetach.desc:57:NONE
+key_key.slow.desc:42:NONE
+key_key.climb.desc:42:NONE
+key_key.climbup.desc:0:NONE
+key_key.climbdown.desc:0:NONE
+key_key.enderlaunch.desc:-100:NONE
+key_key.rocket.desc:-100:NONE
+key_key.slide.desc:42:NONE
+key_key.dragon_fireAttack:0:NONE
+key_key.dragon_strike:0:NONE
+key_key.dragon_down:0:NONE
+key_key.dragon_change_view:65:NONE
+key_key.categories.naming:49:NONE
+key_invtweaks.key.sort:0:NONE
+key_keybind.fovfixtoggle:0:NONE
+key_key.refinedstorage.focusSearchBar:15:NONE
+key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
+key_key.refinedstorage.openWirelessGrid:0:NONE
+key_key.refinedstorage.openWirelessFluidGrid:0:NONE
+key_key.refinedstorage.openPortableGrid:0:NONE
+key_key.refinedstorage.openWirelessCraftingMonitor:0:NONE
+key_key.nutrition:49:NONE
+key_key.clipboardPaste:0:NONE
+key_keybind.simplyjetpacks.gui:44:NONE
+key_keybind.simplyjetpacks.engine:34:NONE
+key_keybind.simplyjetpacks.charger:25:NONE
+key_keybind.simplyjetpacks.hover:38:NONE
+key_keybind.simplyjetpacks.emergency_hover:0:NONE
+key_key.ancientspellcraft.open_radial_spell_menu:0:NONE
+key_key.ancientspellcraft.charm_bauble_activate:37:NONE
+key_key.ancientspellcraft.charm_ring_1_activate:22:NONE
+key_key.ancientspellcraft.charm_ring_2_activate:36:NONE
+key_Open Skill GUI:0:NONE
+key_key.journeymap.zoom_in:13:NONE
+key_key.journeymap.zoom_out:12:NONE
+key_key.journeymap.minimap_type:26:NONE
+key_key.journeymap.minimap_preset:43:NONE
+key_key.journeymap.create_waypoint:48:NONE
+key_key.journeymap.toggle_waypoints:44:NONE
+key_key.journeymap.fullscreen_create_waypoint:48:NONE
+key_key.journeymap.fullscreen_chat_position:46:NONE
+key_key.journeymap.map_toggle_alt:36:NONE
+key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24:NONE
+key_key.journeymap.fullscreen.north:200:NONE
+key_key.journeymap.fullscreen.south:208:NONE
+key_key.journeymap.fullscreen.east:205:NONE
+key_key.journeymap.fullscreen.west:203:NONE
+key_key.control:29:NONE
+key_keybind.railcraft.loco.reverse:53:ALT
+key_keybind.railcraft.loco.faster:52:ALT
+key_keybind.railcraft.loco.slower:51:ALT
+key_keybind.railcraft.loco.mode:50:ALT
+key_keybind.railcraft.loco.whistle:49:ALT
+key_toolbelt.binding.access:47:NONE
+key_toolbelt.binding.restock:47:SHIFT
