@@ -6,7 +6,6 @@ playerdata/*
 journeymap/*
 local/*
 armourers_workshop/fast-cache/*
-tv-cache/*
 crash-reports/*
 usercache.json
 usernamecache.json
@@ -18,7 +17,6 @@ tv-cache/*
 
 #Logs
 crafttweaker.log
-millenaire.log
 
 #Generate first run
 icon.png
@@ -29,10 +27,7 @@ asm/*
 
 #Configs
 config/splash.properties
-mods/millenaire/Colour Sheet.png
-config/warpdrive/WarpDrive.xsd
 config/codechicken/supporters.json
-config/buildcraft/detailed.properties
 config/jei/worldSettings.cfg
 
 #Misc
