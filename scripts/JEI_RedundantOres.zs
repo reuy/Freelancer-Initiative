@@ -50,6 +50,8 @@ mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_1:11>);
 mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_1:13>);
 //Tritanium
 mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_1:15>);
+//Electronine
+mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:4>);
 //Ambrosium
 mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:5>);
 //Gravitite
@@ -60,3 +62,8 @@ mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:7>);
 mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:8>);
 //Icestone
 mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:9>);
+
+
+//Overworld ores
+
+
