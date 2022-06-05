@@ -97,7 +97,7 @@ mods.jei.JEI.removeAndHide(<netherendingores:creative_tab>);
 
 //netherfish/endermites
 
-mods.jei.JEI.removeAndHide(<netherendingores:block_end_entermite>);
+mods.jei.JEI.removeAndHide(<netherendingores:block_end_endermite>);
 
 mods.jei.JEI.removeAndHide(<netherendingores:block_nether_netherfish>);
 

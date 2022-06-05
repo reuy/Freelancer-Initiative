@@ -9,10 +9,6 @@ mods.jei.JEI.removeAndHide(<ic2:blockmetal:1>);
 mods.jei.JEI.removeAndHide(<ic2:blockmetal:3>);
 
 
-
-
 //Misc
 //Thaumcraft Quartz
 mods.jei.JEI.removeAndHide(<thaumcraft:ore_quartz>);
-
-
