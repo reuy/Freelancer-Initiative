@@ -1,0 +1,441 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AncientLoot",
+  "items": [
+    {
+      "weight": 0.9243392944335938,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:frostgarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:shadedgarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:soggygarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:windygarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "harvestcraft:aridgarden",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 21,
+      "item": {
+        "id": "thermalfoundation:material",
+        "damage": 817,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.016732392832636833,
+      "min": 1,
+      "max": 13,
+      "item": {
+        "id": "ic2:fluid_cell",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Fluid": {
+              "nbtType": "compound",
+              "nbt": {
+                "FluidName": {
+                  "nbtType": "string",
+                  "nbt": "ic2biomass"
+                },
+                "Amount": {
+                  "nbtType": "int",
+                  "nbt": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "lycanitesmobs:bucketacid",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 20,
+      "item": {
+        "id": "thaumcraft:salis_mundus",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0739658921957016,
+      "min": 1,
+      "max": 18,
+      "item": {
+        "id": "thaumcraft:phial",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Aspects": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "amount": {
+                      "nbtType": "int",
+                      "nbt": 10
+                    },
+                    "key": {
+                      "nbtType": "string",
+                      "nbt": "cognitio"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "thaumcraft:bottle_taint",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§cA dark ominous shimmering can be seen inside. You feel like"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§cyou should not throw this."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Mysterious Bottle"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.0403180830180645,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "thermalexpansion:morb",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "Generic": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§cSomething ominous is moving inside. You feel like"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§cyou should not drop this."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ominous Containment Unit"
+                }
+              }
+            },
+            "id": {
+              "nbtType": "string",
+              "nbt": "thaumcraft:taintseed"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "thermalexpansion:morb",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "Generic": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§cSomething ominous is moving inside. You feel like"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "§cyou §4REALLY §cshould not throw this."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "§4Extremely Ominous Containment Unit"
+                }
+              }
+            },
+            "id": {
+              "nbtType": "string",
+              "nbt": "thaumcraft:taintseedprime"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 23,
+      "item": {
+        "id": "thaumcraft:phial",
+        "damage": 1,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Aspects": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "amount": {
+                      "nbtType": "int",
+                      "nbt": 10
+                    },
+                    "key": {
+                      "nbtType": "string",
+                      "nbt": "vitium"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 25.946786880493164,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_component_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "AncientMedical"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 13.39267349243164,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:lingering_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "CustomPotionEffects": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "Ambient": {
+                      "nbtType": "byte",
+                      "nbt": 0
+                    },
+                    "CurativeItems": {
+                      "nbtType": "list",
+                      "nbt": [
+                        {
+                          "nbtType": "compound",
+                          "nbt": {
+                            "ForgeCaps": {
+                              "nbtType": "compound",
+                              "nbt": {
+                                "customnpcs:itemscripteddata": {
+                                  "nbtType": "compound",
+                                  "nbt": {}
+                                }
+                              }
+                            },
+                            "id": {
+                              "nbtType": "string",
+                              "nbt": "minecraft:milk_bucket"
+                            },
+                            "Count": {
+                              "nbtType": "byte",
+                              "nbt": 1
+                            },
+                            "Damage": {
+                              "nbtType": "short",
+                              "nbt": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "ShowParticles": {
+                      "nbtType": "byte",
+                      "nbt": 1
+                    },
+                    "Duration": {
+                      "nbtType": "int",
+                      "nbt": 1200
+                    },
+                    "Id": {
+                      "nbtType": "byte",
+                      "nbt": 9
+                    },
+                    "Amplifier": {
+                      "nbtType": "byte",
+                      "nbt": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "cofhcore:poison3"
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "§fWhatever lived in this flask has long since gone REALLY bad."
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ancient Rotten Flask"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
