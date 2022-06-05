@@ -22,15 +22,6 @@ var Geologist = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("ge
 
 
 
-/*
-2nd skill: Architect
-Craft and use Chisels, which allow you to transform different block types.
-*/
-var Architect = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("architect", "architect", 1, 0, "compatskills:colonist", 3, "colonist:5");
-
-
-
-
 
 
 
