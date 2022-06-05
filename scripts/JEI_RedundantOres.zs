@@ -1,24 +1,14 @@
 //Remove all mods other "duplicate ores" (copper, etc) except our "canonical" versions
 
 
-
-//LibVulpes
-//Copper
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:4>);
-//Tin
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:5>);
-//Aluminum
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);
-//Iridum
-mods.jei.JEI.removeAndHide(<libvulpes:ore0:10>);
-
 //IC2
 //Copper
-mods.jei.JEI.removeAndHide(<ic2:resource:1>);
-//Lead
-mods.jei.JEI.removeAndHide(<ic2:resource:2>);
+mods.jei.JEI.removeAndHide(<ic2:blockmetal:0>);
 //Tin
-mods.jei.JEI.removeAndHide(<ic2:resource:3>);
+mods.jei.JEI.removeAndHide(<ic2:blockmetal:1>);
+//Silver
+mods.jei.JEI.removeAndHide(<ic2:blockmetal:3>);
+
 
 //Railcraft
 //Copper
