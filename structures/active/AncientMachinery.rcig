@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "inventoryGeneratorID": "Ancient",
+  "inventoryGeneratorID": "AncientLoot",
   "items": [
     {
       "weight": 1.0,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "weight": 1.0950840987788979E-5,
+      "weight": 0.004506520461291075,
       "min": 1,
       "max": 64,
       "item": {
@@ -123,7 +123,7 @@
     {
       "weight": 0.016732392832636833,
       "min": 1,
-      "max": 64,
+      "max": 4,
       "item": {
         "id": "sgcraft:sgcontrollercrystal",
         "damage": 0,
@@ -151,7 +151,7 @@
       }
     },
     {
-      "weight": 5.2210845947265625,
+      "weight": 14.801240921020508,
       "min": 1,
       "max": 64,
       "item": {
@@ -161,12 +161,92 @@
       }
     },
     {
-      "weight": 4.6146769523620605,
+      "weight": 16.325912475585938,
       "min": 1,
       "max": 64,
       "item": {
         "id": "chisel:tyrian",
         "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 36.52735137939453,
+      "min": 2,
+      "max": 15,
+      "item": {
+        "id": "sgcraft:naquadah",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.4082876441534609E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "sgcraft:zpm",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.002661055652424693,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "sgcraft:zpm_hub",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "sgcraft:zpm_console",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "sgcraft:sgchevronupgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "sgcraft:sgcorecrystal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.22887276019901E-4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "sgcraft:sgirisupgrade",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "sgcraft:sgirisblade",
+        "damage": 0,
         "count": 1
       }
     }
