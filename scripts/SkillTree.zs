@@ -3,6 +3,10 @@
 import mods.compatskills.SkillCreator.createSkill;
 import mods.compatskills.Skill;
 
+mods.compatskills.VisibilityLock.addVisibilityLock(<skill:reskillable:*>, "stage|never");
+
+
+
 val Warrior = createSkill("warrior", "reskillable:textures/gui/WarriorTree_BG.png");
 Warrior.name = "Warrior";
 Warrior.setRankIcon(0, "reskillable:textures/gui/WarriorTree_lvl0.png");

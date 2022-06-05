@@ -6,7 +6,7 @@ var tree = <skill:compatskills:colonist>;
 
 
 /*
-First skill: Geologist
+1st skill: Geologist
 Enables you to see and gather different-looking types of stone in the world.
 
 var GeologistTargetBlocks = [
@@ -22,7 +22,19 @@ var Geologist = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("ge
 
 
 
+
+
+
+
+
+
+
+
 //LOCALIZATION - Move to .lang later
+
+Geologist.name = "Geologist's Eyes";
+Geologist.description  = "Allows you to see and gather different decorative rock types in the world.";
+
 
 Geologist.name = "Geologist's Eyes";
 Geologist.description  = "Allows you to see and gather different decorative rock types in the world.";
