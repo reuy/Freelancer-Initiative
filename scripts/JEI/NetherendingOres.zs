@@ -36,39 +36,9 @@ mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:8>);
 mods.jei.JEI.removeAndHide(<netherendingores:ore_nether_modded_2:9>);
 
 //End ores
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:0>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:1>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:2>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:3>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:4>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:5>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:6>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:7>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:8>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:9>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:10>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:11>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:12>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:13>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:14>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:15>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:0>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:1>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:2>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:3>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:4>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:5>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:6>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:7>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:8>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:9>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:0>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:1>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:2>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:3>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:4>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:5>);
-mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:6>);
+mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_1:*>);
+mods.jei.JEI.removeAndHide(<netherendingores:ore_end_modded_2:*>);
+mods.jei.JEI.removeAndHide(<netherendingores:ore_end_vanilla:*>);
 
 //Other ores
 //End Quartz
@@ -95,10 +65,8 @@ mods.jei.JEI.removeAndHide(<netherendingores:ore_other_1:10>);
 //creative tab block
 mods.jei.JEI.removeAndHide(<netherendingores:creative_tab>);
 
-//netherfish/endermites
-
+//netherfish/endermite trap mineable blocks
 mods.jei.JEI.removeAndHide(<netherendingores:block_end_endermite>);
-
 mods.jei.JEI.removeAndHide(<netherendingores:block_nether_netherfish>);
 
 
