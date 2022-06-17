@@ -7,7 +7,7 @@ var tree = <skill:compatskills:magister>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Chosen of the Dust", "Trait_Chosen_Dust", 3, 0, "compatskills:magister", 6, "compatskills:magister|5");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Chosen of the Dust", "Trait_Chosen_Dust", 3, 0, "compatskills:magister", 1, "compatskills:magister|5");
 
 mods.ItemStages.addItemStage("Chosen of the Dust", <thaumcraft:salis_mundus>);
 addRequirement(<thaumcraft:salis_mundus>, "trait|compatskills:Trait_Chosen_Dust");

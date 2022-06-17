@@ -7,7 +7,7 @@ var tree = <skill:compatskills:technician>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Redstone Flux Engineering", "Trait_FluxEngineer", 0, 0, "compatskills:technician", 8, "compatskills:technician|12");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Redstone Flux Engineering", "Trait_FluxEngineer", 0, 0, "compatskills:technician", 10, "compatskills:technician|5");
 
 mods.ItemStages.stageModItems("Redstone Flux Engineering", "thermalfoundation");
 mods.ItemStages.stageModItems("Redstone Flux Engineering", "thermalexpansion");

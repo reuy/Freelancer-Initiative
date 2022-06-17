@@ -7,7 +7,7 @@ var tree = <skill:compatskills:magister>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Alterian Magic", "Trait_AlterianMagic", 0, 1, "compatskills:magister", 10, "AND|[compatskills:magister|10]~[trait|compatskills:Trait_Chosen_Dust]");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Alterian Magic", "Trait_AlterianMagic", 0, 1, "compatskills:magister", 5, "trait|compatskills:Trait_Chosen_Dust");
 
 mods.ItemStages.stageModItems("Alterian Magic", "thaumcraft");
 mods.ItemStages.removeItemStage(<thaumcraft:salis_mundus>);

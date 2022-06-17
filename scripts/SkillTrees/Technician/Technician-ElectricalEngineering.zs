@@ -7,7 +7,7 @@ var tree = <skill:compatskills:technician>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Electrical Engineering", "Trait_ElectricalEngineer", 0, 3, "compatskills:technician", 6, "compatskills:technician|15");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Electrical Engineering", "Trait_ElectricalEngineer", 0, 3, "compatskills:technician", 7, "compatskills:technician|5");
 
 mods.ItemStages.stageModItems("Electrical Engineering", "ic2");
 

@@ -7,7 +7,7 @@ var tree = <skill:compatskills:soldier>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Rappel Certification", "Trait_Rappel", 0, 0, "compatskills:soldier", 6, "compatskills:soldier|15");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Rappel Certification", "Trait_Rappel", 0, 0, "compatskills:soldier", 6, "compatskills:soldier|7");
 
 
 /*

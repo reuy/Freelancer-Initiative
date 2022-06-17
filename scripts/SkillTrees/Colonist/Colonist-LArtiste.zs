@@ -7,7 +7,7 @@ var tree = <skill:compatskills:colonist>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("L'artiste", "Trait_Lartiste", 0, 1, "compatskills:colonist", 3, "compatskills:colonist|10");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("L'artiste", "Trait_Lartiste", 0, 1, "compatskills:colonist", 3, "");
 
 var KnownChisels = [
 	<chisel:chisel_diamond:*>,

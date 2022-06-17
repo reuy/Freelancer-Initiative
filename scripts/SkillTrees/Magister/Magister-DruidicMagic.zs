@@ -7,7 +7,7 @@ var tree = <skill:compatskills:magister>;
 /*
 
 */
-var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Floral Magic", "Trait_FloralMagic", 0, 0, "compatskills:magister", 6, "AND|[compatskills:magister|10]~[trait|compatskills:Trait_Chosen_Dust]");
+var trait = mods.compatskills.GameStageUnlockable.addGameStageUnlockable("Floral Magic", "Trait_FloralMagic", 0, 0, "compatskills:magister", 6, "trait|compatskills:Trait_Chosen_Dust");
 
 mods.ItemStages.stageModItems("Floral Magic", "botania");
 
