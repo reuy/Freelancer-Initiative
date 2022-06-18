@@ -79,6 +79,6 @@ for skill in skills {
 	skill.setEnabled(true);
 	skill.setBaseLevelCost(0);
     skill.setCap(100);
-	skill.setLevelStaggering(["1|1"]);
+	skill.setLevelStaggering(["1|0"]);
 	skill.setSkillPointInterval(1); 
 }
