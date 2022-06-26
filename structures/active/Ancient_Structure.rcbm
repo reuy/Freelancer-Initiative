@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "weight": 1.023959755897522,
+      "block": "chisel:tyrian",
+      "metadata": 4,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.2836761176586151,
+      "block": "chisel:tyrian",
+      "metadata": 0,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.05949904024600983,
+      "block": "chisel:tyrian",
+      "metadata": 6,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.3199999928474426,
+      "block": "chisel:tyrian",
+      "metadata": 1,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 7.069303512573242,
+      "block": "chisel:tyrian",
+      "metadata": 7,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 9.077635765075684,
+      "block": "chisel:tyrian",
+      "metadata": 5,
+      "tileEntity": "null"
+    },
+    {
+      "weight": 0.25072842836380005,
+      "block": "minecraft:air",
+      "metadata": 0,
+      "tileEntity": "null"
+    }
+  ],
+  "metadata": {
+    "title": "Ancient Structure",
+    "description": [
+      "Structure built by Ancients"
+    ]
+  }
+}

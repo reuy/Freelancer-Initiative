@@ -1,0 +1,138 @@
+{
+  "data": {
+    "environmentMatcher": "",
+    "transformers": [
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": false,
+          "id": "Ancient_Structure",
+          "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d7",
+          "destination": [
+            {
+              "weight": 1.023959755897522,
+              "block": "chisel:tyrian",
+              "metadata": 4,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 0.2836761176586151,
+              "block": "chisel:tyrian",
+              "metadata": 0,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 0.05949904024600983,
+              "block": "chisel:tyrian",
+              "metadata": 6,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 0.3199999928474426,
+              "block": "chisel:tyrian",
+              "metadata": 1,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 3.3058080673217773,
+              "block": "chisel:tyrian",
+              "metadata": 7,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 3.829561948776245,
+              "block": "chisel:tyrian",
+              "metadata": 5,
+              "tileEntity": "null"
+            },
+            {
+              "weight": 0.930936872959137,
+              "block": "minecraft:air",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "replaceAll",
+        "transformer": {
+          "uniform": false,
+          "id": "replace_32c0355b",
+          "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d1",
+          "destination": [
+            {
+              "block": "minecraft:air",
+              "metadata": 0,
+              "tileEntity": "null"
+            }
+          ]
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "multi_8e6cad41",
+          "data": {
+            "environmentMatcher": "!gen.type\u003dsapling",
+            "transformers": [
+              {
+                "type": "naturalAir",
+                "transformer": {
+                  "id": "naturalAir_62f77b91",
+                  "sourceExpression": "reccomplex:generic_space \u0026 metadata\u003d1",
+                  "destExpression": "",
+                  "naturalExpansionDistance": 4.0,
+                  "naturalExpansionRandomization": 10.0
+                }
+              },
+              {
+                "type": "natural",
+                "transformer": {
+                  "id": "natural_eed52750",
+                  "sourceExpression": "reccomplex:generic_solid \u0026 metadata\u003d0",
+                  "destExpression": "is:replaceable | is:foliage",
+                  "naturalExpansionDistance": 4.0,
+                  "naturalExpansionRandomization": 6.0
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "multi",
+        "transformer": {
+          "id": "multi_cd3733ca",
+          "data": {
+            "environmentMatcher": "gen.type\u003dsapling",
+            "transformers": [
+              {
+                "type": "ensureBlocks",
+                "transformer": {
+                  "id": "ensureBlocks_6b500399",
+                  "sourceExpression": "!(id\u003dreccomplex:generic_space | id\u003dreccomplex:generic_solid)",
+                  "destExpression": "is:air | is:leaves | is:replaceable"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "negativeSpace",
+        "transformer": {
+          "id": "negativeSpace_69ff30bc",
+          "sourceExpression": "id\u003dreccomplex:generic_space | id\u003dreccomplex:generic_solid",
+          "destExpression": ""
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Ancient Structure",
+    "description": [
+      "Structure used by Ancients"
+    ]
+  }
+}

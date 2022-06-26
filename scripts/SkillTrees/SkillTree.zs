@@ -73,12 +73,52 @@ var skills = [
 	<skill:compatskills:colonist>
 ] as Skill[];
 
+var stagger = [
+	"1|1",
+	"3|0",
+	"5|1",
+	"7|0",
+	"9|1",
+	"12|0",
+	"15|1",
+	"16|0",
+	"17|1",
+	"19|0",
+	"21|1",
+	"23|0",
+	"25|1",
+	"29|0",
+	"32|-1",
+	"35|0",
+	"39|1",
+	"45|0",
+	"49|1",
+	"51|2",
+	"55|1",
+	"57|0",
+	"60|-1",
+	"63|0",
+	"65|-2",
+	"67|1",
+	"71|0",
+	"75|3",
+	"77|2",
+	"79|1",
+	"81|0",
+	"85|1",
+	"87|0",
+	"89|1",
+	"92|0",
+	"95|1",
+	"96|0",
+	"97|1",
+] as string[];
 
 //Make sure the settings are correct for the skill and that it is enabled
 for skill in skills {
 	skill.setEnabled(true);
-	skill.setBaseLevelCost(0);
+	skill.setBaseLevelCost(1);
     skill.setCap(100);
-	skill.setLevelStaggering(["1|0"]);
+	skill.setLevelStaggering(stagger);
 	skill.setSkillPointInterval(1); 
 }
