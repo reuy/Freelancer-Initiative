@@ -6,11 +6,11 @@ import crafttweaker.item.IItemStack;
 	//ARO Cards
 	var ARONetworkCard = <opencomputers:card:6>.withDisplayName("§f§oSatellite Uplink Card").withLore([
 	"§a§oThis particular Network Card is linked to the UCDF's",
-	"§a§oAlfheim Reconnaisance Orbiter(ARO), allowing it",
-	"§a§oto receive weather data."]);
+	"§a§oAlfheim Remote Reconnaisance Orbiters for Weather(ARROW),",
+	"§a§oallowing it to receive weather data."]);
 	
 //ALL ITEMS ARE ADDED TO JEI
-
+git 
 var items = [
 	ARONetworkCard
 ] as IItemStack[];
