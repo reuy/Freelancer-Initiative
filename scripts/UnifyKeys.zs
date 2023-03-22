@@ -6,10 +6,14 @@ Binds.printBinds();
 
 // createBind("Reload", Items )
 
+/*
+All children keybinds fire their own setBindCheck simultaneously. The keys that interfere the most should have extremely stringent functions for activation.
+*/
 
 
 /* Vehicle Attack - 
 	*/
+
 
 
 /* {Item Menu} - (Default "M")
@@ -18,6 +22,66 @@ Binds.printBinds();
 	-Mode Switch Key(IC2 Keys) (ORIG. M)
 		- LOW PRIORITY
 	*/
+	
+	
+
+
+var ItemMenu = Binds.createBind("Toggle Item", 50, "Gameplay");
+var TCCastFocus = mod.bt.Binds.getKeybind("Change Caster Focus");
+ItemMenu.addChild(TCCastFocus);
+var ModeSwitch = mod.bt.Binds.getKeybind("Mode Switch Key");
+ItemMenu.addChild(ModeSwitch);
+
+function ItemMenuKeyHandler(e as mod.bt.BindCheckEvent, requestor as string) as bool{
+	/*
+	Given the event's circumstances and an identifier(usually mod name), return a boolean giving authorization for the keybind to fire.
+	*/
+	var handItem = e.getHeldStack();
+	var handItemOff = e.getHeldStack(true);
+	
+	/*
+	var inventory = [
+	<skill:compatskills:warrior>,
+	<skill:compatskills:soldier>,
+	<skill:compatskills:magister>,
+	<skill:compatskills:technician>,
+	<skill:compatskills:colonist>
+] as itemstack[];
+*/
+
+	//If the player is holding a caster gauntlet, authorize Thaumcraft and no other keys.
+	if(handItem.name has "caster_basic"){return (requestor has "thaum");}
+	
+	//Otherwise, if the player is holding an IC2 tool, OR is wearing an IC2 equipment on any part of their body, authorize IC2 and inform the player.
+	if(requestor has "ic2"){
+		if(handItem.definition.owner has "ic2" || handItemOff.definition.owner has "ic2"){
+			e.getPlayer().sendStatusMessage("Right-click to change this item's mode.");
+			return true;
+		}
+		//Scan all armor slots, and inform differently if the player has IC2 equipment.
+		
+	}
+	
+	return false;
+}
+
+
+TCCastFocus.setBindCheck(function(e as mod.bt.BindCheckEvent){
+	/*
+	var replay = e.getHeldStack().definition.owner;
+    return (replay has "thaumcraft");*/
+	return (ItemMenuKeyHandler(e, "thaumcraft"));
+});
+
+ModeSwitch.setBindCheck(function(e as mod.bt.BindCheckEvent){
+	/*var replay = e.getHeldStack().definition.owner;
+	if(replay has "ic2"){
+		e.getPlayer().sendStatusMessage("Right-click to change this item's mode.");
+		}
+    return (replay has "ic2");*/
+	
+	return (ItemMenuKeyHandler(e, "ic2"));
+});
 
 /* {Reload Item} - (Default "R")
 	-Reload(Flan's Mod) (Orig. R)
@@ -41,8 +105,11 @@ Binds.printBinds();
 	*/
 
 
+/*HIDDEN Keys - These shouldn't be assignable under any conditions*/
+
 
 /*
+https://github.com/tiffit/BindTweaker/wiki/mod.bt.Keybind
 [AVAILABLE][CLIENT][INFO] Printing All 214 Keybinds:
 [AVAILABLE][CLIENT][INFO] key.attack: Left Click
 [AVAILABLE][CLIENT][INFO] key.use: Right Click
