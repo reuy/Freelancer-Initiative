@@ -1,0 +1,26 @@
+
+[client]
+	#If true, renders enchanted guns from Project Arsenal with the purple enchantment glint. True by default.
+	enableGunEnchantmentGlint = true
+
+	[client.gun_tooltip_info]
+		#If true, shows Reload Amount of the gun on the tooltip. True by default.
+		showReloadAmount = true
+		#If true, shows Fire Rate of the gun on the tooltip. True by default.
+		showFireRate = true
+		#If true, shows the gun's Fire Mode on the tooltip. True by default.
+		showFireMode = true
+		#If true, shows the Projectile Speed of projectiles fired from the gun on the tooltip. False by default.
+		showProjectileSpeed = false
+		#If true, shows the Projectile Spread of projectiles fired from the gun on the tooltip. False by default.
+		showProjectileSpread = false
+		#If true, shows a tooltip on guns that are not dyeable. True by default.
+		showNonDyeable = true
+
+	[client.hud_overlay]
+		#If true, shows HUD overlay with ammo counter and selected fire mode. True by default.
+		showHudOverlay = true
+		#Position of the HUD overlay on the screen. Currently placements of the overlay are only supported on the right side of the screen.
+		#Allowed Values: RIGHT_BOTTOM, RIGHT_TOP
+		overlayPosition = "RIGHT_BOTTOM"
+
