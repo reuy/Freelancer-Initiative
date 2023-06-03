@@ -5,25 +5,19 @@ logs/*
 playerdata/*
 journeymap/*
 local/*
-armourers_workshop/fast-cache/*
 crash-reports/*
 usercache.json
 usernamecache.json
-minecraftinstance.json
+instance.json
 
 #Caches
-armourers_workshop/fast-cache/*
-tv-cache/*
 
 #Logs
 crafttweaker.log
 
 #Generate first run
 icon.png
-BotaniaVars.dat
 journeymapdefaults.firstrun
-llibrary/*
-asm/*
 
 #Configs
 config/splash.properties
@@ -31,7 +25,5 @@ config/codechicken/supporters.json
 config/jei/worldSettings.cfg
 
 #Misc
-.curseclient
 *.kate-swp
 *.swp
-.mixin.out/*
