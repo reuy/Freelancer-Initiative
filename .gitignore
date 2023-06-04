@@ -30,9 +30,8 @@ journeymapdefaults.firstrun
 
 #Configs
 config/splash.properties
-config/codechicken/supporters.json
 config/jei/*
-config/jei/recipe-category-sort-order.ini
+config/fastload.properties
 
 #Misc
 *.kate-swp
