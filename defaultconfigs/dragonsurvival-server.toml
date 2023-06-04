@@ -590,7 +590,7 @@
 		waterConsumptionDependsOnTemperature = true
 		#The number of ticks out of water before the sea dragon will start taking dehydration damage. Set to 0 to disable. Note: This value can stack up to double while dehydrated.
 		#Range: 0 ~ 100000
-		ticksWithoutWater = 10000
+		ticksWithoutWater = 6000
 
 	[penalties.forest]
 		#The amount of exhaustion applied per 10 ticks during the stress effect.
