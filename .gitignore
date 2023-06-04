@@ -9,8 +9,17 @@ crash-reports/*
 usercache.json
 usernamecache.json
 instance.json
+servers.dat
+servers.dat_old
+patchouli_data.json
+options.txt
+knownkeys.txt
+dragon-survival/*
 
 #Caches
+modernfix/*
+lightspeed-cache/*
+
 
 #Logs
 crafttweaker.log
@@ -22,7 +31,8 @@ journeymapdefaults.firstrun
 #Configs
 config/splash.properties
 config/codechicken/supporters.json
-config/jei/worldSettings.cfg
+config/jei/*
+config/jei/recipe-category-sort-order.ini
 
 #Misc
 *.kate-swp
