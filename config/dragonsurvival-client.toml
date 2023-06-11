@@ -11,6 +11,14 @@
 	editorHistory = 10
 
 [rendering]
+	#Do you want your dragon skin to be rendered as a newborn dragon?
+	renderNewbornSkin = true
+	#Do you want your dragon skin to be rendered as a young dragon?
+	renderYoungSkin = true
+	#Do you want your dragon skin to be rendered as a adult dragon?
+	renderAdultSkin = true
+	#Should the tools on the claws and teeth be rendered for your dragon?
+	renderDragonClaws = true
 	#Enable movement based physics on the tail, this is still a work in progress and can be buggy.
 	enableTailPhysics = false
 	#Should items be rendered in third person for dragon players?
@@ -21,14 +29,6 @@
 	armorRenderLayer = true
 	#Should other player skins be rendered?
 	renderOtherPlayerSkins = true
-	#Do you want your dragon skin to be rendered as a adult dragon?
-	renderAdultSkin = true
-	#Do you want your dragon skin to be rendered as a young dragon?
-	renderYoungSkin = true
-	#Do you want your dragon skin to be rendered as a newborn dragon?
-	renderNewbornSkin = true
-	#Should the tools on the claws and teeth be rendered for your dragon?
-	renderDragonClaws = true
 	#Should items be rendered near the mouth of dragons rather then hovering by their side?
 	renderItemsInMouth = false
 
