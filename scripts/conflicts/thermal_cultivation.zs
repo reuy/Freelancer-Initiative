@@ -209,3 +209,5 @@ craftingTable.addJsonRecipe("potion_cake", {
   }
 });
 
+
+loot.modifiers.removeByName("thermal:seeds_from_grass");
