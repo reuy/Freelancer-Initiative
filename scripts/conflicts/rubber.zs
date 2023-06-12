@@ -14,9 +14,9 @@ Replacer.create()
     .replace<IIngredient>(<recipecomponent:crafttweaker:output/items>, <item:thermal:rubber>, <item:industrialforegoing:dryrubber>)
     .execute();
 
-#Remove all recipes involving cured rubber and rubber
+#Remove all recipes involving cured rubber
 <recipetype:minecraft:crafting>.remove(<item:thermal:cured_rubber>);
-<recipetype:minecraft:smelting>.remove(<item:thermal:rubber>);
+<recipetype:minecraft:smelting>.remove(<item:thermal:cured_rubber>);
 
 #Remove both rubber blocks due to JEI having servo recipes that still use thermal rubber and can't be edited by craft tweaker
 Jei.hideIngredient(<item:thermal:cured_rubber_block>);
