@@ -1,6 +1,6 @@
 {
   "name": "silver",
-  "disable": false,
+  "disable": true,
   "tier": 2,
   "color": "8b99a4",
   "armorPoints": 3,

@@ -1,6 +1,6 @@
 {
   "name": "platinum",
-  "disable": false,
+  "disable": true,
   "tier": 4,
   "color": "a6e9ff",
   "armorPoints": 4,
