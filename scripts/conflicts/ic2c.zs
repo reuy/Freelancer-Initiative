@@ -20,5 +20,5 @@ Jei.hideIngredient(<item:ic2:gold_dust_block>);
 Jei.hideIngredient(<item:ic2:aluminium_dust_block>);
 
 #Duplicate with thermal expansion charcoal block
-<recipetype:minecraft:crafting>.remove(<ic2:charcoal_block>);
+<recipetype:minecraft:crafting>.remove(<item:ic2:charcoal_block>);
 Jei.hideIngredient(<item:ic2:charcoal_block>);
