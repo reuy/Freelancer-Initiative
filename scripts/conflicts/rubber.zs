@@ -26,6 +26,58 @@ Jei.hideIngredient(<item:thermal:rubber_block>);
 Jei.hideIngredient(<item:thermal:rubber>);
 Jei.hideIngredient(<item:thermal:cured_rubber>);
 
+
+/*
+#Make Tree extraction give foregoing latex
+<recipeType:thermal:tree_extractor>.removeByName("thermal:devices/tree_extractor/tree_extractor_jungle");
+<recipeType:thermal:tree_extractor>.addJsonRecipe("jungle_tree_to_foregoing_latex", 
+
+);
+
+
+
 #Add back original bucket of latex to 3 rubber (now foregoing rubber) recipe (replacer would have replaced with a recipe that only gives one)
-craftingTable.addShapeless("rubber_thermal", <item:industrialforegoing:dryrubber> * 3, [<item:thermal:latex_bucket>]);
+craftingTable.addShapeless("rubber_thermal", <item:industrialforegoing:dryrubber> * 3, [<item:industrialforegoing:latex_bucket>]);
+
+
+
+
+#Note: for some reason thermal tree extractor recipes are hard coded in the class file and not present in json, below code is on pause, there will just be 2 types of latex now
+#Make pressing latex give foregoing latex
+<recipetype:thermal:press>.removeByName("thermal:machines/press/press_dandelion_to_latex");
+<recipetype:thermal:press>.removeByName("thermal:machines/press/press_vine_to_latex");
+<recipetype:thermal:press>.addJsonRecipe("press_dandelion_to_foregoing_latex", {
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "minecraft:dandelion"
+    }
+  ],
+  "result": [
+    {
+      "fluid": "industrialforegoing:latex",
+      "amount": 50
+    }
+  ],
+  "energy": 400
+});
+<recipetype:thermal:press>.addJsonRecipe("press_vine_to_foregoing_latex", {
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": [
+    {
+      "fluid": "industrialforegoing:latex",
+      "amount": 50
+    }
+  ],
+  "energy": 400
+});*/
+
+
+
+
 

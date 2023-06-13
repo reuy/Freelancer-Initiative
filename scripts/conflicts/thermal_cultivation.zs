@@ -93,9 +93,9 @@ var cropnames = [
 
 #Remove Crop packing/unpacking recipes and growing recipes
 for cropname in cropnames {
-    <recipetype:thermal:press>.removeByRegex("thermal:machines/press/press_" + cropname + "_packing");
-    <recipetype:thermal:press>.removeByRegex("thermal:machines/press/press_" + cropname + "_unpacking");
-    <recipetype:thermal:insolator>.removeByRegex("thermal:machines/insolator/insolator_" + cropname);
+    <recipetype:thermal:press>.removeByName("thermal:machines/press/press_" + cropname + "_packing");
+    <recipetype:thermal:press>.removeByName("thermal:machines/press/press_" + cropname + "_unpacking");
+    <recipetype:thermal:insolator>.removeByName("thermal:machines/insolator/insolator_" + cropname);
 }
 
 
