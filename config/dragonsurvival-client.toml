@@ -83,6 +83,8 @@
 	dragonFoodTooltips = true
 	#Should the mod be allowed ot change the color and appearance of tooltips?
 	tooltipChanges = true
+	#Hide the AppleSkin tooltip if you're a dragon. The tooltip will only show correct food values for humans.
+	hideAppleskinTooltip = true
 
 [ui]
 
