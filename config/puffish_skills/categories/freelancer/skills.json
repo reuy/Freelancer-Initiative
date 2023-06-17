@@ -1,0 +1,32 @@
+{
+	"-13_-1": {
+		"definition": "Colonist_Root",
+		"x": 32,
+		"y": -64,
+		"root": false
+	},
+	"-13_1": {
+		"definition": "Warrior_Root",
+		"x": -32,
+		"y": -64,
+		"root": false
+	},
+	"-11_-2": {
+		"definition": "Technician_Root",
+		"x": 0,
+		"y": 64,
+		"root": false
+	},
+	"-11_2": {
+		"definition": "Magister_Root",
+		"x": 64,
+		"y": 0,
+		"root": false
+	},
+	"-10_-8": {
+		"definition": "Soldier_Root",
+		"x": -64,
+		"y": 0,
+		"root": false
+	}
+}

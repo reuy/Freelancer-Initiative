@@ -1517,7 +1517,7 @@
 	"Soul Candles" = true
 	"Long Range Pick Block" = true
 	"Greener Grass" = true
-	"Improved Tooltips" = true
+	"Improved Tooltips" = false
 	"Wool Shuts Up Minecarts" = true
 	"Uses For Curses" = true
 
