@@ -31,6 +31,8 @@
 	renderOtherPlayerSkins = true
 	#Should items be rendered near the mouth of dragons rather then hovering by their side?
 	renderItemsInMouth = false
+	#Hide the dragon model when in first person. This can fix some animation / model issues with Better Combat.
+	hideDragonModel = true
 
 [nametag]
 	#Show name tags for dragons.
