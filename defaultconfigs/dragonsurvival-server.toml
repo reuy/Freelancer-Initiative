@@ -422,7 +422,7 @@
 	#Preserve effect 'Evil dragon' after death?
 	preserveRoyalChaseAfterDeath = false
 	#Entities which give 'Evil dragon' status on death
-	royalChaseStatusGivers = ["minecraft:villager", "minecraft:iron_golem", "dragonsurvival:hunter_hound", "dragonsurvival:knight", "dragonsurvival:shooter", "dragonsurvival:squire", "dragonsurvival:prince", "dragonsurvival:princess", "dragonsurvival:princess_entity", "guardvillagers:guard"]
+	royalChaseStatusGivers = ["minecraft:villager", "minecraft:iron_golem", "dragonsurvival:prince", "dragonsurvival:princess", "dragonsurvival:princess_entity", "guardvillagers:guard"]
 	#How many experience points are gained for killing a villager
 	#Range: 10 ~ 1000
 	villagerKillxp = 10
