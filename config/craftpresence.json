@@ -182,7 +182,8 @@
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
-      "SaitoYui": "https://mc-heads.net/avatar/22917a5b0fa2481f9aa4bb22ccc88ae6"
+      "SaitoYui": "https://mc-heads.net/avatar/22917a5b0fa2481f9aa4bb22ccc88ae6",
+      "localhost": "https://api.mcsrvstat.us/icon/localhost"
     },
     "dynamicVariables": {
       "default": "Example Text",
