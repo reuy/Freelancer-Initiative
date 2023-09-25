@@ -1,0 +1,23 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:solsweetpotato:food_book",
+    "item:minecraft:paper",
+    "item:chipped:pancake_mud_bricks",
+    "item:create_central_kitchen:chocolate_cake_slice",
+    "item:create_central_kitchen:yucca_cake_slice",
+    "item:create_central_kitchen:incomplete_sweet_berry_cheesecake",
+    "item:create:blaze_cake",
+    "item:solsweetpotato:lunchbox"
+  ],
+  "craft_history": [
+    "solsweetpotato:food_book"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
