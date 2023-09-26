@@ -18,13 +18,13 @@
 	#Range: 0.0 ~ 1000.0
 	maxSizeVari = 10.0
 	#If you should be able to move while casting certain skills or if player movement can be prevented.
-	canMoveWhileCasting = false
+	canMoveWhileCasting = true
 	#If players are allowed to move while performing emotes
 	canMoveInEmote = true
 	#If players are allowed to hide their claws and teeth from other players. If it is important to you to see your opponent's weapon during pvp, set false.
 	syncClawRender = true
 	#Whether to keep items in the claw slots on death otherwise they will drop on death.
-	keepClawItems = false
+	keepClawItems = true
 	#Whether dragon altars are craftable or not. When disabled you can only use the command or creative mode to become a dragon.
 	altarCraftable = true
 	#How long of a cooldown in seconds the altar has after each use.
