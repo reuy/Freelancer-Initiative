@@ -3,19 +3,19 @@ import crafttweaker.api.item.IItemStack;
 import mods.jeitweaker.Jei;
 
 
-#Removing most of thermal cultivation as most of the "just food" stuff is redundant with farmer's delight while bloating item count and JEI
-#In particular, removing all "uninteresting" foods and crops, especially duplicates
+//Removing most of thermal cultivation as most of the "just food" stuff is redundant with farmer's delight while bloating item count and JEI
+//In particular, removing all "uninteresting" foods and crops, especially duplicates
 
-#Notable exceptions left in:
-#Frost melon: Why not
-#persipcacious stew: (new recipe) Xp boost buff
-#witch's cake: (new recipe) Cake that gives a potion effect
-#Phyto grow soil: Another way to grow crops quickly
-#Resource Mushrooms: Another way to get certain resources renewably
-#Watering cans: Why not
+//Notable exceptions left in:
+//Frost melon: Why not
+//persipcacious stew: (new recipe) Xp boost buff
+//witch's cake: (new recipe) Cake that gives a potion effect
+//Phyto grow soil: Another way to grow crops quickly
+//Resource Mushrooms: Another way to get certain resources renewably
+//Watering cans: Why not
 
 
-#Remove food recipes
+//Remove food recipes
 var foods = [
 <item:thermal:pbj_sandwich>, 
 <item:thermal:hearty_stew>, 
@@ -35,14 +35,14 @@ var foods = [
 ] as IItemStack[];
 
 
-#Remove crafted/smelted foods
+//Remove crafted/smelted foods
 for food in foods {
     recipes.remove(food);
     Jei.hideIngredient(food);
 }
 
 
-#Remove all recipes that result in said crop (usually just block of X to X recipes)
+//Remove all recipes that result in said crop (usually just block of X to X recipes)
 var crops = [
 <item:thermal:amaranth>,
 <item:thermal:barley>,
@@ -91,7 +91,7 @@ var cropnames = [
 "tea",
 ] as string[];
 
-#Remove Crop packing/unpacking recipes and growing recipes
+//Remove Crop packing/unpacking recipes and growing recipes
 for cropname in cropnames {
     <recipetype:thermal:press>.removeByName("thermal:machines/press/press_" + cropname + "_packing");
     <recipetype:thermal:press>.removeByName("thermal:machines/press/press_" + cropname + "_unpacking");
@@ -99,7 +99,7 @@ for cropname in cropnames {
 }
 
 
-#Remove all crop blocks
+//Remove all crop blocks
 var crop_blocks = [
 <item:thermal:amaranth_block>,
 <item:thermal:barley_block>,
@@ -127,7 +127,7 @@ for crop_block in crop_blocks {
 }
 
 
-#Remove Jar Goods
+//Remove Jar Goods
 
 var jars = [
 <item:thermal:jar>,
@@ -147,7 +147,7 @@ for jar in jars {
 <recipetype:thermal:press>.removeByName("thermal:machines/press/press_peanut_jar");
 
 
-#Remove seeds
+//Remove seeds
 var seeds = [
 <item:thermal:amaranth_seeds>,
 <item:thermal:barley_seeds>,
@@ -173,11 +173,11 @@ for seed in seeds {
     Jei.hideIngredient(seed);
 }
 
-#Xp Stew Replacement for non existing crops
+//Xp Stew Replacement for non existing crops
 craftingTable.removeByName("thermal:xp_stew");
 craftingTable.addShapeless("xp_stew", <item:thermal:xp_stew>, [<item:minecraft:wheat>, <item:minecraft:wheat>, <item:farmersdelight:onion>, <item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>, <item:minecraft:experience_bottle>, <item:minecraft:bowl>]);
 
-#Potion cake replacement for non existing crops
+//Potion cake replacement for non existing crops
 
 craftingTable.removeByName("thermal:potion_cake");
 craftingTable.addJsonRecipe("potion_cake", {
