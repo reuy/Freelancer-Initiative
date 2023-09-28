@@ -4,7 +4,7 @@ replenish_eggs = true
 #Should dragon eggs generate in treasure chest loot tables?
 #Useful for multiplayer scenarios and offering alternative ways to obtain eggs.
 #Different types of egg breeds can be found in different chests (if configured.)
-use_loot_tables = false
+use_loot_tables = true
 #Should Dragon Eggs adapt to their environments and change breeds?
 update_habitats = true
 #Number of times a dragon is able to breed.

@@ -1,5 +1,5 @@
 
-#Player instance datta
+#Player instance data
 saves/*
 logs/*
 playerdata/*
@@ -15,12 +15,14 @@ patchouli_data.json
 options.txt
 knownkeys.txt
 dragon-survival/*
-screemshots/*
-
+screenshots/*
+blueprints/*
+emi.json
+fancymenu_data/*
 #Caches
 modernfix/*
 lightspeed-cache/*
-
+Distant_Horizons_server_data/
 
 #Logs
 crafttweaker.log
@@ -37,3 +39,5 @@ config/fastload.properties
 #Misc
 *.kate-swp
 *.swp
+.qmenu_opened.marker
+
