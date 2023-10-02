@@ -1,0 +1,38 @@
+{
+    "name": "The 5 Classes",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:starter",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Freelancer's are recruited based on their skills. These can be roughtly divided in to 5 categories. Note that these distinctions are not concrete, many freelancers will fit in to more than one class"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Warrior",
+            "text": "Hard to kill, pretends to be useful. Zero utility, just hand them a sword and hope they don't fall on it"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Soldier",
+            "text": "What they don't realize is: everyone else can hold a gun and be equally useful in combat while still doing literally everything else better"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Technician",
+            "text": "When you believe that solving problems is merely a matter of scale. Please stop breaking the game ..."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Magister",
+            "text": "Freelancer who thinks sparkles and fancy robes makes you not a technician."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Colonist",
+            "text": "For when you want off mr. gravy's wild ride and for your base to not look worse than soviet era apartment buildings 10/10 would replace soldier with colonist again"
+        }
+        
+    ]
+}

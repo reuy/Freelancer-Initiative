@@ -1,0 +1,32 @@
+{
+    "name": "By Sea",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:transportation",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "bla bla bla  water convenient"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "EXTREME SWIMMING",
+            "text": "enchants + soul sand highway"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Bla bla bla boats",
+            "text": "go zooooom, mention ice or something"
+        },
+               {
+            "type": "patchouli:text",
+            "title": "Smart boats (little logistics)",
+            "text": "I'm sure a* won't crash the server"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Small ships (that are big)",
+            "text": "Brigandines are back baby"
+        }
+    ]
+}

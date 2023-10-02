@@ -1,0 +1,7 @@
+{
+    "name": "The Freelancer's Handbook",
+    "landing_text": "A brief guide to surviving and thriving in a brave new world($br) Note that this guide is not meant to be a step by step verbatim solution on how to build your colony. It merely points out paths you may take, but in the end you must decide where to put your feet (or talons, or hooves, we don't judge)",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": false
+}
