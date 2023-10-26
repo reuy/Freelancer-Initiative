@@ -8,7 +8,7 @@
 		"xp": 0.1,
 		"outputs": [
 			{
-				"item": "ic2:dust_tin",
+				"item": "thermal:tin_dust",
 				"count": 1
 			}
 		],

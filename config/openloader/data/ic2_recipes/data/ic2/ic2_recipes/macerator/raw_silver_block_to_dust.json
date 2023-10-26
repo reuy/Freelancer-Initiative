@@ -9,7 +9,7 @@
 		"nbt": "{time_mod:4.0d}",
 		"outputs": [
 			{
-				"item": "ic2:dust_silver",
+				"item": "thermal:silver_dust",
 				"count": 18
 			}
 		],

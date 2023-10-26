@@ -9,7 +9,7 @@
 		"nbt": "{time_mod:4.0d}",
 		"outputs": [
 			{
-				"item": "ic2:dust_tin",
+				"item": "thermal:tin_dust",
 				"count": 18
 			}
 		],

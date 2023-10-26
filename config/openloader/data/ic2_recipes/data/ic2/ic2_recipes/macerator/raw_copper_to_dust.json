@@ -8,7 +8,7 @@
 		"xp": 0.3,
 		"outputs": [
 			{
-				"item": "ic2:dust_copper",
+				"item": "thermal:copper_dust",
 				"count": 2
 			}
 		],
