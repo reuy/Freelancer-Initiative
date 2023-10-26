@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "industrialforegoing:dryrubber",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:rubber",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}
