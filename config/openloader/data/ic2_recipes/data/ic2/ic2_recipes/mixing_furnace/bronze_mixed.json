@@ -15,7 +15,7 @@
 		"xp": 0.0,
 		"outputs": [
 			{
-				"item": "ic2:ingot_bronze",
+				"item": "thermal:bronze_ingot",
 				"count": 12
 			}
 		],
