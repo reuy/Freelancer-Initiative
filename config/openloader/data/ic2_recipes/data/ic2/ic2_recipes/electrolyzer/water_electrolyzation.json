@@ -1,0 +1,13 @@
+{
+	"input": {
+		"item": "ic2:cell_water",
+		"count": 1
+	},
+	"output": {
+		"item": "ic2:cell_electrolyzed_water",
+		"count": 1
+	},
+	"energy": 20000,
+	"charging": true,
+	"discharging": true
+}

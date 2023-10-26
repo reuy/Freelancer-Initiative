@@ -1,0 +1,56 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:fuel_boiler_structure",
+		"count": 8
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": {
+				"item": "ic2:circuit",
+				"count": 2
+			},
+			"size": 2,
+			"type": "ic2:nbtstack",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:upgrade_basic_fluid_export",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:plating_heat_capacity",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:machine_tank",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": {
+				"item": "ic2:iron_furnace",
+				"count": 4
+			},
+			"size": 4,
+			"type": "ic2:nbtstack",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		" B "
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:carbon_box",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 2,
+	"modifier": {
+		"item": "ic2:tool_box",
+		"tag": "items",
+		"type": "ic2:transfer_inventory_modifier"
+	},
+	"inputs": [
+		{
+			"item": "ic2:carbon_plate",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:tool_box",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"XXX"
+	]
+}

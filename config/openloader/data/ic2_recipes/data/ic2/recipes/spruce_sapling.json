@@ -1,0 +1,18 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "minecraft:spruce_sapling",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"crop": "ic2:sapling_spruce",
+			"size": 1,
+			"type": "ic2:crop"
+		}
+	]
+}

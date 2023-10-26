@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:raw_materials/copper",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.3,
+		"outputs": [
+			{
+				"item": "ic2:dust_copper",
+				"count": 2
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

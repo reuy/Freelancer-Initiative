@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/quartz",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 1.0,
+		"outputs": [
+			{
+				"item": "minecraft:quartz",
+				"count": 3
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:colossal_furnace",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": "minecraft:copper_ingot",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:induction_furnace",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:colossal_base_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XCX"
+	]
+}

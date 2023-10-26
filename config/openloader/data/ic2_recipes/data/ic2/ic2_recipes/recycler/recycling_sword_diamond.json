@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:diamond_sword",
+		"undamaged": true,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "minecraft:diamond",
+			"count": 1
+		},
+		"minOut": 0,
+		"maxOut": 2,
+		"type": "ic2:range"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"fuels": [
+		{
+			"fluid": "ic2:woodgas",
+			"burn_time": 250,
+			"production": 10
+		},
+		{
+			"fluid": "ic2:bio_fuel",
+			"burn_time": 2000,
+			"production": 128
+		},
+		{
+			"fluid": "ic2:alcohol",
+			"burn_time": 24000,
+			"production": 50
+		}
+	]
+}

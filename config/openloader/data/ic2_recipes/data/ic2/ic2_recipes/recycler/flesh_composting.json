@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:rotten_flesh",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"output": {
+			"item": "ic2:fertilizer",
+			"count": 1
+		},
+		"minOut": 0,
+		"maxOut": 1,
+		"type": "ic2:range"
+	}
+}

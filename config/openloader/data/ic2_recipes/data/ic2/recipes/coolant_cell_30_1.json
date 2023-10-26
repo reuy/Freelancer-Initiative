@@ -1,0 +1,35 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:heat_storage_triple",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"tag": "forge:ingots/tin",
+			"size": 2,
+			"type": "ic2:tag",
+			"letter": "X"
+		},
+		{
+			"item": {
+				"item": "ic2:cell_water",
+				"count": 2
+			},
+			"size": 2,
+			"type": "ic2:nbtstack",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"YYY",
+		"XXX"
+	]
+}

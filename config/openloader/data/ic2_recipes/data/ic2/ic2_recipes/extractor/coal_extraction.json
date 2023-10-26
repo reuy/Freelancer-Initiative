@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/coal",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.3,
+		"outputs": [
+			{
+				"item": "minecraft:coal",
+				"count": 5
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

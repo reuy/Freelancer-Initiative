@@ -1,0 +1,32 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:reactor_fuel_cell",
+		"count": 1,
+		"nbt": "{Damage:2500}"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:cell_empty",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"item": {
+				"item": "ic2:dust_netherrack",
+				"count": 8
+			},
+			"size": 8,
+			"type": "ic2:nbtstack"
+		},
+		{
+			"item": "ic2:dust_clay",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

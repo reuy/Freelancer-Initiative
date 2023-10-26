@@ -1,0 +1,44 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:stone_macerator",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": "minecraft:flint",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"tag": "forge:cobblestone",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "Y"
+		},
+		{
+			"item": "minecraft:piston",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "minecraft:furnace",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		}
+	],
+	"pattern": [
+		"XXX",
+		"YCY",
+		"YVY"
+	]
+}

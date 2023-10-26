@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:rubberwood_fence_gate",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 2,
+	"inputs": [
+		{
+			"item": "minecraft:stick",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:rubberwood_planks",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"XYX"
+	]
+}

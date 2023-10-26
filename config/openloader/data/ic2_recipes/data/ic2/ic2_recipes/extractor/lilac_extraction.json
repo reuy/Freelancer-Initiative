@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:lilac",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:magenta_dye",
+				"count": 6
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

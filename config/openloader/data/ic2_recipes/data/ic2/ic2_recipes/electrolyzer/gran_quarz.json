@@ -1,0 +1,13 @@
+{
+	"input": {
+		"item": "minecraft:quartz",
+		"count": 1
+	},
+	"output": {
+		"item": "minecraft:granite",
+		"count": 1
+	},
+	"energy": 1000,
+	"charging": false,
+	"discharging": true
+}

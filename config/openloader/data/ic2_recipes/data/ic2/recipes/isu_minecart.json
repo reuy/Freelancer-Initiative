@@ -1,0 +1,31 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:isu_minecart",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 1,
+	"height": 2,
+	"inputs": [
+		{
+			"item": "ic2:isu",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:minecart",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"X",
+		"Y"
+	]
+}

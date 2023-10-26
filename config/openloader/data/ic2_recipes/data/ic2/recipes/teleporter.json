@@ -1,0 +1,50 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:teleporter",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:frequency_transmitter",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:glassfiber_cable_item",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:stabilized_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"tag": "forge:gems/diamond",
+			"size": 1,
+			"type": "ic2:tag",
+			"letter": "B"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"XBX"
+	]
+}

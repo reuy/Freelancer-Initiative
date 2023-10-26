@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/lapis",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.5,
+		"outputs": [
+			{
+				"item": "minecraft:lapis_lazuli",
+				"count": 10
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

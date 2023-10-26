@@ -1,0 +1,24 @@
+{
+	"input": [
+		{
+			"item": "minecraft:netherite_scrap",
+			"size": 2,
+			"type": "ic2:item"
+		},
+		{
+			"item": "minecraft:gold_ingot",
+			"size": 2,
+			"type": "ic2:item"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:netherite_ingot",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

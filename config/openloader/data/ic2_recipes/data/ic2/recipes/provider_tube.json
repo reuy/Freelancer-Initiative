@@ -1,0 +1,26 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:provider_tube",
+		"count": 8
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": {
+				"item": "ic2:extraction_tube",
+				"count": 8
+			},
+			"size": 8,
+			"type": "ic2:nbtstack"
+		},
+		{
+			"item": "ic2:complex_circuit",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

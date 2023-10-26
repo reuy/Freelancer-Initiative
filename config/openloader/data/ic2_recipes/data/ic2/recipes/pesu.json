@@ -1,0 +1,38 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:pesu",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": "ic2:iridium_stone",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:plate_iridium",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:pesd",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CCC",
+		"XYX"
+	]
+}

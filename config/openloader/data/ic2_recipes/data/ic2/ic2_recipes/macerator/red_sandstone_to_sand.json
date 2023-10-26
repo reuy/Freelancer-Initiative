@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:red_sandstone",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.1,
+		"outputs": [
+			{
+				"item": "minecraft:red_sand",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"recipes": [
+		{
+			"type": "fuel",
+			"input": {
+				"item": "ic2:cell_coal_fuel",
+				"count": 1
+			},
+			"multiplier": false,
+			"value": 2548
+		},
+		{
+			"type": "fuel",
+			"input": {
+				"item": "ic2:cell_bio_fuel",
+				"count": 1
+			},
+			"multiplier": false,
+			"value": 868
+		},
+		{
+			"type": "fuel",
+			"input": {
+				"item": "minecraft:redstone",
+				"count": 1
+			},
+			"multiplier": true,
+			"value": 0.2
+		},
+		{
+			"type": "fuel",
+			"input": {
+				"item": "minecraft:glowstone_dust",
+				"count": 1
+			},
+			"multiplier": true,
+			"value": 0.3
+		},
+		{
+			"type": "fuel",
+			"input": {
+				"item": "minecraft:gunpowder",
+				"count": 1
+			},
+			"multiplier": true,
+			"value": 0.4
+		},
+		{
+			"type": "fuel",
+			"input": {
+				"item": "ic2:cell_fuel",
+				"count": 1
+			},
+			"multiplier": true,
+			"value": 0.7
+		}
+	]
+}

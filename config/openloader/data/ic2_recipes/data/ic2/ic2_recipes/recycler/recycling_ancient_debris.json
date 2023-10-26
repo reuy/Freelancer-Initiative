@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:ancient_debris",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"output": {
+			"item": "minecraft:netherite_scrap",
+			"count": 1
+		},
+		"minOut": 1,
+		"maxOut": 5,
+		"type": "ic2:range"
+	}
+}
