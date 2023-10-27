@@ -11,5 +11,5 @@ requiresExperience = true
 #Range: 1 ~ 10
 costSlider = 2
 #Should the enchanted item's anvil work cost be reset to zero when fully disenchanted?
-resetAnvilCost = false
+resetAnvilCost = true
 
