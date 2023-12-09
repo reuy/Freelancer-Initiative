@@ -17,6 +17,11 @@
 	help-level: normal;
 
 	/**
+	 * Where EMI should pull stacks from to populate the index.
+	 */
+	index-source: creative;
+
+	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
 	search-tooltip-by-default: true;
@@ -334,6 +339,11 @@
 	 * Return to the previous page in EMI.
 	 */
 	back: "key.keyboard.backspace";
+
+	/**
+	 * Return to the next page in EMI after going back.
+	 */
+	forward: "key.keyboard.unknown";
 
 	/**
 	 * When on a stack with an associated recipe:

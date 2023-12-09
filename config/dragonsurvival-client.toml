@@ -6,8 +6,6 @@
 	renderYoungSkin = true
 	#Do you want your dragon skin to be rendered as a adult dragon?
 	renderAdultSkin = true
-	#Hide the dragon model when in first person. This can fix some animation / model issues with Better Combat.
-	hideDragonModel = true
 	#Enable movement based physics on the tail, this is still a work in progress and can be buggy.
 	enableTailPhysics = false
 	#Should items be rendered in third person for dragon players?
@@ -33,6 +31,8 @@
 	#The amount of undos and redos that are saved in the dragon editor.
 	#Range: 1 ~ 1000
 	editorHistory = 10
+	#Whether the range of the breath should be rendered (while hitboxes are shown)
+	renderBreathRange = true
 
 [nametag]
 	#Show name tags for dragons.
@@ -87,6 +87,8 @@
 	dragonFoodTooltips = true
 	#Should the mod be allowed ot change the color and appearance of tooltips?
 	tooltipChanges = true
+	#Should the tooltip be hidden for unsafe (negative effects) food?
+	hideUnsafeFood = true
 
 [ui]
 
@@ -133,4 +135,10 @@
 		#Offset the x position of the emote button in relation to its normal position
 		#Range: -1000 ~ 1000
 		emoteXOffset = 0
+
+	[ui.hud]
+		#Re-enable the vanilla hud for the experience bar
+		vanillaExperienceBar = false
+		#Re-enable the vanilla hud for the food level
+		vanillaFoodLevel = false
 

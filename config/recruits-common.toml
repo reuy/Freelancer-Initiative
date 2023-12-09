@@ -1,7 +1,7 @@
 #
 ###Version, do not change!##
 #Range: > 0
-Version = 22
+Version = 27
 
 #Monster and Pillager Config:
 [Hostiles]
@@ -52,7 +52,17 @@ Version = 22
 	#----Horseman start hand equipment ----
 	#	(takes effect after restart)
 	#	Items in this list will be equipped to a new spawned shieldman, in this following order: ["main-hand", "off-hand" ]
-	ShieldmanStartHandEquipment = ["minecraft:stone_sword", "minecraft:shield"]
+	HorsemanHandEquipment = ["minecraft:stone_sword", "minecraft:shield"]
+	#
+	#----Nomad start hand equipment ----
+	#	(takes effect after restart)
+	#	Items in this list will be equipped to a new spawned nomad, in this following order: ["main-hand", "off-hand" ]
+	NomadHandEquipment = ["minecraft:bow", ""]
+	#
+	#----Shieldman start hand equipment ----
+	#	(takes effect after restart)
+	#	Items in this list will be equipped to a new spawned shieldman, in this following order: ["main-hand", "off-hand" ]
+	ShieldmanStartHandEquipment = ["minecraft:wooden_axe", "minecraft:shield"]
 	#
 	#----Crossbowman start hand equipment ----
 	#	(takes effect after restart)
@@ -65,7 +75,7 @@ Version = 22
 	#	For example: ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
 	StartArmorList = []
 	#
-	#----Nomad start hand equipment ----
+	#----Bowman start hand equipment ----
 	#	(takes effect after restart)
 	#	Items in this list will be equipped to a new spawned bowman, in this following order: ["main-hand", "off-hand" ]
 	BowmanStartHandEquipment = ["minecraft:bow", ""]
@@ -100,10 +110,16 @@ Version = 22
 	#	default: 15
 	#Range: 0 ~ 999
 	RecruitCost = 4
+	#----RangedRecruitsNeedArrowsToShoot----
+	#	(takes effect after restart)
+	#	
+	#Should ranged recruits units need arrows to shoot?""
+	#default: false
+	RangedRecruitsNeedArrowsToShoot = false
 	#----Mount Whitelist----
 	#	(takes effect after restart)
 	#	ONLY Entities in this list can be mounted by a recruit, for example: ["minecraft:boat", "smallships:cog"]
-	"Mount Whitelist" = ["minecraft:horse", "minecraft:llama", "minecraft:pig", "minecraft:boat", "minecraft:minecart", "smallships:cog", "smallships:brigg", "smallships:galley", "camels:camel"]
+	MountWhitelist = ["minecraft:horse", "minecraft:llama", "minecraft:pig", "minecraft:boat", "minecraft:minecart", "smallships:cog", "smallships:brigg", "smallships:galley", "camels:camel"]
 	#
 	#The amount of currency required to hire a horseman.
 	#	(takes effect after restart)
@@ -121,21 +137,27 @@ Version = 22
 	#	(takes effect after restart)
 	#	The Item defined here, will be used to hire recruits. For example: ["minecraft:diamond"]	default: ["minecraft:emerald"]
 	RecruitCurrency = "minecraft:emerald"
-	#----Target Blacklist----
-	#	(takes effect after restart)
-	#	Entities in this list won't be targeted at all, for example: ["minecraft:creeper", "minecraft:sheep"]
-	"Target BlackList" = ["minecraft:creeper", "minecraft:ghast"]
 	#
 	#The amount of currency required to hire a nomad.
 	#	(takes effect after restart)
 	#	default: 15
 	#Range: 0 ~ 999
 	NomadCost = 19
+	#----Target Blacklist----
+	#	(takes effect after restart)
+	#	Entities in this list won't be targeted at all, for example: ["minecraft:creeper", "minecraft:sheep"]
+	TargetBlackList = ["minecraft:creeper", "minecraft:ghast"]
 	#----The max. Level a recruit can get.-----
 	#	(takes effect after restart)
 	#	default: 20
 	#Range: 10 ~ 9999
 	RecruitsMaxXpLevel = 20
+	#----RecruitHorseUnitsHorse----
+	#	(takes effect after restart)
+	#	
+	#Should the Horse units spawn with a horse?""
+	#default: true
+	RecruitHorseUnitsHorse = true
 	#
 	#----Distance Recruits will start to follow its owner----
 	#	(takes effect after restart)
@@ -188,6 +210,13 @@ Version = 22
 
 #Recruit Village Config:
 [Villages]
+	#
+	#----Should Villager Recruits that were created with Tables release the POI for other Villagers?----
+	#----True -> allows multiple villagers to become a recruit with one table.----
+	#----False -> only one villager can become a recruit with one table.----
+	#	(takes effect after restart)
+	#	default: true
+	RecruitTablesPOIReleasing = true
 	#
 	#Max Recruits in a Village Chunk to Spawn
 	#	(takes effect after restart)
@@ -257,13 +286,23 @@ Version = 22
 #Block Event Config:
 [BlockEvents]
 	#
-	#----Should Neutral Recruits attack enemy players that are placing, interacting or breaking blocks immediately?----
+	#----Should Neutral Recruits attack enemy players that are interacting with blocks immediately?----
 	#	(takes effect after restart)
 	#	default: true
-	NeutralRecruitsBlockEvents = true
+	NeutralRecruitsBlockInteractingEvents = true
 	#
-	#----Should Aggressive Recruits attack enemy players that are placing, interacting or breaking blocks immediately?----
+	#----Should Aggressive Recruits attack enemy players that are interacting with blocks immediately?----
 	#	(takes effect after restart)
 	#	default: true
-	AggroRecruitsBlockEvents = true
+	AggroRecruitsBlockInteractingEvents = true
+	#
+	#----Should Aggressive Recruits attack enemy players that are placing or breaking blocks immediately?----
+	#	(takes effect after restart)
+	#	default: true
+	AggroRecruitsBlockPlaceBreakEvents = true
+	#
+	#----Should Neutral Recruits attack enemy players that are placing or breaking blocks immediately?----
+	#	(takes effect after restart)
+	#	default: true
+	NeutralRecruitsBlockPlaceBreakEvents = true
 
