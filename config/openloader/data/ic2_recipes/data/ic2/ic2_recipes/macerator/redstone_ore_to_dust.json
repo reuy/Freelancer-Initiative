@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/redstone",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:redstone",
+				"count": 16
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

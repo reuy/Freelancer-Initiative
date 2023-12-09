@@ -1,0 +1,29 @@
+{
+	"input": {
+		"item": {
+			"item": "ic2:compressed_plant_ball",
+			"count": 16
+		},
+		"size": 16,
+		"type": "ic2:nbtstack"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "minecraft:water",
+		"amount": 2000
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [],
+		"fluidOutputs": [
+			{
+				"fluid": "ic2:bio_fuel",
+				"amount": 250
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

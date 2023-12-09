@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:golden_chestplate",
+		"undamaged": true,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "minecraft:gold_ingot",
+			"count": 1
+		},
+		"minOut": 0,
+		"maxOut": 8,
+		"type": "ic2:range"
+	}
+}

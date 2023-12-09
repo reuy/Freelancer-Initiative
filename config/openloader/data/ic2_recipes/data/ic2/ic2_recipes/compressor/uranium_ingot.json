@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:raw_materials/uranium",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:ingot_uranium",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

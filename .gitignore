@@ -40,4 +40,4 @@ config/fastload.properties
 *.kate-swp
 *.swp
 .qmenu_opened.marker
-
+*.bak

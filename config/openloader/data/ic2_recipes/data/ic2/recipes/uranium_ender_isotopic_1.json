@@ -1,0 +1,27 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:uranium_rod_isotopic_ender_pearl",
+		"count": 1,
+		"nbt": "{Damage:5000}"
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": {
+				"item": "ic2:uranium_rod_near_depleted_ender_pearl",
+				"count": 1
+			},
+			"size": 1,
+			"type": "ic2:nbtstack"
+		},
+		{
+			"tag": "forge:dusts/charcoal",
+			"size": 1,
+			"type": "ic2:tag"
+		}
+	]
+}

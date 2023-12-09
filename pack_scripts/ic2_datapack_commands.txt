@@ -1,0 +1,9 @@
+
+#Macerator folder dust replace output with thermal version
+sed -i s/ic2:dust_iron/thermal:iron_dust/g ./*
+sed -i s/ic2:dust_gold/thermal:gold_dust/g ./*
+sed -i s/ic2:dust_copper/thermal:copper_dust/g ./*
+sed -i s/ic2:dust_silver/thermal:silver_dust/g ./*
+sed -i s/ic2:dust_tin/thermal:tin_dust/g ./*
+sed -i s/ic2:dust_diamond/thermal:diamond_dust/g ./*
+

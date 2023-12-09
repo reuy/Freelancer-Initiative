@@ -1,0 +1,48 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:valve_pushing",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 1,
+	"height": 3,
+	"inputs": [
+		{
+			"item": "ic2:circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"items": [
+				{
+					"item": "ic2:valve",
+					"count": 1
+				},
+				{
+					"item": "ic2:valve_animated",
+					"count": 1
+				}
+			],
+			"or": true,
+			"size": 1,
+			"type": "ic2:item_list",
+			"letter": "Y"
+		},
+		{
+			"item": "ic2:upgrade_basic_fluid_export",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "C"
+		}
+	],
+	"pattern": [
+		"X",
+		"Y",
+		"C"
+	]
+}

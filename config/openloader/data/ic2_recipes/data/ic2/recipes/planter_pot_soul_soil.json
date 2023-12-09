@@ -1,0 +1,32 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:planter_pot",
+		"count": 1,
+		"nbt": "{id:\"minecraft:soul_soil\"}"
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 1,
+	"height": 2,
+	"inputs": [
+		{
+			"item": "minecraft:soul_soil",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "minecraft:flower_pot",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		}
+	],
+	"pattern": [
+		"X",
+		"Y"
+	]
+}

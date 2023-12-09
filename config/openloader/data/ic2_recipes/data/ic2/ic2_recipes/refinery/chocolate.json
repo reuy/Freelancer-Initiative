@@ -1,0 +1,29 @@
+{
+	"input": {
+		"item": {
+			"item": "minecraft:cocoa_beans",
+			"count": 8
+		},
+		"size": 8,
+		"type": "ic2:nbtstack"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "minecraft:milk",
+		"amount": 250
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:chocolate_bar",
+				"count": 1
+			}
+		],
+		"fluidOutputs": [],
+		"type": "ic2:simple"
+	}
+}

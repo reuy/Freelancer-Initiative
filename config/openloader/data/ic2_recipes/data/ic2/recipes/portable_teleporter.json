@@ -1,0 +1,68 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:portable_teleporter",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": {
+				"item": "ic2:plate_iridium",
+				"count": 2
+			},
+			"size": 2,
+			"type": "ic2:nbtstack",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:memory_stick",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": {
+				"item": "ic2:advanced_circuit",
+				"count": 3
+			},
+			"size": 3,
+			"type": "ic2:nbtstack",
+			"letter": "C"
+		},
+		{
+			"item": {
+				"item": "ic2:teleporter",
+				"count": 2
+			},
+			"size": 2,
+			"type": "ic2:nbtstack",
+			"letter": "V"
+		},
+		{
+			"item": {
+				"item": "ic2:plasma_core",
+				"count": 8
+			},
+			"size": 8,
+			"type": "ic2:nbtstack",
+			"letter": "B"
+		},
+		{
+			"item": "ic2:pesd",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVC",
+		"BNB"
+	]
+}

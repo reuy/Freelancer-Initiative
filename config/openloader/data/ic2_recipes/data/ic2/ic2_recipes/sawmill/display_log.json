@@ -1,0 +1,18 @@
+{
+	"input": {
+		"tag": "minecraft:logs",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:oak_planks",
+				"count": 6,
+				"nbt": "{display:{Lore:['{\"text\":\"§r§6Planks keep the log type\"}']}}"
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "name": "By land",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:transportation",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "bla bla bla flavor text here"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "I LIEK MINECARTS",
+            "text": "Put train stuff here"
+        },
+               {
+            "type": "patchouli:text",
+            "title": "I LIEK CREATE TRAINS",
+            "text": "Put train stuff here"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "I LIEK LITTLE LOGISTICS RAILS",
+            "text": "Put train stuff here"
+        }
+    ]
+}

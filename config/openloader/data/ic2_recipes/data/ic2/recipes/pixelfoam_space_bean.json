@@ -1,0 +1,26 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:pixelfoam_space_bean",
+		"count": 4
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": {
+				"item": "ic2:cfoam_block_gray",
+				"count": 4
+			},
+			"size": 4,
+			"type": "ic2:nbtstack"
+		},
+		{
+			"item": "minecraft:golden_sword",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	]
+}

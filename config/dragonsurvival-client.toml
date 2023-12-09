@@ -1,15 +1,4 @@
 
-[misc]
-	#When enabled it stops the blinking effect of night vision when low duration, disable if it causes rendering issues with other mods.
-	stableNightVision = true
-	#Enable client-side debug messages
-	clientDebugMessages = false
-	#Should the cast mode where you click the keybind to cast be used?
-	alternateCastMode = false
-	#The amount of undos and redos that are saved in the dragon editor.
-	#Range: 1 ~ 1000
-	editorHistory = 10
-
 [rendering]
 	#Do you want your dragon skin to be rendered as a newborn dragon?
 	renderNewbornSkin = true
@@ -17,8 +6,8 @@
 	renderYoungSkin = true
 	#Do you want your dragon skin to be rendered as a adult dragon?
 	renderAdultSkin = true
-	#Should the tools on the claws and teeth be rendered for your dragon?
-	renderDragonClaws = true
+	#Hide the dragon model when in first person. This can fix some animation / model issues with Better Combat.
+	hideDragonModel = true
 	#Enable movement based physics on the tail, this is still a work in progress and can be buggy.
 	enableTailPhysics = false
 	#Should items be rendered in third person for dragon players?
@@ -29,10 +18,21 @@
 	armorRenderLayer = true
 	#Should other player skins be rendered?
 	renderOtherPlayerSkins = true
+	#Should the tools on the claws and teeth be rendered for your dragon?
+	renderDragonClaws = true
 	#Should items be rendered near the mouth of dragons rather then hovering by their side?
 	renderItemsInMouth = false
-	#Hide the dragon model when in first person. This can fix some animation / model issues with Better Combat.
-	hideDragonModel = true
+
+[misc]
+	#When enabled it stops the blinking effect of night vision when low duration, disable if it causes rendering issues with other mods.
+	stableNightVision = true
+	#Enable client-side debug messages
+	clientDebugMessages = false
+	#Should the cast mode where you click the keybind to cast be used?
+	alternateCastMode = false
+	#The amount of undos and redos that are saved in the dragon editor.
+	#Range: 1 ~ 1000
+	editorHistory = 10
 
 [nametag]
 	#Show name tags for dragons.
@@ -77,6 +77,8 @@
 	renderFirstPerson = true
 
 [tooltips]
+	#Hide the AppleSkin tooltip if you're a dragon. The tooltip will only show correct food values for humans.
+	hideAppleskinTooltip = true
 	#Always show the help tooltip border
 	alwaysShowHelpTooltip = false
 	#Should the effect of the help tooltips be enabled?
@@ -85,8 +87,6 @@
 	dragonFoodTooltips = true
 	#Should the mod be allowed ot change the color and appearance of tooltips?
 	tooltipChanges = true
-	#Hide the AppleSkin tooltip if you're a dragon. The tooltip will only show correct food values for humans.
-	hideAppleskinTooltip = true
 
 [ui]
 

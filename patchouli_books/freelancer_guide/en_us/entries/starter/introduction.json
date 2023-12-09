@@ -1,0 +1,12 @@
+{
+    "name": "Introduction",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:starter",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Congratulation on getting conscripted as a freelancer on Alfheim. Hope you like getting enslaved by the local dragons and munched on by the local wildlife. By the way, you're not getting any equipment other than this guide, good luck!"
+        }
+    ]
+}

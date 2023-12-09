@@ -1,0 +1,44 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shapeless",
+	"enabled": true,
+	"output": {
+		"item": "ic2:glass_cold_fruit_tea",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"inputs": [
+		{
+			"item": "ic2:tea_leaf",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"items": [
+				{
+					"item": "minecraft:sweet_berries",
+					"count": 1
+				},
+				{
+					"item": "minecraft:apple",
+					"count": 1
+				}
+			],
+			"or": true,
+			"size": 1,
+			"type": "ic2:item_list"
+		},
+		{
+			"item": "ic2:glass",
+			"size": 1,
+			"type": "ic2:item"
+		},
+		{
+			"fluid": "minecraft:water",
+			"amount": 1000,
+			"size": 1,
+			"type": "ic2:fluid"
+		}
+	]
+}

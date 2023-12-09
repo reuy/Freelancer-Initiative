@@ -1,0 +1,20 @@
+{
+	"input": {
+		"item": {
+			"item": "minecraft:blaze_powder",
+			"count": 5
+		},
+		"size": 5,
+		"type": "ic2:nbtstack"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "minecraft:blaze_rod",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

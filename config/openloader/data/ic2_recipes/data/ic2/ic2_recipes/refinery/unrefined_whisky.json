@@ -1,0 +1,30 @@
+{
+	"input": {
+		"item": {
+			"item": "ic2:flour",
+			"count": 4
+		},
+		"size": 4,
+		"type": "ic2:nbtstack"
+	},
+	"first_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
+	},
+	"second_tank": {
+		"fluid": "minecraft:water",
+		"amount": 1000
+	},
+	"output": {
+		"xp": 0.0,
+		"nbt": "{time_mod:0.5d}",
+		"outputs": [],
+		"fluidOutputs": [
+			{
+				"fluid": "ic2:whisky",
+				"amount": 250
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

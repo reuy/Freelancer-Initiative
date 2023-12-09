@@ -1,0 +1,37 @@
+{
+    "name": "By Air",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:transportation",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "bla bla bla fly thing go brr"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Bla bla bla tame ender dragon",
+            "text": "Im sure child slavery is legal"
+        },
+               {
+            "type": "patchouli:text",
+            "title": "Mythical Mounts",
+            "text": "Im sure this giant bird won't mind being consripted"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Air ships",
+            "text": "I'm sure this is a good idea"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Jetpack",
+            "text": "I'm sure this is a good idea"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Become Derpagon",
+            "text": "Bla bla bla secret artes we all know everyone's going to rush this one"
+        }
+    ]
+}

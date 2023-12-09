@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:charcoal",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.05,
+		"outputs": [
+			{
+				"item": "ic2:dust_charcoal",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

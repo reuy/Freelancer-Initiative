@@ -1,0 +1,62 @@
+{
+	"type": "ic2:crafting_ic2_automated",
+	"sub_type": "ic2:shaped",
+	"enabled": true,
+	"output": {
+		"item": "ic2:ore_scanner",
+		"count": 1
+	},
+	"hidden": false,
+	"consume": false,
+	"width": 3,
+	"height": 3,
+	"inputs": [
+		{
+			"item": "ic2:heat_storage_single",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "X"
+		},
+		{
+			"item": "ic2:advanced_circuit",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "Y"
+		},
+		{
+			"item": {
+				"item": "ic2:luminator",
+				"count": 8
+			},
+			"size": 8,
+			"type": "ic2:nbtstack",
+			"letter": "C"
+		},
+		{
+			"item": "ic2:stabilized_machine_block",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "V"
+		},
+		{
+			"item": "ic2:batbox",
+			"size": 1,
+			"type": "ic2:item",
+			"letter": "B"
+		},
+		{
+			"item": {
+				"item": "ic2:miningpipe_slim",
+				"count": 16
+			},
+			"size": 16,
+			"type": "ic2:nbtstack",
+			"letter": "N"
+		}
+	],
+	"pattern": [
+		"XYX",
+		"CVB",
+		" N "
+	]
+}

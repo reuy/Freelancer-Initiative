@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:diamond_chestplate",
+		"undamaged": true,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "minecraft:diamond",
+			"count": 1
+		},
+		"minOut": 0,
+		"maxOut": 8,
+		"type": "ic2:range"
+	}
+}

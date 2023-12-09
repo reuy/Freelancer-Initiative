@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "minecraft:potato",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:potato_slices",
+				"count": 8
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

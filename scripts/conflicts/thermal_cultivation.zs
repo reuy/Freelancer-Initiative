@@ -70,7 +70,6 @@ for crop in crops {
 }
 
 var cropnames = [
-
 "amaranth",
 "barley",
 "corn",
@@ -134,8 +133,6 @@ var jars = [
 <item:thermal:peanut_butter>,
 <item:thermal:jelly>,
 <item:thermal:tomato_sauce>
-
-
 ] as IItemStack[];
 for jar in jars {
     recipes.remove(jar);
@@ -173,11 +170,11 @@ for seed in seeds {
     Jei.hideIngredient(seed);
 }
 
-//Xp Stew Replacement for non existing crops
+//Xp Stew Replacement recipe as some components no longer exist
 craftingTable.removeByName("thermal:xp_stew");
 craftingTable.addShapeless("xp_stew", <item:thermal:xp_stew>, [<item:minecraft:wheat>, <item:minecraft:wheat>, <item:farmersdelight:onion>, <item:farmersdelight:cabbage>, <item:farmersdelight:cabbage>, <item:minecraft:experience_bottle>, <item:minecraft:bowl>]);
 
-//Potion cake replacement for non existing crops
+//Potion cake replacement as some components no longer exist
 
 craftingTable.removeByName("thermal:potion_cake");
 craftingTable.addJsonRecipe("potion_cake", {
@@ -209,5 +206,5 @@ craftingTable.addJsonRecipe("potion_cake", {
   }
 });
 
-
+#Remove all Thermal Expansion seed drops from grass
 loot.modifiers.removeByName("thermal:seeds_from_grass");

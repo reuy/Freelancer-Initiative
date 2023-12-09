@@ -1,0 +1,22 @@
+{
+	"fuels": [
+		{
+			"input": "ic2:upgrade_cobble_generator",
+			"consumed": false,
+			"fuelValue": 1000,
+			"productionRate": 1.0
+		},
+		{
+			"input": "minecraft:cobblestone",
+			"consumed": true,
+			"fuelValue": 1000,
+			"productionRate": 1.0
+		},
+		{
+			"input": "minecraft:netherrack",
+			"consumed": true,
+			"fuelValue": 1000,
+			"productionRate": 1.5
+		}
+	]
+}

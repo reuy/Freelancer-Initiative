@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:iron_pickaxe",
+		"undamaged": true,
+		"type": "ic2:damaged"
+	},
+	"output": {
+		"output": {
+			"item": "minecraft:iron_ingot",
+			"count": 1
+		},
+		"minOut": 0,
+		"maxOut": 3,
+		"type": "ic2:range"
+	}
+}

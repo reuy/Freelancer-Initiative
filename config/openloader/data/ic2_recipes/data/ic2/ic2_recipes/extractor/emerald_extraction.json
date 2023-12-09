@@ -1,0 +1,17 @@
+{
+	"input": {
+		"tag": "forge:ores/emerald",
+		"size": 1,
+		"type": "ic2:tag"
+	},
+	"output": {
+		"xp": 1.0,
+		"outputs": [
+			{
+				"item": "minecraft:emerald",
+				"count": 3
+			}
+		],
+		"type": "ic2:simple"
+	}
+}
