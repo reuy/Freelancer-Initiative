@@ -1,32 +1,182 @@
 {
-	"-13_-1": {
-		"definition": "Colonist_Root",
-		"x": 32,
-		"y": -64,
-		"root": false
-	},
-	"-13_1": {
-		"definition": "Warrior_Root",
-		"x": -32,
-		"y": -64,
-		"root": false
-	},
-	"-11_-2": {
+	"yy45mudy28cyhu0a": {
 		"definition": "Technician_Root",
-		"x": 0,
-		"y": 64,
+		"x": -78,
+		"y": 78,
 		"root": false
 	},
-	"-11_2": {
-		"definition": "Magister_Root",
-		"x": 64,
-		"y": 0,
+	"kwjcyyew31rsefvj": {
+		"definition": "Colonist_Root",
+		"x": 78,
+		"y": 78,
 		"root": false
 	},
-	"-10_-8": {
+	"brc9pyeeg9gq7yab": {
 		"definition": "Soldier_Root",
-		"x": -64,
-		"y": 0,
+		"x": -130,
+		"y": -26,
+		"root": false
+	},
+	"vwlt6bmplxuup3mx": {
+		"definition": "Magister_Root",
+		"x": 130,
+		"y": -26,
+		"root": false
+	},
+	"yuj1cquz51x9b96i": {
+		"definition": "Warrior_Root",
+		"x": 0,
+		"y": -104,
+		"root": false
+	},
+	"oer63gyjounint94": {
+		"definition": "S_Roadwalk",
+		"x": -182,
+		"y": -52,
+		"root": false
+	},
+	"r94l7wqcfgju4fq9": {
+		"definition": "W_Heroic_Strike",
+		"x": -104,
+		"y": -182,
+		"root": false
+	},
+	"k5vpoen5vvcuhwkm": {
+		"definition": "W_Heroic_Strike",
+		"x": -26,
+		"y": -208,
+		"root": false
+	},
+	"wca055az246ocs7d": {
+		"definition": "W_Strength",
+		"x": -234,
+		"y": -286,
+		"root": false
+	},
+	"74g28vjyihf02ket": {
+		"definition": "W_BluntWeapons",
+		"x": -78,
+		"y": -260,
+		"root": false
+	},
+	"g6t11mc8fmqh87f8": {
+		"definition": "W_Buster",
+		"x": -104,
+		"y": -338,
+		"root": false
+	},
+	"53lkohb4txnok9cq": {
+		"definition": "W_PressingLabor",
+		"x": -156,
+		"y": -338,
+		"root": false
+	},
+	"q3rq6ffi7w7jppxc": {
+		"definition": "W_FlatteningForce",
+		"x": -182,
+		"y": -442,
+		"root": false
+	},
+	"rycz9351xc8bcwj1": {
+		"definition": "W_CrushingForce",
+		"x": -234,
+		"y": -442,
+		"root": false
+	},
+	"7vfuu5agwvg4iy78": {
+		"definition": "W_ExoticBlades",
+		"x": 0,
+		"y": -260,
+		"root": false
+	},
+	"3isszav0lin6zini": {
+		"definition": "G_Haste",
+		"x": 0,
+		"y": -312,
+		"root": false
+	},
+	"azo30jwznawecqc4": {
+		"definition": "W_KatanaPower",
+		"x": -52,
+		"y": -390,
+		"root": false
+	},
+	"3ina62jyyrxdruvx": {
+		"definition": "W_KatanaPower2",
+		"x": 52,
+		"y": -390,
+		"root": false
+	},
+	"s7pdlla2w3t82wx6": {
+		"definition": "W_RapierPower",
+		"x": 0,
+		"y": -390,
+		"root": false
+	},
+	"n0c7af6n718c9c80": {
+		"definition": "W_PolearmsTraining",
+		"x": 78,
+		"y": -182,
+		"root": false
+	},
+	"74ccsts229ted3jn": {
+		"definition": "W_HeavyBladesTraining",
+		"x": 130,
+		"y": -416,
+		"root": false
+	},
+	"fpep9t2iolfumngk": {
+		"definition": "W_GreatswordPower",
+		"x": 130,
+		"y": -520,
+		"root": false
+	},
+	"wd5hglw3fs18g47j": {
+		"definition": "G_Health",
+		"x": 130,
+		"y": -156,
+		"root": false
+	},
+	"if2xiqzv0ilefqqc": {
+		"definition": "W_SpearPower",
+		"x": 104,
+		"y": -260,
+		"root": false
+	},
+	"5dm9jidv0sf8zcm9": {
+		"definition": "W_Fortitude",
+		"x": 234,
+		"y": -234,
+		"root": false
+	},
+	"qnfz03lmst2334ye": {
+		"definition": "W_IronBody",
+		"x": 234,
+		"y": -156,
+		"root": false
+	},
+	"e4ugzoo7oqsh0tih": {
+		"definition": "W_Unencumbered",
+		"x": 156,
+		"y": -130,
+		"root": false
+	},
+	"5ijjqmpbrm9s16d8": {
+		"definition": "W_Undershirt",
+		"x": 156,
+		"y": -260,
+		"root": false
+	},
+	"iu67hcc8sowxnqco": {
+		"definition": "W_FinalStand",
+		"x": 208,
+		"y": -338,
+		"root": false
+	},
+	"4qausnwnwj1udnhp": {
+		"definition": "G_Miningspeed",
+		"x": -104,
+		"y": 182,
 		"root": false
 	}
 }

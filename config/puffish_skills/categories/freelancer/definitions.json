@@ -1,5 +1,5 @@
 {
-	"Colonist_Root": {
+	"RC_": {
 		"title": "Live in the Moment",
 		"icon": {
 			"type": "item",
@@ -11,6 +11,14 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
+					"attribute": "freelancer.ColonistLevel",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
 					"attribute": "puffish_skills:player.fortune",
 					"value": 0.1,
 					"operation": "addition"
@@ -18,15 +26,24 @@
 			}
 		]
 	},
-	"Soldier_Root": {
-		"title": "Tactical Training",
+	"RS_ImprovAmmo": {
+		"title": "Improvised Ammunition",
 		"icon": {
 			"type": "effect",
 			"data": {
 				"effect": "haste"
 			}
 		},
+		"description": "Allows you to craft ammunition using readily-available materials.",
 		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "freelancer.SoldierLevel",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
@@ -37,15 +54,24 @@
 			}
 		]
 	},
-	"Magister_Root": {
-		"title": "Knack for Magic",
+	"RM_CallOfDust": {
+		"title": "Call of the Dust",
 		"icon": {
 			"type": "effect",
 			"data": {
 				"effect": "haste"
 			}
 		},
+		"description": "The mysterious power of Alfheim, \"Dust,\" calls out to you...",
 		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "freelancer.MagisterLevel",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
@@ -56,15 +82,24 @@
 			}
 		]
 	},
-	"Technician_Root": {
-		"title": "Technician's Insight",
+	"RT_": {
+		"title": "Tech Startup",
 		"icon": {
 			"type": "effect",
 			"data": {
 				"effect": "haste"
 			}
 		},
+		"description": "",
 		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "freelancer.TechnicianLevel",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
@@ -75,8 +110,57 @@
 			}
 		]
 	},
-	"Warrior_Root": {
+	"RW_": {
 		"title": "Power of War",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "freelancer.WarriorLevel",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_Strength": {
+		"title": "Strength",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"description": "Increases the damage you deal, based on the number of warrior perks you have.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_BluntWeapons": {
+		"title": "Blunt Weapons Training",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -95,8 +179,8 @@
 		]
 	}
 ,
-	"S_Roadwalk": {
-		"title": "Trailblazer",
+	"W_Buster": {
+		"title": "Buster",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -109,6 +193,1689 @@
 				"data": {
 					"attribute": "puffish_skills:player.melee_damage",
 					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_FlatteningForce": {
+		"title": "Flattening Force",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_PressingLabor": {
+		"title": "Pressing Labors",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_CrushingForce": {
+		"title": "Crushing Force",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_CrushingLabor": {
+		"title": "Crushing Labors",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"W_ExoticBlades": {
+		"title": "Exotic Blades Training",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"W_KatanaPower": {
+		"title": "Battle Bushido",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"W_KatanaPower2": {
+		"title": "Measure Twice, Cut Once",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_RapierPower": {
+		"title": "Fleet of Feet",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_PolearmsTraining": {
+		"title": "RENAME",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_SpearPower": {
+		"title": "Seven Spears Form",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_HeavyBladesTraining": {
+		"title": "Heavy Blades Training",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_GreatswordPower": {
+		"title": "Rise of a Hero",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+,
+	"W_Fortitude": {
+		"title": "+1 HP",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"W_IronBody": {
+		"title": "Iron Body",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"W_Unencumbered": {
+		"title": "Unencumbered",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"W_Undershirt": {
+		"title": "Undershirt",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"W_FinalStand": {
+		"title": "Final Stand",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"W_Deflect": {
+		"title": "Deflect",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"W_FocusedGrip": {
+		"title": "Focused Grip",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Hunger reduces slightly slower.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+,
+	"T_EngineeringBasic": {
+		"title": "Basic Engineering",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allows building basic machine parts like cogs, shafts, conveyor belts, and waterwheels.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+,
+	"T_ComputerScience": {
+		"title": "Computer Science",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allow you to build computers, which can be programmed to perform a variety of tasks.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+,
+	"T_ComputerNetworking": {
+		"title": "Network Plus",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allow you to build wirelss routers, which can be programmed to connect computers together.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"T_EngineeringIntermediate": {
+		"title": "Intermediate Engineering",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allows building more advanced machines.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"T_EngineeringElectricalBasic": {
+		"title": "Basic Electrical Engineering",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allows building basic devices that harness Earth electricity in the form of Electrical Units, or EU",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"T_EngineeringFluxBasic": {
+		"title": "Basic Flux Engineering",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allows building basic devices that harness Redstone Flux, a mysterious power source unique to this planet.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"T_MaterialsScience": {
+		"title": "Materials Science",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allows crafting tools and armor made from a wider variety of materials.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"C_Climatology": {
+		"title": "Climatology",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Build devices that allow you to read the weather",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Meterology": {
+		"title": "Meterology",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to see which crops grow in which seasons. Unlocks the Calendar and the Season Detector",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chef1": {
+		"title": "Sous Chef",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to make more advanced foods from the new Cooking Pot. Increases the quality of any foods you make.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chef2": {
+		"title": "Chef De Cuisine",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Increases the quality of any foods you make.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chef3": {
+		"title": "Master Chef",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Increases the quality of any foods you make.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Butcher1": {
+		"title": "Select Cuts",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Killing an animal with a knife yields extra, including animal fat.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Butcher2": {
+		"title": "Choice Cuts",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Killing an animal with a knife yields extra, including animal fat.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Butcher3": {
+		"title": "Prime Cuts",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Killing an animal with a knife yields extra, including animal fat.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chisel": {
+		"title": "L'Sculpteur",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to use the Chisel to change the appearance of most blocks.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chisel_Stone": {
+		"title": "L'Sculpteur de pierre",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to use the Chisel to change the appearance of most stonelike blocks.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chisel_Wood": {
+		"title": "L'Sculpteur de bois",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to use the Chisel to change the appearance of most wooden blocks.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Chisel_Special": {
+		"title": "L'Sculpteur de factoire",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to create special blocks to decorate factories and laboratories. These blocks can be chiseled.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Treecapitator": {
+		"title": "Tree Feller",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Sneaking while cutting a tree will now cut the whole tree at once.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Smithing": {
+		"title": "Smithing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows ",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_SmithingExotic": {
+		"title": "Exotic Smithing",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to create special blocks to decorate factories and laboratories. These blocks can be chiseled.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_StorageUpgrade": {
+		"title": "Storage Upgrader",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Allows you to use metals to upgrade chests.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Painting": {
+		"title": "L'artiste",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now build and use easels, paints, and palettes to create artwork.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_Furniture": {
+		"title": "Basic Furniture",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now craft basic furniture, like tables and chairs.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_FurnitureStorage": {
+		"title": "Storage Furniture",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now craft storage furniture, like cabinets and shelves.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_FurnitureKitchen": {
+		"title": "Kitchen Appliances",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now craft kitchen gadgets, like fridges and appliances.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_FurnitureKitchen2": {
+		"title": "Kitchen Furniture",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now craft special kitchen items that connect and share recipes, making cooking faster and easier.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_FurnitureDrawers": {
+		"title": "Artisan Furniture",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now craft the Drawer, a special furniture type that can store large amounts of a single item or block.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_FurnitureArtisan": {
+		"title": "Artisan Furniture",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "You can now craft more advanced types of furniture.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"C_RoadWalkHunger": {
+		"title": "Trail Preference",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Walking on a road, trail, or path consumes less hunger.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_RoadWalk": {
+		"title": "Pathfinder",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Increases speed when on a road, trail, or path.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_RoadWalk2": {
+		"title": "Pathfinder Pro",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Pathfinder's effect lasts for 5 seconds after leaving an eligible surface.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_RoadWalkLinger": {
+		"title": "Trailblazer",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Pathfinder's effect lasts for 5 seconds after leaving an eligible surface.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_KnifeQual": {
+		"title": "Knife Qualification",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"description": "You can now craft knives. +1 damage with knives.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_LiveOffTheLand": {
+		"title": "Live Off the Land",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Increases yield from animals killed, and even more so of kileld with a knife.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"S_Commando": {
+		"title": "Commando",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Increases melee range with knives.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"S_CommandoPro": {
+		"title": "Commando Pro",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Decreases Fall damage.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"S_Assassin": {
+		"title": "Assassin",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Doubles the damage of your next knife attack if you haven't taken damage in the last 60 seconds.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"S_AssassinLinger": {
+		"title": "Killing Spree",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Assassin no longer resets upon delivering a melee attack.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"S_AssassinAllWeapons": {
+		"title": "Assassin's Creativity",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Assassin status applies to all melee weapons, not just knives.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"S_FireArrow": {
+		"title": "Fire Arrows",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "You can now craft and use fire arrows.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_NewArrow": {
+		"title": "X Arrow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "You can now craft and use X arrows.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_NewArrow1": {
+		"title": "X Arrow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "You can now craft and use X arrows.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "freelancer.SoldierLevel",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_NewArrow2": {
+		"title": "X Arrow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "You can now craft and use X arrows.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_NewArrow3": {
+		"title": "X Arrow",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "You can now craft and use X arrows.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_Hookshot": {
+		"title": "Grappling Hook Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to build and use the grappling hook.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_Hookshot": {
+		"title": "Grappling Hook Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to build and use the grappling hook.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_HandgunQual": {
+		"title": "Handgun Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to craft handguns and ammo. Increases accuracy with handguns.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_RifleQual": {
+		"title": "Rifle Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to craft handguns and ammo. Increases accuracy with handguns.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_ShotgunQual": {
+		"title": "Handgun Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to craft handguns and ammo. Increases accuracy with handguns.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_SMGQual": {
+		"title": "Submachinegun Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to craft handguns and ammo. Increases accuracy with handguns.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_DMRQual": {
+		"title": "Designated Marksman Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to craft handguns and ammo. Increases accuracy with handguns.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_SniperQual": {
+		"title": "Sniper Rifle Qualification",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"description": "Allows you to craft handguns and ammo. Increases accuracy with handguns.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_TacticalRetreat": {
+		"title": "Tactical Retreat",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Grants a burst of speed when your health drops below 50%. 1 minute cooldown.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_SaveOneBullet": {
+		"title": "Save One Bullet",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Upon hitting a target, gives a small chance to refund ammunition cost.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"S_Clamber": {
+		"title": "Clamber",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Allows you to step up blocks in mid-air.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_Dust": {
+		"title": "Dust",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "The mysterious power of Alfheim, Dust, calls out to you...",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_ArsNouveau": {
+		"title": "Alterian Wizardry",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "The mysterious power of Alfheim, Dust, calls out to you...",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_ArsMagica": {
+		"title": "Visaran Wizardry",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Learn magical manipulation.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_Botania": {
+		"title": "Secret of the Flowers",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Use mystical flowers to control Alfheim's mana flows...",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_MoveBotania": {
+		"title": "Hands of the Forest",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Allows you to place, craft, and move floral apothecaries.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_Totemic": {
+		"title": "Secret of the Totems",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Harness the power of the ancient totems that dot Alfheim's landscape.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_TotemicAdvanced": {
+		"title": "Shamanic Mastery",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Use ancient totems that dot Alfheim's landscape.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"M_MoveTotemic": {
+		"title": "Hands of the Highlands",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Allows you to collect and place totems.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
 					"operation": "multiply_total"
 				}
 			}
