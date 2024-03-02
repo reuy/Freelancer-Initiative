@@ -24,7 +24,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "6uih19klehe1q83u"
+		}
 	},
 	"RS_ImprovAmmo": {
 		"title": "Improvised Ammunition",
@@ -52,7 +55,10 @@
 					"operation": "multiply_base"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "l2yidd4ewcjyiwid"
+		}
 	},
 	"RM_CallOfDust": {
 		"title": "Call of the Dust",
@@ -80,10 +86,13 @@
 					"operation": "multiply_base"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "7gxc36gt7fddhu1s"
+		}
 	},
 	"RT_": {
-		"title": "Tech Startup",
+		"title": "TECH STARTUP",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -108,7 +117,10 @@
 					"operation": "multiply_base"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "v6c2dbp6x12hbv9a"
+		}
 	},
 	"RW_": {
 		"title": "Power of War",
@@ -135,9 +147,79 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "hjqxphwshdp0mlya"
+		}
+	},
+	"W_HeroicStrikeChance": {
+		"title": "Heroic Strike Chance +3%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"description": "Increases the chance your attack deals extra damage.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xnx0ing233j6nx2l"
+		}
+	},
+	"W_HeroicStrikeDamage": {
+		"title": "Heroic Strike Damage +1%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_sword"
+			}
+		},
+		"description": "Increases the damage bonus given to your Heroic Strikes.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lhzjoxrlxhqe8yfc"
+		}
+	},
+	"G_melee_damage+3%": {
+		"title": "+3% Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "anwma07igvti293r"
+		}
+	},
 	"W_Strength": {
 		"title": "Strength",
 		"icon": {
@@ -156,9 +238,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "tk1nhpphi67deb06"
+		}
+	},
 	"W_BluntWeapons": {
 		"title": "Blunt Weapons Training",
 		"icon": {
@@ -176,9 +260,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "rm5dsq3gy972ydzw"
+		}
+	},
 	"W_Buster": {
 		"title": "Buster",
 		"icon": {
@@ -196,9 +282,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "xjky2afn7vztnulj"
+		}
+	},
 	"W_FlatteningForce": {
 		"title": "Flattening Force",
 		"icon": {
@@ -216,9 +304,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "zt87p3rnjx73yset"
+		}
+	},
 	"W_PressingLabor": {
 		"title": "Pressing Labors",
 		"icon": {
@@ -236,9 +326,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "kqub8ec1haj7g46t"
+		}
+	},
 	"W_CrushingForce": {
 		"title": "Crushing Force",
 		"icon": {
@@ -256,9 +348,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "c62kt28wp5xv07z5"
+		}
+	},
 	"W_CrushingLabor": {
 		"title": "Crushing Labors",
 		"icon": {
@@ -276,7 +370,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "00glrlyznh8lfsk4"
+		}
 	},
 	"W_ExoticBlades": {
 		"title": "Exotic Blades Training",
@@ -295,7 +392,32 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "mjp8ulzwzmniinxj"
+		}
+	},
+	"G_Haste": {
+		"title": "+5% Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "r97uavyxu51damg7"
+		}
 	},
 	"W_KatanaPower": {
 		"title": "Battle Bushido",
@@ -314,7 +436,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "v3maixbdk905mhsk"
+		}
 	},
 	"W_KatanaPower2": {
 		"title": "Measure Twice, Cut Once",
@@ -333,9 +458,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "fvkxz5q7aesfn6u7"
+		}
+	},
 	"W_RapierPower": {
 		"title": "Fleet of Feet",
 		"icon": {
@@ -353,9 +480,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "9c1eefvolhr8jio8"
+		}
+	},
 	"W_PolearmsTraining": {
 		"title": "RENAME",
 		"icon": {
@@ -373,9 +502,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "twtamh6cmpqrt7ip"
+		}
+	},
 	"W_SpearPower": {
 		"title": "Seven Spears Form",
 		"icon": {
@@ -393,9 +524,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "3iw6pmngscaym38l"
+		}
+	},
 	"W_HeavyBladesTraining": {
 		"title": "Heavy Blades Training",
 		"icon": {
@@ -413,9 +546,11 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "g8t0s6u9i3ts7mn9"
+		}
+	},
 	"W_GreatswordPower": {
 		"title": "Rise of a Hero",
 		"icon": {
@@ -433,9 +568,33 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "3ju2lebj5njg5ytp"
+		}
+	},
+	"G_Health": {
+		"title": "+1 HP",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bm45eiix8jignab8"
+		}
+	},
 	"W_Fortitude": {
 		"title": "+1 HP",
 		"icon": {
@@ -453,7 +612,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "hujic5hemeqs83od"
+		}
 	},
 	"W_IronBody": {
 		"title": "Iron Body",
@@ -472,7 +634,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ip97yr35nc86gg0s"
+		}
 	},
 	"W_Unencumbered": {
 		"title": "Unencumbered",
@@ -491,7 +656,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ey7015mk12vefzaf"
+		}
 	},
 	"W_Undershirt": {
 		"title": "Undershirt",
@@ -510,7 +678,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "t4rix5cerqikv0nn"
+		}
 	},
 	"W_FinalStand": {
 		"title": "Final Stand",
@@ -529,7 +700,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "us6ykv6hcg6e9x1j"
+		}
 	},
 	"W_Deflect": {
 		"title": "Deflect",
@@ -548,7 +722,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "uor1rgvgxsv764to"
+		}
 	},
 	"W_FocusedGrip": {
 		"title": "Focused Grip",
@@ -568,9 +745,11 @@
 					"operation": "addition"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "jomz8i5g8tfq66la"
+		}
+	},
 	"T_EngineeringBasic": {
 		"title": "Basic Engineering",
 		"icon": {
@@ -589,9 +768,11 @@
 					"operation": "addition"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "3u3tc1kcvm95j2yo"
+		}
+	},
 	"T_ComputerScience": {
 		"title": "Computer Science",
 		"icon": {
@@ -610,9 +791,11 @@
 					"operation": "addition"
 				}
 			}
-		]
-	}
-,
+		],
+		"metadata": {
+			"icon": "vy1bj8ecmqvcvygj"
+		}
+	},
 	"T_ComputerNetworking": {
 		"title": "Network Plus",
 		"icon": {
@@ -631,7 +814,33 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "y6pzh4gxflbh27qq"
+		}
+	},
+	"T_Redstone": {
+		"title": "Advanced Redstone",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Allow you to build advanced redstone circuitry.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 30,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "afxzygbb1p2ctdyj"
+		}
 	},
 	"T_EngineeringIntermediate": {
 		"title": "Intermediate Engineering",
@@ -651,7 +860,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "qm0u0q4qgn3z6mti"
+		}
 	},
 	"T_EngineeringElectricalBasic": {
 		"title": "Basic Electrical Engineering",
@@ -671,7 +883,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "9qtud5938ms0hyxp"
+		}
 	},
 	"T_EngineeringFluxBasic": {
 		"title": "Basic Flux Engineering",
@@ -691,7 +906,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "pa5ef1l2x1zzrf2l"
+		}
 	},
 	"T_MaterialsScience": {
 		"title": "Materials Science",
@@ -711,7 +929,101 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "rhzh3z1yqrnw3pj8"
+		}
+	},
+	"G_Miningspeed": {
+		"title": "+3% Mining Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nqe3jdcfh0prevac"
+		}
+	},
+	"G_Stamina": {
+		"title": "Conditioning",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Hunger reduces slightly slower.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "3vfoler3tk026azu"
+		}
+	},
+	"G_HuntingYield": {
+		"title": "Hunting Yield +",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Increases drops from animals.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1wrznl590u329r3f"
+		}
+	},
+	"G_LoggingYield": {
+		"title": "Logging Yield +",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"description": "Increases chance to drop more wood from logs and leaves.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wx6dld01f2bp6h0j"
+		}
 	},
 	"C_Climatology": {
 		"title": "Climatology",
@@ -731,7 +1043,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "34vnicd7ic08xcrc"
+		}
 	},
 	"C_Meterology": {
 		"title": "Meterology",
@@ -751,7 +1066,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "a31sqjbhbdoee3j9"
+		}
 	},
 	"C_Chef1": {
 		"title": "Sous Chef",
@@ -771,7 +1089,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "q5k2ko9kv5xbgxyr"
+		}
 	},
 	"C_Chef2": {
 		"title": "Chef De Cuisine",
@@ -791,7 +1112,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "fy91vicgx3jyi6sr"
+		}
 	},
 	"C_Chef3": {
 		"title": "Master Chef",
@@ -811,7 +1135,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "egl2xr2ys35rjaah"
+		}
 	},
 	"C_Butcher1": {
 		"title": "Select Cuts",
@@ -831,7 +1158,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "4kqq0uwkznk2ntda"
+		}
 	},
 	"C_Butcher2": {
 		"title": "Choice Cuts",
@@ -851,7 +1181,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "bzc7e4duwybnkqg3"
+		}
 	},
 	"C_Butcher3": {
 		"title": "Prime Cuts",
@@ -871,7 +1204,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "k72jy1w9gq1ud6b9"
+		}
 	},
 	"C_Chisel": {
 		"title": "L'Sculpteur",
@@ -891,7 +1227,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "7cdlduqpsufp0pmu"
+		}
 	},
 	"C_Chisel_Stone": {
 		"title": "L'Sculpteur de pierre",
@@ -911,7 +1250,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "btzyn5o0ol2e3l8z"
+		}
 	},
 	"C_Chisel_Wood": {
 		"title": "L'Sculpteur de bois",
@@ -931,7 +1273,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "sjxs14ktzl6unhgb"
+		}
 	},
 	"C_Chisel_Special": {
 		"title": "L'Sculpteur de factoire",
@@ -951,7 +1296,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "2ajv6n0ytcovlqqz"
+		}
 	},
 	"C_Treecapitator": {
 		"title": "Tree Feller",
@@ -971,7 +1319,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ww4y97za7pu65v9p"
+		}
 	},
 	"C_Smithing": {
 		"title": "Smithing",
@@ -991,7 +1342,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ki9qdbqzwgxtljv5"
+		}
 	},
 	"C_SmithingExotic": {
 		"title": "Exotic Smithing",
@@ -1011,7 +1365,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "jpm7lxekxz743v7b"
+		}
 	},
 	"C_StorageUpgrade": {
 		"title": "Storage Upgrader",
@@ -1031,7 +1388,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "uon8pof9vwd1etn1"
+		}
 	},
 	"C_Painting": {
 		"title": "L'artiste",
@@ -1051,7 +1411,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "fky1v3hy84vlc7if"
+		}
 	},
 	"C_Furniture": {
 		"title": "Basic Furniture",
@@ -1071,7 +1434,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "f08ms92dzpvrxvey"
+		}
 	},
 	"C_FurnitureStorage": {
 		"title": "Storage Furniture",
@@ -1091,7 +1457,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "aljx6suet81narad"
+		}
 	},
 	"C_FurnitureKitchen": {
 		"title": "Kitchen Appliances",
@@ -1111,7 +1480,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "7zw6cv1tu2hcrf2q"
+		}
 	},
 	"C_FurnitureKitchen2": {
 		"title": "Kitchen Furniture",
@@ -1131,7 +1503,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ywco1njitst77qd2"
+		}
 	},
 	"C_FurnitureDrawers": {
 		"title": "Artisan Furniture",
@@ -1151,7 +1526,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "gfkmcz6boceua207"
+		}
 	},
 	"C_FurnitureArtisan": {
 		"title": "Artisan Furniture",
@@ -1171,7 +1549,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "s13d2h6dh03dybu7"
+		}
 	},
 	"C_RoadWalkHunger": {
 		"title": "Trail Preference",
@@ -1191,7 +1572,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "hayct5cy3nvtxkf5"
+		}
 	},
 	"S_RoadWalk": {
 		"title": "Pathfinder",
@@ -1211,7 +1595,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "xbhvi1ua7qc4u5nx"
+		}
 	},
 	"S_RoadWalk2": {
 		"title": "Pathfinder Pro",
@@ -1231,7 +1618,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "8rwu2qbeisnnjlo5"
+		}
 	},
 	"S_RoadWalkLinger": {
 		"title": "Trailblazer",
@@ -1251,7 +1641,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "o4h387m9yi5j5ver"
+		}
 	},
 	"S_KnifeQual": {
 		"title": "Knife Qualification",
@@ -1271,7 +1664,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "6uayeqk8m1vrwed2"
+		}
 	},
 	"S_LiveOffTheLand": {
 		"title": "Live Off the Land",
@@ -1291,30 +1687,13 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "tlf3cts0yjeg7ylm"
+		}
 	},
-	"S_Commando": {
-		"title": "Commando",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "luck"
-			}
-		},
-		"description": "Increases melee range with knives.",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.25,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"S_CommandoPro": {
-		"title": "Commando Pro",
+	"S_FallDamage": {
+		"title": "Feather Foot",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -1331,7 +1710,56 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "s6ssfm8bk4jse2di"
+		}
+	},
+	"S_LongFall": {
+		"title": "Long Fall +1",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Increases fall distance before fall damage is applied.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "2vgnvamh400b0ili"
+		}
+	},
+	"S_Commando": {
+		"title": "CommandoPro",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Decreases Fall damage.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "emyuq1r1s0nfdw4y"
+		}
 	},
 	"S_Assassin": {
 		"title": "Assassin",
@@ -1341,7 +1769,7 @@
 				"effect": "luck"
 			}
 		},
-		"description": "Doubles the damage of your next knife attack if you haven't taken damage in the last 60 seconds.",
+		"description": "Doubles the damage of your melee attacks if you haven't taken damage in the last 60 seconds.",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1351,47 +1779,32 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "895mc0j7fc0p5jul"
+		}
 	},
-	"S_AssassinLinger": {
-		"title": "Killing Spree",
+	"S_ranged_damage+3%": {
+		"title": "+3% Ranged Damage",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "luck"
+				"item": "bow"
 			}
 		},
-		"description": "Assassin no longer resets upon delivering a melee attack.",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
-					"value": 0.25,
-					"operation": "addition"
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
 				}
 			}
-		]
-	},
-	"S_AssassinAllWeapons": {
-		"title": "Assassin's Creativity",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "luck"
-			}
-		},
-		"description": "Assassin status applies to all melee weapons, not just knives.",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.25,
-					"operation": "addition"
-				}
-			}
-		]
+		],
+		"metadata": {
+			"icon": "3w5gd6ttvqbkkrbb"
+		}
 	},
 	"S_FireArrow": {
 		"title": "Fire Arrows",
@@ -1411,7 +1824,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "dumpgbvbo3i7ygcl"
+		}
 	},
 	"S_NewArrow": {
 		"title": "X Arrow",
@@ -1431,7 +1847,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "3qgn66noixref3uz"
+		}
 	},
 	"S_NewArrow1": {
 		"title": "X Arrow",
@@ -1459,7 +1878,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ehh33u44xrmvlvsi"
+		}
 	},
 	"S_NewArrow2": {
 		"title": "X Arrow",
@@ -1479,7 +1901,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "y9prrroovbp69oky"
+		}
 	},
 	"S_NewArrow3": {
 		"title": "X Arrow",
@@ -1499,7 +1924,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "41ucvcigmqiohr82"
+		}
 	},
 	"S_Hookshot": {
 		"title": "Grappling Hook Qualification",
@@ -1519,27 +1947,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
-	},
-	"S_Hookshot": {
-		"title": "Grappling Hook Qualification",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "bow"
-			}
-		},
-		"description": "Allows you to build and use the grappling hook.",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		]
+		],
+		"metadata": {
+			"icon": "2n1bplna3oxbrulo"
+		}
 	},
 	"S_HandgunQual": {
 		"title": "Handgun Qualification",
@@ -1559,7 +1970,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "fzx9f2igyhyylqzw"
+		}
 	},
 	"S_RifleQual": {
 		"title": "Rifle Qualification",
@@ -1579,7 +1993,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "p0z6zw9sfeq8vs20"
+		}
 	},
 	"S_ShotgunQual": {
 		"title": "Handgun Qualification",
@@ -1599,7 +2016,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "tk7cxdcjx5odwx0t"
+		}
 	},
 	"S_SMGQual": {
 		"title": "Submachinegun Qualification",
@@ -1619,7 +2039,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "98zkrdgfb83s0m2q"
+		}
 	},
 	"S_DMRQual": {
 		"title": "Designated Marksman Qualification",
@@ -1639,7 +2062,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "qgfsz7nlywnxm14y"
+		}
 	},
 	"S_SniperQual": {
 		"title": "Sniper Rifle Qualification",
@@ -1659,7 +2085,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "3dygmzz4ihcwzuji"
+		}
 	},
 	"S_TacticalRetreat": {
 		"title": "Tactical Retreat",
@@ -1679,7 +2108,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "d1hckhrj2g97392u"
+		}
 	},
 	"S_SaveOneBullet": {
 		"title": "Save One Bullet",
@@ -1699,7 +2131,33 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "6u60jxs1a3q49lw6"
+		}
+	},
+	"S_GunshotResidue": {
+		"title": "Gunshot Residue",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Increases the chance targets killed with firearms drop gunpowder.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "opp1rfr7ohyozdqh"
+		}
 	},
 	"S_Clamber": {
 		"title": "Clamber",
@@ -1719,7 +2177,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "io2vu04e8fiw8hd8"
+		}
 	},
 	"M_Dust": {
 		"title": "Dust",
@@ -1739,7 +2200,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ynzlfoy526r8f89n"
+		}
 	},
 	"M_ArsNouveau": {
 		"title": "Alterian Wizardry",
@@ -1759,7 +2223,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "aj1kvewatynoank2"
+		}
 	},
 	"M_ArsMagica": {
 		"title": "Visaran Wizardry",
@@ -1779,7 +2246,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "hty0odepris5fq98"
+		}
 	},
 	"M_Botania": {
 		"title": "Secret of the Flowers",
@@ -1799,7 +2269,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "br4xvi86ngct1hi8"
+		}
 	},
 	"M_MoveBotania": {
 		"title": "Hands of the Forest",
@@ -1819,7 +2292,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "lzkp6hw8kghp25k5"
+		}
 	},
 	"M_Totemic": {
 		"title": "Secret of the Totems",
@@ -1839,7 +2315,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "x0jcsa4wxm0ef195"
+		}
 	},
 	"M_TotemicAdvanced": {
 		"title": "Shamanic Mastery",
@@ -1859,7 +2338,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "08rb0btyietn2l7g"
+		}
 	},
 	"M_MoveTotemic": {
 		"title": "Hands of the Highlands",
@@ -1879,6 +2361,9 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "zedkx2j0848upbi0"
+		}
 	}
 }
