@@ -33,6 +33,8 @@
 	editorHistory = 10
 	#Whether the range of the breath should be rendered (while hitboxes are shown)
 	renderBreathRange = true
+	#A fallback option in case the mod crashes with "Pose stack not empty". This could cause visual rendering problems.
+	emptyPoseStack = false
 
 [nametag]
 	#Show name tags for dragons.
