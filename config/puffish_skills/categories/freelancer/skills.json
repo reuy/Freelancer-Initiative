@@ -1,32 +1,518 @@
 {
-	"-13_-1": {
-		"definition": "Colonist_Root",
-		"x": 32,
-		"y": -64,
+	"wca055az246ocs7d": {
+		"definition": "W_Strength",
+		"x": 96,
+		"y": -416,
 		"root": false
 	},
-	"-13_1": {
-		"definition": "Warrior_Root",
-		"x": -32,
-		"y": -64,
+	"74g28vjyihf02ket": {
+		"definition": "W_BluntWeapons",
+		"x": 160,
+		"y": -352,
 		"root": false
 	},
-	"-11_-2": {
-		"definition": "Technician_Root",
+	"53lkohb4txnok9cq": {
+		"definition": "W_PressingLabor",
+		"x": 224,
+		"y": -416,
+		"root": false
+	},
+	"q3rq6ffi7w7jppxc": {
+		"definition": "W_FlatteningForce",
+		"x": 224,
+		"y": -512,
+		"root": false
+	},
+	"rycz9351xc8bcwj1": {
+		"definition": "W_CrushingForce",
+		"x": 160,
+		"y": -512,
+		"root": false
+	},
+	"7vfuu5agwvg4iy78": {
+		"definition": "W_ExoticBlades",
+		"x": -192,
+		"y": -352,
+		"root": false
+	},
+	"3isszav0lin6zini": {
+		"definition": "G_Haste",
+		"x": -224,
+		"y": -416,
+		"root": false
+	},
+	"azo30jwznawecqc4": {
+		"definition": "W_KatanaPower",
+		"x": -276,
+		"y": -494,
+		"root": false
+	},
+	"3ina62jyyrxdruvx": {
+		"definition": "W_KatanaPower2",
+		"x": -172,
+		"y": -494,
+		"root": false
+	},
+	"s7pdlla2w3t82wx6": {
+		"definition": "W_RapierPower",
+		"x": -224,
+		"y": -494,
+		"root": false
+	},
+	"n0c7af6n718c9c80": {
+		"definition": "W_PolearmsTraining",
+		"x": 224,
+		"y": -256,
+		"root": false
+	},
+	"74ccsts229ted3jn": {
+		"definition": "W_HeavyBladesTraining",
+		"x": 288,
+		"y": -608,
+		"root": false
+	},
+	"fpep9t2iolfumngk": {
+		"definition": "W_GreatswordPower",
+		"x": 192,
+		"y": -672,
+		"root": false
+	},
+	"wd5hglw3fs18g47j": {
+		"definition": "G_Health",
+		"x": 320,
+		"y": -256,
+		"root": false
+	},
+	"if2xiqzv0ilefqqc": {
+		"definition": "W_SpearPower",
+		"x": 384,
+		"y": -448,
+		"root": false
+	},
+	"5dm9jidv0sf8zcm9": {
+		"definition": "W_Fortitude",
+		"x": 462,
+		"y": -294,
+		"root": false
+	},
+	"qnfz03lmst2334ye": {
+		"definition": "W_IronBody",
+		"x": 462,
+		"y": -216,
+		"root": false
+	},
+	"e4ugzoo7oqsh0tih": {
+		"definition": "W_Unencumbered",
+		"x": 384,
+		"y": -190,
+		"root": false
+	},
+	"5ijjqmpbrm9s16d8": {
+		"definition": "W_Undershirt",
+		"x": 384,
+		"y": -320,
+		"root": false
+	},
+	"iu67hcc8sowxnqco": {
+		"definition": "W_FinalStand",
+		"x": 436,
+		"y": -398,
+		"root": false
+	},
+	"495df9sz1frcrajf": {
+		"definition": "RW_",
 		"x": 0,
+		"y": -128,
+		"root": true
+	},
+	"jwik5eabrn8dajds": {
+		"definition": "RT_",
+		"x": -64,
+		"y": 96,
+		"root": true
+	},
+	"4s2ux7ry1ts875ux": {
+		"definition": "RC_",
+		"x": 64,
+		"y": 96,
+		"root": true
+	},
+	"6q6xe12a404j2ln1": {
+		"definition": "RS_ImprovAmmo",
+		"x": -96,
+		"y": -32,
+		"root": true
+	},
+	"3tsnrpggozp1zkt1": {
+		"definition": "RM_CallOfDust",
+		"x": 96,
+		"y": -32,
+		"root": true
+	},
+	"b7tmj8u559vf2mll": {
+		"definition": "W_CrushingLabor",
+		"x": 160,
+		"y": -416,
+		"root": false
+	},
+	"a53qx9b5imexjxbs": {
+		"definition": "W_HeroicStrikeDamage",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"d4nadw671et07hho": {
+		"definition": "G_Haste",
+		"x": -224,
+		"y": -224,
+		"root": false
+	},
+	"apro5x6zsdw28qml": {
+		"definition": "W_HeroicStrikeChance",
+		"x": -64,
+		"y": -256,
+		"root": false
+	},
+	"m23cyfnk236uszss": {
+		"definition": "S_RoadWalk",
+		"x": -384,
+		"y": -128,
+		"root": false
+	},
+	"u0cj1185e8g2p8l5": {
+		"definition": "S_RoadWalk2",
+		"x": -512,
+		"y": -128,
+		"root": false
+	},
+	"o60x7y0n5r61n2rx": {
+		"definition": "S_RoadWalkLinger",
+		"x": -512,
+		"y": -224,
+		"root": false
+	},
+	"tqf3c6trz33vg5l7": {
+		"definition": "S_HandgunQual",
+		"x": -352,
+		"y": 96,
+		"root": false
+	},
+	"97yxrsdharlkgy3c": {
+		"definition": "S_ranged_damage+3%",
+		"x": -320,
+		"y": 0,
+		"root": false
+	},
+	"lpyxue10eassn5hc": {
+		"definition": "S_KnifeQual",
+		"x": -320,
+		"y": -224,
+		"root": false
+	},
+	"5q0w15eq1p11cs4s": {
+		"definition": "S_Assassin",
+		"x": -480,
+		"y": -320,
+		"root": false
+	},
+	"jdjj1bgu3ht9ig2y": {
+		"definition": "C_Furniture",
+		"x": 288,
+		"y": 256,
+		"root": false
+	},
+	"vegqwjsvp4lqjdah": {
+		"definition": "C_FurnitureStorage",
+		"x": 352,
+		"y": 256,
+		"root": false
+	},
+	"aquuvlzjjkxb5khq": {
+		"definition": "C_FurnitureKitchen",
+		"x": 416,
+		"y": 352,
+		"root": false
+	},
+	"2legdk7h5krzd10k": {
+		"definition": "C_FurnitureKitchen2",
+		"x": 416,
+		"y": 384,
+		"root": false
+	},
+	"167z5r6toteb21l6": {
+		"definition": "C_FurnitureDrawers",
+		"x": 256,
+		"y": 416,
+		"root": false
+	},
+	"1y0zahwz9bt8fmmn": {
+		"definition": "C_Smithing",
+		"x": 0,
+		"y": 224,
+		"root": false
+	},
+	"pqoeenfar8tf71a3": {
+		"definition": "C_SmithingExotic",
+		"x": 0,
+		"y": 288,
+		"root": false
+	},
+	"tm0l9b6alfnk1nm5": {
+		"definition": "C_Chisel_Special",
+		"x": 96,
+		"y": 288,
+		"root": false
+	},
+	"hzmy0nvt522t6rhw": {
+		"definition": "C_Chisel_Wood",
+		"x": 320,
+		"y": 192,
+		"root": false
+	},
+	"3ls4qin1lnk7mpoe": {
+		"definition": "C_Chisel_Stone",
+		"x": 224,
+		"y": 192,
+		"root": false
+	},
+	"a5oxg143wa79f58v": {
+		"definition": "C_Butcher1",
+		"x": 160,
+		"y": 224,
+		"root": false
+	},
+	"0ggw3pamyos7o2nm": {
+		"definition": "W_HeroicStrikeChance",
+		"x": -160,
+		"y": -256,
+		"root": false
+	},
+	"svwek44o20mtmm7n": {
+		"definition": "W_HeroicStrikeChance",
+		"x": 288,
+		"y": -320,
+		"root": false
+	},
+	"i67qcyfow9r9x10g": {
+		"definition": "W_HeroicStrikeDamage",
+		"x": 256,
+		"y": -384,
+		"root": false
+	},
+	"uhaguq4ref78izfv": {
+		"definition": "W_Buster",
+		"x": 288,
+		"y": -448,
+		"root": false
+	},
+	"fhlk1hjo8z6tx5y9": {
+		"definition": "W_HeroicStrikeDamage",
+		"x": -96,
+		"y": -320,
+		"root": false
+	},
+	"4zbwct4k0ag68p7j": {
+		"definition": "G_Haste",
+		"x": -320,
+		"y": -288,
+		"root": false
+	},
+	"amdygx8ylbycvyx6": {
+		"definition": "T_EngineeringIntermediate",
+		"x": -416,
+		"y": 320,
+		"root": false
+	},
+	"26fn0d417mpfozu2": {
+		"definition": "T_EngineeringElectricalBasic",
+		"x": -256,
+		"y": 320,
+		"root": false
+	},
+	"nl19h43hrkrmz20g": {
+		"definition": "T_EngineeringFluxBasic",
+		"x": -320,
+		"y": 320,
+		"root": false
+	},
+	"q04da5c99jad2c2r": {
+		"definition": "T_ComputerScience",
+		"x": -320,
+		"y": 160,
+		"root": false
+	},
+	"srklb95lha3i3rui": {
+		"definition": "T_ComputerNetworking",
+		"x": -480,
+		"y": 256,
+		"root": false
+	},
+	"wuzcdh986q9jdadw": {
+		"definition": "T_MaterialsScience",
+		"x": -192,
+		"y": 320,
+		"root": false
+	},
+	"8ujw157ec06vizk4": {
+		"definition": "G_Miningspeed",
+		"x": -96,
+		"y": 160,
+		"root": false
+	},
+	"g00f2m8bs9jypp6q": {
+		"definition": "S_RifleQual",
+		"x": -416,
 		"y": 64,
 		"root": false
 	},
-	"-11_2": {
-		"definition": "Magister_Root",
-		"x": 64,
+	"aj8tkbq9afymjiox": {
+		"definition": "S_DMRQual",
+		"x": -512,
+		"y": 32,
+		"root": false
+	},
+	"1aij1g4fn0dmz5tp": {
+		"definition": "S_SniperQual",
+		"x": -608,
+		"y": 32,
+		"root": false
+	},
+	"87l7316jqpo181nf": {
+		"definition": "S_ShotgunQual",
+		"x": -416,
 		"y": 0,
 		"root": false
 	},
-	"-10_-8": {
-		"definition": "Soldier_Root",
-		"x": -64,
-		"y": 0,
+	"wpwxdryqbcqx7w8n": {
+		"definition": "S_SMGQual",
+		"x": -416,
+		"y": 128,
+		"root": false
+	},
+	"40k05mf9nas6w85k": {
+		"definition": "G_Stamina",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"x5sbpcmrl8wgun70": {
+		"definition": "G_Stamina",
+		"x": -448,
+		"y": -192,
+		"root": false
+	},
+	"n1rnpr0f55xdoy5t": {
+		"definition": "G_melee_damage+3%",
+		"x": -256,
+		"y": -96,
+		"root": false
+	},
+	"etvmqwlpetasolca": {
+		"definition": "T_EngineeringBasic",
+		"x": -224,
+		"y": 192,
+		"root": false
+	},
+	"usbkybe3l96xai1v": {
+		"definition": "C_Treecapitator",
+		"x": 224,
+		"y": 256,
+		"root": false
+	},
+	"yzqnhg1dxgdzreh5": {
+		"definition": "M_Dust",
+		"x": 384,
+		"y": -32,
+		"root": false
+	},
+	"l85jrpbqtgipqbdn": {
+		"definition": "M_Botania",
+		"x": 480,
+		"y": 64,
+		"root": false
+	},
+	"0ymrrqbfrzzgdn4d": {
+		"definition": "M_ArsMagica",
+		"x": 448,
+		"y": -32,
+		"root": false
+	},
+	"f0b297o11jq9p319": {
+		"definition": "M_Totemic",
+		"x": 480,
+		"y": -128,
+		"root": false
+	},
+	"eyb1h6a7dgye9vhf": {
+		"definition": "M_TotemicAdvanced",
+		"x": 608,
+		"y": -128,
+		"root": false
+	},
+	"3jekeknnffsvda5x": {
+		"definition": "M_MoveBotania",
+		"x": 640,
+		"y": 96,
+		"root": false
+	},
+	"fqgffwa3hxd90g88": {
+		"definition": "M_MoveTotemic",
+		"x": 704,
+		"y": -256,
+		"root": false
+	},
+	"ztl817qnx8n6817g": {
+		"definition": "S_SaveOneBullet",
+		"x": -768,
+		"y": 128,
+		"root": false
+	},
+	"lq6me9xft7q63dqt": {
+		"definition": "S_GunshotResidue",
+		"x": -704,
+		"y": 192,
+		"root": false
+	},
+	"ri2psovuit7yi15y": {
+		"definition": "G_Stamina",
+		"x": -640,
+		"y": 128,
+		"root": false
+	},
+	"kaxswwj4u61vcijd": {
+		"definition": "S_LiveOffTheLand",
+		"x": -384,
+		"y": -256,
+		"root": false
+	},
+	"0ydynji90t8d5pnv": {
+		"definition": "S_Commando",
+		"x": -320,
+		"y": -352,
+		"root": false
+	},
+	"2bbm090lk5hpb523": {
+		"definition": "S_LongFall",
+		"x": -256,
+		"y": -288,
+		"root": false
+	},
+	"989n7k7voa9m6pod": {
+		"definition": "T_Redstone",
+		"x": -192,
+		"y": 96,
+		"root": false
+	},
+	"nnebnfbjk4g0q95z": {
+		"definition": "G_Miningspeed",
+		"x": -256,
+		"y": 32,
+		"root": false
+	},
+	"tnrwf3jipfw0ham9": {
+		"definition": "W_HeroicStrikeDamage",
+		"x": -256,
+		"y": -160,
 		"root": false
 	}
 }
