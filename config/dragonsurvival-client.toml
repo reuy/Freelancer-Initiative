@@ -20,6 +20,10 @@
 	renderDragonClaws = true
 	#Should items be rendered near the mouth of dragons rather then hovering by their side?
 	renderItemsInMouth = false
+	#Should the player rotate their view when the dragon they are riding rotates their body?
+	rotateCameraWithDragon = true
+	#Particles (from the dragon type effects) will be rendered on dragons if this is enabled
+	particles_on_dragons = false
 
 [misc]
 	#When enabled it stops the blinking effect of night vision when low duration, disable if it causes rendering issues with other mods.
@@ -33,8 +37,6 @@
 	editorHistory = 10
 	#Whether the range of the breath should be rendered (while hitboxes are shown)
 	renderBreathRange = true
-	#A fallback option in case the mod crashes with "Pose stack not empty". This could cause visual rendering problems.
-	emptyPoseStack = false
 
 [nametag]
 	#Show name tags for dragons.
