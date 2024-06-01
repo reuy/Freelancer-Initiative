@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:iridium_box",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 2,
 	"modifier": {
 		"item": "ic2:carbon_box",
 		"tag": "items",

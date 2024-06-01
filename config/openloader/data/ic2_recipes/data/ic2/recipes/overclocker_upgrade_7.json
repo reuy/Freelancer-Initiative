@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:upgrade_overclocker",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:heat_storage_six",
@@ -18,12 +17,9 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "ic2:upgrade_base",
-				"count": 8
-			},
+			"item": "ic2:upgrade_base",
 			"size": 8,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		}
 	],

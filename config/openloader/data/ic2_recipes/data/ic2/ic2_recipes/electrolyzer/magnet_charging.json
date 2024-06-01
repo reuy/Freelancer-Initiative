@@ -1,11 +1,13 @@
 {
 	"input": {
 		"item": "ic2:dead_magnet",
-		"count": 1
+		"size": 1,
+		"type": "ic2:item"
 	},
 	"output": {
 		"item": "ic2:magnet",
-		"count": 1
+		"size": 1,
+		"type": "ic2:item"
 	},
 	"energy": 20000,
 	"charging": true,

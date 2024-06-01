@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:cfoam_slab_orange",
-		"count": 6
+		"size": 6,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 1,
 	"inputs": [
 		{
 			"item": "ic2:cfoam_block_orange",

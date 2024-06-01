@@ -4,13 +4,12 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:coffee_cake",
-		"count": 1,
-		"nbt": "{Damage:0}"
+		"nbt": "{Damage:0}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:coffee_powder",

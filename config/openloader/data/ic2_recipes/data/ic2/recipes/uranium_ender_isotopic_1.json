@@ -4,19 +4,17 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:uranium_rod_isotopic_ender_pearl",
-		"count": 1,
-		"nbt": "{Damage:5000}"
+		"nbt": "{Damage:5000}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:uranium_rod_near_depleted_ender_pearl",
-				"count": 1
-			},
+			"item": "ic2:uranium_rod_near_depleted_ender_pearl",
 			"size": 1,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
 			"tag": "forge:dusts/charcoal",

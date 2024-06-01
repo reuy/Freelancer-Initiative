@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:sticky_piston",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": true,
 	"consume": false,

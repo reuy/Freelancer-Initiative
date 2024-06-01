@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:rubber_sapling",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": true,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:plant_ball",
-				"count": 16
-			},
+			"item": "ic2:plant_ball",
 			"size": 16,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{

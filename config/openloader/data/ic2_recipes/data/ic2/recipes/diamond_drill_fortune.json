@@ -4,13 +4,12 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:diamond_drill",
-		"count": 1,
-		"nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:3s}]}"
+		"nbt": "{Enchantments:[{id:\"minecraft:fortune\",lvl:3s}]}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:plate_iridium",
@@ -19,21 +18,15 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "ic2:advanced_circuit",
-				"count": 5
-			},
+			"item": "ic2:advanced_circuit",
 			"size": 5,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "minecraft:end_crystal",
-				"count": 3
-			},
+			"item": "minecraft:end_crystal",
 			"size": 3,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		},
 		{
@@ -49,12 +42,9 @@
 			"letter": "B"
 		},
 		{
-			"item": {
-				"item": "ic2:magnet",
-				"count": 5
-			},
+			"item": "ic2:magnet",
 			"size": 5,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "N"
 		}
 	],

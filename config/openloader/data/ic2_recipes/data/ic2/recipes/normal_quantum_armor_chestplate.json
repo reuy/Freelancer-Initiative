@@ -4,13 +4,12 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:quantum_suit_chestplate",
-		"count": 1,
-		"nbt": "{armor_upgrades:[{Count:1b,id:\"ic2:lapatron_crystal\",upgrade_type:\"battery\"},{Count:1b,id:\"ic2:extinguish_module\",upgrade_type:\"generic\"}],mods:{storage_add:1000000,tier:3,transfer_add:1000}}"
+		"nbt": "{armor_upgrades:[{Count:1b,id:\"ic2:lapatron_crystal\",upgrade_type:\"battery\"},{Count:1b,id:\"ic2:extinguish_module\",upgrade_type:\"generic\"}],mods:{storage_add:1000000,tier:3,transfer_add:1000}}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"modifier": {
 		"tooltip": "{\"italic\":false,\"color\":\"gray\",\"translate\":\"Removes all installed Modules and installs the Default Functionality\"}",
 		"type": "ic2:info_modifier"

@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:upgrade_overclocker",
-		"count": 3
+		"size": 3,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 2,
 	"inputs": [
 		{
 			"item": "ic2:heat_storage_triple",
@@ -18,21 +17,15 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "ic2:copper_insulated_cable_item",
-				"count": 3
-			},
+			"item": "ic2:copper_insulated_cable_item",
 			"size": 3,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "ic2:circuit",
-				"count": 3
-			},
+			"item": "ic2:circuit",
 			"size": 3,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		}
 	],

@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:reinforced_clear_glass",
-		"count": 4
+		"size": 4,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 2,
-	"height": 2,
 	"inputs": [
 		{
 			"item": "ic2:reinforced_glass",

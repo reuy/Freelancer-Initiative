@@ -4,8 +4,9 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:quarry_scanner",
-		"count": 1,
-		"nbt": "{upgraded:1b}"
+		"nbt": "{upgraded:1b}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,

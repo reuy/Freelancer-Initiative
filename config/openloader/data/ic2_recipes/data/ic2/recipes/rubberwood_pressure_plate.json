@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:rubberwood_pressure_plate",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 2,
-	"height": 1,
 	"inputs": [
 		{
 			"item": "ic2:rubberwood_planks",

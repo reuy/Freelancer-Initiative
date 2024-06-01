@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:wet_cfoam",
-		"count": 3
+		"size": 3,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,

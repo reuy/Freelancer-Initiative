@@ -15,7 +15,8 @@
 	"output": {
 		"output": {
 			"item": "ic2:raw_tin",
-			"count": 1
+			"size": 1,
+			"type": "ic2:item"
 		},
 		"minOut": 15,
 		"maxOut": 21,

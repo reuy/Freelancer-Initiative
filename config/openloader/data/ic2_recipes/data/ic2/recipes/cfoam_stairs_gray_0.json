@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:cfoam_stairs_gray",
-		"count": 4
+		"size": 4,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:cfoam_block_gray",

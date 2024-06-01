@@ -10,7 +10,8 @@
 		"outputs": [
 			{
 				"item": "ic2:flour",
-				"count": 9
+				"size": 9,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

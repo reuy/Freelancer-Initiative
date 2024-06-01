@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:personal_chest",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 1,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:circuit",

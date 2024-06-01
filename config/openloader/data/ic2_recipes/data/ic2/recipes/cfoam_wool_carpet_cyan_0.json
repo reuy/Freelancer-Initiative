@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:cfoam_wool_carpet_cyan",
-		"count": 3
+		"size": 3,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 2,
-	"height": 1,
 	"inputs": [
 		{
 			"item": "ic2:cfoam_wool_cyan",

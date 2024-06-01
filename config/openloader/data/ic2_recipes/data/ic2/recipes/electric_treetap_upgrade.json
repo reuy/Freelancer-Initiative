@@ -4,8 +4,9 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:electric_tree_tap",
-		"count": 1,
-		"nbt": "{inv_import:1b}"
+		"nbt": "{inv_import:1b}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,

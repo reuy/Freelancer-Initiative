@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:cfoam_wool_magenta",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,

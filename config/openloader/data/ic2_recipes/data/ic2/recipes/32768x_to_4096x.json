@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:coin_4096x",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,

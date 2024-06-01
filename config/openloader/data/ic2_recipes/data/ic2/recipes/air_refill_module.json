@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:air_refill_module",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 2,
-	"height": 2,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:cell_air",
-				"count": 64
-			},
+			"item": "ic2:cell_air",
 			"size": 64,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{

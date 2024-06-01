@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:limiter_tube",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 1,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:redstone_tube",
-				"count": 4
-			},
+			"item": "ic2:redstone_tube",
 			"size": 4,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{
@@ -27,12 +23,9 @@
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "ic2:switch_tube",
-				"count": 4
-			},
+			"item": "ic2:switch_tube",
 			"size": 4,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		}
 	],

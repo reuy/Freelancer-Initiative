@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:glowstone_dust",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": true,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "forge:dusts/redstone",

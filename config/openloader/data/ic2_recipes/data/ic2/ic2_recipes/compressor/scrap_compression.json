@@ -1,18 +1,16 @@
 {
 	"input": {
-		"item": {
-			"item": "ic2:scrap_metal",
-			"count": 8
-		},
+		"item": "ic2:scrap_metal",
 		"size": 8,
-		"type": "ic2:nbtstack"
+		"type": "ic2:nbt"
 	},
 	"output": {
 		"xp": 0.0,
 		"outputs": [
 			{
 				"item": "ic2:scrap_metal_chunk",
-				"count": 1
+				"size": 1,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"
