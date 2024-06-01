@@ -11,14 +11,6 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "freelancer.ColonistLevel",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
 					"attribute": "puffish_skills:player.fortune",
 					"value": 0.1,
 					"operation": "addition"
@@ -29,6 +21,14 @@
 			"icon": "6uih19klehe1q83u"
 		}
 	},
+	"RS_ImprovAmmo": {
+		"title": "Improvised Ammunition",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
 		"description": "Allows you to craft ammunition using readily-available materials.",
 		"rewards": [
 			{
@@ -57,45 +57,26 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-
-				"effect": "haste"
-			}
-		},
-		"description": "Allows you to craft ammunition using readily-available materials.",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "freelancer.SoldierLevel",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
 					"attribute": "puffish_skills:player.mining_speed",
 					"value": 0.03,
 					"operation": "multiply_base"
 				}
 			}
 		],
-
+		"metadata": {
+			"icon": "7gxc36gt7fddhu1s"
+		}
+	},
+	"RT_Grinder": {
+		"title": "Improvised Macerator",
+		"description": "",
+		"icon": {
 			"type": "effect",
 			"data": {
 				"effect": "haste"
 			}
 		},
-		"description": "",
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "freelancer.TechnicianLevel",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
@@ -109,7 +90,6 @@
 			"icon": "v6c2dbp6x12hbv9a"
 		}
 	},
->>>>>>> bbaba449690bec636ea9712b9dddec25f76e0145
 	"RW_": {
 		"title": "Power of War",
 		"icon": {
@@ -119,14 +99,6 @@
 			}
 		},
 		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "freelancer.WarriorLevel",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
@@ -1450,7 +1422,6 @@
 			"icon": "aljx6suet81narad"
 		}
 	},
-<<<<<<< HEAD
 	"C_StorageDrawers": {
 		"title": "Storage Drawers",
 		"icon": {
@@ -1497,8 +1468,6 @@
 			"icon": "aljx6suet81narad"
 		}
 	},
-=======
->>>>>>> bbaba449690bec636ea9712b9dddec25f76e0145
 	"C_FurnitureKitchen": {
 		"title": "Kitchen Appliances",
 		"icon": {
@@ -1902,17 +1871,6 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-<<<<<<< HEAD
-=======
-					"attribute": "freelancer.SoldierLevel",
-					"value": 1,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
->>>>>>> bbaba449690bec636ea9712b9dddec25f76e0145
 					"attribute": "puffish_skills:player.ranged_damage",
 					"value": 0.03,
 					"operation": "multiply_total"
