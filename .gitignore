@@ -24,6 +24,7 @@ modernfix/*
 lightspeed-cache/*
 Distant_Horizons_server_data/
 minecraftinstance.json
+.curseclient
 
 
 #Logs
