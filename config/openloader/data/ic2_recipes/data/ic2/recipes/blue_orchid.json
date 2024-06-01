@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:blue_orchid",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
@@ -12,6 +13,7 @@
 		{
 			"crop": "ic2:blue_orchid",
 			"size": 1,
+			"exact": false,
 			"type": "ic2:crop"
 		}
 	]

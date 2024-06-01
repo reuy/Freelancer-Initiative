@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:uranium_rod_ender_pearl_dual",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 1,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:uranium_rod_ender_pearl_single",
-				"count": 1
-			},
+			"item": "ic2:uranium_rod_ender_pearl_single",
 			"size": 1,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{

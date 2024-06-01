@@ -4,21 +4,17 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:elytra",
-		"count": 1,
-		"nbt": "{Damage:0}"
+		"nbt": "{Damage:0}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": true,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:uumatter",
-				"count": 16
-			},
+			"item": "ic2:uumatter",
 			"size": 16,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		}
 	],

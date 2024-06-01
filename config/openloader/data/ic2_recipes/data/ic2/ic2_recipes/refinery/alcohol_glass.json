@@ -5,12 +5,12 @@
 		"type": "ic2:alcohol"
 	},
 	"first_tank": {
-		"fluid": "minecraft:empty",
-		"amount": 0
-	},
-	"second_tank": {
 		"fluid": "minecraft:water",
 		"amount": 1000
+	},
+	"second_tank": {
+		"fluid": "minecraft:empty",
+		"amount": 0
 	},
 	"output": {
 		"item": "ic2:glass",

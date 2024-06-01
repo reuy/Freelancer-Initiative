@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:industrial_worktable",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"modifier": {
 		"item": "ic2:carbon_box",
 		"tag": "items",
@@ -23,12 +22,9 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "ic2:circuit",
-				"count": 4
-			},
+			"item": "ic2:circuit",
 			"size": 4,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		},
 		{
@@ -38,12 +34,9 @@
 			"letter": "C"
 		},
 		{
-			"item": {
-				"item": "minecraft:crafting_table",
-				"count": 28
-			},
+			"item": "minecraft:crafting_table",
 			"size": 28,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "V"
 		},
 		{

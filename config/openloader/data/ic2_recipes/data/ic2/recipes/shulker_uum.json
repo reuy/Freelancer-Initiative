@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:shulker_shell",
-		"count": 2
+		"size": 2,
+		"type": "ic2:nbt"
 	},
 	"hidden": true,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:uumatter",

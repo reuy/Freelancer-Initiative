@@ -9,8 +9,9 @@
 		"outputs": [
 			{
 				"item": "minecraft:oak_planks",
-				"count": 6,
-				"nbt": "{display:{Lore:['{\"text\":\"§r§6Planks keep the log type\"}']}}"
+				"nbt": "{display:{Lore:['{\"text\":\"§r§6Planks keep the log type\"}']}}",
+				"size": 6,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

@@ -1,18 +1,16 @@
 {
 	"input": {
-		"item": {
-			"item": "ic2:dust_diamond",
-			"count": 4
-		},
+		"item": "ic2:dust_diamond",
 		"size": 4,
-		"type": "ic2:nbtstack"
+		"type": "ic2:nbt"
 	},
 	"output": {
 		"xp": 0.0,
 		"outputs": [
 			{
 				"item": "minecraft:diamond",
-				"count": 1
+				"size": 1,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

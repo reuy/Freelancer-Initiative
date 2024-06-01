@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:glass_cold_fruit_tea",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
@@ -17,12 +18,10 @@
 		{
 			"items": [
 				{
-					"item": "minecraft:sweet_berries",
-					"count": 1
+					"item": "minecraft:sweet_berries"
 				},
 				{
-					"item": "minecraft:apple",
-					"count": 1
+					"item": "minecraft:apple"
 				}
 			],
 			"or": true,

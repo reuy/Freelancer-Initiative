@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:heat_storage_triple",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "forge:ingots/tin",
@@ -18,12 +17,9 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "ic2:cell_water",
-				"count": 2
-			},
+			"item": "ic2:cell_water",
 			"size": 2,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		}
 	],

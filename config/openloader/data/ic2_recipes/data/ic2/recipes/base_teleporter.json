@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:base_teleporter",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "forge:ingots/tin",
@@ -24,7 +23,7 @@
 			"letter": "Y"
 		},
 		{
-			"item": "ic2:dust_diamond",
+			"item": "thermal:diamond_dust",
 			"size": 1,
 			"type": "ic2:item",
 			"letter": "C"

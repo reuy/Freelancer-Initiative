@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:flesh_ball",
-		"count": 4
+		"size": 4,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:bio_mesh",
@@ -18,12 +17,9 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "minecraft:rotten_flesh",
-				"count": 8
-			},
+			"item": "minecraft:rotten_flesh",
 			"size": 8,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		}
 	],

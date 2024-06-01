@@ -15,8 +15,9 @@
 		"xp": 0.0,
 		"outputs": [
 			{
-				"item": "thermal:bronze_ingot",
-				"count": 8
+				"item": "ic2:ingot_bronze",
+				"size": 8,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

@@ -4,19 +4,17 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:uranium_rod_isotopic_blaze",
-		"count": 1,
-		"nbt": "{Damage:10000}"
+		"nbt": "{Damage:10000}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:uranium_rod_near_depleted_blaze",
-				"count": 1
-			},
+			"item": "ic2:uranium_rod_near_depleted_blaze",
 			"size": 1,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
 			"tag": "forge:dusts/coal",

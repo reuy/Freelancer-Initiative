@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:reinforced_glass",
-		"count": 7
+		"size": 7,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "forge:glass",

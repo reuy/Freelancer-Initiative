@@ -9,7 +9,8 @@
 		"outputs": [
 			{
 				"item": "minecraft:gold_ingot",
-				"count": 5
+				"size": 5,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

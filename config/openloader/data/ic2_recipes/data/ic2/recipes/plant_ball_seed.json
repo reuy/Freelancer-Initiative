@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:plant_ball",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"size": 1,
@@ -107,6 +106,16 @@
 				},
 				{
 					"item": "minecraft:nether_wart_block",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:sweet_berries",
+					"size": 1,
+					"type": "ic2:item"
+				},
+				{
+					"item": "minecraft:glow_berries",
 					"size": 1,
 					"type": "ic2:item"
 				}

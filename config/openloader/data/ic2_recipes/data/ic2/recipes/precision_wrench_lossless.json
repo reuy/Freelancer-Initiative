@@ -4,21 +4,17 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:precision_wrench",
-		"count": 1,
-		"nbt": "{lossless:1b}"
+		"nbt": "{lossless:1b}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:upgrade_efficiency",
-				"count": 10
-			},
+			"item": "ic2:upgrade_efficiency",
 			"size": 10,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{
@@ -28,12 +24,9 @@
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "ic2:plasma_core",
-				"count": 5
-			},
+			"item": "ic2:plasma_core",
 			"size": 5,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		},
 		{
@@ -49,12 +42,9 @@
 			"letter": "B"
 		},
 		{
-			"item": {
-				"item": "ic2:advanced_circuit",
-				"count": 10
-			},
+			"item": "ic2:advanced_circuit",
 			"size": 10,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "N"
 		}
 	],

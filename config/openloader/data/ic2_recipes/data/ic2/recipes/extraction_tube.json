@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:extraction_tube",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "minecraft:sticky_piston",

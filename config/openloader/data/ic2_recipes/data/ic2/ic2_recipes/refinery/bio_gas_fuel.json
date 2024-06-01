@@ -3,11 +3,11 @@
 		"type": "ic2:empty"
 	},
 	"first_tank": {
-		"fluid": "minecraft:water",
+		"fluid": "ic2:woodgas",
 		"amount": 1000
 	},
 	"second_tank": {
-		"fluid": "ic2:woodgas",
+		"fluid": "minecraft:water",
 		"amount": 1000
 	},
 	"output": {

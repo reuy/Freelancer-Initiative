@@ -4,18 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:pixelfoam_space_bean",
-		"count": 4
+		"size": 4,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:cfoam_block_gray",
-				"count": 4
-			},
+			"item": "ic2:cfoam_block_gray",
 			"size": 4,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
 			"item": "minecraft:golden_sword",

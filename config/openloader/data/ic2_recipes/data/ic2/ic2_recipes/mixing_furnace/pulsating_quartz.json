@@ -16,7 +16,8 @@
 		"outputs": [
 			{
 				"item": "ic2:pulsating_quartz",
-				"count": 1
+				"size": 1,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

@@ -15,7 +15,8 @@
 		"outputs": [
 			{
 				"item": "ic2:whisky_grist",
-				"count": 1
+				"size": 1,
+				"type": "ic2:item"
 			}
 		],
 		"fluidOutputs": [],

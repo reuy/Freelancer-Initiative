@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:gunpowder",
-		"count": 3
+		"size": 3,
+		"type": "ic2:nbt"
 	},
 	"hidden": true,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "forge:dusts/redstone",

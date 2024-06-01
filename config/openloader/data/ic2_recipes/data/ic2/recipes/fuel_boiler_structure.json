@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:fuel_boiler_structure",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:circuit",
-				"count": 2
-			},
+			"item": "ic2:circuit",
 			"size": 2,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{
@@ -39,12 +35,9 @@
 			"letter": "V"
 		},
 		{
-			"item": {
-				"item": "ic2:iron_furnace",
-				"count": 4
-			},
+			"item": "ic2:iron_furnace",
 			"size": 4,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "B"
 		}
 	],

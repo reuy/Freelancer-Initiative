@@ -4,7 +4,8 @@
 	"enabled": true,
 	"output": {
 		"item": "minecraft:spruce_sapling",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
@@ -12,6 +13,7 @@
 		{
 			"crop": "ic2:sapling_spruce",
 			"size": 1,
+			"exact": false,
 			"type": "ic2:crop"
 		}
 	]

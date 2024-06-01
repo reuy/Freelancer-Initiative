@@ -17,11 +17,13 @@
 		"outputs": [
 			{
 				"item": "minecraft:dirt",
-				"count": 1
+				"size": 1,
+				"type": "ic2:item"
 			},
 			{
 				"item": "minecraft:clay_ball",
-				"count": 1
+				"size": 1,
+				"type": "ic2:item"
 			}
 		],
 		"fluidOutputs": [

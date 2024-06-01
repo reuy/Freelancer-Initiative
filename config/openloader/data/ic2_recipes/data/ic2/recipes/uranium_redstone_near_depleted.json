@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:uranium_rod_near_depleted_redstone",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:cell_empty",
@@ -18,12 +17,9 @@
 			"letter": "X"
 		},
 		{
-			"item": {
-				"item": "ic2:ingot_uranium_enriched_redstone",
-				"count": 1
-			},
+			"item": "ic2:ingot_uranium_enriched_redstone",
 			"size": 1,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "Y"
 		}
 	],

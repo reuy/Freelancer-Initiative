@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:electric_pipe_pump",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:ingot_refined_iron",

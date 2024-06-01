@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:portable_teleporter",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:plate_iridium",
-				"count": 2
-			},
+			"item": "ic2:plate_iridium",
 			"size": 2,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{
@@ -27,30 +23,21 @@
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "ic2:advanced_circuit",
-				"count": 3
-			},
+			"item": "ic2:advanced_circuit",
 			"size": 3,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		},
 		{
-			"item": {
-				"item": "ic2:teleporter",
-				"count": 2
-			},
+			"item": "ic2:teleporter",
 			"size": 2,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "V"
 		},
 		{
-			"item": {
-				"item": "ic2:plasma_core",
-				"count": 8
-			},
+			"item": "ic2:plasma_core",
 			"size": 8,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "B"
 		},
 		{

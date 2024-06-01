@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:reinforced_cracked_stone",
-		"count": 8
+		"size": 8,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "ic2:reinforced_stone",
@@ -20,12 +19,10 @@
 		{
 			"items": [
 				{
-					"item": "ic2:scrap_metal_blade",
-					"count": 1
+					"item": "ic2:scrap_metal_blade"
 				},
 				{
-					"item": "ic2:obsidian_blade",
-					"count": 1
+					"item": "ic2:obsidian_blade"
 				}
 			],
 			"or": true,

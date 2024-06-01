@@ -4,58 +4,41 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:restoring_fertilizer",
-		"count": 3
+		"size": 3,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:cell_water",
-				"count": 64
-			},
+			"item": "ic2:cell_water",
 			"size": 64,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
-			"item": {
-				"item": "ic2:cell_water",
-				"count": 64
-			},
+			"item": "ic2:cell_water",
 			"size": 64,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
-			"item": {
-				"item": "ic2:fertilizer",
-				"count": 64
-			},
+			"item": "ic2:fertilizer",
 			"size": 64,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
-			"item": {
-				"item": "ic2:fertilizer",
-				"count": 64
-			},
+			"item": "ic2:fertilizer",
 			"size": 64,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
-			"item": {
-				"item": "ic2:cell_air",
-				"count": 64
-			},
+			"item": "ic2:cell_air",
 			"size": 64,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		},
 		{
-			"item": {
-				"item": "ic2:cell_air",
-				"count": 64
-			},
+			"item": "ic2:cell_air",
 			"size": 64,
-			"type": "ic2:nbtstack"
+			"type": "ic2:nbt"
 		}
 	]
 }

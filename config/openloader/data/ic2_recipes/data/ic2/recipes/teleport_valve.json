@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:valve_teleporting",
-		"count": 2
+		"size": 2,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "forge:gems/diamond",
@@ -24,12 +23,9 @@
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "ic2:valve",
-				"count": 2
-			},
+			"item": "ic2:valve",
 			"size": 2,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		}
 	],

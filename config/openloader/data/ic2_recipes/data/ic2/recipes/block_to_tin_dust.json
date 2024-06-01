@@ -3,8 +3,9 @@
 	"sub_type": "ic2:shapeless",
 	"enabled": true,
 	"output": {
-		"item": "ic2:dust_tin",
-		"count": 9
+		"item": "thermal:tin_dust",
+		"size": 9,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,

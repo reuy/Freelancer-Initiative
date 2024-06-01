@@ -17,7 +17,8 @@
 		"outputs": [
 			{
 				"item": "ic2:ore_uranium",
-				"count": 5
+				"size": 5,
+				"type": "ic2:item"
 			}
 		],
 		"fluidOutputs": [],

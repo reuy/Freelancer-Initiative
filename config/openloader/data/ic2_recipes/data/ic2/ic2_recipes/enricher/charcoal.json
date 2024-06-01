@@ -13,9 +13,9 @@
 		},
 		{
 			"input": {
-				"item": "forge:storage_blocks/charcoal",
+				"item": "ic2:charcoal_block",
 				"size": 1,
-				"type": "ic2:tag"
+				"type": "ic2:item"
 			},
 			"value": 200
 		}

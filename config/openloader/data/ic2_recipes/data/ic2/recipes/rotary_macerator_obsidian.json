@@ -4,20 +4,16 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:rotary_macerator",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": {
-				"item": "ic2:obsidian_blade",
-				"count": 2
-			},
+			"item": "ic2:obsidian_blade",
 			"size": 2,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "X"
 		},
 		{

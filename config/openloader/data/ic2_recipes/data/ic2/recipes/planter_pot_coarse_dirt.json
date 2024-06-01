@@ -4,13 +4,12 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:planter_pot",
-		"count": 1,
-		"nbt": "{id:\"minecraft:coarse_dirt\"}"
+		"nbt": "{id:\"minecraft:coarse_dirt\"}",
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 1,
-	"height": 2,
 	"inputs": [
 		{
 			"item": "minecraft:coarse_dirt",

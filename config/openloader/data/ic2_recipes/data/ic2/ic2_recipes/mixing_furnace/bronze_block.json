@@ -15,8 +15,9 @@
 		"xp": 0.0,
 		"outputs": [
 			{
-				"item": "thermal:bronze_block",
-				"count": 4
+				"item": "ic2:bronze_block",
+				"size": 4,
+				"type": "ic2:nbt"
 			}
 		],
 		"type": "ic2:simple"

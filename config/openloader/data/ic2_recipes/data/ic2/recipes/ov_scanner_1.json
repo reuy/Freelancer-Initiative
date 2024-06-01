@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:ov_scanner",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"item": "minecraft:glowstone_dust",
@@ -24,12 +23,9 @@
 			"letter": "Y"
 		},
 		{
-			"item": {
-				"item": "ic2:bronze_double_insulated_cable_item",
-				"count": 3
-			},
+			"item": "ic2:bronze_double_insulated_cable_item",
 			"size": 3,
-			"type": "ic2:nbtstack",
+			"type": "ic2:nbt",
 			"letter": "C"
 		},
 		{

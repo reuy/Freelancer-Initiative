@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:step_assist_module",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 2,
-	"height": 2,
 	"inputs": [
 		{
 			"item": "minecraft:piston",

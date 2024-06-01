@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:scaffold_wooden",
-		"count": 16
+		"size": 16,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
 			"tag": "minecraft:planks",

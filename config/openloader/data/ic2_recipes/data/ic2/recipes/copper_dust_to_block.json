@@ -4,15 +4,14 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:copper_dust_block",
-		"count": 1
+		"size": 1,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 3,
-	"height": 3,
 	"inputs": [
 		{
-			"item": "ic2:dust_copper",
+			"item": "thermal:copper_dust",
 			"size": 1,
 			"type": "ic2:item",
 			"letter": "X"

@@ -1,11 +1,8 @@
 {
 	"input": {
-		"item": {
-			"item": "ic2:flour",
-			"count": 4
-		},
+		"item": "ic2:flour",
 		"size": 4,
-		"type": "ic2:nbtstack"
+		"type": "ic2:nbt"
 	},
 	"first_tank": {
 		"fluid": "minecraft:empty",

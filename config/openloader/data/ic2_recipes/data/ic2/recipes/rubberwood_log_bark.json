@@ -4,12 +4,11 @@
 	"enabled": true,
 	"output": {
 		"item": "ic2:rubber_log_barked",
-		"count": 3
+		"size": 3,
+		"type": "ic2:nbt"
 	},
 	"hidden": false,
 	"consume": false,
-	"width": 2,
-	"height": 2,
 	"inputs": [
 		{
 			"item": "ic2:rubber_wood",
