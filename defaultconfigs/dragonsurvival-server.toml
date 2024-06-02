@@ -374,7 +374,7 @@
 		#Range: 1 ~ 1000
 		favorableManaRegen = 1
 		#Whether to use exp instead of mana if mana is empty
-		consumeEXPAsMana = true
+		consumeEXPAsMana = false
 
 		[magic.mana.cave_dragon_mana]
 			#Blocks that will restore mana quicker when a cave dragon is standing on it. Formatting: block/modid:blockid
