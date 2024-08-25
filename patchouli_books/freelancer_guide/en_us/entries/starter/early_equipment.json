@@ -1,0 +1,48 @@
+{
+    "name": "Early Equipment",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:starter",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Previous freelancers that have come before you have compiled a list of early equipment you may want to prioritize making derived from their experiences and mistakes."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Ore refining",
+            "text": "Please beg your technician to rush making a pulverizer or macerator. If you smelt ores directly your technician will murder you in your sleep so please don't"
+        },
+        {
+            "type": "patchouli:crafting",
+            "text":"A machine that grinds ore to dust, doubling yield once the dust is smelted. Runs on RF power",
+            "recipe":"thermal:machine_pulverizer"
+        },
+        {
+            "type": "patchouli:crafting",
+            "text":"A machine that grinds ore to dust, doubling yield once the dust is smelted. Runs on EU power",
+            "recipe":"ic2c:macerator"
+        },
+        {
+            "type": "patchouli:crafting",
+            "text":"A machine that grinds ore to dust, doubling yield once the dust is smelted. This version runs on furnace fuel but is less efficient",
+            "recipe":"ic2c:stone_macerator"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Hammers and Excavators",
+            "text": "You can use hammers and excavators to mine/shovel in a 3x3 area respectively. They can also be created with most metals, feel free to experiment! We recommend using metals that you have an abundance of such as literally anything but iron!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "text":"Excavators are similar to shovels except that they can mine in a 3x3 area in front of them and are much more expensive",
+            "recipe":"tools_complement:iron_excavator"
+        },
+        {
+            "type": "patchouli:crafting",
+            "text":"Hammers are similar to pickaxes except that they can mine in a 3x3 area in front of them and are much more expensive",
+            "recipe":"tools_complement:iron_hammer"
+        }
+        
+    ]
+}
