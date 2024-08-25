@@ -374,7 +374,7 @@
 		#Range: 1 ~ 1000
 		favorableManaRegen = 1
 		#Whether to use exp instead of mana if mana is empty
-		consumeEXPAsMana = true
+		consumeEXPAsMana = false
 
 		[magic.mana.cave_dragon_mana]
 			#Blocks that will restore mana quicker when a cave dragon is standing on it. Formatting: block/modid:blockid
@@ -662,7 +662,7 @@
 		waterConsumptionDependsOnTemperature = true
 		#The number of ticks out of water before the sea dragon will start taking dehydration damage. Set to 0 to disable. Note: This value can stack up to double while dehydrated.
 		#Range: 0 ~ 100000
-		ticksWithoutWater = 6000
+		ticksWithoutWater = 3600
 
 	[penalties.forest]
 		#The amount of exhaustion applied per 10 ticks during the stress effect.
