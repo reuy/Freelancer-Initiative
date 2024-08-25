@@ -10,18 +10,18 @@
     "enableCurseForgeIntegration": true,
     "enableEditingMods": true,
     "loaderVersion": {
-      "version": "47.3.0",
-      "rawVersion": "1.20.1-47.3.0",
-      "recommended": true,
+      "version": "47.3.7",
+      "rawVersion": "1.20.1-47.3.7",
+      "recommended": false,
       "type": "Forge",
       "downloadables": {
         "installer": {
-          "left": "0deb8e547a9e3f098a4c9f082903499703c52f5d",
-          "right": 6021040
+          "left": "e2f4b5117adf03220cb5f2ac9c9f00d06f4cf6f2",
+          "right": 6022103
         },
         "universal": {
-          "left": "7aeb6f58286b5398dc7dfa1d3db1757e601145c1",
-          "right": 2753075
+          "left": "f577d52ff315bc81b1cca82f6ee3df4cbfd4a6c2",
+          "right": 2753823
         }
       }
     },
@@ -40676,8 +40676,8 @@
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1724548556339,
-    "numPlays": 18
+    "lastPlayed": 1724558679735,
+    "numPlays": 23
   },
   "id": "1.20.1",
   "complianceLevel": 1,
@@ -40785,7 +40785,7 @@
       "--launchTarget",
       "forgeclient",
       "--fml.forgeVersion",
-      "47.3.0",
+      "47.3.7",
       "--fml.mcVersion",
       "1.20.1",
       "--fml.forgeGroup",
@@ -40893,6 +40893,8 @@
   },
   "libraries": [
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "cpw.mods:securejarhandler:2.1.10",
       "downloads": {
         "artifact": {
@@ -40904,6 +40906,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.ow2.asm:asm:9.7",
       "downloads": {
         "artifact": {
@@ -40915,6 +40919,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.ow2.asm:asm-commons:9.7",
       "downloads": {
         "artifact": {
@@ -40926,6 +40932,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.ow2.asm:asm-tree:9.7",
       "downloads": {
         "artifact": {
@@ -40937,6 +40945,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.ow2.asm:asm-util:9.7",
       "downloads": {
         "artifact": {
@@ -40948,6 +40958,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.ow2.asm:asm-analysis:9.7",
       "downloads": {
         "artifact": {
@@ -40959,6 +40971,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:accesstransformers:8.0.4",
       "downloads": {
         "artifact": {
@@ -40970,6 +40984,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.antlr:antlr4-runtime:4.9.1",
       "downloads": {
         "artifact": {
@@ -40981,6 +40997,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:eventbus:6.0.5",
       "downloads": {
         "artifact": {
@@ -40992,6 +41010,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:forgespi:7.0.1",
       "downloads": {
         "artifact": {
@@ -41003,6 +41023,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:coremods:5.1.6",
       "downloads": {
         "artifact": {
@@ -41014,6 +41036,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "cpw.mods:modlauncher:10.0.9",
       "downloads": {
         "artifact": {
@@ -41025,6 +41049,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:unsafe:0.2.0",
       "downloads": {
         "artifact": {
@@ -41036,6 +41062,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:mergetool:1.1.5:api",
       "downloads": {
         "artifact": {
@@ -41047,6 +41075,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "com.electronwill.night-config:core:3.6.4",
       "downloads": {
         "artifact": {
@@ -41058,6 +41088,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "com.electronwill.night-config:toml:3.6.4",
       "downloads": {
         "artifact": {
@@ -41069,6 +41101,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.apache.maven:maven-artifact:3.8.5",
       "downloads": {
         "artifact": {
@@ -41080,6 +41114,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.jodah:typetools:0.6.3",
       "downloads": {
         "artifact": {
@@ -41091,6 +41127,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecrell:terminalconsoleappender:1.2.0",
       "downloads": {
         "artifact": {
@@ -41102,6 +41140,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.jline:jline-reader:3.12.1",
       "downloads": {
         "artifact": {
@@ -41113,6 +41153,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.jline:jline-terminal:3.12.1",
       "downloads": {
         "artifact": {
@@ -41124,6 +41166,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.spongepowered:mixin:0.8.5",
       "downloads": {
         "artifact": {
@@ -41135,6 +41179,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "org.openjdk.nashorn:nashorn-core:15.3",
       "downloads": {
         "artifact": {
@@ -41146,6 +41192,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:JarJarSelector:0.3.19",
       "downloads": {
         "artifact": {
@@ -41157,6 +41205,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:JarJarMetadata:0.3.19",
       "downloads": {
         "artifact": {
@@ -41168,6 +41218,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "cpw.mods:bootstraplauncher:1.1.2",
       "downloads": {
         "artifact": {
@@ -41179,6 +41231,8 @@
       }
     },
     {
+      "clientreq": true,
+      "serverreq": true,
       "name": "net.minecraftforge:JarJarFileSystems:0.3.19",
       "downloads": {
         "artifact": {
@@ -41190,24 +41244,28 @@
       }
     },
     {
-      "name": "net.minecraftforge:fmlloader:1.20.1-47.3.0",
+      "clientreq": true,
+      "serverreq": true,
+      "name": "net.minecraftforge:fmlloader:1.20.1-47.3.7",
       "downloads": {
         "artifact": {
-          "path": "net/minecraftforge/fmlloader/1.20.1-47.3.0/fmlloader-1.20.1-47.3.0.jar",
-          "sha1": "547850469c8a336b4c60cb8619f6cd421e9e5f55",
-          "size": 264538,
-          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/fmlloader/1.20.1-47.3.0/fmlloader-1.20.1-47.3.0.jar"
+          "path": "net/minecraftforge/fmlloader/1.20.1-47.3.7/fmlloader-1.20.1-47.3.7.jar",
+          "sha1": "2e7788b018c38f524f4c71715b678e2e8675c743",
+          "size": 264940,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/fmlloader/1.20.1-47.3.7/fmlloader-1.20.1-47.3.7.jar"
         }
       }
     },
     {
-      "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.0",
+      "clientreq": true,
+      "serverreq": true,
+      "name": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.7",
       "downloads": {
         "artifact": {
-          "path": "net/minecraftforge/fmlearlydisplay/1.20.1-47.3.0/fmlearlydisplay-1.20.1-47.3.0.jar",
-          "sha1": "91e33682894f35862e9ce29d633e3258120952f0",
-          "size": 170830,
-          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.0/fmlearlydisplay-1.20.1-47.3.0.jar"
+          "path": "net/minecraftforge/fmlearlydisplay/1.20.1-47.3.7/fmlearlydisplay-1.20.1-47.3.7.jar",
+          "sha1": "cd216c5307ab651be8363097c8769ae26e9f36c8",
+          "size": 170425,
+          "url": "https://download.nodecdn.net/containers/atl/maven/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.7/fmlearlydisplay-1.20.1-47.3.7.jar"
         }
       }
     },
