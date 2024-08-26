@@ -1,20 +1,16 @@
 
 # Toilet related properties
 [toilet]
-<<<<<<< HEAD
 	# If enabled, when interacting with this block it will dispense free water into
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
 	dispenseWater = true
-=======
->>>>>>> 7440d186 (Add pregen configs)
 	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
 	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
 	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
 	# Valid range: 1 to 9223372036854775807 (inclusive)
 	fluidCapacity = 1000
-<<<<<<< HEAD
 
 # Kitchen Sink related properties
 [kitchenSink]
@@ -23,30 +19,12 @@
 	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
 	# Valid range: 1 to 9223372036854775807 (inclusive)
 	fluidCapacity = 3000
-=======
->>>>>>> 7440d186 (Add pregen configs)
 	# If enabled, when interacting with this block it will dispense free water into
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
 	dispenseWater = true
 
-<<<<<<< HEAD
-=======
-# Kitchen Sink related properties
-[kitchenSink]
-	# If enabled, when interacting with this block it will dispense free water into
-	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
-	# capacity.
-	# Valid values: true, false
-	dispenseWater = true
-	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
-	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
-	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
-	# Valid range: 1 to 9223372036854775807 (inclusive)
-	fluidCapacity = 3000
-
->>>>>>> 7440d186 (Add pregen configs)
 # Electricity related properties
 [electricity]
 	# The maximum amount of links that can be connected to a single electricity node.
@@ -87,27 +65,16 @@
 
 # Basin related properties
 [basin]
-<<<<<<< HEAD
 	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
 	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
 	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
 	# Valid range: 1 to 9223372036854775807 (inclusive)
 	fluidCapacity = 1000
-=======
->>>>>>> 7440d186 (Add pregen configs)
 	# If enabled, when interacting with this block it will dispense free water into
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
 	dispenseWater = true
-<<<<<<< HEAD
-=======
-	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
-	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
-	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
-	# Valid range: 1 to 9223372036854775807 (inclusive)
-	fluidCapacity = 1000
->>>>>>> 7440d186 (Add pregen configs)
 
 # Mailing related properties
 [mailing]
@@ -141,16 +108,16 @@
 
 # Bath related properties
 [bath]
-	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
-	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
-	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
-	# Valid range: 1 to 9223372036854775807 (inclusive)
-	fluidCapacity = 10000
 	# If enabled, when interacting with this block it will dispense free water into
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
 	dispenseWater = true
+	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
+	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
+	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
+	# Valid range: 1 to 9223372036854775807 (inclusive)
+	fluidCapacity = 10000
 
 # Recycle Bin related properties
 [recycleBin]
