@@ -1,4 +1,4 @@
-//Makes Spartans Weapons Knives behave like Farmer's Delight knives, allowing them to be used in cooking and foraging.
+//Makes all Knives behave like Farmer's Delight knives, allowing them to be used in cooking and foraging.
 
 ServerEvents.tags('item', event => {
   event.add('forge:tools/scavenging', global.list_validknives);
